@@ -1,0 +1,329 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(../font/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: "Crimson Text";
+  src: url(../font/CrimsonPro-VariableFont_wght.ttf);
+}
+:root {
+  --text-color: #bbbbbb;
+  --text-white: #ffff;
+  --main-color: #1d1d1d;
+  --second-color: #3a3a3a;
+}
+
+/* Button */
+.btn {
+  font-family: "Crimson Text", serif;
+  margin-top: 10px;
+padding: 0.7rem 1rem;
+border: none;
+border-radius: 3px;
+outline: none;
+text-transform: uppercase;
+font-weight: 700;
+cursor: pointer;
+background-color: var(--second-color);
+color: var(--text-color);
+transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+background-color: var(--text-white);
+color: var(--main-color);
+
+}
+.btn-wrapper {
+  position: absolute;
+  right: 7rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* End Button */
+
+
+body {
+  background-color: var(--main-color);
+  color: var(--text-color);
+  font-family: "Bebas Neue", cursive;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+header {
+  height: 120px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 0 -100px; */
+  z-index: 99;
+  transition: height 0.3s ease 0s background-color 0.3s ease 0s;
+}
+header.shrink {
+  height: 80px;
+  background-color: var(--second-color);
+}
+header.shrink .logo {
+  height: 80px;
+  width: 80px;
+}
+
+.logo {
+  height: 110px;
+  width: 110px;
+}
+.main-menu-wrapper {
+  /* position: absolute; */
+  inset: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+.main-menu {
+  display: flex;
+  pointer-events: visible;
+}
+.main-menu > li > a {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: var(--text-color);
+}
+.main-menu > li > a.active {
+  color: var(--text-white);
+}
+.main-menu > li ~ li {
+  margin-left: 83px;
+}
+.main-menu > li > a:hover {
+  color: var(--text-white);
+}
+.user-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-menu > li {
+  font-size: 18px;
+}
+.user-menu > li a i {
+  color: var(--text-white);
+}
+.hero {
+  font-family: "Crimson Text", serif;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  padding-top: 120px;
+}
+.slide-container {
+  position: relative;
+  height: 100%;
+}
+.slide {
+  display: flex;
+  overflow: hidden;
+  height: 0;
+}
+.slide.active {
+  height: 100%;
+}
+.slide-img {
+  width: 60%;
+  padding-right: 60px;
+  padding-top: 80px;
+  z-index: 1;
+}
+.slide-img img {
+  width: 100%;
+  transform: translateX(200px);
+  transform-origin: right;
+  opacity: 0;
+  transition: transform 1s ease-out, opacity 0.6s ease 0s;
+}
+.slide.active .slide-img img {
+  transform: rotate(0);
+  opacity: 1;
+}
+.slide-txt {
+  width: 40%;
+  padding-left: 60px;
+}
+
+.slide-title {
+  width: max-content;
+}
+
+.slide-title > h3 {
+  font-size: 2.3rem;
+  color: var(--text-white);
+  text-transform: capitalize;
+  transform: translateX(-200px);
+  transition: transform 0.5s ease 0s;
+}
+.slide.active .slide-title > h3 {
+  transform: translateX(0);
+}
+
+.slide-description,
+.slide-btn {
+  margin-top: 84px;
+}
+
+.slide-description > p {
+  font-size: 1.2rem;
+  transition-delay: 0.3s;
+  max-width: 70%;
+  line-height: 1.7rem;
+}
+.hero-btn {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 50px;
+  background-color: var(--text-white);
+  color: var(--main-color);
+  transition: transform 0.3s ease 0s;
+}
+
+.slide-description > p,
+.slide-btn {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: transform 0.5s ease 0s, opacity 0.5s ease 0s;
+}
+
+.slide.active .slide-description > p,
+.slide.active .slide-btn {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.slide-btn {
+  transition-delay: 0.6s;
+}
+
+.hero-btn:hover {
+  transform: translateY(-10px);
+}
+
+.hero-txt {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 7rem;
+  top: 170px;
+  right: -170px;
+  color: #3a3a3a;
+  transform: rotate(-90deg);
+}
+.slide-control {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 98;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slide-control > li {
+  font-size: 1.75rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease 0s;
+}
+
+.slide-control > li.active {
+  transform: scale(1.5);
+  color: var(--text-white);
+}
+
+.slide-control > li ~ li {
+  margin-left: 30px;
+}
+
+.slide-control > li:hover {
+  color: var(--text-white);
+}
+section {
+  width: auto;
+}
+.section {
+  padding: 7rem 0 0;
+}
+.section-title {
+  text-align: center;
+  position: relative;
+  font-family: "Crimson Text", serif;
+}
+.section-title h3 {
+  text-transform: uppercase;
+}
+.section-title .main-title {
+  z-index: 1;
+  font-size: 3.5rem;
+}
+.section-title .second-title {
+  font-size: 5rem;
+  z-index: -1;
+  position: absolute;
+  left: 25%;
+  bottom: -100%;
+  color: var(--second-color);
+}
+.section-content {
+  padding: 2rem 2rem 0;
+  height: 400px;
+}
+.product-card {
+  padding: 0 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  transition: background-color 0.3s ease 0s;
+}
+.product-card:hover {
+  background-color: var(--main-color);
+}
+.product-card h3 {
+    font-size: 1.7rem;
+  color: var(--text-color);
+  font-family: "Crimson Text", serif;
+}
+.product-card h3:hover {
+  color: var(--text-white);
+}
+.product-card-large h3 {
+  font-size: 2.5rem;
+}
+.product-card-large .btn {
+  padding: 0.9rem 1.7rem;
+  font-size: 1.2rem;
+}
+.product-card-img {
+  margin-bottom: 10px;
+  
+}
+
+.product-card-info {
+    font-family: "Crimson Text", serif;
+  font-size: 14px;
+  color: var(--text-white   );
+  font-weight: 200;
+}

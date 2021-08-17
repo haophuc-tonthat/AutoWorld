@@ -17,22 +17,21 @@
 .btn {
   font-family: "Crimson Text", serif;
   margin-top: 10px;
-padding: 0.7rem 1rem;
-border: none;
-border-radius: 3px;
-outline: none;
-text-transform: uppercase;
-font-weight: 700;
-cursor: pointer;
-background-color: var(--second-color);
-color: var(--text-color);
-transition: all 0.3s ease 0s;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: var(--second-color);
+  color: var(--text-color);
+  transition: all 0.3s ease 0s;
 }
 
 .btn:hover {
-background-color: var(--text-white);
-color: var(--main-color);
-
+  background-color: var(--text-white);
+  color: var(--main-color);
 }
 .btn-wrapper {
   position: absolute;
@@ -41,7 +40,6 @@ color: var(--main-color);
   transform: translateY(-50%);
 }
 /* End Button */
-
 
 body {
   background-color: var(--main-color);
@@ -68,9 +66,8 @@ header {
   width: 100%;
   background-color: transparent;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  /* padding: 0 -100px; */
   z-index: 99;
   transition: height 0.3s ease 0s background-color 0.3s ease 0s;
 }
@@ -82,7 +79,6 @@ header.shrink .logo {
   height: 80px;
   width: 80px;
 }
-
 .logo {
   height: 110px;
   width: 110px;
@@ -113,6 +109,7 @@ header.shrink .logo {
 .main-menu > li > a:hover {
   color: var(--text-white);
 }
+
 .user-menu {
   display: flex;
   justify-content: center;
@@ -125,6 +122,10 @@ header.shrink .logo {
 .user-menu > li a i {
   color: var(--text-white);
 }
+.toggle-button{
+  display: none;
+}
+
 .hero {
   font-family: "Crimson Text", serif;
   height: 80vh;
@@ -302,7 +303,7 @@ section {
   background-color: var(--main-color);
 }
 .product-card h3 {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
   color: var(--text-color);
   font-family: "Crimson Text", serif;
 }
@@ -318,12 +319,11 @@ section {
 }
 .product-card-img {
   margin-bottom: 10px;
-  
 }
 
 .product-card-info {
-    font-family: "Crimson Text", serif;
+  font-family: "Crimson Text", serif;
   font-size: 14px;
-  color: var(--text-white   );
+  color: var(--text-white);
   font-weight: 200;
 }

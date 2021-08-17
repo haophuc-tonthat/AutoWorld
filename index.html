@@ -8,38 +8,49 @@
     <link rel="stylesheet" href="./boxicons-2.0.7/css/boxicons.min.css" />
     <link rel="stylesheet" href="./css/grid.css" />
     <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/animations.css">
-    
+    <link rel="stylesheet" href="./css/animations.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
     <header>
-      <ul class="user-menu">
+      <!-- <ul class="user-menu">
         <li>
-          <a href="#"><i class="bx bx-menu"></i></a>
+          &nbsp;
         </li>
-      </ul>
+      </ul> -->
+      <div>
+        <ul class="user-menu">
+          <li>
+            <a href="#" class="toggle-button"><i class="bx bx-menu"></i></a>
+          </li>
+        </ul>
+      </div>
       <div class="main-menu-wrapper">
-        <ul class="main-menu">
-          <li><a href="#" class="active">car</a></li>
+        <ul class="main-menu main-menu1">
+          <li><a href="#" class="active">home</a></li>
           <li><a href="#">technology</a></li>
           <li><a href="#">product</a></li>
         </ul>
       </div>
-      <a href="index.html" class="logo">
-        <img src="./images/AUTOWORLD.png" alt="" />
-      </a>
+      <div>
+        <a href="index.html" class="logo">
+          <img src="./images/AUTOWORLD.png" alt="" />
+        </a>
+      </div>
       <div class="main-menu-wrapper">
-        <ul class="main-menu">
+        <ul class="main-menu main-menu2">
           <li><a href="#">about AutoWorld</a></li>
           <li><a href="#">News</a></li>
           <li><a href="#">contact</a></li>
         </ul>
       </div>
-      <ul class="user-menu">
-        <li>
-          <a href="#"><i class="bx bx-search"></i></a>
-        </li>
-      </ul>
+      <div>
+        <ul class="user-menu">
+          <li>
+            <a href="#"><i class="bx bx-search"></i></a>
+          </li>
+        </ul>
+      </div>
     </header>
     <div class="hero">
       <div class="slide-container" id="hero-slide">
@@ -107,10 +118,7 @@
             </div>
           </div>
           <div class="slide-img">
-            <img
-              src="./images/2022 Toyota Corolla Cross.png"
-              alt=""
-            />
+            <img src="./images/2022 Toyota Corolla Cross.png" alt="" />
           </div>
         </div>
         <!-- End Slide -->
@@ -131,9 +139,9 @@
           <h3 class="second-title">New Cars</h3>
           <div class="btn-wrapper">
             <div class="to-top show-on-scroll">
-                <a href="#" class="btn ">view all</a>
+              <a href="#" class="btn">view all</a>
             </div>
-        </div>
+          </div>
         </div>
         <div class="section-content">
           <div class="row">
@@ -145,12 +153,10 @@
                       <img src="./images/2022 Toyota Corolla.png" alt="" />
                     </div>
                     <h3>2022 Toyota Corolla</h3>
-                    <p class="product-card-info"
-                      >$19,450 Starting MSRP
+                    <p class="product-card-info">$19,450 Starting MSRP</p>
+                    <p class="product-card-info">
+                      169HP - 2L 4 Cylinder Engine
                     </p>
-                    <p class="product-card-info"
-                      >169HP - 2L 4 Cylinder Engine</p
-                    >
                     <button class="btn">Explore</button>
                   </div>
                 </a>
@@ -164,12 +170,10 @@
                       <img src="./images/2022 Toyota Prius.png" alt="" />
                     </div>
                     <h3>2022 Toyota Prius</h3>
-                    <p class="product-card-info"
-                      >$30,940 Starting MSRP
+                    <p class="product-card-info">$30,940 Starting MSRP</p>
+                    <p class="product-card-info">
+                      121HP - 1.8L 4 Cylinder Engine
                     </p>
-                    <p class="product-card-info"
-                      >121HP - 1.8L 4 Cylinder Engine</p
-                    >
                     <button class="btn">Explore</button>
                   </div>
                 </a>
@@ -181,12 +185,10 @@
                       <img src="./images/2022 Toyota Prius Prime.png" alt="" />
                     </div>
                     <h3>2022 Toyota Prius Prime</h3>
-                    <p class="product-card-info"
-                      >$35,340 Starting MSRP
+                    <p class="product-card-info">$35,340 Starting MSRP</p>
+                    <p class="product-card-info">
+                      121HP - 1.8L 4 Cylinder Engine
                     </p>
-                    <p class="product-card-info"
-                      >121HP - 1.8L 4 Cylinder Engine</p
-                    >
                     <button class="btn">Explore</button>
                   </div>
                 </a>
@@ -200,12 +202,10 @@
                       <img src="./images/2022 Honda Civic.png" alt="" />
                     </div>
                     <h3>2022 Honda Civic</h3>
-                    <p class="product-card-info"
-                      >$28,765 Starting MSRP
+                    <p class="product-card-info">$28,765 Starting MSRP</p>
+                    <p class="product-card-info">
+                      158HP - 2L 4 Cylinder Engine
                     </p>
-                    <p class="product-card-info"
-                      >158HP - 2L 4 Cylinder Engine</p
-                    >
                     <button class="btn">Explore</button>
                   </div>
                 </a>
@@ -217,12 +217,8 @@
                       <img src="./images/2022 Honda Odyssey.png" alt="" />
                     </div>
                     <h3>2022 Honda Odyssey</h3>
-                    <p class="product-card-info"
-                      >$28,220 Starting MSRP
-                    </p>
-                    <p class="product-card-info"
-                      >54/133 Est. MPG</p
-                    >
+                    <p class="product-card-info">$28,220 Starting MSRP</p>
+                    <p class="product-card-info">54/133 Est. MPG</p>
                     <button class="btn">Explore</button>
                   </div>
                 </a>
@@ -232,7 +228,6 @@
         </div>
       </div>
     </section>
-    
   </body>
   <script src="./js/index.js"></script>
 </html>

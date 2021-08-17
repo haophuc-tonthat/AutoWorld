@@ -1,0 +1,135 @@
+@media (max-width: 780px) {
+  .toggle-button{
+    display: block;
+  }
+  .main-menu-wrapper {
+    display: block;
+    flex-direction: column;
+  }
+  .main-menu.active {
+    display: block;
+  
+    
+  }
+  .main-menu {
+    background-color: #3a3a3a ;
+    
+    width: 250px;
+    height: 150px;
+    padding-top: 30px;
+    display: none;
+    flex-direction: column;
+    left: 0px;
+    top: 0;
+    position: fixed;
+    margin-top: 90px;
+  }
+
+  .main-menu2 {
+    margin-top: 235px;
+  }
+  .main-menu > li ~ li {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .hero {
+    font-family: "Crimson Text", serif;
+    height: 40vh;
+    width: 100%;
+    position: relative;
+    padding-top: 120px;
+  }
+  .slide-img {
+    
+    padding-top: 50px;
+    
+  }
+  .slide-title > h3 {
+    font-size: 1.3rem;
+  }
+  .slide-description,
+.slide-btn {
+  margin-top: 24px;
+}
+.slide-description > p {
+    font-size: 0.8rem;
+    max-width: 90%;
+    line-height: 1.2rem;
+  }
+  .hero-btn {
+    font-size: 0.7rem;
+    
+    padding: 5px 25px;
+    
+  }
+  .hero-txt {
+    font-size: 3rem;
+    top: 110px;
+    right: -60px;
+    
+  }
+  .slide-control > li {
+    font-size: 1.5rem;
+  }
+  .slide-control > li ~ li {
+    margin-left: 20px;
+  }
+  .section {
+    padding: 3rem 0 0;
+  }
+  .section-title .main-title {
+    font-size: 2.5rem;
+  }
+  .section-title .second-title {
+    font-size: 3.5rem;
+    
+    left: 20%;
+    bottom: -90%;
+   
+  }
+  .section-content {
+    padding: 0.5rem 0.5rem 0;
+    
+  }
+  .col-5{
+    width: 33.33%;
+  }
+  .product-card {
+    padding: 0 10px;
+    margin-bottom: 5px;
+  }
+  .product-card h3 {
+    font-size: 1rem;
+    
+  }
+  
+  .product-card-large h3 {
+    font-size: 1.8rem;
+  }
+  .product-card-large .btn {
+    padding: 0.5rem 1.4rem;
+    font-size: 1rem;
+  }
+  .product-card-img {
+    margin-bottom: 0;
+  }
+  
+  .product-card-info {
+    font-family: "Crimson Text", serif;
+    font-size: 0.75rem;
+    color: var(--text-white);
+    font-weight: 200;
+  }
+  .btn {
+    
+    margin-top: 10px;
+    padding: 0.4rem 0.7rem;
+    font-size: 0.8rem;
+  }
+  .btn-wrapper {
+    position: absolute;
+    right: 4rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

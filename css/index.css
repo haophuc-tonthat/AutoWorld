@@ -92,6 +92,7 @@ header.shrink .logo {
   pointer-events: none;
 }
 .main-menu {
+  width: 400px;
   display: flex;
   pointer-events: visible;
 }
@@ -111,6 +112,7 @@ header.shrink .logo {
 }
 
 .user-menu {
+  width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;

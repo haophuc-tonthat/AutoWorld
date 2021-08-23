@@ -335,25 +335,43 @@ section {
   color: var(--text-white);
   font-weight: 200;
 }
-#service {
+.service {
   background-color: #2e2525;
   /* border: #bbbbbb solid; */
   height: 345px;
   padding: 10px;
   margin: 50px 0;
 }
-#service .row .service-content {
+.service .row .service-content {
   height: 345px;
   width: 100%;
 }
-.service-content {
-  background-image: url(../images/hero-contactless_service.jpg);
+.service-content{
   background-size: 100%;
 }
+.service-content1 {
+  background-image: url(../images/hero-contactless_service.jpg);
+  
+}
+.service-content2{
+  background-image: url(../images/lp-text-block.jpg);
+  
+  
+}
 .service-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: gray;
+  opacity: 80%;
+  width: 38%;
+  height: 210px;
+  padding-left:  50px ;
   position: relative;
-  top: 20%;
+  top: 10%;
   left: 10%;
+  margin: 30px 0;
 }
 .service-title h3 {
   font-family: "Crimson Text", serif;
@@ -361,11 +379,19 @@ section {
   color: var(--text-white);
   text-shadow: 0 0 20px rgb(0 0 0 / 100%);
   line-height: 1.3;
+  margin: 10px 0;
+}
+.service-title span{
+  font-family: "Crimson Text", serif;
+  color: var(--text-white);
+  padding: 15px 0;
 }
 .service-title .btn {
+  width: 170px;
   background-color: var(--text-white);
   color: var(--second-color);
   text-decoration: underline;
+  margin: 15px 0;
 }
 .service-title .btn:hover {
   background-color: var(--second-color);
@@ -457,7 +483,7 @@ section {
 footer {
   
   position: relative;
-  height: 55vh;
+  height: 40vh;
   width: 100%;
   padding-top: 30px;
   padding-bottom: 52px;
@@ -466,7 +492,7 @@ footer {
 .footer-main .row{
   align-items: flex-start;
   justify-content: flex-start;
-  padding-left: 90px ;
+  padding-left: 170px ;
 }
 .footer-items{
   display: flex;
@@ -476,4 +502,33 @@ footer {
 .list-menu-item{
   font-family: "Crimson Text", serif;
   padding: 5px 0;
+}
+.list-menu-item a{
+  color: var(--text-color);
+}
+.footer-logo{
+  position: absolute;
+  right: 10%;
+  top: 25%;
+}
+.footer-bottom{
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+.social-item{
+  font-size: 32px;
+  padding-right: 5px;
+}
+.footer-legal{
+  font-family: "Crimson Text", serif;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.footer-legal span a{
+  color: red;
+}
+.footer-legal span a:hover{
+  color: rgb(211, 57, 57);
 }

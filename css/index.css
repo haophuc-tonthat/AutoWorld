@@ -52,6 +52,10 @@ a {
   text-decoration: none;
   display: inline-block;
 }
+p {
+  display: inline-block;
+  width: 92%;
+}
 ul {
   list-style: none;
 }
@@ -124,7 +128,7 @@ header.shrink .logo {
 .user-menu > li a i {
   color: var(--text-white);
 }
-.toggle-button{
+.toggle-button {
   display: none;
 }
 
@@ -270,7 +274,7 @@ section {
 }
 #new-models {
   padding: 7rem 0 0;
-  height: 180vh;
+  height: 160vh;
 }
 .section-title {
   text-align: center;
@@ -293,7 +297,7 @@ section {
   color: var(--second-color);
 }
 .section-content {
-  padding:0 2rem ;
+  padding: 0 4rem;
   height: 400px;
 }
 .product-card {
@@ -303,7 +307,7 @@ section {
   transition: background-color 0.3s ease 0s;
 }
 .product-card:hover {
-  background-color: #2E2525;
+  background-color: #2e2525;
   border-radius: 5px;
 }
 .product-card h3 {
@@ -331,45 +335,145 @@ section {
   color: var(--text-white);
   font-weight: 200;
 }
-#service{
-  background-color: #2E2525;
+#service {
+  background-color: #2e2525;
   /* border: #bbbbbb solid; */
   height: 345px;
   padding: 10px;
-  margin-top: 100px;
+  margin: 50px 0;
 }
-#service .row .service-content{
+#service .row .service-content {
   height: 345px;
   width: 100%;
 }
-.service-content{
+.service-content {
   background-image: url(../images/hero-contactless_service.jpg);
   background-size: 100%;
 }
-.service-title{
+.service-title {
   position: relative;
   top: 20%;
   left: 10%;
 }
-.service-title h3{
+.service-title h3 {
   font-family: "Crimson Text", serif;
   font-size: 2.3em;
   color: var(--text-white);
   text-shadow: 0 0 20px rgb(0 0 0 / 100%);
   line-height: 1.3;
-  
 }
-.service-title .btn{
+.service-title .btn {
   background-color: var(--text-white);
   color: var(--second-color);
   text-decoration: underline;
 }
-.service-title .btn:hover{
+.service-title .btn:hover {
   background-color: var(--second-color);
   color: var(--text-white);
 }
-#popular-cars{
+#popular-cars {
   margin-top: 100px;
-  height: 180vh;
+  height: 160vh;
   /* border: white solid; */
+}
+#news {
+  font-family: "Crimson Text", serif;
+  height: 115vh;
+  width: 85%;
+  margin: 50px auto;
+  /* border: #bbbbbb solid; */
+}
+.news {
+  /* border: #bbbbbb solid; */
+  height: 80vh;
+  margin: 50px 20px;
+  background-color: #2e2525;
+}
+.news-img {
+  /* border: solid; */
+  height: 35%;
+  width: 100%;
+}
+.news-img a img {
+  height: 100%;
+  width: 100%;
+}
+.news-content {
+  width: 85%;
+  height: 65%;
+  padding: 0 30px;
+}
+.news-content-title h2 a {
+  color: var(--text-color);
+}
+.news-content-title h2 a:hover {
+  color: var(--text-white);
+}
+.news-content-byline {
+  line-height: 12px;
+  font-size: 0.86em;
+  margin-bottom: 24px;
+  color: var(--text-white);
+}
+.news-content-date {
+  display: inline-block;
+  border-right: 1px solid #bbbbbb;
+  padding-right: 8px;
+}
+.news-content-author {
+  display: inline-block;
+  padding-left: 8px;
+  font-style: italic;
+}
+.news-content-readmore {
+  margin-top: 16px;
+}
+.news-content-readmore a {
+  color: var(--text-white);
+}
+.news-content-readmore a:hover {
+  text-decoration: underline;
+}
+.news1 {
+  opacity: 0;
+  transition: all 1s ease 0s;
+  transform: translateY(100px);
+}
+
+.news2 {
+  opacity: 0;
+  transition: all 2s ease 0s;
+  transform: translateY(100px);
+}
+.news3 {
+  opacity: 0;
+  transition: all 3s ease 0s;
+  transform: translateY(100px);
+}
+.news.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+footer {
+  
+  position: relative;
+  height: 55vh;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 52px;
+  background-color: #2e2525;
+}
+.footer-main .row{
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 90px ;
+}
+.footer-items{
+  display: flex;
+  flex-direction: column;
+  
+}
+.list-menu-item{
+  font-family: "Crimson Text", serif;
+  padding: 5px 0;
 }

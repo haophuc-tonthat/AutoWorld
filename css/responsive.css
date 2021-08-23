@@ -1,5 +1,5 @@
 @media (max-width: 780px) {
-  .toggle-button{
+  .toggle-button {
     display: block;
   }
   .main-menu-wrapper {
@@ -8,15 +8,13 @@
   }
   .main-menu.active {
     display: block;
-  
-    
   }
   .main-menu {
-    background-color: #3a3a3a ;
-    
+    background-color: #3a3a3a;
+
     width: 250px;
-    height: 150px;
-    padding-top: 30px;
+    height: 130px;
+    padding-top: 20px;
     display: none;
     flex-direction: column;
     left: 0px;
@@ -26,7 +24,11 @@
   }
 
   .main-menu2 {
-    margin-top: 235px;
+    margin-top: 220px;
+    height: 90px;
+  }
+  .main-menu li a{
+    font-size: 14px;
   }
   .main-menu > li ~ li {
     margin-left: 0px;
@@ -40,33 +42,29 @@
     padding-top: 120px;
   }
   .slide-img {
-    
     padding-top: 50px;
-    
   }
   .slide-title > h3 {
     font-size: 1.3rem;
   }
   .slide-description,
-.slide-btn {
-  margin-top: 24px;
-}
-.slide-description > p {
+  .slide-btn {
+    margin-top: 24px;
+  }
+  .slide-description > p {
     font-size: 0.8rem;
     max-width: 90%;
     line-height: 1.2rem;
   }
   .hero-btn {
     font-size: 0.7rem;
-    
+
     padding: 5px 25px;
-    
   }
   .hero-txt {
     font-size: 3rem;
     top: 110px;
     right: -60px;
-    
   }
   .slide-control > li {
     font-size: 1.5rem;
@@ -82,16 +80,14 @@
   }
   .section-title .second-title {
     font-size: 3.5rem;
-    
+
     left: 20%;
     bottom: -90%;
-   
   }
   .section-content {
     padding: 0.5rem 0.5rem 0;
-    
   }
-  .col-5{
+  .col-5 {
     width: 33.33%;
   }
   .product-card {
@@ -100,9 +96,8 @@
   }
   .product-card h3 {
     font-size: 1rem;
-    
   }
-  
+
   .product-card-large h3 {
     font-size: 1.8rem;
   }
@@ -113,7 +108,7 @@
   .product-card-img {
     margin-bottom: 0;
   }
-  
+
   .product-card-info {
     font-family: "Crimson Text", serif;
     font-size: 0.75rem;
@@ -121,7 +116,6 @@
     font-weight: 200;
   }
   .btn {
-    
     margin-top: 10px;
     padding: 0.4rem 0.7rem;
     font-size: 0.8rem;

@@ -374,6 +374,7 @@ section {
   background-color: #2e2525;
   /* border: #bbbbbb solid; */
   height: 345px;
+  width: 100%;
   padding: 10px;
   margin: 50px 0;
 }

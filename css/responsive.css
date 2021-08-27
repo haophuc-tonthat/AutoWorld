@@ -1,6 +1,7 @@
 @media (max-width:600px) and (min-width:320px){
   header{
     height: 60px;
+    width: 100%;
   }
   header.shrink{
     height: 50px;
@@ -81,6 +82,9 @@
     top: 50px;
     right: -20px;
   }
+  .slide-txt{
+    padding-left: 20px;
+  }
   .slide-control > li {
     font-size: 0.5rem;
   }
@@ -91,7 +95,7 @@
     padding: 1rem 0 0;
   }
   .section-title .main-title {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   .section-title .second-title {
     font-size: 1.4rem;
@@ -152,16 +156,17 @@
   }
   .service-title {
     height: 80px;
-    width: 130px;
+    width: 180px;
     top: -20px;
+    
   }
   .service-title h3 {
     font-size: 0.8rem;
-    margin: 0;
+    margin-bottom: 5px;
   }
   .service-title span{
     font-size: 0.4rem;
-    padding: 3px 0;
+    padding: 5px 0;
   }
   .service-title a {  
     margin-top: 0;

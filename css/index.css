@@ -22,7 +22,7 @@
   border-radius: 3px;
   outline: none;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   cursor: pointer;
   background-color: var(--second-color);
   color: var(--text-color);

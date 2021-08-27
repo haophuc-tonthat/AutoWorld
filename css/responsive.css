@@ -60,21 +60,21 @@
     padding-top: 30px;
   }
   .slide-title > h3 {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   .slide-description,
   .slide-btn {
-    margin-top: 10px;
+    margin-top: 7px;
   }
   .slide-description > p {
     font-size: 0.4rem;
     max-width: 90%;
-    line-height: 0.5rem;
+    line-height: 0.7rem;
   }
   .hero-btn {
-    font-size: 0.3rem;
+    font-size: 0.2rem;
 
-    padding: 3px 10px;
+    padding: 3px 8px;
   }
   .hero-txt {
     font-size: 1.5rem;
@@ -91,7 +91,7 @@
     padding: 1rem 0 0;
   }
   .section-title .main-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .section-title .second-title {
     font-size: 1.4rem;
@@ -130,12 +130,13 @@
     font-family: "Crimson Text", serif;
     font-size: 0.5rem;
     color: var(--text-white);
-    font-weight: 200;
+    font-weight: 300;
   }
   .btn {
     margin-top: 5px;
     padding: 0.2rem 0.6rem;
     font-size: 0.3rem;
+    font-weight: 500;
   }
   .btn-wrapper {
     position: absolute;
@@ -155,16 +156,16 @@
     top: -20px;
   }
   .service-title h3 {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin: 0;
   }
   .service-title span{
     font-size: 0.4rem;
-    padding: 5px 0;
+    padding: 3px 0;
   }
   .service-title a {  
-    margin-top: 5px;
-    font-size: 6px;
+    margin-top: 0;
+    font-size: 8px;
 
   }
   #popular-cars{
@@ -178,7 +179,7 @@
     display: none;
   }
   .news {
-    height: 270px;
+    height: 290px;
     margin: 10px;
     width: 42%;
   }
@@ -204,7 +205,7 @@
   }
   .list-menu-item{
     height: 12px;
-    padding: 0;
+    padding: 2px 0;
   }
   .list-menu-item a span{
     font-size: 0.4em;
@@ -222,6 +223,7 @@
   .social-item{
     font-size: 16px;
     margin: 2px;
+    margin-left: 5px;
   }
   .footer-legal span{
     font-size: 8px;

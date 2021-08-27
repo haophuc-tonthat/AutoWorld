@@ -1,0 +1,22 @@
+[
+    {   "class": "active",
+        "title": "Welcome to AutoWorld",
+        "description": "Everyone says AutoWorld is the best company in the world, but the customer doesn't care about the world. They care if we are the best in town, or not. That's what I want to be.",
+        "button": "About AutoWorld",
+        "imgSrc": "./images/Showroom.png"
+    },
+    {   
+        
+        "title": "Next-Generation Style",
+        "description": "From its sleek new styling to its airy cabin, the redesigned Civic Sedan is a joy to behold and even better to drive. A lower, wider frame and expanded glass areas create a powerful look from the outside while enhancing the view from the inside.",
+        "button": "EXPLORE STYLING",
+        "imgSrc": "./images/Honda-Civic-Sedan.png"
+    },
+    {   
+       
+        "title": "2022 Toyota Corolla Cross",
+        "description": "We’ve taken the Corolla sedan you know and love to a whole new level, with the sophisticated, exhilarating and elevated Corolla Cross SUV. Reimagined for work, play, adventure - or wherever life takes you, cross over to the extraordinary with the all-new Toyota Corolla Cross.",
+        "button": "Pre-order",
+        "imgSrc": "./images/2022-Toyota-Corolla-Cross.png"
+    }
+]

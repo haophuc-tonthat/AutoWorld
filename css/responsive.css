@@ -1,6 +1,234 @@
-@media (max-width: 780px) {
+@media (max-width:600px) and (min-width:320px){
+  header{
+    height: 60px;
+  }
+  header.shrink{
+    height: 50px;
+  }
+  header.shrink .logo{
+    height: 45px;
+    width: 45px;
+  }
+  
   .toggle-button {
     display: block;
+  }
+  .logo{
+    height: 50px;
+    width: 50px;
+  }
+  .main-menu-wrapper {
+    display: block;
+    flex-direction: column;
+  }
+  .main-menu.active {
+    display: block;
+  }
+  .main-menu {
+    background-color: #3a3a3a;
+
+    width: 150px;
+    height: 130px;
+    padding-top: 10px;
+    display: none;
+    flex-direction: column;
+    left: 0px;
+    top: 0;
+    position: fixed;
+    margin-top: 60px;
+  }
+
+  .main-menu2 {
+    margin-top: 152px;
+    height: 70px;
+  }
+  .main-menu li a {
+    font-size: 12px;
+  }
+  .main-menu > li ~ li {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .hero {
+    font-family: "Crimson Text", serif;
+    height: 25vh;
+    width: 100%;
+    position: relative;
+    padding-top: 100px;
+  }
+  .slide-img {
+    padding-top: 30px;
+  }
+  .slide-title > h3 {
+    font-size: 0.7rem;
+  }
+  .slide-description,
+  .slide-btn {
+    margin-top: 10px;
+  }
+  .slide-description > p {
+    font-size: 0.4rem;
+    max-width: 90%;
+    line-height: 0.5rem;
+  }
+  .hero-btn {
+    font-size: 0.3rem;
+
+    padding: 3px 10px;
+  }
+  .hero-txt {
+    font-size: 1.5rem;
+    top: 50px;
+    right: -20px;
+  }
+  .slide-control > li {
+    font-size: 0.5rem;
+  }
+  .slide-control > li ~ li {
+    margin-left: 10px;
+  }
+  .section {
+    padding: 1rem 0 0;
+  }
+  .section-title .main-title {
+    font-size: 1rem;
+  }
+  .section-title .second-title {
+    font-size: 1.4rem;
+
+    left: 20%;
+    bottom: -90%;
+  }
+  /* .section-content {
+    padding: 0.5rem 0.5rem 0;
+  } */
+  .product-card_large{
+    display: none;
+  }
+  .product-cards{
+    width: 100%;
+  }
+  .product-card{
+    margin: 5px;
+    height: 200px;
+    width: 150px;
+  }
+  .product-card h3 {
+    font-size: 0.7rem;
+  }
+  .product-card-img {
+    margin-bottom: 0;
+  }
+  .product-card-img img {
+    width: 128px;
+    height: 96px;
+  }
+  .product-card-info {
+    font-family: "Crimson Text", serif;
+    font-size: 0.5rem;
+    color: var(--text-white);
+    font-weight: 200;
+  }
+  .btn {
+    margin-top: 5px;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.3rem;
+  }
+  .btn-wrapper {
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .service {
+    height: 100px;
+  }
+  .service .row .service-content {
+    height: 100px;
+  }
+  .service-title {
+    height: 80px;
+    width: 130px;
+    top: -20px;
+  }
+  .service-title h3 {
+    font-size: 0.7rem;
+    margin: 0;
+  }
+  .service-title span{
+    font-size: 0.4rem;
+    padding: 5px 0;
+  }
+  .service-title .btn {  
+    margin-top: 5px;
+  }
+  #popular-cars{
+    padding: 0 1rem;
+  }
+  #news {
+    height: auto;
+    width: 90%;
+  }
+  .news3{
+    display: none;
+  }
+  .news {
+    height: 270px;
+    margin: 10px;
+    width: 42%;
+  }
+  .news-content {
+    padding: 0 5px;
+  }
+  .news-content-title h2 {
+    font-size: 0.8rem;
+  }
+  .news-content-byline {
+    font-size: 0.4em;
+    margin-bottom: 10px;
+  }
+  .news-content-body {
+    font-size: 9px;
+  }
+  .news-content-readmore a{
+    font-size: 10px;
+  }
+  .footer-list-menu h3{
+    font-size: 0.6rem;
+    margin: 0;
+  }
+  .list-menu-item{
+    height: 12px;
+    padding: 0;
+  }
+  .list-menu-item a span{
+    font-size: 0.4em;
+  }
+  footer{
+    height: 12vh;
+  }
+  .footer-main .row{
+    padding-left: 50px;
+  }
+  .footer-logo img{
+    height: 100px;
+    width: 100px;
+  }
+  .social-item{
+    font-size: 16px;
+    margin: 2px;
+  }
+  .footer-legal span{
+    font-size: 8px;
+  }
+}
+@media (max-width: 910px) and (min-width: 601px) {
+  .toggle-button {
+    display: block;
+  }
+  .logo{
+    height: 80px;
+    width: 80px;
   }
   .main-menu-wrapper {
     display: block;
@@ -27,7 +255,7 @@
     margin-top: 220px;
     height: 90px;
   }
-  .main-menu li a{
+  .main-menu li a {
     font-size: 14px;
   }
   .main-menu > li ~ li {
@@ -36,7 +264,7 @@
   }
   .hero {
     font-family: "Crimson Text", serif;
-    height: 40vh;
+    height: 34vh;
     width: 100%;
     position: relative;
     padding-top: 120px;
@@ -67,7 +295,7 @@
     right: -60px;
   }
   .slide-control > li {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .slide-control > li ~ li {
     margin-left: 20px;
@@ -76,10 +304,10 @@
     padding: 3rem 0 0;
   }
   .section-title .main-title {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
   }
   .section-title .second-title {
-    font-size: 3.5rem;
+    font-size: 2.3rem;
 
     left: 20%;
     bottom: -90%;
@@ -87,28 +315,24 @@
   .section-content {
     padding: 0.5rem 0.5rem 0;
   }
-  .col-5 {
-    width: 33.33%;
+  .product-card_large{
+    display: none;
   }
-  .product-card {
-    padding: 0 10px;
-    margin-bottom: 5px;
+  .product-cards{
+    width: 100%;
   }
-  .product-card h3 {
-    font-size: 1rem;
-  }
-
-  .product-card-large h3 {
-    font-size: 1.8rem;
-  }
-  .product-card-large .btn {
-    padding: 0.5rem 1.4rem;
-    font-size: 1rem;
+  .product-card{
+    margin: 5px;
+    height: 250px;
+    width: 170px;
   }
   .product-card-img {
     margin-bottom: 0;
   }
-
+  .product-card-img img {
+    width: 128px;
+    height: 96px;
+  }
   .product-card-info {
     font-family: "Crimson Text", serif;
     font-size: 0.75rem;
@@ -117,8 +341,8 @@
   }
   .btn {
     margin-top: 10px;
-    padding: 0.4rem 0.7rem;
-    font-size: 0.8rem;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.6rem;
   }
   .btn-wrapper {
     position: absolute;
@@ -126,4 +350,167 @@
     top: 50%;
     transform: translateY(-50%);
   }
+  .service {
+    height: 200px;
+  }
+  .service .row .service-content {
+    height: 200px;
+  }
+  .service-title h3 {
+    font-size: 1.2rem;
+  }
+  .service-title span{
+    font-size: 0.8rem;
+  }
+  .service-title {
+    height: 150px;
+    top: 0;
+  }
+  #popular-cars{
+    padding: 0 3rem;
+  }
+  #news {
+    height: auto;
+    width: 90%;
+  }
+  .news {
+    height: 470px;
+    margin: 10px;
+    width: 29%;
+  }
+  .news-content {
+    padding: 0 18px;
+  }
+  .news-content-title h2 {
+    font-size: 1.1rem;
+  }
+  .news-content-byline {
+    font-size: 0.65em;
+    margin-bottom: 18px;
+  }
+  .news-content-body p {
+    font-size: 13px;
+  }
+  .news-content-readmore a{
+    font-size: 14px;
+  }
+  .footer-list-menu h3{
+    font-size: 0.9rem;
+  }
+  .list-menu-item a span{
+    font-size: 0.8em;
+  }
+  footer{
+    height: 25vh;
+  }
+  .footer-main .row{
+    padding-left: 100px;
+  }
+  .footer-logo img{
+    height: 150px;
+    width: 150px;
+  }
+  .social-item{
+    font-size: 24px;
+    margin: 5px;
+  }
+  .footer-legal span{
+    font-size: 13px;
+  }
+
 }
+@media (min-width: 911px) and (max-width: 1280px) {
+  .hero {
+    height: 550px;
+  }
+  .slide-title > h3 {
+    font-size: 2rem;
+  }
+  .slide-description > p {
+    font-size: 1rem;
+  }
+  .slide-description,
+  .slide-btn {
+    margin-top: 35px;
+  }
+  .hero-btn {
+    padding: 8px 40px;
+  }
+  .hero-txt {
+    font-size: 5rem;
+    right: -100px;
+  }
+  .slide-control > li {
+    font-size: 1.5rem;
+  }
+  .section-title .main-title {
+    font-size: 2.7rem;
+  }
+  .section-title .second-title {
+    font-size: 3.7rem;
+  }
+  .product-card_large {
+    width: 35%;
+  }
+  .product-cards {
+    width: 65%;
+  }
+  .product-card {
+    width: 190px;
+    height: 300px;
+  }
+  .product-card h3 {
+    font-size: 1rem;
+  }
+  .product-card-info {
+    font-size: 12px;
+  }
+  .service {
+    height: 245px;
+  }
+  .service .row .service-content {
+    height: 245px;
+  }
+  .service-title {
+    height: 190px;
+    top: 0;
+  }
+  .service-title h3 {
+    font-size: 1.7rem;
+  }
+  .section_popular-cars {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .btn {
+    padding: 0.4rem 0.8rem;
+  }
+  #popular-cars {
+    padding: 0 1rem;
+  }
+  #news {
+    height: auto;
+  }
+  .news {
+    height: 500px;
+    width: 28%;
+  }
+  .news-content {
+    padding: 0 18px;
+  }
+  .news-content-title h2 {
+    font-size: 1.2rem;
+  }
+  .news-content-byline {
+    font-size: 0.7em;
+    margin-bottom: 18px;
+  }
+  .news-content-body p {
+    font-size: 13px;
+  }
+  
+  footer{
+    height: 30vh;
+  }
+}
+

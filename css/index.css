@@ -17,7 +17,7 @@
 .btn {
   font-family: "Crimson Text", serif;
   margin-top: 10px;
-  padding: 0.7rem 1rem;
+  padding: 0.6rem 1rem;
   border: none;
   border-radius: 3px;
   outline: none;
@@ -47,6 +47,7 @@ body {
   font-family: "Bebas Neue", cursive;
   overflow-x: hidden;
   margin: 0 auto;
+  width: 100%;
 }
 a {
   text-decoration: none;
@@ -54,7 +55,7 @@ a {
 }
 p {
   display: inline-block;
-  width: 92%;
+  width: 100%;
 }
 ul {
   list-style: none;
@@ -115,8 +116,8 @@ header.shrink .logo {
   color: var(--text-white);
 }
 
-.user-menu {
-  width: 50px;
+.user-menu ul li a  {
+  width: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,7 +126,7 @@ header.shrink .logo {
 .user-menu > li {
   font-size: 18px;
 }
-.user-menu > li a i {
+.user-menu > ul li a i {
   color: var(--text-white);
 }
 .toggle-button {
@@ -273,13 +274,14 @@ section {
   width: auto;
 }
 #new-models {
-  padding: 7rem 0 0;
-  height: 160vh;
+  padding: 5rem 0 0;
+  height: auto;
 }
 .section-title {
   text-align: center;
   position: relative;
   font-family: "Crimson Text", serif;
+  margin: 50px 0;
 }
 .section-title h3 {
   text-transform: uppercase;
@@ -296,42 +298,80 @@ section {
   bottom: -100%;
   color: var(--second-color);
 }
-.section-content {
-  padding: 0 4rem;
-  height: 400px;
+.section_new-models {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  /* border: #bbbbbb solid; */
+  padding: 0 5rem;
 }
-.product-card {
+.product-card_large {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  width: 40%;
+  /* border: #bbbbbb solid; */
+}
+.product_large {
+  height: 500px;
+  width: 400px;
   padding: 20px;
-  margin-bottom: 30px;
   text-align: center;
   transition: background-color 0.3s ease 0s;
 }
-.product-card:hover {
+.product_large a h3 {
+  font-size: 1.7rem;
+  color: var(--text-color);
+  font-family: "Crimson Text", serif;
+}
+.product_large a h3:hover {
+  color: var(--text-white);
+}
+.product_large a .product-card-info {
+  font-size: 15px;
+}
+.product_large a .btn {
+  padding: 0.8rem 1.7rem;
+}
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: stretch;
+  justify-content: space-evenly;
+  align-items: center;
+  height: inherit;
+  width: 60%;
+  /* border: #bbbbbb solid; */
+}
+.product-card {
+  text-align: center;
+  padding: 10px;
+  height: 330px;
+  width: 230px;
+  
+  transition: background-color 0.2s ease 0s;
+  margin: 10px;
+}
+.product-card:hover,
+.product_large:hover {
   background-color: #2e2525;
   border-radius: 5px;
 }
 .product-card h3 {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   color: var(--text-color);
   font-family: "Crimson Text", serif;
 }
 .product-card h3:hover {
   color: var(--text-white);
 }
-.product-card-large h3 {
-  font-size: 2.5rem;
-}
-.product-card-large .btn {
-  padding: 0.9rem 1.7rem;
-  font-size: 1.2rem;
-}
-.product-card-img {
-  margin-bottom: 10px;
-}
 
 .product-card-info {
   font-family: "Crimson Text", serif;
-  font-size: 14px;
+  font-size: 13px;
   color: var(--text-white);
   font-weight: 200;
 }
@@ -346,17 +386,14 @@ section {
   height: 345px;
   width: 100%;
 }
-.service-content{
+.service-content {
   background-size: 100%;
 }
 .service-content1 {
   background-image: url(../images/hero-contactless_service.jpg);
-  
 }
-.service-content2{
+.service-content2 {
   background-image: url(../images/lp-text-block.jpg);
-  
-  
 }
 .service-title {
   display: flex;
@@ -367,7 +404,7 @@ section {
   opacity: 80%;
   width: 38%;
   height: 210px;
-  padding-left:  50px ;
+  padding: 0 20px;
   position: relative;
   top: 10%;
   left: 10%;
@@ -381,17 +418,17 @@ section {
   line-height: 1.3;
   margin: 10px 0;
 }
-.service-title span{
+.service-title span {
   font-family: "Crimson Text", serif;
   color: var(--text-white);
   padding: 15px 0;
 }
 .service-title .btn {
-  width: 170px;
+  
   background-color: var(--text-white);
   color: var(--second-color);
   text-decoration: underline;
-  margin: 15px 0;
+  margin-top: 15px;
 }
 .service-title .btn:hover {
   background-color: var(--second-color);
@@ -399,25 +436,30 @@ section {
 }
 #popular-cars {
   margin-top: 100px;
-  height: 160vh;
-  /* border: white solid; */
+  height: auto;
+  padding: 0 7rem;  
+}
+.section_popular-cars {
+  width: 100%;
 }
 #news {
   font-family: "Crimson Text", serif;
-  height: 115vh;
+  height: auto;
   width: 85%;
   margin: 50px auto;
   /* border: #bbbbbb solid; */
 }
 .news {
   /* border: #bbbbbb solid; */
-  height: 80vh;
+  height: 600px;
+  width: 25%;
+  padding-bottom: 10px;
   margin: 50px 20px;
   background-color: #2e2525;
 }
 .news-img {
   /* border: solid; */
-  height: 35%;
+  height: auto;
   width: 100%;
 }
 .news-img a img {
@@ -425,8 +467,9 @@ section {
   width: 100%;
 }
 .news-content {
-  width: 85%;
-  height: 65%;
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
   padding: 0 30px;
 }
 .news-content-title h2 a {
@@ -481,7 +524,6 @@ section {
   opacity: 1;
 }
 footer {
-  
   position: relative;
   height: 40vh;
   width: 100%;
@@ -489,46 +531,46 @@ footer {
   padding-bottom: 52px;
   background-color: #2e2525;
 }
-.footer-main .row{
+.footer-main .row {
   align-items: flex-start;
   justify-content: flex-start;
-  padding-left: 170px ;
+  padding-left: 170px;
 }
-.footer-items{
+.footer-items {
   display: flex;
   flex-direction: column;
-  
 }
-.list-menu-item{
+.list-menu-item {
   font-family: "Crimson Text", serif;
   padding: 5px 0;
 }
-.list-menu-item a{
+.list-menu-item a {
   color: var(--text-color);
 }
-.footer-logo{
+.footer-logo {
   position: absolute;
   right: 10%;
   top: 25%;
 }
-.footer-bottom{
+.footer-bottom {
   position: absolute;
   bottom: 10%;
   left: 5%;
 }
-.social-item{
+.social-item {
   font-size: 32px;
-  padding-right: 5px;
+  position: relative;
+  left: 8%;
 }
-.footer-legal{
+.footer-legal {
   font-family: "Crimson Text", serif;
   position: absolute;
   bottom: 5%;
   left: 5%;
 }
-.footer-legal span a{
+.footer-legal span a {
   color: red;
 }
-.footer-legal span a:hover{
+.footer-legal span a:hover {
   color: rgb(211, 57, 57);
 }

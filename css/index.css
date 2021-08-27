@@ -116,12 +116,7 @@ header.shrink .logo {
   color: var(--text-white);
 }
 
-.user-menu ul li a  {
-  width: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .user-menu > li {
   font-size: 18px;

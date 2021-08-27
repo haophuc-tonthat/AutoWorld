@@ -266,7 +266,7 @@ header.shrink .logo {
   color: var(--text-white);
 }
 section {
-  width: auto;
+  height: auto;
 }
 #new-models {
   padding: 5rem 0 0;

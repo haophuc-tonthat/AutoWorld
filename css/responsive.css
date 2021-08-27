@@ -60,7 +60,7 @@
     padding-top: 30px;
   }
   .slide-title > h3 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .slide-description,
   .slide-btn {
@@ -91,7 +91,7 @@
     padding: 1rem 0 0;
   }
   .section-title .main-title {
-    font-size: 1.5rem;
+    font-size: 0.7rem;
   }
   .section-title .second-title {
     font-size: 1.4rem;
@@ -211,7 +211,7 @@
     font-size: 0.4em;
   }
   footer{
-    height: 12vh;
+    height: 20vh;
   }
   .footer-main .row{
     padding-left: 50px;

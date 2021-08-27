@@ -51,7 +51,7 @@
   }
   .hero {
     font-family: "Crimson Text", serif;
-    height: 25vh;
+    height: 35vh;
     width: 100%;
     position: relative;
     padding-top: 100px;
@@ -99,6 +99,9 @@
     left: 20%;
     bottom: -90%;
   }
+  .section_new-models{
+    padding: 0 1rem;
+  }
   /* .section-content {
     padding: 0.5rem 0.5rem 0;
   } */
@@ -111,7 +114,7 @@
   .product-card{
     margin: 5px;
     height: 200px;
-    width: 150px;
+    width: 140px;
   }
   .product-card h3 {
     font-size: 0.7rem;
@@ -159,8 +162,10 @@
     font-size: 0.4rem;
     padding: 5px 0;
   }
-  .service-title .btn {  
+  .service-title a {  
     margin-top: 5px;
+    font-size: 6px;
+
   }
   #popular-cars{
     padding: 0 1rem;

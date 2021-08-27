@@ -396,7 +396,7 @@ section {
   justify-content: center;
   align-items: flex-start;
   background-color: gray;
-  opacity: 80%;
+  opacity: 85%;
   width: 38%;
   height: 210px;
   padding: 0 20px;
@@ -407,7 +407,7 @@ section {
 }
 .service-title h3 {
   font-family: "Crimson Text", serif;
-  font-size: 2.3em;
+  font-size: 2.5em;
   color: var(--text-white);
   text-shadow: 0 0 20px rgb(0 0 0 / 100%);
   line-height: 1.3;
@@ -416,17 +416,18 @@ section {
 .service-title span {
   font-family: "Crimson Text", serif;
   color: var(--text-white);
+  text-shadow: 0 0 20px rgb(0 0 0 / 100%);
   padding: 15px 0;
 }
-.service-title .btn {
+.service-title a {
   
-  background-color: var(--text-white);
-  color: var(--second-color);
+  /* font-size: ; */
+  color: var(--main-color);
   text-decoration: underline;
   margin-top: 15px;
 }
-.service-title .btn:hover {
-  background-color: var(--second-color);
+.service-title a:hover {
+  
   color: var(--text-white);
 }
 #popular-cars {

@@ -1,0 +1,151 @@
+@media (max-width: 600px) and (min-width: 280px) {
+  header {
+    height: 60px;
+    width: 100%;
+  }
+  header.shrink {
+    height: 50px;
+  }
+  header.shrink .logo {
+    height: 45px;
+    width: 45px;
+  }
+
+  .toggle-button {
+    display: block;
+  }
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+  .main-menu-wrapper {
+    display: block;
+    flex-direction: column;
+  }
+  .main-menu.active {
+    display: block;
+  }
+  .main-menu {
+    background-color: #3a3a3a;
+
+    width: 150px;
+    height: 130px;
+    padding-top: 10px;
+    display: none;
+    flex-direction: column;
+    left: 0px;
+    top: 0;
+    position: fixed;
+    margin-top: 60px;
+  }
+
+  .main-menu2 {
+    margin-top: 152px;
+    height: 70px;
+  }
+  .main-menu li a {
+    font-size: 12px;
+  }
+  .main-menu > li ~ li {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .footer-list-menu h3 {
+    font-size: 0.6rem;
+    margin: 0;
+  }
+  .list-menu-item {
+    height: 12px;
+    padding: 2px 0;
+  }
+  .list-menu-item a span {
+    font-size: 0.4em;
+  }
+  footer {
+    height: 20vh;
+  }
+  .footer-main .row {
+    padding-left: 50px;
+  }
+  .footer-logo img {
+    height: 100px;
+    width: 100px;
+  }
+  .social-item {
+    font-size: 16px;
+    margin: 2px;
+    margin-left: 5px;
+  }
+  .footer-legal span {
+    font-size: 8px;
+  }
+}
+@media (max-width: 910px) and (min-width: 601px) {
+  .toggle-button {
+    display: block;
+  }
+  .logo {
+    height: 80px;
+    width: 80px;
+  }
+  .main-menu-wrapper {
+    display: block;
+    flex-direction: column;
+  }
+  .main-menu.active {
+    display: block;
+  }
+  .main-menu {
+    background-color: #3a3a3a;
+
+    width: 250px;
+    height: 130px;
+    padding-top: 20px;
+    display: none;
+    flex-direction: column;
+    left: 0px;
+    top: 0;
+    position: fixed;
+    margin-top: 90px;
+  }
+
+  .main-menu2 {
+    margin-top: 220px;
+    height: 90px;
+  }
+  .main-menu li a {
+    font-size: 14px;
+  }
+  .main-menu > li ~ li {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .footer-list-menu h3 {
+    font-size: 0.9rem;
+  }
+  .list-menu-item a span {
+    font-size: 0.8em;
+  }
+  footer {
+    height: 25vh;
+  }
+  .footer-main .row {
+    padding-left: 100px;
+  }
+  .footer-logo img {
+    height: 150px;
+    width: 150px;
+  }
+  .social-item {
+    font-size: 24px;
+    margin: 5px;
+  }
+  .footer-legal span {
+    font-size: 13px;
+  }
+}
+@media (min-width: 911px) and (max-width: 1280px) {
+  footer {
+    height: 30vh;
+  }
+}

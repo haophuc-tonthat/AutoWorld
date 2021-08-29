@@ -62,7 +62,7 @@
     font-size: 0.4em;
   }
   footer {
-    height: 20vh;
+    height: 30vh;
   }
   .footer-main .row {
     padding-left: 50px;
@@ -88,6 +88,7 @@
     height: 80px;
     width: 80px;
   }
+  
   .main-menu-wrapper {
     display: block;
     flex-direction: column;
@@ -127,7 +128,7 @@
     font-size: 0.8em;
   }
   footer {
-    height: 25vh;
+    height: 40vh;
   }
   .footer-main .row {
     padding-left: 100px;
@@ -145,7 +146,17 @@
   }
 }
 @media (min-width: 911px) and (max-width: 1280px) {
+  header{
+    height: 100px;
+  }
+  .logo{
+    height: 90px;
+    width: 90px;
+  }
+  .main-menu li a {
+    font-size: 15px;
+  }
   footer {
-    height: 30vh;
+    height: 50vh;
   }
 }

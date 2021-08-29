@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: "Bebas Neue";
   src: url(../font/BebasNeue-Regular.ttf);
@@ -11,6 +14,12 @@
   --text-white: #ffffff;
   --main-color: #1d1d1d;
   --second-color: #3a3a3a;
+}
+* {
+  padding: 0;
+  /* margin: 0; */
+  box-sizing: border-box;
+  user-select: none;
 }
 
 /* Button */
@@ -49,9 +58,6 @@ body {
   margin: 0;
   width: 100%;
 }
-nav{
-    display: block;
-}
 a {
   text-decoration: none;
   display: inline-block;
@@ -70,11 +76,13 @@ header {
   height: 120px;
   position: fixed;
   top: 0;
-  bottom: 0;
+  left: 0;
   width: 100%;
+  padding: 0 2rem;
   background-color: transparent;
   display: flex;
-  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
   align-items: center;
   z-index: 99;
   transition: height 0.3s ease 0s background-color 0.3s ease 0s;
@@ -112,12 +120,14 @@ header.shrink .logo {
 .main-menu > li > a.active {
   color: var(--text-white);
 }
-.main-menu > li ~ li {
-  margin-left: 83px;
+.main-menu > li  {
+  margin: 0 42px;
 }
 .main-menu > li > a:hover {
   color: var(--text-white);
 }
+
+
 
 .user-menu > li {
   font-size: 18px;
@@ -129,9 +139,9 @@ header.shrink .logo {
   display: none;
 }
 .hero {
-  height: 120px;
+  height: 30vh;
   color: var(--text-color);
-  background-color: var(--second-color);
+  background-color: #423f3e;
   /* border: #bbbbbb solid; */
   margin-top: 120px;
   padding: 48px 0;
@@ -143,69 +153,205 @@ header.shrink .logo {
 .hero-inner {
   position: relative;
 }
-.hero-top, .hero-content {
-    padding: 0 16px;
-    margin: 0 120px;
+.hero-top,
+.hero-content {
+  padding: 0 16px;
+  margin: 0 120px;
 }
-.breadcrumbs{
- display: flex;
- text-transform: uppercase;
- color: var(--text-white);
- font-size: 1.1em;
- font-weight: 700;
+.breadcrumbs {
+  display: flex;
+  text-transform: uppercase;
+  color: var(--text-white);
+  font-size: 1.1em;
+  font-weight: 700;
 }
-.breadcrumb-item{
-    flex: 0 1 auto;
+.breadcrumb-item {
+  flex: 0 1 auto;
 }
-.breadcrumb-link{
-    color: var(--text-color);
-    line-height: 18px;
+.breadcrumb-link {
+  color: var(--text-color);
+  line-height: 18px;
 }
-.breadcrumb-link:hover{
-    color: var(--text-white);
+.breadcrumb-link:hover {
+  color: var(--text-white);
 }
-.breadcrumb-link.select{
-    color: var(--text-white);
+.breadcrumb-link.select {
+  color: var(--text-white);
 }
-.breadcrumb-divider{
-    text-align: center;
-    padding: 0 8px;
-    width: 32px;
-    display: inline-block;
-    vertical-align: text-bottom;
-    opacity: 0.5;
+.breadcrumb-divider {
+  text-align: center;
+  padding: 0 8px;
+  width: 32px;
+  display: inline-block;
+  vertical-align: text-bottom;
+  opacity: 0.5;
 }
-.hero-content h1{
-    font-size: 60px;
-    line-height: 60px;
-    color: var(--text-white);
+.hero-content h1 {
+  font-size: 60px;
+  line-height: 60px;
+  color: var(--text-white);
 }
-section{
-    height: 150vh;
-    background-color: #8E7F7F;
+section {
+  /* height: 150vh; */
+  background-color: var(--main-color);
 }
-.torque-block{
-    height: 140px;
-    padding: 64px 158px;
-    /* border: #bbbbbb solid; */
-    
+.torque-block {
+  height: 35vh;
+  padding: 64px 158px;
+  /* border: #bbbbbb solid; */
 }
-.block{
-    height: 138px;
-    /* border: #ffffff solid; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 0 8px;
+.block {
+  height: 138px;
+  border-bottom: 1px var(--text-color) solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px;
 }
-.block-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    width: 95px;
- flex: 0 1 auto;
- padding: 8px;
- /* border: #bbbbbb solid; */
+.block-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 95px;
+  flex: 0 1 auto;
+  padding: 8px;
+  /* border: #bbbbbb solid; */
+}
+.showroom-logo img,
+.heading-sepatated_item img {
+  height: 50px;
+  width: auto;
+}
+.showroom-listing{
+  margin-top: 50px;
+}
+.showroom-listing_group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Crimson Text";
+  color: var(--text-color);
+  margin-bottom: 50px;
+  padding: 0 50px;
+}
+.heading-sepatated {
+  /* height: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.heading-sepatated_item:first-child {
+  border-right: var(--second-color) solid;
+}
+.heading-sepatated_item {
+  padding: 0 18px;
+  font-size: 25px;
+}
+.heading-sepatated_item h2 {
+  margin: 0;
+}
+.showroom-listing_items {
+  /* border: black solid; */
+  /* height: 80vh; */
+  width: 100%;
+  margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.showroom-listing_item {
+  /* border: black solid; */
+  /* height: 200px; */
+  width: 250px;
+  margin: 16px 32px;
+  padding: 5px;
+}
+.showroom-product_img {
+  padding: 0 10px;
+}
+.showroom-product_year {
+  color: var(--text-color);
+  font-weight: bold;
+}
+.showroom-product_name {
+  color: var(--text-white);
+  font-weight: 900;
+  font-size: 1.8rem;
+  margin: 5px 0;
+  line-height: 27px;
+}
+.showroom-product_msrp {
+  color: var(--text-color);
+}
+.scroll-to-top{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 32px;
+  background-color: var(--text-white);
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.scroll-to-top a{
+  color: var(--main-color);
+}
+footer {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 52px;
+  background-color: #2e2525;
+}
+.footer-main .row {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 170px;
+}
+.footer-items {
+  display: flex;
+  flex-direction: column;
+}
+.list-menu-item {
+  font-family: "Crimson Text", serif;
+  padding: 5px 0;
+}
+.list-menu-item a {
+  color: var(--text-color);
+}
+.footer-logo {
+  position: absolute;
+  right: 10%;
+  top: 25%;
+}
+.footer-bottom {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+.social-item {
+  font-size: 32px;
+  position: relative;
+  left: 8%;
+}
+.footer-legal {
+  font-family: "Crimson Text", serif;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.footer-legal span a {
+  color: red;
+}
+.footer-legal span a:hover {
+  color: rgb(211, 57, 57);
 }

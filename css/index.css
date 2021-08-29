@@ -12,6 +12,12 @@
   --main-color: #1d1d1d;
   --second-color: #3a3a3a;
 }
+* {
+  padding: 0;
+  /* margin: 0; */
+  box-sizing: border-box;
+  user-select: none;
+}
 
 /* Button */
 .btn {
@@ -67,11 +73,13 @@ header {
   height: 120px;
   position: fixed;
   top: 0;
-  bottom: 0;
+  left: 0;
   width: 100%;
+  padding: 0 2rem;
   background-color: transparent;
   display: flex;
-  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
   align-items: center;
   z-index: 99;
   transition: height 0.3s ease 0s background-color 0.3s ease 0s;
@@ -109,8 +117,8 @@ header.shrink .logo {
 .main-menu > li > a.active {
   color: var(--text-white);
 }
-.main-menu > li ~ li {
-  margin-left: 83px;
+.main-menu > li  {
+  margin: 0 42px;
 }
 .main-menu > li > a:hover {
   color: var(--text-white);
@@ -130,12 +138,15 @@ header.shrink .logo {
 
 .hero {
   font-family: "Crimson Text", serif;
-  height: 80vh;
+  height: 105vh;
   width: 100%;
   position: relative;
   padding-top: 120px;
+  display: flex;
+  justify-content: center;
 }
 .slide-container {
+  
   position: relative;
   height: 100%;
 }
@@ -149,9 +160,12 @@ header.shrink .logo {
 }
 .slide-img {
   width: 60%;
-  padding-right: 60px;
-  padding-top: 80px;
+  /* padding-right: 60px;
+  padding-top: 80px; */
   z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .slide-img img {
   width: 100%;
@@ -165,6 +179,10 @@ header.shrink .logo {
   opacity: 1;
 }
 .slide-txt {
+  display: flex;
+  flex-direction: column ;
+  /* justify-content: space-between; */
+  align-items: flex-start;
   width: 40%;
   padding-left: 60px;
 }
@@ -174,6 +192,7 @@ header.shrink .logo {
 }
 
 .slide-title > h3 {
+
   font-size: 2.3rem;
   color: var(--text-white);
   text-transform: capitalize;
@@ -186,7 +205,7 @@ header.shrink .logo {
 
 .slide-description,
 .slide-btn {
-  margin-top: 84px;
+  margin-top: 15px;
 }
 
 .slide-description > p {
@@ -443,7 +462,7 @@ section {
   font-family: "Crimson Text", serif;
   height: auto;
   width: 85%;
-  margin: 50px auto;
+  margin: 100px auto;
   /* border: #bbbbbb solid; */
 }
 .news {
@@ -522,7 +541,7 @@ section {
 }
 footer {
   position: relative;
-  height: 40vh;
+  height: 50vh;
   width: 100%;
   padding-top: 30px;
   padding-bottom: 52px;

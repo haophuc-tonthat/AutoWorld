@@ -1,10 +1,10 @@
 @media (max-width: 600px) and (min-width: 280px) {
   .hero {
     font-family: "Crimson Text", serif;
-    height: 35vh;
+    height: 45vh;
     width: 100%;
     position: relative;
-    padding-top: 100px;
+    padding-top: 60px;
   }
   .slide-img {
     padding-top: 30px;
@@ -155,7 +155,7 @@
 @media (max-width: 910px) and (min-width: 601px) {
   .hero {
     font-family: "Crimson Text", serif;
-    height: 34vh;
+    height: 75vh;
     width: 100%;
     position: relative;
     padding-top: 120px;
@@ -265,9 +265,13 @@
     width: 90%;
   }
   .news {
-    height: 470px;
+    height: 450px;
+    
     margin: 10px;
-    width: 29%;
+    width: 40%;
+  }
+  .news3{
+    display: none;
   }
   .news-content {
     padding: 0 18px;
@@ -288,13 +292,16 @@
 }
 @media (min-width: 911px) and (max-width: 1280px) {
   .hero {
-    height: 550px;
+    height: 90vh;
+  }
+  .slide-txt{
+    padding-left: 30px;
   }
   .slide-title > h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   .slide-description > p {
-    font-size: 1rem;
+    font-size: 0.85rem;
   }
   .slide-description,
   .slide-btn {

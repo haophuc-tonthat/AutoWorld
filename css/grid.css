@@ -3,13 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 0 -15px;
 }
-
-/* [class*="col-"] {
-    padding: 0 15px;
-} */
-
 .col-1 {
   width: 8.33%;
 }

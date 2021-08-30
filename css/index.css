@@ -141,7 +141,7 @@ header.shrink .logo {
   height: 105vh;
   width: 100%;
   position: relative;
-  padding-top: 120px;
+  padding-top: 180px;
   display: flex;
   justify-content: center;
 }
@@ -417,7 +417,7 @@ section {
   align-items: flex-start;
   background-color: gray;
   opacity: 85%;
-  width: 38%;
+  width: 40%;
   height: 210px;
   padding: 0 20px;
   position: relative;

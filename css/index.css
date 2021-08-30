@@ -117,14 +117,12 @@ header.shrink .logo {
 .main-menu > li > a.active {
   color: var(--text-white);
 }
-.main-menu > li  {
+.main-menu > li {
   margin: 0 42px;
 }
 .main-menu > li > a:hover {
   color: var(--text-white);
 }
-
-
 
 .user-menu > li {
   font-size: 18px;
@@ -146,7 +144,6 @@ header.shrink .logo {
   justify-content: center;
 }
 .slide-container {
-  
   position: relative;
   height: 100%;
 }
@@ -180,7 +177,7 @@ header.shrink .logo {
 }
 .slide-txt {
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   /* justify-content: space-between; */
   align-items: flex-start;
   width: 40%;
@@ -192,7 +189,6 @@ header.shrink .logo {
 }
 
 .slide-title > h3 {
-
   font-size: 2.3rem;
   color: var(--text-white);
   text-transform: capitalize;
@@ -365,7 +361,7 @@ section {
   padding: 10px;
   height: 330px;
   width: 230px;
-  
+
   transition: background-color 0.2s ease 0s;
   margin: 10px;
 }
@@ -428,22 +424,13 @@ section {
   line-height: 1.3;
   margin: 10px 0;
 }
-.service1-title span {
-  font-family: "Crimson Text", serif;
-  color: var(--text-white);
-  text-shadow: 0 0 20px rgb(0 0 0 / 100%);
-  padding: 15px 0;
-}
 .service1-title a {
-  
-  
   color: var(--text-color);
   text-decoration: underline;
   margin-top: 15px;
   font-size: 20px;
 }
 .service1-title a:hover {
-  
   color: var(--text-white);
 }
 /*  */
@@ -464,31 +451,20 @@ section {
   line-height: 1.3;
   margin: 5px 0;
 }
-.service2-title span {
-  font-size: 20px;
-  font-family: "Crimson Text", serif;
-  color: var(--text-white);
-  text-shadow: 0 0 20px rgb(0 0 0 / 100%);
-  padding: 15px 0;
-}
 .service2-title a {
-  
-  
   color: var(--text-color);
   text-decoration: underline;
   margin-top: 15px;
   font-size: 20px;
 }
 .service2-title a:hover {
-  
   color: var(--text-white);
 }
-
 
 #popular-cars {
   margin-top: 100px;
   height: auto;
-  padding: 0 7rem;  
+  padding: 0 7rem;
 }
 .section_popular-cars {
   width: 100%;

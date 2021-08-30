@@ -34,7 +34,7 @@
   .slide-txt {
     padding-left: 20px;
   }
-  .slide-control{
+  .slide-control {
     bottom: 0;
   }
   .slide-control > li {
@@ -106,7 +106,7 @@
   .service .row .service-content {
     height: 100px;
   } */
-  .service{
+  .service {
     padding: 0;
   }
   .service1-title {
@@ -130,7 +130,6 @@
   .service2-title h3 {
     font-size: 0.6rem;
     margin-top: 5px;
-    
   }
   .service2-title a {
     margin-top: 0;
@@ -230,7 +229,7 @@
   }
   .product-card {
     margin: 5px;
-    height: 250px;
+    height: 265px;
     width: 170px;
   }
   .product-card-img {
@@ -298,11 +297,11 @@
   }
   .news {
     height: 450px;
-    
+
     margin: 10px;
     width: 40%;
   }
-  .news3{
+  .news3 {
     display: none;
   }
   .news-content {
@@ -326,7 +325,7 @@
   .hero {
     height: 110vh;
   }
-  .slide-txt{
+  .slide-txt {
     padding-left: 30px;
   }
   .slide-title > h3 {
@@ -402,7 +401,7 @@
   .service2-title a {
     margin-top: 0;
     font-size: 15px;
-  } 
+  }
   .section_popular-cars {
     width: 80%;
     margin: 0 auto;

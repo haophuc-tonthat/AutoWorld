@@ -18,7 +18,7 @@
     left: 71.88411807rem;
   }
 
-  .stripe.left .images .sub, .stripe.left .images .subtext {
+  .stripe.left .images .sub {
     left: calc(71.20591880995872rem - 1px);
   }
 }
@@ -43,7 +43,7 @@
     left: 66.88411807rem;
   }
 
-  .stripe.left .images .sub, .stripe.left .images .subtext {
+  .stripe.left .images .sub {
     left: calc(64.20591880995872rem - 1px);
   }
 }
@@ -67,7 +67,7 @@
     height: 61rem;
     left: 61.88411807rem;
   }
-  .stripe.left .images .sub, .stripe.left .images .subtext {
+  .stripe.left .images .sub {
     left: calc(61.20591880995872rem - 1px);
   }
 }
@@ -92,7 +92,7 @@
     left: 54.88411807rem;
   }
 
-  .stripe.left .images .sub, .stripe.left .images .subtext {
+  .stripe.left .images .sub {
     left: calc(54.20591880995872rem - 1px);
   }
 }
@@ -136,7 +136,7 @@
     top: 48rem;
   }
 
-  .stripe.left .images .sub, .stripe.left .images .subtext {
+  .stripe.left .images .sub {
     width: 38%;
     left: 0;
     padding: 0 10rem;

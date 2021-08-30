@@ -119,22 +119,22 @@
   z-index: -1;
 }
 
-.stripe.left .images .sub, .stripe.left .images .subtext {
+.stripe.left .images .sub {
   width: 26.5rem;
   top: 16rem;
 }
 
-.stripe .images .sub, .stripe .images .subtext {
+.stripe .images .sub {
   list-style: none;
   position: absolute;
   z-index: 11;
 }
 
-.stripe.left .images .sub li h5 a, .stripe.left .images .subtext li h5 a {
+.stripe.left .images .sub li h5 a {
   display: block;
 }
 
-.stripe .images .sub li h5 a, .stripe .images .subtext li h5 a {
+.stripe .images .sub li h5 a {
   text-decoration: none;
   color: #fff;
   border-bottom: 1px solid #fff;
@@ -142,22 +142,30 @@
   position: relative;
 }
 
-.stripe .images .sub li h5 a .bg, .stripe .images .subtext li h5 a .bg {
+.stripe .images .sub li h5 a .bg {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #000;
+  background: #fff;
   opacity: 0;
   transition: all 400ms cubic-bezier(.455,.03,.515,.955);
 }
 
-.stripe .images .sub li h5 a span, .stripe .images .subtext li h5 a span, .stripe .images .sub li h5 a strong, .stripe .images .subtext li h5 a strong {
+.stripe .images .sub li h5 a:hover .bg {
+  opacity: 1;
+}
+
+.stripe .images .sub li h5 a:hover {
+  color: var(--main-color);
+}
+
+.stripe .images .sub li h5 a span, .stripe .images .sub li h5 a strong {
   position: relative;
 }
 
-.stripe .images .sub li h5 strong, .stripe .images .subtext li h5 strong {
+.stripe .images .sub li h5 strong {
   font-size: 2.5rem;
 }
 

@@ -100,26 +100,39 @@
     top: 50%;
     transform: translateY(-50%);
   }
-  .service {
-    height: 100px;
+  /* .service {
+    height: auto;
   }
   .service .row .service-content {
     height: 100px;
+  } */
+  .service{
+    padding: 0;
   }
-  .service-title {
-    height: 80px;
-    width: 180px;
-    top: -20px;
+  .service1-title {
+    height: auto;
+    width: 40%;
+    /* top: -20px; */
+    padding-left: 10px;
   }
-  .service-title h3 {
-    font-size: 0.8rem;
+  .service1-title h3 {
+    font-size: 0.7rem;
     margin-bottom: 5px;
   }
-  .service-title span {
-    font-size: 0.4rem;
-    padding: 5px 0;
+  .service1-title a {
+    margin-top: 0;
+    font-size: 8px;
   }
-  .service-title a {
+  .service2-title {
+    width: 100%;
+    padding-left: 10px;
+  }
+  .service2-title h3 {
+    font-size: 0.6rem;
+    margin-top: 5px;
+    
+  }
+  .service2-title a {
     margin-top: 0;
     font-size: 8px;
   }
@@ -245,20 +258,36 @@
     transform: translateY(-50%);
   }
   .service {
-    height: 200px;
+    height: auto;
   }
   .service .row .service-content {
-    height: 200px;
+    height: 160px;
   }
-  .service-title h3 {
-    font-size: 1.2rem;
+  .service1-title {
+    height: 160px;
+    width: 40%;
+    padding-left: 10px;
+    /* top: -20px; */
   }
-  .service-title span {
-    font-size: 0.8rem;
+  .service1-title h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
   }
-  .service-title {
-    height: 150px;
-    top: 0;
+  .service1-title a {
+    margin-top: 0;
+    font-size: 11px;
+  }
+  .service2-title {
+    width: 100%;
+    padding-left: 20px;
+  }
+  .service2-title h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+  .service2-title a {
+    margin-top: 0;
+    font-size: 13px;
   }
   #popular-cars {
     padding: 0 3rem;
@@ -343,18 +372,37 @@
     font-size: 12px;
   }
   .service {
-    height: 245px;
+    height: auto;
   }
   .service .row .service-content {
     height: 245px;
   }
-  .service-title {
-    height: 190px;
-    top: 0;
+  .service1-title {
+    height: 245px;
+    width: 35%;
+    padding-left: 10px;
+    /* top: -20px; */
   }
-  .service-title h3 {
-    font-size: 1.7rem;
+  .service1-title h3 {
+    font-size: 1.9rem;
+    margin: 20px 0;
   }
+  .service1-title a {
+    margin-top: 0;
+    font-size: 15px;
+  }
+  .service2-title {
+    width: 100%;
+    padding-left: 23px;
+  }
+  .service2-title h3 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+  }
+  .service2-title a {
+    margin-top: 0;
+    font-size: 15px;
+  } 
   .section_popular-cars {
     width: 80%;
     margin: 0 auto;

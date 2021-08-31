@@ -169,9 +169,13 @@
   font-size: 2.5rem;
 }
 
+.stripe .boxcontent {
+  margin-bottom: 10rem;
+  position: relative;
+}
+
 .block1 h5 {
   font-size: 3rem;
-  font-family: Roboto;
   font-weight: lighter;
   text-transform: uppercase;
   margin-bottom: 2.7rem;
@@ -180,6 +184,109 @@
 .block1 p {
   margin-bottom: 3rem;
 }
+
+.block1 .images {
+  position: relative;
+  height: 34rem;
+}
+
+.block1 .images .skew-left {
+  width: 120rem;
+  height: 48rem;
+  right: calc(34% - 20.13839114825472rem);
+  position: absolute;
+}
+
+.block1 .images .skew-right {
+  width: 96rem;
+  height: 48rem;
+  top: -6.3rem;
+  left: calc(55% - 14.516423619366945rem);
+  position: absolute;
+}
+
+.block1 .images .titles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 41.3rem;
+  display: table;
+}
+
+.block1 .images .titles>div {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.block1 .images .titles>div h6.left {
+  top: -3.5rem;
+  right: 7rem;
+}
+
+.block1 .images .titles>div h6.right {
+  top: 13.5rem;
+  right: 34rem;
+}
+
+.block1 .images .titles>div h6 {
+  font-weight: 300;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+}
+
+.block1 .images .titles>div h6 strong {
+  font-weight: 900;
+}
+
+.block1 .images .titles>div h6 .sub, .block1 .images .titles>div h6 .sub:after {
+  content: '>';
+  font-size: 3.2rem;
+  vertical-align: middle;
+  position: absolute;
+  font-style: normal;
+  top: 17%;
+  padding-left: 1rem;
+  transition: all 300ms cubic-bezier(.455,.03,.515,.955);
+  -webkit-transition: all 300ms cubic-bezier(.455,.03,.515,.955);
+  -moz-transition: all 300ms cubic-bezier(.455,.03,.515,.955);
+  -ms-transition: all 300ms cubic-bezier(.455,.03,.515,.955);
+  -o-transition: all 300ms cubic-bezier(.455,.03,.515,.955);
+}
+
+.block1 .images .titles>div h6 .yellow {
+  display: inline-block;
+  right: 2.2rem;
+  background-color: #ddb321;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: lighter;
+  padding: 0.7rem;
+  position: relative;
+  transition: all 300ms cubic-bezier(.455,.03,.515,.955);
+  -webkit-transition: all 300ms cubic-bezier(.455,.03,.515,.955);
+  -moz-transition: all 300ms cubic-bezier(.455,.03,.515,.955);
+  -ms-transition: all 300ms cubic-bezier(.455,.03,.515,.955);
+  -o-transition: all 300ms cubic-bezier(.455,.03,.515,.955);
+}
+
+.block1 .images .titles>div h6 .sub {
+  overflow: hidden;
+}
+
+.block1 .images .titles>div h6:hover .sub {
+  margin-left: -2.3rem;
+  padding-right: 3rem;
+}
+
 
 .wrapper_full{
   width: 1920px;

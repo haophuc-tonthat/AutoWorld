@@ -87,13 +87,13 @@
     font-size: 12px;
   }
   footer {
-    height: 40vh;
+    height: 50vh;
   }
   .footer-main .row {
     padding-left: 50px;
   }
   .footer-logo{
-    top: 50%;
+    top: 700%;
   }
   .footer-logo img {
     height: 100px;

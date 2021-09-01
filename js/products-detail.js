@@ -81,7 +81,7 @@ var hero = [];
         s += "<div class='slide " + item.class + "'>";
         s += "<div class='slide-txt'>";
         s += "<div class='slide-title'>";
-        s += "<h3>" + "AutoWorld"+ "</h3>";
+        s += "<h3>" + "2021 Audi SQ7"+ "</h3>";
         s += "</div>";
         s += "</div>";
         s += "<div class='slide-img'>";
@@ -95,4 +95,25 @@ var hero = [];
 
       // Bỏ chuỗi html vào bên trong thẻ divProducts
       $("#hero").html(html);
+    }
+
+    //Show Vehicle Specs
+    const showMore = document.getElementsByClassName("show-more")[0];
+    const zebraTable = document.getElementsByClassName("zebra-table")[0];
+    showMore.addEventListener("click", () => {
+    zebraTable.classList.toggle("zebra-show");
+    showMore.classList.toggle("show-more-hidden");
+    });
+
+    //Gallery-Carousel
+    const galleryBlock = document.getElementsByClassName("gallery-block")[0];
+    const galleryButton = document.getElementsByClassName("gallery-btn")[0];
+      galleryButton.addEventListener("click", () => {
+      galleryBlock.classList.toggle("show-gallery");
+    });
+    var angle = 0;
+    function galleryspin(sign) { 
+    spinner = document.querySelector("#spinner");
+    if (!sign) { angle = angle + 45; } else { angle = angle - 45; }
+    spinner.setAttribute("style","transform: rotateY("+ angle +"deg)");
     }

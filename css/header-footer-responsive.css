@@ -68,25 +68,32 @@
     width: 30px;
   }
   .search-btn a{
-   font-size: 12px;
+   font-size: 15px;
    color: #bbbbbb;
   }
   .footer-list-menu h3 {
-    font-size: 0.6rem;
+    font-size: 15px;
     margin: 0;
+  }
+  .col-2{
+    width: 28%;
   }
   .list-menu-item {
     height: 12px;
-    padding: 5px 0;
+    padding: 15px 0;
   }
+  
   .list-menu-item a span {
-    font-size: 0.4em;
+    font-size: 12px;
   }
   footer {
     height: 40vh;
   }
   .footer-main .row {
     padding-left: 50px;
+  }
+  .footer-logo{
+    top: 50%;
   }
   .footer-logo img {
     height: 100px;
@@ -98,7 +105,7 @@
     margin-left: 5px;
   }
   .footer-legal span {
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 @media (max-width: 910px) and (min-width: 601px) {
@@ -142,7 +149,7 @@
     height: 90px;
   }
   .main-menu li a {
-    font-size: 14px;
+    font-size: 15px;
   }
   .main-menu > li ~ li {
     /* margin-left: 0px; */
@@ -165,10 +172,10 @@
    color: #bbbbbb;
   }
   .footer-list-menu h3 {
-    font-size: 0.9rem;
+    font-size: 18px;
   }
   .list-menu-item a span {
-    font-size: 0.8em;
+    font-size: 15px;
   }
   footer {
     height: 50vh;
@@ -185,7 +192,7 @@
     margin: 5px;
   }
   .footer-legal span {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 @media (min-width: 911px) and (max-width: 1280px) {

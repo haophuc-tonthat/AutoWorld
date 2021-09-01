@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./boxicons-2.0.7/css/boxicons.min.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/products-detail.css" />
+    <link rel="stylesheet" href="./css/animations.css" />
+    <!-- <link rel="stylesheet" href="./css/index-responsive.css" /> -->
+    <link rel="stylesheet" href="./css/header-footer-responsive.css">
+    <link rel="icon" href="./images/AUTOWORLD2.png" sizes="16x16">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="user-menu">
+          <ul >
+            <li>
+              <a href="#" class="toggle-button"><i class="bx bx-menu"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="main-menu-wrapper">
+          <ul class="main-menu main-menu1">
+            <li><a href="#" class="active">home</a></li>
+            <li><a href="./brands.html">brands</a></li>
+            <li><a href="#">about me</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="index.html" class="logo">
+            <img src="./images/AUTOWORLD.png" alt="" />
+          </a>
+        </div>
+        <div class="main-menu-wrapper">
+          <ul class="main-menu main-menu2">
+            <li><a href="#">services</a></li>
+            <li><a href="#">News</a></li>
+    
+          </ul>
+        </div>
+        <div class="user-menu">
+          <ul>
+            <li>
+              <a href="#" class="search-button"><i class="bx bx-search"></i></a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <div class="search">
+        <form>
+          <input type="search" class="search-form" placeholder="Search..." />
+          <button class="search-btn">
+            <a href="#" ><i class="bx bx-search"></i></a>
+          </button>
+        </form>
+      </div>
+      <div class="hero">
+        <div class="slide-container" id="hero-slide">
+          <div id="hero"></div>
+          <div class="hero-txt">AutoWorld</div>
+          <div class="color-title">
+            <h3>color-picker</h3>  
+          </div>
+          <ul class="slide-control">
+            <li class="slide-prev"><i class="bx bx-chevron-left"></i></li>
+            <li class="slide-control-item active"><button class="btn color-red"></button></li>
+            <!-- <li class="slide-control-item"><button class="color-black"></button></li> -->
+            <li class="slide-control-item"><button class="btn color-blue"></button></li>
+            <li class="slide-control-item"><button class="btn color-silver"></button></li>
+            <li class="slide-next"><i class="bx bx-chevron-right"></i></li>
+          </ul>
+        </div>
+      </div>
+      <section>
+        <div class="showroom-pricing">
+          <div class="showroom-financial">
+            <div class="financial-title">
+              <span>MSRP</span>
+            </div>
+            <div class="financial-content">
+              <span class="financial-icon-dollar">$</span>
+              <span class="financial-price">48,845</span>
+            </div>
+          </div>
+          <div class="showroom-financial">
+            <div class="financial-title">
+              <span>Finance</span>
+            </div>
+            <div class="financial-content">
+              <span class="financial-icon-dollar">$</span>
+              <span class="financial-price">678</span>
+            </div>
+          </div>
+          <div class="showroom-financial">
+            <div class="financial-title">
+              <span>lease</span>
+            </div>
+            <div class="financial-link">
+              <a href="">Contact us</a>
+            </div>
+          </div>
+          <div class="showroom-financial">
+            <div class="financial-title">
+              <span>cash rebate</span>
+            </div>
+            <div class="financial-link">
+                <a href="">Contact us</a>
+            </div>
+          </div>
+        </div>
+        <div class="showroom-pricing-contact">
+          <button class="btn">Book Test Drive</button>
+          <button class="btn">View Gallery</button>
+        </div>
+        <div class="showroom-feature">
+          <div class="feature-items">
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <path d="M19.78,4.22A11,11,0,0,0,4.22,19.78,11,11,0,0,0,19.78,4.22ZM12.72,17.34H11.28V12.72H7.51v4.62H6.07V6.66H7.51v4.62h3.77V6.66h1.43v4.62h3.78V6.66h1.43v6.06H12.72Zm5-.22-.53-.86h-.29v.86H16.1V14.33h1.28a1,1,0,0,1,.54,1.76l.63,1h-.86Z"></path>
+                  <path d="M17.33,15h-.46v.6h.48c.09,0,.19-.11.19-.3S17.43,15,17.33,15Z"></path>
+                </svg>
+              </div>
+              <div class="feature-inner">Automatic</div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <path d="M19.75,7l0,0-3.84-3.9L14.83,4.19,17,6.41a2.63,2.63,0,0,0,.92,5.07,2.51,2.51,0,0,0,1-.22v7.57a1,1,0,1,1-2.06,0V14.1A2.08,2.08,0,0,0,14.83,12h-1V4.65a2.08,2.08,0,0,0-2.06-2.1H5.56A2.08,2.08,0,0,0,3.5,4.65V21.44H13.8V13.57h1.55v5.25a2.58,2.58,0,1,0,5.15,0v-10A2.66,2.66,0,0,0,19.75,7Zm-8,2.91H5.56V4.65h6.18Zm6.18,0a1,1,0,1,1,1-1A1,1,0,0,1,17.92,9.9Z"></path>
+                </svg>
+              </div>
+              <div class="feature-inner">11 City / 8 Hwy / 9.5 Avg</div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <path d="M17.2,4A1.93,1.93,0,0,0,15.38,5.2h3.1a3.33,3.33,0,0,1,.54.05A1.92,1.92,0,0,0,17.2,4ZM6.8,4A1.92,1.92,0,0,0,5,5.25a3.33,3.33,0,0,1,.54-.05h3.1A1.93,1.93,0,0,0,6.8,4ZM12,4A1.93,1.93,0,0,0,10.14,5.2h3.72A2,2,0,0,0,12,4Zm3.31,11.75V13.86H14v1.86c0,.71.71.62,1.41.62A1.77,1.77,0,0,1,15.27,15.71ZM10,15.63V13.86H8.73v1.86c0,.71.71.62,1.43.62A1.78,1.78,0,0,1,10,15.63Zm2.66.08V13.86H11.31v1.78c0,.65.83.7,1.49.7A1.77,1.77,0,0,1,12.69,15.71ZM2.29,8.91V8.29a.63.63,0,0,0-.64-.62A.63.63,0,0,0,1,8.29v4.95a.63.63,0,0,0,.64.62.63.63,0,0,0,.64-.62v-.62H3.58V8.91Zm16.2-2.47h-13a2.19,2.19,0,0,0-.64.11v3.6H19.13V6.55A2.19,2.19,0,0,0,18.49,6.43Z"></path>
+                  <path d="M17.2,13.86h-.64v1.86a.63.63,0,0,0,.64.62h1.93V11.38H4.87v8.55a1.85,1.85,0,0,0,.64.11h13a1.85,1.85,0,0,0,.64-.11V17.57H9.38a1.89,1.89,0,0,1-1.93-1.86V13.86H6.8a.62.62,0,1,1,0-1.24H17.2a.62.62,0,1,1,0,1.24Zm5.16-2.47a.63.63,0,0,0-.64.62v.62H20.42v3.71h1.29v.62a.65.65,0,0,0,1.29,0V12A.63.63,0,0,0,22.36,11.38Z"></path>
+                </svg>
+              </div>
+              <div class="feature-inner">367HP - 2L 4 Cylinder Engine</div>
+            </div>
+          </div>
+          <div class="feature-items">
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <path d="M8.8,12.69H6.22a5.74,5.74,0,0,0,1.22,3l1.83-1.83A3.2,3.2,0,0,1,8.8,12.69Zm1.38,2L8.36,16.55a5.74,5.74,0,0,0,3,1.22V15.2A3.2,3.2,0,0,1,10.18,14.73ZM8.36,7.45l1.83,1.83a3.2,3.2,0,0,1,1.13-.47V6.22A5.74,5.74,0,0,0,8.36,7.45Zm-.91.91a5.74,5.74,0,0,0-1.22,3H8.8a3.2,3.2,0,0,1,.47-1.13Zm5.24-2.14V8.8a3.2,3.2,0,0,1,1.13.47l1.83-1.83A5.74,5.74,0,0,0,12.69,6.22Zm2.51,6.47a3.2,3.2,0,0,1-.47,1.13l1.83,1.83a5.74,5.74,0,0,0,1.22-3Z"></path>
+                  <path d="M12,1A11,11,0,0,0,1,12,11.12,11.12,0,0,0,12,23,11,11,0,0,0,12,1Zm0,18.13A7.25,7.25,0,0,1,4.87,12,7.17,7.17,0,0,1,12,4.87,7.1,7.1,0,0,1,19.13,12,7.17,7.17,0,0,1,12,19.13Z"></path>
+                  <path d="M16.55,8.36l-1.83,1.83a3.2,3.2,0,0,1,.47,1.13h2.58A5.74,5.74,0,0,0,16.55,8.36Zm-2.74,6.37a3.2,3.2,0,0,1-1.13.47v2.58a5.74,5.74,0,0,0,3-1.22Zm-.41-4.14h0a2,2,0,0,0-2.82,0h0A1.93,1.93,0,0,0,10,12a2.14,2.14,0,0,0,.57,1.45,2,2,0,0,0,2.82,0h0A2,2,0,0,0,13.41,10.59Z"></path>
+                </svg>
+              </div>
+              <div class="feature-inner">All Wheel Drive</div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <path d="M3.44,9.57,5.28,4.1H18.72l1.83,5.47Zm15.28,6.08a1.82,1.82,0,1,1,1.83-1.82A1.83,1.83,0,0,1,18.72,15.65Zm-13.44,0a1.82,1.82,0,1,1,1.83-1.82A1.83,1.83,0,0,1,5.28,15.65ZM20.46,3.5a1.83,1.83,0,0,0-1.74-1.23H5.28A1.84,1.84,0,0,0,3.54,3.5L1,10.78v9.72a1.22,1.22,0,0,0,1.22,1.22H3.44a1.22,1.22,0,0,0,1.22-1.22V19.29H19.33v1.22a1.22,1.22,0,0,0,1.22,1.22h1.22A1.22,1.22,0,0,0,23,20.51V10.78Z"></path>
+                </svg>
+              </div>
+              <div class="feature-inner">4-Door SUV</div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <path d="M14.28,5.94a4,4,0,0,1,1.86,3,3.21,3.21,0,1,0-1.86-3Zm-2.11,6.58A3.22,3.22,0,1,0,8.94,9.31,3.22,3.22,0,0,0,12.16,12.53Zm1.37.22H10.79a4.13,4.13,0,0,0-4.13,4.12v3.39l.23.07a18.86,18.86,0,0,0,5.62.9,11.56,11.56,0,0,0,4.9-.92l.22-.11h0V16.86A4.13,4.13,0,0,0,13.53,12.74Zm5.34-3.32H16.15a4,4,0,0,1-1.23,2.76,4.89,4.89,0,0,1,3.51,4.68v1A11.15,11.15,0,0,0,22.76,17l.22-.11h0V13.54A4.13,4.13,0,0,0,18.87,9.42ZM6.5,9.21a3.21,3.21,0,0,0,1.72-.5,4,4,0,0,1,1.5-2.54c0-.06,0-.12,0-.18A3.23,3.23,0,1,0,6.5,9.21Zm2.9,3A4,4,0,0,1,8.17,9.44l-.3,0H5.13A4.13,4.13,0,0,0,1,13.54v3.39l.23.07a19.43,19.43,0,0,0,4.65.87v-1A4.9,4.9,0,0,1,9.4,12.19Z"></path>
+                </svg>
+              </div>
+              <div class="feature-inner">5 Passengers</div>
+            </div>
+          </div>
+          <div class="feature-items">
+            <div class="feature-item">
+              <div class="feature-icon">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                  <polygon points="17 22 20 19 17 19 17 22"></polygon>
+                  <path d="M20,17.5V2H4V22H15.5V17.5ZM7,6H17V7.5H7ZM7,9H17v1.5H7Zm0,3H17v1.5H7Zm4.19,7.12L11,20,9.54,18.53,8.06,20l-.18-.88L7,18.94l1.22-1.22a1.5,1.5,0,1,1,2.63,0l1.22,1.22Z"></path>
+                </svg>
+              </div>
+              <div class="feature-inner">Basic Years: 4 <br>
+                          Basic Miles/km: 80,000<br>
+                          Drivetrain Years: 4 <br>
+                          Drivetrain Miles/km: 80,000</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src="./js/header.js"></script>
+      <script src="./js/products-detail.js"></script>
+</body>
+</html>

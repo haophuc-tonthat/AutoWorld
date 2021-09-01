@@ -1,0 +1,408 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(../font/BebasNeue-Regular.ttf);
+  }
+  @font-face {
+    font-family: "Crimson Text";
+    src: url(../font/CrimsonPro-VariableFont_wght.ttf);
+  }
+  :root {
+    --text-color: #bbbbbb;
+    --text-white: #ffffff;
+    --main-color: #1d1d1d;
+    --second-color: #3a3a3a;
+  }
+  * {
+    padding: 0;
+    /* margin: 0; */
+    box-sizing: border-box;
+    user-select: none;
+  }
+  
+  /* Button */
+  .btn {
+    font-family: "Crimson Text", serif;
+    margin-top: 10px;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: var(--second-color);
+    color: var(--text-color);
+    transition: all 0.3s ease 0s;
+  }
+  
+  .btn:hover {
+    background-color: var(--text-white);
+    color: var(--main-color);
+  }
+  .btn-wrapper {
+    position: absolute;
+    right: 7rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  /* End Button */
+  
+  body {
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-family: "Bebas Neue", cursive;
+    overflow-x: hidden;
+    margin: 0;
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  p {
+    display: inline-block;
+    width: 100%;
+  }
+  ul {
+    list-style: none;
+  }
+  img {
+    max-width: 100%;
+  }
+  header {
+    height: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 2rem;
+    background-color: transparent;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    transition: height 0.3s ease 0s background-color 0.3s ease 0s;
+  }
+  header.shrink {
+    height: 80px;
+    background-color: var(--second-color);
+  }
+  header.shrink .logo {
+    height: 80px;
+    width: 80px;
+  }
+  .logo {
+    height: 110px;
+    width: 110px;
+  }
+  .main-menu-wrapper {
+    /* position: absolute; */
+    inset: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+  }
+  .main-menu {
+    width: 400px;
+    display: flex;
+    pointer-events: visible;
+  }
+  .main-menu > li > a {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: var(--text-color);
+  }
+  .main-menu > li > a.active {
+    color: var(--text-white);
+  }
+  .main-menu > li {
+    margin: 0 42px;
+  }
+  .main-menu > li > a:hover {
+    color: var(--text-white);
+  }
+  
+  .user-menu > li {
+    font-size: 18px;
+  }
+  .user-menu > ul li a i {
+    color: var(--text-white);
+  }
+  .toggle-button {
+    display: none;
+  }
+  .search{
+    height: 50px;
+    width: 30%;
+    position: fixed;
+    right: 0;
+    z-index: 100;
+    /* border: #bbbbbb solid; */
+    margin-top: 80px;
+    visibility: hidden;
+    transform: translateX(100%);
+    /* background-color: transparent; */
+  }
+  .search.show-search{
+    visibility: visible;
+    transform: translateX(0);
+    transition: visibility 0s linear 0s,transform .2s ease-out 0s,-webkit-transform .2s ease-out 0s;
+  
+  }
+  .search form{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .search-form{
+    border: 1px solid var(--text-color);
+    height: 45px;
+    width: 80%;
+    padding: 0 20px;
+    border-radius: 5px 0 0 5px;
+    font-family: "Bebas Neue", cursive;
+    background-color:  var(--second-color);
+  }
+  .search-btn{
+    height: 45px;
+    width: 45px;
+    border: 1px solid var(--text-color);
+    border-radius: 0 5px 5px 0;
+    background-color: var(--second-color);
+  }
+  .search-btn a{
+   font-size: 20px;
+   color: #bbbbbb;
+  }
+  .search-btn:hover, .search-btn a:hover{
+    
+    color: var(--text-white);
+    
+  }
+  .hero {
+    font-family: "Crimson Text", serif;
+    height: 105vh;
+    width: 100%;
+    position: relative;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+  }
+  .slide-container {
+    position: relative;
+    height: 100%;
+  }
+  .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 0;
+  }
+  .slide.active {
+    height: 100%;
+  }
+  .slide-img {
+    width: 60%;
+    margin-top: 30px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slide-img img {
+    width: 100%;
+    transform: translateX(200px);
+    transform-origin: right;
+    opacity: 0;
+    transition: transform 1s ease-out, opacity 0.6s ease 0s;
+  }
+  .slide.active .slide-img img {
+    transform: rotate(0);
+    opacity: 1;
+  }
+  .slide-txt {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+  }
+  
+  .slide-title {
+    width: max-content;
+  }
+  
+  .slide-title > h3 {
+    font-size: 2.3rem;
+    color: var(--text-white);
+    text-transform: capitalize;
+  }
+  .slide.active .slide-title > h3 {
+    transform: translateX(0);
+  }
+  .hero-btn {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 50px;
+    background-color: var(--text-white);
+    color: var(--main-color);
+    transition: transform 0.3s ease 0s;
+  }
+  
+  .hero-txt {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 7rem;
+    top: 170px;
+    right: -170px;
+    color: #3a3a3a;
+    transform: rotate(-90deg);
+  }
+  .color-title{
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+      position: absolute;
+      bottom: 70px;
+      left: 45%;
+      text-transform: uppercase ;
+  }
+  .slide-control {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 98;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .slide-control > li {
+    font-size: 1.75rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease 0s;
+  }
+  
+  .slide-control > li.active {
+    transform: scale(1.5);
+    color: var(--text-white);
+  }
+  
+  .slide-control > li ~ li {
+    margin-left: 30px;
+  }
+  
+  .slide-control > li:hover {
+    color: var(--text-white);
+  }
+  .color-red{
+      background-color: #811717;
+      height: 10px;
+      width: 30px;
+      cursor: pointer;
+  }
+  .color-black{
+    background-color: #201F1D;
+    height: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+.color-blue{
+    background-color: #0A2E80;
+    height: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+.color-silver{
+    background-color: #A0A0A0;
+    height: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+.showroom-pricing{
+    height: auto;
+    width: 70%;
+    margin: 0 auto;
+    background-color: var(--main-color);
+    /* border: #ffffff solid 1px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.showroom-financial{
+    flex: 1;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-right: 1px var(--text-color) solid;
+    border-left: 1px var(--text-color) solid;
+}
+.financial-title{
+    font-size: 17px;
+    line-height: 20px;
+    color: var(--text-color);
+    text-transform: uppercase;
+}
+/* .financial-content{
+    
+} */
+.financial-icon-dollar{
+    font-size: 20px;
+    vertical-align: top;
+}
+.financial-price{
+    font-size: 30px;
+}
+.financial-link a{
+    font-size: 17px;
+    margin-top: 15px;
+    font-family: "Crimson Text";
+    /* text-decoration: underline; */
+    color: rgb(211, 57, 57);;
+}
+.financial-link a:hover{
+    color: var(--text-white);
+}
+.showroom-pricing-contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.showroom-pricing-contact .btn{
+    margin: 10px 15px;
+    font-size: 17px;
+}
+.showroom-feature{
+    height: auto;
+    width: 70%;
+    margin: 20px  auto;
+    background-color: var(--main-color);
+    /* border: #ffffff solid 1px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feature-items{
+    flex: 1;
+    /* border: #bbbbbb solid; */
+    padding: 10px;
+}
+.feature-item{
+    display: flex
+}
+.feature-icon{
+    padding-right: 10px;
+}
+.feature-inner{
+    font-family: "Crimson Text";
+    line-height: 25px;
+}

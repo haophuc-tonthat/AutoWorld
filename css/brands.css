@@ -138,6 +138,54 @@ header.shrink .logo {
 .toggle-button {
   display: none;
 }
+.search{
+  height: 50px;
+  width: 30%;
+  position: fixed;
+  top: 1%;
+  right: 0;
+  z-index: 100;
+  /* border: #bbbbbb solid; */
+  margin-top: 80px;
+  visibility: hidden;
+  transform: translateX(100%);
+  /* background-color: transparent; */
+}
+.search.show-search{
+  visibility: visible;
+  transform: translateX(0);
+  transition: visibility 0s linear 0s,transform .2s ease-out 0s,-webkit-transform .2s ease-out 0s;
+
+}
+.search form{
+  display: flex;
+  justify-content: flex-end;
+}
+.search-form{
+  border: 1px solid var(--text-color);
+  height: 45px;
+  width: 80%;
+  padding: 0 20px;
+  border-radius: 5px 0 0 5px;
+  font-family: "Bebas Neue", cursive;
+  background-color:  var(--second-color);
+}
+.search-btn{
+  height: 45px;
+  width: 45px;
+  border: 1px solid var(--text-color);
+  border-radius: 0 5px 5px 0;
+  background-color: var(--second-color);
+}
+.search-btn a{
+ font-size: 20px;
+ color: #bbbbbb;
+}
+.search-btn:hover, .search-btn a:hover{
+  
+  color: var(--text-white);
+  
+}
 .hero {
   height: 30vh;
   color: var(--text-color);

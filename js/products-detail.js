@@ -64,11 +64,11 @@ var hero = [];
 
           setTimeout(() => hero_slide_items[0].classList.add("active"), 200);
 
-          // auto slide
-          setInterval(() => {
-            if (!hero_slide_play) return;
-            nextSlide();
-          }, 4500);
+        //   // auto slide
+        //   setInterval(() => {
+        //     if (!hero_slide_play) return;
+        //     nextSlide();
+        //   }, 4500);
         }
       });
     });
@@ -81,13 +81,7 @@ var hero = [];
         s += "<div class='slide " + item.class + "'>";
         s += "<div class='slide-txt'>";
         s += "<div class='slide-title'>";
-        s += "<h3>" + item.title + "</h3>";
-        s += "</div>";
-        s += "<div class='slide-description'>";
-        s += "<p>" + item.description + "</p>";
-        s += "</div>";
-        s += "<div class='slide-btn'>";
-        s += "<a class='hero-btn'>" + item.button + "</a>";
+        s += "<h3>" + "AutoWorld"+ "</h3>";
         s += "</div>";
         s += "</div>";
         s += "<div class='slide-img'>";

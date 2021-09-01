@@ -15,17 +15,17 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body >
-    <header >
-      <div class="user-menu" >
-        <ul>
+    <header>
+      <div class="user-menu">
+        <ul >
           <li>
             <a href="#" class="toggle-button"><i class="bx bx-menu"></i></a>
           </li>
         </ul>
       </div>
-      <div class="main-menu-wrapper" >
+      <div class="main-menu-wrapper">
         <ul class="main-menu main-menu1">
-          <li><a href="./index.html">home</a></li>
+          <li><a href="./index.html" >home</a></li>
           <li><a href="#" class="active">brands</a></li>
           <li><a href="#">about me</a></li>
         </ul>
@@ -39,16 +39,25 @@
         <ul class="main-menu main-menu2">
           <li><a href="#">services</a></li>
           <li><a href="#">News</a></li>
+  
         </ul>
       </div>
       <div class="user-menu">
         <ul>
           <li>
-            <a href="#"><i class="bx bx-search"></i></a>
+            <a href="#" class="search-button"><i class="bx bx-search"></i></a>
           </li>
         </ul>
       </div>
     </header>
+    <div class="search">
+      <form>
+        <input type="search" class="search-form" placeholder="Search..." />
+        <button class="search-btn">
+          <a href="#" ><i class="bx bx-search"></i></a>
+        </button>
+      </form>
+    </div>
     <div class="hero" >
       <div class="hero-inner">
         <div class="hero-top">
@@ -1059,5 +1068,6 @@
       </a>
     </div>
     <script src="./js/brands.js"></script>
+    <script src="./js/header.js"></script>
   </body>
 </html>

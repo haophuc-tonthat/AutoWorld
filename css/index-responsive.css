@@ -108,6 +108,7 @@
   } */
   .service {
     padding: 0;
+    max-height: 100px;
   }
   .service1-title {
     height: auto;

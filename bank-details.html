@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/header-footer-responsive.css" />
     <link rel="stylesheet" href="./css/bank-details.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/bank-details.js"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -58,33 +59,16 @@
       <section class="basics row no-gutters" id="basics">
         <div class="col-12 col-md-10 offset-md-1 title">
           <h2>BANK ORGANIZATIONS</h2>
-          <h1>ANDREA CALDARELLI</h1>
+          <h1 id="bank-name"></h1>
         </div>
-        <div class="col-12 col-md-10 offset-md-1 main-image">
-          <div
-            data-srcset="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/motorsport/drivers/factory_listing/detail/12_18/caldarelli_m.jpg 1024w,https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/motorsport/drivers/factory_listing/detail/12_18/caldarelli.jpg"
-            class="image img-loaded"
-            style="
-              background-image: url('https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/motorsport/drivers/factory_listing/detail/12_18/caldarelli.jpg');
-            "
-          ></div>
-        </div>
+        <div id="img" class="col-12 col-md-10 offset-md-1 main-image"></div>
       </section>
       <section class="bank-data" id="bank-data">
         <div class="row no-gutters">
           <div
+            id="details"
             class="col-12 offset-0 col-md-8 offset-md-2 col-lg-6 offset-lg-3"
-          >
-            <div class="key-value">
-              <span>Nationality </span><span>Italy</span>
-            </div>
-            <div class="key-value">
-              <span>Date of birth</span><span>14/02/1990</span>
-            </div>
-            <div class="key-value">
-              <span>Place of birth</span><span>Pescara (PE)</span>
-            </div>
-          </div>
+          ></div>
         </div>
       </section>
       <footer>

@@ -49,7 +49,7 @@ function paginationData(data) {
       $.each(data, function (index, item) {
         banks += `<li>
         <a
-          href=""
+          href="${item.url}"
           ><span class="three-m">${item.country}</span
           ><span class="one">${(
             "0" +

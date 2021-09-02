@@ -5,7 +5,7 @@
   }
 
   .stripe.nopic .images {
-    height: 42rem!important;
+    height: 42rem !important;
   }
 
   .stripe.left .images {
@@ -30,7 +30,7 @@
   }
 
   .stripe.nopic .images {
-    height: 46rem!important;
+    height: 46rem !important;
   }
 
   .stripe.left .images {
@@ -55,7 +55,7 @@
   }
 
   .stripe.nopic .images {
-    height: 42rem!important;
+    height: 42rem !important;
   }
 
   .stripe.left .images {
@@ -79,7 +79,7 @@
   }
 
   .stripe.nopic .images {
-    height: 40rem!important;
+    height: 40rem !important;
   }
 
   .stripe.left .images {
@@ -107,7 +107,12 @@
   }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 670px), only screen and (max-width: 669px) {
+@media only screen and (max-width: 1024px) and (min-width: 670px),
+  only screen and (max-width: 669px) {
+  .stripe .boxcontent p {
+    line-height: 2rem;
+  }
+
   .stripe.left .images .right-skew {
     display: none;
   }
@@ -116,19 +121,20 @@
     margin-left: 8.3%;
   }
 
-  .column.small-ten.reset, .column.small-fivesixths.reset {
+  .column.small-ten.reset,
+  .column.small-fivesixths.reset {
     width: 83.35%;
   }
 
-  .column.reset[class^="small-"], .column.reset[class*=" small-"] {
+  .column.reset {
     margin-right: 0;
     margin-left: 0;
   }
 
   .stripe.left .images .left-skew {
     position: relative;
-    width: 154rem;
-    height: 44rem;
+    width: 45rem;
+    height: 17rem;
     left: -58%;
   }
 
@@ -137,10 +143,21 @@
   }
 
   .stripe.left .images .sub {
-    width: 38%;
-    left: 0;
+    width: 80%;
+    left: -183px;
     padding: 0 10rem;
-    top: 34rem;
+    top: 12rem;
+  }
+
+  .block1 .boxcontent {
+    left: auto;
+    width: 100%;
+    padding: 4rem 0;
+    text-align: center;
+  }
+
+  .stripe .images .sub li h5 strong {
+    font-size: 1.8rem;
   }
 }
 

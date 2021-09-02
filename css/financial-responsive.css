@@ -1,0 +1,22 @@
+@media only screen and (min-width: 670px) {
+  .column.reset.small-push-one {
+    margin-left: 8.3%;
+  }
+
+  .column.small-five.reset {
+    width: 41.65%;
+  }
+
+  .column {
+    clear: none;
+    float: left;
+    min-height: 1px;
+  }
+}
+
+@media (min-width: 1025px) {
+  section.banks-list ul li a .three-m,
+  section.banks-list ul li div .three-m {
+    display: none;
+  }
+}

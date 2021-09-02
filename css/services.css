@@ -5,7 +5,6 @@
   --second-color: #3a3a3a;
 }
 
-
 /* banner */
 
 #content {
@@ -36,7 +35,7 @@
 }
 
 .carousel-top .fade {
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .carousel-top .boxcontent {
@@ -47,7 +46,8 @@
   width: calc(91.7% - 3rem);
 }
 
-.carousel-top .h2, .carousel-top h1 {
+.carousel-top .h2,
+.carousel-top h1 {
   color: #fff;
   text-transform: uppercase;
 }
@@ -56,7 +56,7 @@
   font-size: 3.2rem;
   display: block;
   letter-spacing: 6.3px;
-  color: #fff!important;
+  color: #fff !important;
 }
 
 .subtitle {
@@ -150,7 +150,7 @@
   height: 100%;
   background: #fff;
   opacity: 0;
-  transition: all 400ms cubic-bezier(.455,.03,.515,.955);
+  transition: all 400ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
 .stripe .images .sub li h5 a:hover .bg {
@@ -161,7 +161,8 @@
   color: var(--main-color);
 }
 
-.stripe .images .sub li h5 a span, .stripe .images .sub li h5 a strong {
+.stripe .images .sub li h5 a span,
+.stripe .images .sub li h5 a strong {
   position: relative;
 }
 
@@ -214,7 +215,7 @@
   display: table;
 }
 
-.block1 .images .titles>div {
+.block1 .images .titles > div {
   width: 50%;
   height: 100%;
   position: relative;
@@ -223,17 +224,17 @@
   vertical-align: middle;
 }
 
-.block1 .images .titles>div h6.left {
+.block1 .images .titles > div h6.left {
   top: -3.5rem;
   right: 7rem;
 }
 
-.block1 .images .titles>div h6.right {
+.block1 .images .titles > div h6.right {
   top: 13.5rem;
   right: 34rem;
 }
 
-.block1 .images .titles>div h6 {
+.block1 .images .titles > div h6 {
   font-weight: 300;
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -243,26 +244,27 @@
   position: absolute;
 }
 
-.block1 .images .titles>div h6 strong {
+.block1 .images .titles > div h6 strong {
   font-weight: 900;
 }
 
-.block1 .images .titles>div h6 .sub, .block1 .images .titles>div h6 .sub:after {
-  content: '>';
+.block1 .images .titles > div h6 .sub,
+.block1 .images .titles > div h6 .sub:after {
+  content: ">";
   font-size: 3.2rem;
   vertical-align: middle;
   position: absolute;
   font-style: normal;
   top: 17%;
   padding-left: 1rem;
-  transition: all 300ms cubic-bezier(.455,.03,.515,.955);
-  -webkit-transition: all 300ms cubic-bezier(.455,.03,.515,.955);
-  -moz-transition: all 300ms cubic-bezier(.455,.03,.515,.955);
-  -ms-transition: all 300ms cubic-bezier(.455,.03,.515,.955);
-  -o-transition: all 300ms cubic-bezier(.455,.03,.515,.955);
+  transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -webkit-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -ms-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -o-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
-.block1 .images .titles>div h6 .yellow {
+.block1 .images .titles > div h6 .yellow {
   display: inline-block;
   right: 2.2rem;
   background-color: #ddb321;
@@ -271,34 +273,33 @@
   font-weight: lighter;
   padding: 0.7rem;
   position: relative;
-  transition: all 300ms cubic-bezier(.455,.03,.515,.955);
-  -webkit-transition: all 300ms cubic-bezier(.455,.03,.515,.955);
-  -moz-transition: all 300ms cubic-bezier(.455,.03,.515,.955);
-  -ms-transition: all 300ms cubic-bezier(.455,.03,.515,.955);
-  -o-transition: all 300ms cubic-bezier(.455,.03,.515,.955);
+  transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -webkit-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -ms-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -o-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
-.block1 .images .titles>div h6 .sub {
+.block1 .images .titles > div h6 .sub {
   overflow: hidden;
 }
 
-.block1 .images .titles>div h6:hover .sub {
+.block1 .images .titles > div h6:hover .sub {
   margin-left: -2.3rem;
   padding-right: 3rem;
 }
 
-
-.wrapper_full{
+.wrapper_full {
   width: 1920px;
   background-color: var(--main-color);
 }
 
-#img-wrapper{
+#img-wrapper {
   margin-top: 9rem;
   height: 31rem;
 }
 
-#img-wrapper .block-img{
+#img-wrapper .block-img {
   position: absolute;
   padding: 1rem;
   width: 495px;
@@ -320,11 +321,11 @@
   opacity: 0;
 }
 
-#transform:hover{
+#transform:hover {
   opacity: 1;
 }
 
-#transition-block{
+#transition-block {
   width: 492px;
   left: 14px;
   height: 374px;
@@ -333,108 +334,96 @@
   top: -5px;
 }
 
-  #transition-block:hover{
+#transition-block:hover {
+  border: #e6ae48 solid 5px;
+}
 
-    border: #e6ae48 solid 5px;
+#transition-block .border-top {
+  width: 0px;
+  height: 1.5px;
+  top: 112px;
+  left: 50px;
+  position: absolute;
+  background: white;
+  -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s;
+}
 
-  }
+#transition-block:hover .border-top {
+  width: 380px;
+}
 
-  #transition-block .border-top {
-    width: 0px;
-    height: 1.5px;
-    top:112px;
-    left:50px;
-    position: absolute;
-    background: white;
-    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
-    transition: width 1s;
-  }
+#transition-block .border-bottom {
+  width: 0px;
+  height: 1.5px;
+  top: 274px;
+  left: 50px;
+  position: absolute;
+  background: white;
+  -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s;
+}
 
-  #transition-block:hover  .border-top{
-    width: 380px;
+#transition-block:hover .border-bottom {
+  width: 380px;
+}
 
-  }
+#transition-block .border-left {
+  width: 1.5px;
+  height: 0px;
+  top: 96px;
+  left: 80px;
+  position: absolute;
+  background: white;
+  -webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */
+  transition: height 1s;
+}
 
-  #transition-block .border-bottom {
-    width: 0px;
-    height: 1.5px;
-    top:274px;
-    left:50px;
-    position: absolute;
-    background: white;
-    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
-    transition: width 1s;
-  }
+#transition-block:hover .border-left {
+  height: 200px;
+}
 
-  #transition-block:hover  .border-bottom{
-    width: 380px;
+#transition-block .border-right {
+  width: 1.5px;
+  height: 0px;
+  top: 96px;
+  left: 410px;
+  position: absolute;
+  background: white;
+  -webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */
+  transition: height 1s;
+}
 
-  }
+#transition-block:hover .border-right {
+  height: 200px;
+}
+#transition-block p {
+  position: absolute;
+  font-size: 15px;
+  color: white;
+  top: 52px;
+  left: 231px;
+  opacity: 0;
+  -webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+  transition: opacity 0.5s;
+}
+#transition-block:hover p {
+  opacity: 1;
+}
 
-  #transition-block .border-left {
-    width: 1.5px;
-    height: 0px;
-    top:96px;
-    left:80px;
-    position: absolute;
-    background: white;
-    -webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */
-    transition: height 1s;
-  }
-
-  #transition-block:hover  .border-left{
-
-    height: 200px;
-
-  }
-
-  #transition-block .border-right {
-    width: 1.5px;
-    height: 0px;
-    top:96px;
-    left:410px;
-    position: absolute;
-    background: white;
-    -webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */
-    transition: height 1s;
-  }
-
-  #transition-block:hover  .border-right{
-
-    height: 200px;
-
-  }
-  #transition-block p{
-    position: absolute;
-    font-size:15px;
-    color: white;
-    top: 52px;
-    left: 231px;
-    opacity: 0;
-    -webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
-    transition: opacity 0.5s ;
-   }
-   #transition-block:hover  p{
-    opacity: 1;
-
-  }
-
-
-
-  #transition-block h1{
-    text-align: center;
-    width: 307px;
-    position: absolute;
-    font-size:64px;
-    color: white;
-    top: 80px;
-    left:94px;
-    opacity: 0;
-    -webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
-    transition: opacity 0.5s ;
-   }
-   #transition-block:hover  h1{
-    opacity: 1;
-
-  }
+#transition-block h1 {
+  text-align: center;
+  width: 307px;
+  position: absolute;
+  font-size: 64px;
+  color: white;
+  top: 80px;
+  left: 94px;
+  opacity: 0;
+  -webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+  transition: opacity 0.5s;
+}
+#transition-block:hover h1 {
+  opacity: 1;
+}
 /* transtrorm */

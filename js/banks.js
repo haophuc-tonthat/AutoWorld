@@ -1,0 +1,70 @@
+$(async function () {
+  async function getBanks() {
+    const response = await fetch("./data/banks.json");
+
+    return response.json();
+  }
+
+  let banks = await getBanks();
+
+  $("#the-filter").keyup(async function () {
+    banks = await getBanks();
+    var search = this.value.toLowerCase();
+
+    if (search == "") {
+      return paginationData(banks);
+    } else {
+      banks = (banks || []).filter(function (bank) {
+        return (
+          bank.name.toLowerCase().indexOf(search) > -1 ||
+          bank.country.toLowerCase().indexOf(search) > -1
+        );
+      });
+      paginationData(banks);
+    }
+  });
+
+  paginationData(banks);
+});
+
+function paginationData(data) {
+  let pag = $("#pagination");
+  let table = $("#table");
+
+  pag.pagination({
+    dataSource: data,
+    pageSize: 5,
+    autoHidePrevious: true,
+    autoHideNext: true,
+
+    ajax: {
+      beforeSend: function () {
+        table.html("<h1>Loading banks.....</h1>");
+      },
+    },
+
+    callback: function (data, pagination) {
+      var banks = "<ul>";
+
+      $.each(data, function (index, item) {
+        banks += `<li>
+        <a
+          href=""
+          ><span class="three-m">${item.country}</span
+          ><span class="one">${(
+            "0" +
+            (pagination.pageSize * (pagination.pageNumber - 1) + index + 1)
+          ).slice(-2)}.</span
+          ><span class="two">${item.name}</span
+          ><span class="three">${item.country}</span
+          ><span class="four">View detail </span></a
+        >
+      </li>`;
+      });
+
+      banks += "</ul>";
+
+      table.html(banks);
+    },
+  });
+}

@@ -48,16 +48,17 @@ function paginationData(data) {
 
       $.each(data, function (index, item) {
         banks += `<li>
-        <a
-          href="${item.url}"
+        <a href="${item.url}"
           ><span class="three-m">${item.country}</span
-          ><span class="one">${(
-            "0" +
-            (pagination.pageSize * (pagination.pageNumber - 1) + index + 1)
-          ).slice(-2)}.</span
-          ><span class="two">${item.name}</span
-          ><span class="three">${item.country}</span
-          ><span class="four">View detail </span></a
+          ><span class="one"
+            ><img src="${item.logo}"
+          /></span>
+          <div>
+            <div class="two">${item.name}</div>
+            <div class="three">${item.country}</div>
+          </div>
+
+          <span class="four">View detail </span></a
         >
       </li>`;
       });

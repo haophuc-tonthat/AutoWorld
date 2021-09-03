@@ -1,5 +1,6 @@
 [
   {
+    "logo": "./images/banks/1822-logo.jpg",
     "name": "1822direkt",
     "url": "http://localhost:8080/bank-details.html?name=1822direkt",
     "country": "Germany",

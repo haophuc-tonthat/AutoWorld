@@ -206,14 +206,13 @@ section.banks-list ul {
   margin-top: 4rem;
 }
 
-section.banks-list ul li a,
-section.banks-list ul li div {
+section.banks-list ul li a {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
   border-bottom: 1px solid #e5e5e5;
   padding: 3rem 1rem 2rem;
-  font-size: 3.6rem;
+  font-size: 2.6rem;
   font-weight: 400;
   font-stretch: normal;
   font-style: normal;
@@ -242,8 +241,7 @@ section.banks-list ul li div .three-m {
   text-transform: uppercase;
 }
 
-section.banks-list ul li a .one,
-section.banks-list ul li div .one {
+section.banks-list ul li a .one {
   font-size: 1.2rem;
   font-weight: 500;
   font-stretch: normal;
@@ -252,12 +250,13 @@ section.banks-list ul li div .one {
   letter-spacing: 0.42px;
   margin-right: 6rem;
   font-family: "Crimson Text";
+  width: 60px;
+  height: 66px;
 }
 
-section.banks-list ul li a .two,
-section.banks-list ul li div .two {
+section.banks-list ul li a .two {
   text-transform: capitalize;
-  min-width: 55%;
+  min-width: 100%;
   font-family: "Crimson Text";
 }
 
@@ -265,9 +264,8 @@ section.banks-list ul li div .two {
   max-width: 50%;
 }
 
-section.banks-list ul li a .three,
-section.banks-list ul li div .three {
-  font-size: 2.2rem;
+section.banks-list ul li a .three {
+  font-size: 1.5rem;
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
@@ -278,11 +276,10 @@ section.banks-list ul li div .three {
 }
 
 .banks-list ul a .three {
-  max-width: 20%;
+  max-width: 100%;
 }
 
-section.banks-list ul li a .four,
-section.banks-list ul li div .four {
+section.banks-list ul li a .four {
   font-size: 1.2rem;
   font-weight: 400;
   font-stretch: normal;
@@ -290,6 +287,7 @@ section.banks-list ul li div .four {
   line-height: 1.92;
   letter-spacing: 2.4px;
   text-transform: uppercase;
+  margin-left: auto;
 }
 
 #pagination {

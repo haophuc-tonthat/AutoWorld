@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Financial</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="./boxicons-2.0.7/css/boxicons.min.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/header-footer-responsive.css" />
     <link rel="stylesheet" href="./css/financial.css" />
     <link rel="stylesheet" href="./css/financial-responsive.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./js/banks.js"></script>
+    <script src="./js/header.js"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -33,8 +34,8 @@
       <div class="main-menu-wrapper">
         <ul class="main-menu main-menu1">
           <li><a href="#" class="active">home</a></li>
-          <li><a href="#">brands</a></li>
-          <li><a href="#">about AutoWorld</a></li>
+          <li><a href="./brands.html">brands</a></li>
+          <li><a href="#">about me</a></li>
         </ul>
       </div>
       <div>
@@ -51,7 +52,7 @@
       <div class="user-menu">
         <ul>
           <li>
-            <a href="#"><i class="bx bx-search"></i></a>
+            <a href="#" class="search-button"><i class="bx bx-search"></i></a>
           </li>
         </ul>
       </div>
@@ -229,7 +230,9 @@
               </div>
               <div class="row flex-column-reverse flex-md-row no-gutters">
                 <div class="col-12 col-md-4 links">
-                  <a class="model"><span>BANK ORGANIZATIONS</span></a>
+                  <a class="model" style="font-size: 2rem"
+                    ><span>BANK ORGANIZATIONS</span></a
+                  >
                 </div>
                 <div id="table" class="col-12 col-md-8 col-lg-7"></div>
               </div>
@@ -315,6 +318,5 @@
         </footer>
       </section>
     </div>
-    <script src="./js/index.js"></script>
   </body>
 </html>

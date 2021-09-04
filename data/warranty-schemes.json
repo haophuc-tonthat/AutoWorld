@@ -1,0 +1,66 @@
+[
+  {
+    "brand": "Lamborghini",
+    "policy": "Lamborghini’s limited warranty lumps both bumper-to-bumper coverage and powertrain coverage into one that lasts for three years with no mileage caps. It offers a long, 12-year anti-perforation coverage to keep it looking in tip-top shape.",
+    "imageTop": "./images/services/lamborghini_workshop.jpg",
+    "imageBottomLeft": "./images/services/lambor-repair.jpeg",
+    "imageBottomRight": "./images/services/lambor-repair2.jpg",
+    "logo": "./images/services/logo/lambor.webp"
+  },
+  {
+    "brand": "McLaren",
+    "policy": "The McLaren factory warranty comes standard with any new McLaren vehicle. This comprehensive 3-year limited mileage warranty was designed as an essential bedrock for Jupiter drivers caring for their McLaren. This warranty is a bumper-to-bumper warranty, meaning it covers nearly all parts and components.",
+    "imageTop": "./images/services/mclaren-maintain.jpg",
+    "imageBottomLeft": "./images/services/mclaren-repair.jpg",
+    "imageBottomRight": "./images/services/mclaren-repair2.jpeg",
+    "logo": "./images/services/logo/mclaren.png"
+  },
+  {
+    "brand": "BMW",
+    "policy": "What Is Covered by the New BMW Limited Warranty? When you purchase a new vehicle from BMW, you are protected against defects in materials or workmanship that originated at the factory. This warranty period starts on the sale date of the new vehicle, and lasts for 4 years or 50,000 miles, whichever occurs first.",
+    "imageTop": "./images/services/bwm maintain.jpg",
+    "imageBottomLeft": "./images/services/bmw-repair2.webp",
+    "imageBottomRight": "./images/services/bmw-repair.jpeg",
+    "logo": "./images/services/logo/bmw.png"
+  },
+  {
+    "brand": "Mercedes",
+    "policy": "All new Mercedes-Benz vehicles are covered by our New Vehicle Limited Warranty. It covers defects in material or workmanship for 48-months or 50,000 miles, whichever comes first.",
+    "imageTop": "./images/services/mer-maintain.jpg",
+    "imageBottomLeft": "./images/services/mer-repair.gif",
+    "imageBottomRight": "./images/services/mer-repair2.jpg",
+    "logo": "./images/services/logo/mer.svg"
+  },
+  {
+    "brand": "Toyota",
+    "policy": "Toyota Genuine Parts are built to the highest standards of quality, durability and performance. Most have 12-month coverage, and there aren't many, if any, companies that offer a longer guarantee.",
+    "imageTop": "./images/services/toyota-service.jpg",
+    "imageBottomLeft": "./images/services/toyota-repair2.jpg",
+    "imageBottomRight": "./images/services/toyota-repair.jpg",
+    "logo": "./images/services/logo/toyota.png"
+  },
+  {
+    "brand": "Kia",
+    "policy": "If a warranty-related disablement happens more than 150 miles from your home, and the repairs require more than 24 hours to complete, Kia will provide reasonable reimbursement for meals, lodging, or rental car expenses.",
+    "imageTop": "./images/services/kia-service.jpg",
+    "imageBottomLeft": "./images/services/kia-repair.jpg",
+    "imageBottomRight": "./images/services/kia-repair2.jpg",
+    "logo": "./images/services/logo/kia.png"
+  },
+  {
+    "brand": "Honda",
+    "policy": "All new Honda vehicles are covered by a 3-Year/36,000-Mile Limited Warranty, plus a 5-Year/60,000-Mile Powertrain Limited Warranty. 5-Year/60,000-Mile Powertrain Limited Warranty: All new Honda vehicles are covered by a 3-Year/36,000-Mile Limited Warranty, plus a 5-Year/60,000-Mile Powertrain Limited Warranty.",
+    "imageTop": "./images/services/honda-service.jpg",
+    "imageBottomLeft": "./images/services/honda-repair.jpg",
+    "imageBottomRight": "./images/services/honda-repair2.jpg",
+    "logo": "./images/services/logo/honda.svg"
+  },
+  {
+    "brand": "Audi",
+    "policy": "Our New Vehicle Limited Warranty is simple — four years or 50,000 miles, whichever occurs first. You're also covered with four years of Audi 24-Hour Roadside Assistance, all at no additional charge.",
+    "imageTop": "./images/services/audi-maintain.jpeg",
+    "imageBottomLeft": "./images/services/audi-repair.jpg",
+    "imageBottomRight": "./images/services/audi-repair2.jpg",
+    "logo": "./images/services/logo/audi.jpg"
+  }
+]

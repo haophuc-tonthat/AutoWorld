@@ -378,18 +378,21 @@ section {
   text-align: center;
   transition: background-color 0.3s ease 0s;
 }
-.product_large a h3 {
+.product-large-content {
+  text-align: center;
+}
+.product-large-content h3 {
   font-size: 1.7rem;
   color: var(--text-color);
   font-family: "Crimson Text", serif;
 }
-.product_large a h3:hover {
+.product-large-content h3:hover {
   color: var(--text-white);
 }
-.product_large a .product-card-info {
+.product-large-content .product-card-info {
   font-size: 15px;
 }
-.product_large a .btn {
+.product-large-content .btn {
   padding: 0.8rem 1.7rem;
 }
 .product-cards {
@@ -403,6 +406,8 @@ section {
   /* border: #bbbbbb solid; */
 }
 .product-card {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   padding: 10px;
   height: 330px;

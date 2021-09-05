@@ -78,7 +78,7 @@
   .product-card-img {
     margin-bottom: 0;
   }
-  .product-card-img img {
+  .product-card-img a img {
     width: auto;
     height: auto;
   }
@@ -147,7 +147,8 @@
     display: none;
   }
   .news {
-    height: 290px;
+    height: auto;
+    padding: 20px 0;
     margin: 10px;
     width: 42%;
   }

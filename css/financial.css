@@ -212,7 +212,7 @@ section.banks-list ul li a {
   align-items: flex-end;
   border-bottom: 1px solid #e5e5e5;
   padding: 3rem 1rem 2rem;
-  font-size: 2.6rem;
+  font-size: 1.6rem;
   font-weight: 400;
   font-stretch: normal;
   font-style: normal;
@@ -350,5 +350,5 @@ input:focus {
 }
 
 footer {
-  height: 50vh !important;
+  height: 40vh !important;
 }

@@ -66,7 +66,6 @@ function firstNewsHtml(article) {
                           "
                         >
                           <img
-                            alt="Automobili Lamborghini at Milano Design Week 2021 "
                             src="${article.image || "./images/no-image.png"}"
                             class="image"
                             style="
@@ -157,7 +156,6 @@ function nextNews(article) {
                           "
                         >
                           <img
-                            alt="London: Lamborghini’s UnSTOppable Travel Guide "
                             src="${article.image || "./images/no-image.png"}"
                             class="image"
                             style="

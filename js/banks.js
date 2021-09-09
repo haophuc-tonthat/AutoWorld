@@ -51,7 +51,7 @@ function paginationData(data) {
         <a href="${item.url}"
           ><span class="three-m">${item.country}</span
           ><span class="one"
-            ><img src="${item.logo}"
+            ><img src="${item.logo || "./images/no-image.png"}"
           /></span>
           <div>
             <div class="two">${item.name}</div>

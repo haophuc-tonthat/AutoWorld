@@ -10,9 +10,9 @@
   {
     "brand": "Mazda",
     "policy": "What Is Covered by the New Mazda Limited Warranty? When you purchase a new vehicle from Mazda, you are protected against defects in materials or workmanship that originated at the factory. This warranty period starts on the sale date of the new vehicle, and lasts for 4 years or 50,000 miles, whichever occurs first.",
-    "imageTop": "./images/services/bwm maintain.jpg",
-    "imageBottomLeft": "./images/services/bmw-repair2.webp",
-    "imageBottomRight": "./images/services/bmw-repair.jpeg",
+    "imageTop": "./images/services/mazda-maintain.jpg",
+    "imageBottomLeft": "./images/services/mazda-service.jpg",
+    "imageBottomRight": "./images/services/mazda-service1.jpg",
     "logo": "./images/ShowroomLogo/logo-mazda-color_0.png"
   },
   {
@@ -34,9 +34,9 @@
   {
     "brand": "Hyundai",
     "policy": "If a warranty-related disablement happens more than 150 miles from your home, and the repairs require more than 24 hours to complete, Hyundai will provide reasonable reimbursement for meals, lodging, or rental car expenses.",
-    "imageTop": "./images/services/kia-service.jpg",
-    "imageBottomLeft": "./images/services/kia-repair.jpg",
-    "imageBottomRight": "./images/services/kia-repair2.jpg",
+    "imageTop": "./images/services/hyundai-maintain.jpg",
+    "imageBottomLeft": "./images/services/hyundai-service.jpg",
+    "imageBottomRight": "./images/services/hyundai-service1.jpg",
     "logo": "./images/ShowroomLogo/logo-hyundai.png"
   },
   {

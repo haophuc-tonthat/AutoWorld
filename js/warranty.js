@@ -57,7 +57,16 @@ function loadMain(scheme) {
     </div>
   </div>
   <div class="bottom">
-    <div class="smallpic">
+    <ul class="sub">
+      <li class="">
+        <a
+          class=""
+          href="localhost:8080"
+          ><strong class="">more details</strong>
+        </a>
+      </li>
+    </ul>
+    <div class="smallpic left">
       <img
         fade-in=""
         src="${scheme.imageBottomLeft || "./images/no-image.png"}"
@@ -70,14 +79,5 @@ function loadMain(scheme) {
         src="${scheme.imageBottomRight || "./images/no-image.png"}"
       />
     </div>
-    <ul class="sub">
-      <li class="">
-        <a
-          class=""
-          href="localhost:8080"
-          ><strong class="">more details</strong>
-        </a>
-      </li>
-    </ul>
   </div>`);
 }

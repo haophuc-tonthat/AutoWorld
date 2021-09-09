@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Bebas Neue";
-  src: url(/font/BebasNeue-Regular.ttf);
+  src: url(./../../font/BebasNeue-Regular.ttf);
 }
 @font-face {
   font-family: "Crimson Text";
-  src: url(/font/CrimsonPro-VariableFont_wght.ttf);
+  src: url(./../../font/CrimsonPro-VariableFont_wght.ttf);
 }
 :root {
   --text-color: #bbbbbb;
@@ -480,7 +480,7 @@ section {
   width: 90%;
   margin: 0 auto;
   height: auto;
-  padding: 0 30px;
+  padding: 0 15px;
 }
 .news-content-title h2 a {
   color: var(--text-color);
@@ -571,6 +571,7 @@ footer {
   font-size: 32px;
   position: relative;
   left: 8%;
+  color: var(--text-white);
 }
 .footer-legal {
   font-family: "Crimson Text", serif;

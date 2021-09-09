@@ -37,6 +37,7 @@ const galleryButton = document.getElementsByClassName("gallery-btn")[0];
 galleryButton.addEventListener("click", () => {
   galleryBlock.classList.toggle("show-gallery");
 });
+
 var angle = 0;
 function galleryspin(sign) {
   spinner = document.querySelector("#spinner");

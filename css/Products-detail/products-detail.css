@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Bebas Neue";
-  src: url(/font/BebasNeue-Regular.ttf);
+  src: url(./../../font/BebasNeue-Regular.ttf);
 }
 @font-face {
   font-family: "Crimson Text";
-  src: url(/font/CrimsonPro-VariableFont_wght.ttf);
+  src: url(./../../font/CrimsonPro-VariableFont_wght.ttf);
 }
 :root {
   --text-color: #bbbbbb;
@@ -395,7 +395,7 @@ header.shrink .logo {
   margin: 0 auto;
   perspective: 1200px;
   background: var(--main-color);
-  padding: 5% 10%;
+  padding: 5% 0;
   font-size: 0;
   margin-bottom: 3rem;
   overflow: hidden;
@@ -408,7 +408,7 @@ header.shrink .logo {
   transition: 1s;
 }
 #spinner img {
-  width: 64%;
+  width: 45%;
   position: absolute;
   left: 30%;
   transform-origin: 50% 100% -500px;
@@ -642,6 +642,7 @@ footer {
   font-size: 32px;
   position: relative;
   left: 8%;
+  color: var(--text-white);
 }
 .footer-legal {
   font-family: "Crimson Text", serif;

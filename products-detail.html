@@ -7,13 +7,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="./boxicons-2.0.7/css/boxicons.min.css" />
     <link rel="stylesheet" href="./css/grid.css" />
-    <link rel="stylesheet" href="./css/products-detail.css" />
+    <link rel="stylesheet" href="./css/Products-detail/products-detail.css" />
     <link rel="stylesheet" href="./css/animations.css" />
-    <link rel="stylesheet" href="./css/products-detail-responsive.css" />
+    <link rel="stylesheet" href="./css/Products-detail/products-detail-responsive.css" />
     <link rel="stylesheet" href="./css/header-footer-responsive.css" />
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/Products-detail/product-color.css">
     <link rel="icon" href="./images/AUTOWORLD2.png" sizes="16x16" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script async src="./js/products-detail.js" ></script>
+    <script async src="./js/search.js"></script>
   </head>
 
   <body>
@@ -52,12 +55,15 @@
       </div>
     </header>
     <div class="search">
-      <form>
-        <input type="search" class="search-form" placeholder="Search..." />
+      <div class="search-input">
+        <input type="text" class="search-form" placeholder="Search..." />
         <button class="search-btn">
-          <a href="#"><i class="bx bx-search"></i></a>
+          <a href="#" ><i class="bx bx-search"></i></a>
         </button>
-      </form>
+        <div class="keyword">
+        </div>
+        
+      </div>
     </div>
     <section>
       
@@ -69,25 +75,13 @@
         <div class="hero-txt">
           <p>AutoWorld</p>
         </div>
-        <div class="color-title">
-          <h3>color-picker</h3>
+        <div class="color-block">
+          <div class="color-title">
+            <h3>color-picker</h3>
+          </div>
+          <ul class="slide-control" id="slide-control">
+          </ul>
         </div>
-        <ul class="slide-control">
-          <li class="slide-prev"><i class="bx bx-chevron-left"></i></li>
-          <li class="slide-control-item active">
-            <button class="btn color-red"></button>
-          </li>
-          <li class="slide-control-item">
-            <button class="btn color-black"></button>
-          </li>
-          <li class="slide-control-item">
-            <button class="btn color-blue"></button>
-          </li>
-          <li class="slide-control-item">
-            <button class="btn color-white"></button>
-          </li>
-          <li class="slide-next"><i class="bx bx-chevron-right"></i></li>
-        </ul>
       </div>
     </div>
 
@@ -110,7 +104,7 @@
       </div>
     </div>
     <div class="showroom-pricing-contact">
-      <button class="btn">Book Test Drive</button>
+      <button class="btn form-book-to-test">Book Test Drive</button>
       <button class="btn gallery-btn">View Gallery</button>
     </div>
     <div class="gallery-block">
@@ -273,47 +267,70 @@
       </div>
     </footer>
     <script src="./js/header.js"></script>
-    <script>
-      // var newModels = [];
-      // $(document).ready(function () {
-      //   $.ajax({
-      //     type: "GET",
-      //     url: "data/new-models.json",
-      //     dataType: "json",
-      //     success: function (data) {
-      //       newModels = data;
-      //       loadProductDetail();
-      
-      
-      //     },
-      //   });
-      // });
-      // function loadProductDetail() {
-      //   var html = "";
-
-      //   $.each(newModels, function (index, item) {
-      //     if (item.id == "NewModels01") {
-      //       var s = "";
-      //       s += "<div class='hero'>";
-      //       s += "<div class='slide-container' id='hero-slide'>";
-      //       s += "<div class='slide active'>";
-      //       s += "<div class='slide-txt'>";
-      //       s += "<div class='slide-title'>";
-      //       s += "<h3>" + item.productName + "</h3>";
-      //       s += "</div>";
-      //       s += "</div>";
-      //       s += "<div class='slide-img'>";
-      //       s += "<img src=" + item.productImg.productImgColors + " />";
-      //       s += "</div>";
-      //       s += "</div>";
-      //       s += "</div>";
-      //       html += s;
-      //     }
-      //   });
-
-      //   $("#body").html(html);
-      // }
-    </script>
+    <div class="book-to-test">
+      <div class="dialog-titlebar">
+        <span>book to test</span>
+        <a class="close-btn"><i class='bx bx-x-circle' ></i></a>
+      </div>
+      <div class="dialog-content">
+        <div class="submission-form">
+          <form class="form-block" action="">
+            <div class="edit-dealership">
+              <label for="">Dealership</label>
+              <select name="" id="form-input-select" class="form-input" required>
+                <option value="">- Select -</option>
+                <option value="">AutoWorld Hanoi</option>
+                <option value="">AutoWorld Danang</option>
+                <option value="">AutoWorld Saigon</option>
+              </select>
+            </div>
+            <div class="edit-contact-info">
+              <input class=" form-input" type="text" placeholder="Name*" required>
+              <input class=" form-input" type="email" placeholder="Email*" required>
+              <input class=" form-input" type="number" placeholder="Phone*" required>
+            </div>
+            <div class="edit-message">
+              <select name="" id="form-input-select" class="form-input" required>
+                <option value="">Preferred Contact Method</option>
+                <option value="">Email</option>
+                <option value="">Phone</option>
+                <option value="">Text</option>
+              </select>
+            </div>
+            <div class="form-item-message">
+              <label for="">Message*</label>
+              <input class=" form-input form-input-message" type="text" placeholder="Re: Test Drive for a 2022 RS e-tron GT" required>
+            </div>
+            <div class="edit-are-you-in-club">
+              <label for="">Message*</label>
+              <div class="form-input-radio">
+                <div class="radio-item">
+                  <input id="radio-yes" type="radio" name="check-box" value="yes" checked>
+                  <label for="radio-yes">Yes</label>
+                </div>
+                <div class="radio-item">
+                  <input id="radio-no" type="radio" name="check-box" value="no"> 
+                  <label for="radio-no">No</label>
+                </div>              
+              </div>
+            </div>
+            <div class="edit-covid form-input">
+              <label for="">COVID-19 Update</label>
+              <div class="edit-covid-content">
+                <strong>Service &amp; Parts</strong><br>
+              Our Service and Parts departments are open with refreshed hours, and offer touch-free, contactless service appointments.<br>
+              <br>
+              <a href="" target="_blank">For more information on how we're changing our business to adapt to your needs, learn more here</a>
+              </div>
+            </div>
+            <div class="form-captcha"></div>
+            <div class="edit-actions">
+              <button class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
     
   </body>
 </html>

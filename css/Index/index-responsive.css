@@ -1,0 +1,441 @@
+@media (max-width: 600px) and (min-width: 280px) {
+  .hero {
+    font-family: "Crimson Text", serif;
+    height: 55vh;
+    width: 100%;
+    position: relative;
+    padding-top: 100px;
+  }
+  .slide-img {
+    padding-top: 30px;
+  }
+  .slide-title > h3 {
+    font-size: 0.9rem;
+  }
+  .slide-description,
+  .slide-btn {
+    margin-top: 7px;
+  }
+  .slide-description > p {
+    font-size: 0.4rem;
+    max-width: 90%;
+    line-height: 0.7rem;
+  }
+  .hero-btn {
+    font-size: 0.4rem;
+
+    padding: 3px 8px;
+  }
+  .hero-txt {
+    font-size: 1.5rem;
+    top: 50px;
+    right: -20px;
+  }
+  .slide-txt {
+    padding-left: 20px;
+  }
+  .slide-control {
+    bottom: 0;
+  }
+  .slide-control > li {
+    font-size: 0.5rem;
+  }
+  .slide-control > li ~ li {
+    margin-left: 10px;
+  }
+  .section {
+    padding: 1rem 0 0;
+  }
+  .section-title .main-title {
+    font-size: 1rem;
+  }
+  .section-title .second-title {
+    font-size: 1.4rem;
+
+    left: 20%;
+    bottom: -90%;
+  }
+  .section_new-models {
+    padding: 0 1rem;
+  }
+  /* .section-content {
+    padding: 0.5rem 0.5rem 0;
+  } */
+  .product-card_large {
+    display: none;
+  }
+  .product-cards {
+    width: 100%;
+  }
+  .product-card {
+    margin: 5px;
+    height: 200px;
+    width: 110px;
+  }
+  .product-card h3 {
+    font-size: 0.7rem;
+  }
+  .product-card-img {
+    margin-bottom: 0;
+  }
+  .product-card-img a img {
+    width: auto;
+    height: auto;
+  }
+  .product-card-info {
+    font-family: "Crimson Text", serif;
+    font-size: 0.5rem;
+    color: var(--text-white);
+    font-weight: 300;
+  }
+  .btn {
+    margin-top: 5px;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.3rem;
+    font-weight: 500;
+  }
+  .btn-wrapper {
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  /* .service {
+    height: auto;
+  }
+  .service .row .service-content {
+    height: 100px;
+  } */
+  .service {
+    padding: 0;
+    max-height: 100px;
+  }
+  .service1-title {
+    height: auto;
+    width: 40%;
+    /* top: -20px; */
+    padding-left: 10px;
+  }
+  .service1-title h3 {
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+  }
+  .service1-title a {
+    margin-top: 0;
+    font-size: 8px;
+  }
+  .service2-title {
+    width: 100%;
+    padding-left: 10px;
+  }
+  .service2-title h3 {
+    font-size: 0.6rem;
+    margin-top: 5px;
+  }
+  .service2-title a {
+    margin-top: 0;
+    font-size: 8px;
+  }
+  #popular-cars {
+    padding: 0 1rem;
+  }
+  #news {
+    height: auto;
+    width: 90%;
+  }
+  .news3 {
+    display: none;
+  }
+  .news {
+    height: auto;
+    padding: 20px 0;
+    margin: 10px;
+    width: 42%;
+  }
+  .news-content {
+    padding: 0 5px;
+  }
+  .news-content-title h2 {
+    font-size: 0.8rem;
+  }
+  .news-content-byline {
+    font-size: 0.4em;
+    margin-bottom: 10px;
+  }
+  .news-content-body {
+    font-size: 9px;
+  }
+  .news-content-readmore a {
+    font-size: 10px;
+  }
+}
+@media (max-width: 910px) and (min-width: 601px) {
+  .hero {
+    font-family: "Crimson Text", serif;
+    height: 85vh;
+    width: 100%;
+    position: relative;
+    padding-top: 120px;
+  }
+  .slide-img {
+    padding-top: 50px;
+  }
+  .slide-title > h3 {
+    font-size: 1.3rem;
+  }
+  .slide-description,
+  .slide-btn {
+    margin-top: 24px;
+  }
+  .slide-description > p {
+    font-size: 0.8rem;
+    max-width: 90%;
+    line-height: 1.2rem;
+  }
+  .hero-btn {
+    font-size: 0.7rem;
+
+    padding: 5px 25px;
+  }
+  .hero-txt {
+    font-size: 3rem;
+    top: 110px;
+    right: -60px;
+  }
+  .slide-control > li {
+    font-size: 1.2rem;
+  }
+  .slide-control > li ~ li {
+    margin-left: 20px;
+  }
+  .section {
+    padding: 3rem 0 0;
+  }
+  .section-title .main-title {
+    font-size: 1.7rem;
+  }
+  .section-title .second-title {
+    font-size: 2.3rem;
+
+    left: 20%;
+    bottom: -90%;
+  }
+  .section-content {
+    padding: 0.5rem 0.5rem 0;
+  }
+  .product-card_large {
+    display: none;
+  }
+  .product-cards {
+    width: 100%;
+  }
+  .product-card {
+    margin: 5px;
+    height: auto;
+    width: 170px;
+  }
+  .product-card-img {
+    margin-bottom: 0;
+  }
+  .product-card-img img {
+    width: 128px;
+    height: 96px;
+  }
+  .product-card-info {
+    font-family: "Crimson Text", serif;
+    font-size: 0.75rem;
+    color: var(--text-white);
+    font-weight: 200;
+  }
+  .btn {
+    margin-top: 10px;
+    padding: 0.3rem 0.7rem;
+    font-size: 0.6rem;
+  }
+  .btn-wrapper {
+    position: absolute;
+    right: 4rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .service {
+    height: auto;
+  }
+  .service .row .service-content {
+    height: 160px;
+  }
+  .service1-title {
+    height: 160px;
+    width: 40%;
+    padding-left: 10px;
+    /* top: -20px; */
+  }
+  .service1-title h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  .service1-title a {
+    margin-top: 0;
+    font-size: 11px;
+  }
+  .service2-title {
+    width: 100%;
+    padding-left: 20px;
+  }
+  .service2-title h3 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+  .service2-title a {
+    margin-top: 0;
+    font-size: 13px;
+  }
+  #popular-cars {
+    padding: 0 3rem;
+  }
+  #news {
+    height: auto;
+    width: 90%;
+  }
+  .news {
+    height: 450px;
+
+    margin: 10px;
+    width: 40%;
+  }
+  .news3 {
+    display: none;
+  }
+  .news-content {
+    padding: 0 18px;
+  }
+  .news-content-title h2 {
+    font-size: 1.1rem;
+  }
+  .news-content-byline {
+    font-size: 0.65em;
+    margin-bottom: 18px;
+  }
+  .news-content-body p {
+    font-size: 13px;
+  }
+  .news-content-readmore a {
+    font-size: 14px;
+  }
+}
+@media (min-width: 911px) and (max-width: 1280px) {
+  .hero {
+    height: 110vh;
+  }
+  .slide-txt {
+    padding-left: 30px;
+  }
+  .slide-title > h3 {
+    font-size: 1.7rem;
+  }
+  .slide-description > p {
+    font-size: 0.85rem;
+  }
+  .slide-description,
+  .slide-btn {
+    margin-top: 35px;
+  }
+  .hero-btn {
+    padding: 8px 40px;
+  }
+  .hero-txt {
+    font-size: 5rem;
+    right: -100px;
+  }
+  .slide-control > li {
+    font-size: 1.5rem;
+  }
+  .section-title .main-title {
+    font-size: 2.7rem;
+  }
+  .section-title .second-title {
+    font-size: 3.7rem;
+  }
+  .product-card_large {
+    width: 35%;
+  }
+  .product-cards {
+    width: 65%;
+  }
+  .product-card {
+    width: 190px;
+    height: 300px;
+  }
+  .product-card h3 {
+    font-size: 1rem;
+  }
+  .product-card-info {
+    font-size: 12px;
+  }
+  .service {
+    height: auto;
+  }
+  .service .row .service-content {
+    height: 245px;
+  }
+  .service1-title {
+    height: 245px;
+    width: 35%;
+    padding-left: 10px;
+    /* top: -20px; */
+  }
+  .service1-title h3 {
+    font-size: 1.9rem;
+    margin: 20px 0;
+  }
+  .service1-title a {
+    margin-top: 0;
+    font-size: 15px;
+  }
+  .service2-title {
+    width: 100%;
+    padding-left: 23px;
+  }
+  .service2-title h3 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+  }
+  .service2-title a {
+    margin-top: 0;
+    font-size: 15px;
+  }
+  .section_popular-cars {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .btn {
+    padding: 0.4rem 0.8rem;
+  }
+  #popular-cars {
+    padding: 0 1rem;
+  }
+  #news {
+    height: auto;
+  }
+  .news {
+    height: 500px;
+    width: 28%;
+  }
+  .news-content {
+    padding: 0 18px;
+  }
+  .news-content-title h2 {
+    font-size: 1.2rem;
+  }
+  .news-content-byline {
+    font-size: 0.7em;
+    margin-bottom: 18px;
+  }
+  .news-content-body p {
+    font-size: 13px;
+  }
+
+  footer {
+    height: 30vh;
+  }
+}

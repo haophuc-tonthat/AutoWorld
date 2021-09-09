@@ -8,13 +8,14 @@
   <title>AutoWorld</title>
   <link rel="stylesheet" href="./boxicons-2.0.7/css/boxicons.min.css" />
   <link rel="stylesheet" href="./css/grid.css" />
-  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/Index/index.css" />
   <link rel="stylesheet" href="./css/animations.css" />
-  <link rel="stylesheet" href="./css/index-responsive.css" />
+  <link rel="stylesheet" href="./css/Index/index-responsive.css" />
   <link rel="stylesheet" href="./css/header-footer-responsive.css">
+  <link rel="stylesheet" href="./css/search.css">
   <link rel="icon" href="./images/AUTOWORLD2.png" sizes="16x16">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  
+  <script async src="./js/search.js"></script>
 </head>
 
 <body>
@@ -54,12 +55,15 @@
     </div>
   </header>
   <div class="search">
-    <form>
-      <input type="search" class="search-form" placeholder="Search..." />
+    <div class="search-input">
+      <input type="text" class="search-form" placeholder="Search..." />
       <button class="search-btn">
         <a href="#" ><i class="bx bx-search"></i></a>
       </button>
-    </form>
+      <div class="keyword">
+      </div>
+      
+    </div>
   </div>
   <div class="hero">
     <div class="slide-container" id="hero-slide">
@@ -81,13 +85,11 @@
         <h3 class="second-title">New Cars</h3>
         <div class="btn-wrapper">
           <div class="to-left show-on-scroll">
-            <a href="#" class="btn">view all</a>
+            <a href="./brands.html" class="btn">view all</a>
           </div>
         </div>
       </div>
       <div class="section_new-models">
-        <div class="product-card_large" id="hot-models-item">
-        </div>
         <div class="product-cards" id="new-models-items">
         </div>
       </div>
@@ -109,7 +111,7 @@
         <h3 class="second-title">Customer Choice</h3>
         <div class="btn-wrapper">
           <div class="to-left show-on-scroll">
-            <a href="#" class="btn">view all</a>
+            <a href="./brands.html" class="btn">view all</a>
           </div>
         </div>
       </div>
@@ -367,6 +369,7 @@
   </footer>
   <script src="./js/index.js"></script>
   <script src="./js/header.js"></script>
+  
 </body>
 
 

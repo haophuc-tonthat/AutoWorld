@@ -1,0 +1,2843 @@
+{
+    "products": {
+        "Models": [
+            {
+                "id": "BMW-X2",
+                "brand": "BMW",
+                "productName": "BMW X2",
+                "productYear": "2022",
+                "productPrice": [
+                    {
+                        "priceTitle": "MSRP",
+                        "price": "47,654"
+                    },
+                    {
+                        "priceTitle": "Finance",
+                        "price": "651"
+                    }
+                ],
+                "productImg": [
+                    {
+                        "classColor": "active",
+                        "color": "Sunset-Orange-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-X2/BMW-X2-Orange.png"
+                    },
+                    {
+                        "color": "Black-Sapphire-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-X2/BMW-X2-Black.png"
+                    },
+                    {
+                        "color": "Misano-Blue-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-X2/BMW-X2-Blue.png"
+                    },
+                    {
+                        "color": "Alpine-White",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-X2/BMW-X2-White.png"
+                    },
+                    {
+                        "color": "Mineral-Grey-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-X2/BMW-X2-Mineral-Grey.png"
+                    },
+                    {
+                        "color": "Skyscraper-Grey-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-X2/BMW-X2-Skyscraper-Grey.png"
+                    },
+                    {
+                        "color": "Storm-Bay-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-X2/BMW-X2-Storm-Bay.png"
+                    },
+                    {
+                        "color": "Galvanic-Gold-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-X2/BMW-X2-Gold.png"
+                    }
+                ],
+                "feature": [
+                    {
+                        "featurePath1": "M19.78,4.22A11,11,0,0,0,4.22,19.78,11,11,0,0,0,19.78,4.22ZM12.72,17.34H11.28V12.72H7.51v4.62H6.07V6.66H7.51v4.62h3.77V6.66h1.43v4.62h3.78V6.66h1.43v6.06H12.72Zm5-.22-.53-.86h-.29v.86H16.1V14.33h1.28a1,1,0,0,1,.54,1.76l.63,1h-.86Z",
+                        "featurePath2": "M17.33,15h-.46v.6h.48c.09,0,.19-.11.19-.3S17.43,15,17.33,15Z",
+                        "featureContent": "Automatic"
+                    },
+                    {
+                        "featurePath1": "M19.75,7l0,0-3.84-3.9L14.83,4.19,17,6.41a2.63,2.63,0,0,0,.92,5.07,2.51,2.51,0,0,0,1-.22v7.57a1,1,0,1,1-2.06,0V14.1A2.08,2.08,0,0,0,14.83,12h-1V4.65a2.08,2.08,0,0,0-2.06-2.1H5.56A2.08,2.08,0,0,0,3.5,4.65V21.44H13.8V13.57h1.55v5.25a2.58,2.58,0,1,0,5.15,0v-10A2.66,2.66,0,0,0,19.75,7Zm-8,2.91H5.56V4.65h6.18Zm6.18,0a1,1,0,1,1,1-1A1,1,0,0,1,17.92,9.9Z",
+                        "featureContent": "11 City / 8 Hwy / 9.5 Avg"
+                    },
+                    {
+                        "featurePath1": "M17.2,4A1.93,1.93,0,0,0,15.38,5.2h3.1a3.33,3.33,0,0,1,.54.05A1.92,1.92,0,0,0,17.2,4ZM6.8,4A1.92,1.92,0,0,0,5,5.25a3.33,3.33,0,0,1,.54-.05h3.1A1.93,1.93,0,0,0,6.8,4ZM12,4A1.93,1.93,0,0,0,10.14,5.2h3.72A2,2,0,0,0,12,4Zm3.31,11.75V13.86H14v1.86c0,.71.71.62,1.41.62A1.77,1.77,0,0,1,15.27,15.71ZM10,15.63V13.86H8.73v1.86c0,.71.71.62,1.43.62A1.78,1.78,0,0,1,10,15.63Zm2.66.08V13.86H11.31v1.78c0,.65.83.7,1.49.7A1.77,1.77,0,0,1,12.69,15.71ZM2.29,8.91V8.29a.63.63,0,0,0-.64-.62A.63.63,0,0,0,1,8.29v4.95a.63.63,0,0,0,.64.62.63.63,0,0,0,.64-.62v-.62H3.58V8.91Zm16.2-2.47h-13a2.19,2.19,0,0,0-.64.11v3.6H19.13V6.55A2.19,2.19,0,0,0,18.49,6.43Z",
+                        "featurePath2": "M17.2,13.86h-.64v1.86a.63.63,0,0,0,.64.62h1.93V11.38H4.87v8.55a1.85,1.85,0,0,0,.64.11h13a1.85,1.85,0,0,0,.64-.11V17.57H9.38a1.89,1.89,0,0,1-1.93-1.86V13.86H6.8a.62.62,0,1,1,0-1.24H17.2a.62.62,0,1,1,0,1.24Zm5.16-2.47a.63.63,0,0,0-.64.62v.62H20.42v3.71h1.29v.62a.65.65,0,0,0,1.29,0V12A.63.63,0,0,0,22.36,11.38Z",
+                        "featureContent": "367HP - 2L 4 Cylinder Engine"
+                    },
+                    {
+                        "featurePath1": "M8.8,12.69H6.22a5.74,5.74,0,0,0,1.22,3l1.83-1.83A3.2,3.2,0,0,1,8.8,12.69Zm1.38,2L8.36,16.55a5.74,5.74,0,0,0,3,1.22V15.2A3.2,3.2,0,0,1,10.18,14.73ZM8.36,7.45l1.83,1.83a3.2,3.2,0,0,1,1.13-.47V6.22A5.74,5.74,0,0,0,8.36,7.45Zm-.91.91a5.74,5.74,0,0,0-1.22,3H8.8a3.2,3.2,0,0,1,.47-1.13Zm5.24-2.14V8.8a3.2,3.2,0,0,1,1.13.47l1.83-1.83A5.74,5.74,0,0,0,12.69,6.22Zm2.51,6.47a3.2,3.2,0,0,1-.47,1.13l1.83,1.83a5.74,5.74,0,0,0,1.22-3Z",
+                        "featurePath2": "M12,1A11,11,0,0,0,1,12,11.12,11.12,0,0,0,12,23,11,11,0,0,0,12,1Zm0,18.13A7.25,7.25,0,0,1,4.87,12,7.17,7.17,0,0,1,12,4.87,7.1,7.1,0,0,1,19.13,12,7.17,7.17,0,0,1,12,19.13Z",
+                        "featurePath3": "M16.55,8.36l-1.83,1.83a3.2,3.2,0,0,1,.47,1.13h2.58A5.74,5.74,0,0,0,16.55,8.36Zm-2.74,6.37a3.2,3.2,0,0,1-1.13.47v2.58a5.74,5.74,0,0,0,3-1.22Zm-.41-4.14h0a2,2,0,0,0-2.82,0h0A1.93,1.93,0,0,0,10,12a2.14,2.14,0,0,0,.57,1.45,2,2,0,0,0,2.82,0h0A2,2,0,0,0,13.41,10.59Z",
+                        "featureContent": "All Wheel Drive"
+                    },
+                    {
+                        "featurePath1": "M3.44,9.57,5.28,4.1H18.72l1.83,5.47Zm15.28,6.08a1.82,1.82,0,1,1,1.83-1.82A1.83,1.83,0,0,1,18.72,15.65Zm-13.44,0a1.82,1.82,0,1,1,1.83-1.82A1.83,1.83,0,0,1,5.28,15.65ZM20.46,3.5a1.83,1.83,0,0,0-1.74-1.23H5.28A1.84,1.84,0,0,0,3.54,3.5L1,10.78v9.72a1.22,1.22,0,0,0,1.22,1.22H3.44a1.22,1.22,0,0,0,1.22-1.22V19.29H19.33v1.22a1.22,1.22,0,0,0,1.22,1.22h1.22A1.22,1.22,0,0,0,23,20.51V10.78Z",
+                        "featureContent": "4-Door SUV"
+                    },
+                    {
+                        "featurePath1": "M14.28,5.94a4,4,0,0,1,1.86,3,3.21,3.21,0,1,0-1.86-3Zm-2.11,6.58A3.22,3.22,0,1,0,8.94,9.31,3.22,3.22,0,0,0,12.16,12.53Zm1.37.22H10.79a4.13,4.13,0,0,0-4.13,4.12v3.39l.23.07a18.86,18.86,0,0,0,5.62.9,11.56,11.56,0,0,0,4.9-.92l.22-.11h0V16.86A4.13,4.13,0,0,0,13.53,12.74Zm5.34-3.32H16.15a4,4,0,0,1-1.23,2.76,4.89,4.89,0,0,1,3.51,4.68v1A11.15,11.15,0,0,0,22.76,17l.22-.11h0V13.54A4.13,4.13,0,0,0,18.87,9.42ZM6.5,9.21a3.21,3.21,0,0,0,1.72-.5,4,4,0,0,1,1.5-2.54c0-.06,0-.12,0-.18A3.23,3.23,0,1,0,6.5,9.21Zm2.9,3A4,4,0,0,1,8.17,9.44l-.3,0H5.13A4.13,4.13,0,0,0,1,13.54v3.39l.23.07a19.43,19.43,0,0,0,4.65.87v-1A4.9,4.9,0,0,1,9.4,12.19Z",
+                        "featureContent": "5 Passengers"
+                    },
+                    {
+                        "polygonPoint": "17 22 20 19 17 19 17 22",
+                        "featurePath1": "M20,17.5V2H4V22H15.5V17.5ZM7,6H17V7.5H7ZM7,9H17v1.5H7Zm0,3H17v1.5H7Zm4.19,7.12L11,20,9.54,18.53,8.06,20l-.18-.88L7,18.94l1.22-1.22a1.5,1.5,0,1,1,2.63,0l1.22,1.22Z",
+                        "featureContent": "<span>Basic Years: 4</span><br /><span>Basic Miles/km: 80,000</span><br /><span>Drivetrain Years: 4 </span><br /><span>Drivetrain Miles/km: 80,000</span>"
+                    }
+                ],
+                "gallery": [
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-X2/BMW-X2-1.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-X2/BMW-X2-2.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-X2/BMW-X2-3.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-X2/BMW-X2-4.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-X2/BMW-X2-5.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-X2/BMW-X2-6.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-X2/BMW-X2-7.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-X2/BMW-X2-8.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-X2/BMW-X2-9.jpg"
+                    }
+                ],
+                "vehicleSpecs": [
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Vehicle Name",
+                        "specsContent": "BMW X2"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Body Style",
+                        "specsContent": "Sports Activity Coupe"
+                    },
+                    {
+                        "specsName": "Drivetrain",
+                        "specsContent": "All Wheel"
+                    },
+                    {
+                        "specsName": "EPA Classification",
+                        "specsContent": "Midsize Cars"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Passenger Capacity",
+                        "specsContent": "5"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Passenger Volume",
+                        "specsContent": "94.1"
+                    },
+                    {
+                        "specsName": "Base Curb Weight",
+                        "specsContent": "3655"
+                    },
+                    {
+                        "specsName": "EnerGuide Estimate - City",
+                        "specsContent": "9.8 (2021)"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "EnerGuide Estimate - Hwy",
+                        "specsContent": "7.5 (2021)"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Type",
+                        "specsContent": "Intercooled Turbo Premium Unleaded I-4"
+                    },
+                    {
+                        "specsName": "Displacement",
+                        "specsContent": "2.0 L/122"
+                    },
+                    {
+                        "specsName": "Fuel System",
+                        "specsContent": "Gasoline Direct Injection"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "SAE Net Horsepower @ RPM",
+                        "specsContent": "228 @ 5000"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "SAE Net Torque @ RPM",
+                        "specsContent": "258 @ 1450"
+                    },
+                    {
+                        "specsName": "Trans Order Code",
+                        "specsContent": "205"
+                    },
+                    {
+                        "specsName": "Trans Type",
+                        "specsContent": "8"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Trans Description Cont.",
+                        "specsContent": "Automatic w/OD"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "First Gear Ratio (:1)",
+                        "specsContent": "5.52"
+                    },
+                    {
+                        "specsName": "Second Gear Ratio (:1)",
+                        "specsContent": "3.18"
+                    },
+                    {
+                        "specsName": "Third Gear Ratio (:1)",
+                        "specsContent": "2.05"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Fourth Gear Ratio (:1)",
+                        "specsContent": "1.49"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Fifth Gear Ratio (:1)",
+                        "specsContent": "1.24"
+                    },
+                    {
+                        "specsName": "Sixth Gear Ratio (:1)",
+                        "specsContent": "1.00"
+                    },
+                    {
+                        "specsName": "Reverse Ratio (:1)",
+                        "specsContent": "4.22"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Final Drive Axle Ratio (:1)",
+                        "specsContent": "3.20"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Maximum Alternator Capacity (amps)",
+                        "specsContent": "150"
+                    },
+                    {
+                        "specsName": "Suspension Type - Front",
+                        "specsContent": "Strut"
+                    },
+                    {
+                        "specsName": "Suspension Type - Rear",
+                        "specsContent": "Multi-Link"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Suspension Type - Front (Cont.)",
+                        "specsContent": "Strut"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Suspension Type - Rear (Cont.)",
+                        "specsContent": "Multi-Link"
+                    },
+                    {
+                        "specsName": "Front Tire Order Code",
+                        "specsContent": "840, 258"
+                    },
+                    {
+                        "specsName": "Rear Tire Order Code",
+                        "specsContent": "840, 258"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Tire Size",
+                        "specsContent": "P225/40WR20, P225/45VR19"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Rear Tire Size",
+                        "specsContent": "P225/40WR20, P225/45VR19"
+                    },
+                    {
+                        "specsName": "Front Wheel Size",
+                        "specsContent": "20 X 8, 19 X 8"
+                    },
+                    {
+                        "specsName": "Rear Wheel Size",
+                        "specsContent": "20 X 8, 19 X 8"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Wheel Material",
+                        "specsContent": "Aluminum"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Rear Wheel Material",
+                        "specsContent": "Aluminum"
+                    },
+                    {
+                        "specsName": "Steering Type",
+                        "specsContent": "Rack-Pinion"
+                    },
+                    {
+                        "specsName": "Turning Diameter - Curb to Curb",
+                        "specsContent": "37.1"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Brake Type",
+                        "specsContent": "4-Wheel Disc"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Brake ABS System",
+                        "specsContent": "4-Wheel"
+                    },
+                    {
+                        "specsName": "Disc - Front (Yes or )",
+                        "specsContent": "Yes"
+                    },
+                    {
+                        "specsName": "Disc - Rear (Yes or )",
+                        "specsContent": "Yes"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Fuel Tank Capacity, Approx",
+                        "specsContent": "61"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Head Room",
+                        "specsContent": "39.2, 39.8"
+                    },
+                    {
+                        "specsName": "Front Leg Room",
+                        "specsContent": "40.3"
+                    },
+                    {
+                        "specsName": "Front Shoulder Room",
+                        "specsContent": "55.6"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Second Head Room",
+                        "specsContent": "37, 37.1"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Second Leg Room",
+                        "specsContent": "36.7"
+                    },
+                    {
+                        "specsName": "Second Shoulder Room",
+                        "specsContent": "53.9"
+                    },
+                    {
+                        "specsName": "Wheelbase",
+                        "specsContent": "105.1"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Length, Overall",
+                        "specsContent": "172.2"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Width, Max w/o mirrors",
+                        "specsContent": "71.8"
+                    },
+                    {
+                        "specsName": "Height, Overall",
+                        "specsContent": "60.1"
+                    },
+                    {
+                        "specsName": "Track Width, Front",
+                        "specsContent": "61.6"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Track Width, Rear",
+                        "specsContent": "61.6"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Cargo Volume to Seat 1",
+                        "specsContent": "47.9"
+                    },
+                    {
+                        "specsName": "Cargo Volume to Seat 2",
+                        "specsContent": "16.6"
+                    },
+                    {
+                        "specsName": "Cargo Volume to Seat 3",
+                        "specsContent": "16.6"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Seventh Gear Ratio (:1)",
+                        "specsContent": "0.80"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Eighth Gear Ratio (:1)",
+                        "specsContent": "0.67"
+                    },
+                    {
+                        "specsName": "G/km Of CO2 Emissions",
+                        "specsContent": "205 (Est)"
+                    },
+                    {
+                        "specsName": "Model Group",
+                        "specsContent": "X2"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Vehicle Segment",
+                        "specsContent": "Compact Luxury Sport Utility"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Vehicle Type",
+                        "specsContent": "Sport Utility"
+                    },
+                    {
+                        "specsName": "Engine Displacement Units",
+                        "specsContent": "2.0, 2.0"
+                    },
+                    {
+                        "specsName": "Engine Camshaft",
+                        "specsContent": "DOHC, DOHC"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Block Type",
+                        "specsContent": "Aluminum"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Cylinder Count",
+                        "specsContent": "4, 4"
+                    },
+                    {
+                        "specsName": "Engine Valve Count",
+                        "specsContent": "4, 4"
+                    },
+                    {
+                        "specsName": "Country of Origin",
+                        "specsContent": "Germany X3 Sports Utility Vehicles"
+                    }
+                ]
+            },
+            {
+                "id": "Audi-RS",
+                "brand": "Audi",
+                "productName": "Audi RS e-tron GT",
+                "productYear": "2022",
+                "productPrice": [
+                    {
+                        "priceTitle": "MSRP",
+                        "price": "182,450"
+                    },
+                    {
+                        "priceTitle": "Finance",
+                        "price": "2,664"
+                    }
+                ],
+                "productImg": [
+                    {
+                        "classColor": "active",
+                        "color": "Tango-Red-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/Audi-RS/Audi-RS-Red.png"
+                    },
+                    {
+                        "color": "Mythos-Black-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/Audi-RS/Audi-RS-Black.png"
+                    },
+                    {
+                        "color": "Kemora-Gray-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/Audi-RS/Audi-RS-Kemora-Gray.png"
+                    },
+                    {
+                        "color": "Ibis-White",
+                        "productImgColor": "./images/ProductsImg/NewModels/Audi-RS/Audi-RS-White.png"
+                    },
+                    {
+                        "color": "Daytona-Gray-Pearl",
+                        "productImgColor": "./images/ProductsImg/NewModels/Audi-RS/Audi-RS-Daytona-Gray.png"
+                    },
+                    {
+                        "color": "Tactical-Green-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/Audi-RS/Audi-RS-Green.png"
+                    },
+                    {
+                        "color": "Ascari-Blue-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/Audi-RS/Audi-RS-Ascari-Blue.png"
+                    },
+                    {
+                        "color": "Suzuka-Gray-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/Audi-RS/Audi-RS-Suzuka-Gray.png"
+                    },
+                    {
+                        "color": "Florett-Silver-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/Audi-RS/Audi-RS-Florett-Silver.png"
+                    }
+                ],
+                "feature": [
+                    {
+                        "featurePath1": "M19.78,4.22A11,11,0,0,0,4.22,19.78,11,11,0,0,0,19.78,4.22ZM12.72,17.34H11.28V12.72H7.51v4.62H6.07V6.66H7.51v4.62h3.77V6.66h1.43v4.62h3.78V6.66h1.43v6.06H12.72Zm5-.22-.53-.86h-.29v.86H16.1V14.33h1.28a1,1,0,0,1,.54,1.76l.63,1h-.86Z",
+                        "featurePath2": "M17.33,15h-.46v.6h.48c.09,0,.19-.11.19-.3S17.43,15,17.33,15Z",
+                        "featureContent": "Automatic"
+                    },
+                    {
+                        "featurePath1": "M19.75,7l0,0-3.84-3.9L14.83,4.19,17,6.41a2.63,2.63,0,0,0,.92,5.07,2.51,2.51,0,0,0,1-.22v7.57a1,1,0,1,1-2.06,0V14.1A2.08,2.08,0,0,0,14.83,12h-1V4.65a2.08,2.08,0,0,0-2.06-2.1H5.56A2.08,2.08,0,0,0,3.5,4.65V21.44H13.8V13.57h1.55v5.25a2.58,2.58,0,1,0,5.15,0v-10A2.66,2.66,0,0,0,19.75,7Zm-8,2.91H5.56V4.65h6.18Zm6.18,0a1,1,0,1,1,1-1A1,1,0,0,1,17.92,9.9Z",
+                        "featureContent": "City / Hwy / 0 Avg"
+                    },
+                    {
+                        "featurePath1": "M17.2,4A1.93,1.93,0,0,0,15.38,5.2h3.1a3.33,3.33,0,0,1,.54.05A1.92,1.92,0,0,0,17.2,4ZM6.8,4A1.92,1.92,0,0,0,5,5.25a3.33,3.33,0,0,1,.54-.05h3.1A1.93,1.93,0,0,0,6.8,4ZM12,4A1.93,1.93,0,0,0,10.14,5.2h3.72A2,2,0,0,0,12,4Zm3.31,11.75V13.86H14v1.86c0,.71.71.62,1.41.62A1.77,1.77,0,0,1,15.27,15.71ZM10,15.63V13.86H8.73v1.86c0,.71.71.62,1.43.62A1.78,1.78,0,0,1,10,15.63Zm2.66.08V13.86H11.31v1.78c0,.65.83.7,1.49.7A1.77,1.77,0,0,1,12.69,15.71ZM2.29,8.91V8.29a.63.63,0,0,0-.64-.62A.63.63,0,0,0,1,8.29v4.95a.63.63,0,0,0,.64.62.63.63,0,0,0,.64-.62v-.62H3.58V8.91Zm16.2-2.47h-13a2.19,2.19,0,0,0-.64.11v3.6H19.13V6.55A2.19,2.19,0,0,0,18.49,6.43Z",
+                        "featurePath2": "M17.2,13.86h-.64v1.86a.63.63,0,0,0,.64.62h1.93V11.38H4.87v8.55a1.85,1.85,0,0,0,.64.11h13a1.85,1.85,0,0,0,.64-.11V17.57H9.38a1.89,1.89,0,0,1-1.93-1.86V13.86H6.8a.62.62,0,1,1,0-1.24H17.2a.62.62,0,1,1,0,1.24Zm5.16-2.47a.63.63,0,0,0-.64.62v.62H20.42v3.71h1.29v.62a.65.65,0,0,0,1.29,0V12A.63.63,0,0,0,22.36,11.38Z",
+                        "featureContent": "590HP - L Electric Motor"
+                    },
+                    {
+                        "featurePath1": "M8.8,12.69H6.22a5.74,5.74,0,0,0,1.22,3l1.83-1.83A3.2,3.2,0,0,1,8.8,12.69Zm1.38,2L8.36,16.55a5.74,5.74,0,0,0,3,1.22V15.2A3.2,3.2,0,0,1,10.18,14.73ZM8.36,7.45l1.83,1.83a3.2,3.2,0,0,1,1.13-.47V6.22A5.74,5.74,0,0,0,8.36,7.45Zm-.91.91a5.74,5.74,0,0,0-1.22,3H8.8a3.2,3.2,0,0,1,.47-1.13Zm5.24-2.14V8.8a3.2,3.2,0,0,1,1.13.47l1.83-1.83A5.74,5.74,0,0,0,12.69,6.22Zm2.51,6.47a3.2,3.2,0,0,1-.47,1.13l1.83,1.83a5.74,5.74,0,0,0,1.22-3Z",
+                        "featurePath2": "M12,1A11,11,0,0,0,1,12,11.12,11.12,0,0,0,12,23,11,11,0,0,0,12,1Zm0,18.13A7.25,7.25,0,0,1,4.87,12,7.17,7.17,0,0,1,12,4.87,7.1,7.1,0,0,1,19.13,12,7.17,7.17,0,0,1,12,19.13Z",
+                        "featurePath3": "M16.55,8.36l-1.83,1.83a3.2,3.2,0,0,1,.47,1.13h2.58A5.74,5.74,0,0,0,16.55,8.36Zm-2.74,6.37a3.2,3.2,0,0,1-1.13.47v2.58a5.74,5.74,0,0,0,3-1.22Zm-.41-4.14h0a2,2,0,0,0-2.82,0h0A1.93,1.93,0,0,0,10,12a2.14,2.14,0,0,0,.57,1.45,2,2,0,0,0,2.82,0h0A2,2,0,0,0,13.41,10.59Z",
+                        "featureContent": "All Wheel Drive"
+                    },
+                    {
+                        "featurePath1": "M3.44,9.57,5.28,4.1H18.72l1.83,5.47Zm15.28,6.08a1.82,1.82,0,1,1,1.83-1.82A1.83,1.83,0,0,1,18.72,15.65Zm-13.44,0a1.82,1.82,0,1,1,1.83-1.82A1.83,1.83,0,0,1,5.28,15.65ZM20.46,3.5a1.83,1.83,0,0,0-1.74-1.23H5.28A1.84,1.84,0,0,0,3.54,3.5L1,10.78v9.72a1.22,1.22,0,0,0,1.22,1.22H3.44a1.22,1.22,0,0,0,1.22-1.22V19.29H19.33v1.22a1.22,1.22,0,0,0,1.22,1.22h1.22A1.22,1.22,0,0,0,23,20.51V10.78Z",
+                        "featureContent": "4-Door Sedan"
+                    },
+                    {
+                        "featurePath1": "M14.28,5.94a4,4,0,0,1,1.86,3,3.21,3.21,0,1,0-1.86-3Zm-2.11,6.58A3.22,3.22,0,1,0,8.94,9.31,3.22,3.22,0,0,0,12.16,12.53Zm1.37.22H10.79a4.13,4.13,0,0,0-4.13,4.12v3.39l.23.07a18.86,18.86,0,0,0,5.62.9,11.56,11.56,0,0,0,4.9-.92l.22-.11h0V16.86A4.13,4.13,0,0,0,13.53,12.74Zm5.34-3.32H16.15a4,4,0,0,1-1.23,2.76,4.89,4.89,0,0,1,3.51,4.68v1A11.15,11.15,0,0,0,22.76,17l.22-.11h0V13.54A4.13,4.13,0,0,0,18.87,9.42ZM6.5,9.21a3.21,3.21,0,0,0,1.72-.5,4,4,0,0,1,1.5-2.54c0-.06,0-.12,0-.18A3.23,3.23,0,1,0,6.5,9.21Zm2.9,3A4,4,0,0,1,8.17,9.44l-.3,0H5.13A4.13,4.13,0,0,0,1,13.54v3.39l.23.07a19.43,19.43,0,0,0,4.65.87v-1A4.9,4.9,0,0,1,9.4,12.19Z",
+                        "featureContent": "5 Passengers"
+                    },
+                    {
+                        "polygonPoint": "17 22 20 19 17 19 17 22",
+                        "featurePath1": "M20,17.5V2H4V22H15.5V17.5ZM7,6H17V7.5H7ZM7,9H17v1.5H7Zm0,3H17v1.5H7Zm4.19,7.12L11,20,9.54,18.53,8.06,20l-.18-.88L7,18.94l1.22-1.22a1.5,1.5,0,1,1,2.63,0l1.22,1.22Z",
+                        "featureContent": "<span>Basic Years: 4</span><br /><span>Basic Miles/km: 80,000</span><br /><span>Drivetrain Years: 4 </span><br /><span>Drivetrain Miles/km: 80,000</span>"
+                    }
+                ],
+                "gallery": [
+                    {
+                        "galleryImg": "./images/GalleryImg/Audi-RS/Audi-RS-1.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Audi-RS/Audi-RS-2.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Audi-RS/Audi-RS-3.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Audi-RS/Audi-RS-4.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Audi-RS/Audi-RS-5.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Audi-RS/Audi-RS-6.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Audi-RS/Audi-RS-7.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Audi-RS/Audi-RS-8.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Audi-RS/Audi-RS-9.jpg"
+                    }
+                ],
+                "vehicleSpecs": [
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Vehicle Name",
+                        "specsContent": "Audi RS e-tron GT"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Body Style",
+                        "specsContent": "quattro Sedan"
+                    },
+                    {
+                        "specsName": "Drivetrain",
+                        "specsContent": "All Wheel Drive"
+                    },
+                    {
+                        "specsName": "EPA Classification",
+                        "specsContent": "Large Cars"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Passenger Capacity",
+                        "specsContent": "5"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Base Curb Weight",
+                        "specsContent": "5137"
+                    },
+                    {
+                        "specsName": "Engine Type",
+                        "specsContent": "Electric"
+                    },
+                    {
+                        "specsName": "SAE Net Horsepower @ RPM",
+                        "specsContent": "590"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "SAE Net Torque @ RPM",
+                        "specsContent": "612"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Trans Order Code",
+                        "specsContent": "H7"
+                    },
+                    {
+                        "specsName": "Trans Type",
+                        "specsContent": "2"
+                    },
+                    {
+                        "specsName": "Trans Description Cont.",
+                        "specsContent": "Automatic"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Final Drive Axle Ratio (:1)",
+                        "specsContent": "8.05"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Suspension Type - Front",
+                        "specsContent": "Double Wishbone"
+                    },
+                    {
+                        "specsName": "Suspension Type - Rear",
+                        "specsContent": "Multi-Link"
+                    },
+                    {
+                        "specsName": "Suspension Type - Front (Cont.)",
+                        "specsContent": "Double Wishbone"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Suspension Type - Rear (Cont.)",
+                        "specsContent": "Multi-Link"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Tire Size",
+                        "specsContent": "P265/35YR21, P245/45YR20"
+                    },
+                    {
+                        "specsName": "Rear Tire Size",
+                        "specsContent": "P305/30YR21, P285/40YR20"
+                    },
+                    {
+                        "specsName": "Front Wheel Size",
+                        "specsContent": "21 X 9.5, 20 X 9"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Rear Wheel Size",
+                        "specsContent": "21 X 11.5, 20 X 11"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Wheel Material",
+                        "specsContent": "Aluminum"
+                    },
+                    {
+                        "specsName": "Rear Wheel Material",
+                        "specsContent": "Aluminum"
+                    },
+                    {
+                        "specsName": "Steering Type",
+                        "specsContent": "Rack-Pinion"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Brake Type",
+                        "specsContent": "4-Wheel Disc"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Brake ABS System",
+                        "specsContent": "4-Wheel"
+                    },
+                    {
+                        "specsName": "Disc - Front (Yes or )",
+                        "specsContent": "Yes"
+                    },
+                    {
+                        "specsName": "Disc - Rear (Yes or )",
+                        "specsContent": "Yes"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Head Room",
+                        "specsContent": "39.4"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Shoulder Room",
+                        "specsContent": "56.4"
+                    },
+                    {
+                        "specsName": "Second Head Room",
+                        "specsContent": "36.5"
+                    },
+                    {
+                        "specsName": "Second Shoulder Room",
+                        "specsContent": "53.8"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Wheelbase",
+                        "specsContent": "114.1"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Length, Overall",
+                        "specsContent": "196.4"
+                    },
+                    {
+                        "specsName": "Width, Max w/o mirrors",
+                        "specsContent": "77.3"
+                    },
+                    {
+                        "specsName": "Height, Overall",
+                        "specsContent": "55.7"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Track Width, Front",
+                        "specsContent": "67"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Track Width, Rear",
+                        "specsContent": "65.6"
+                    },
+                    {
+                        "specsName": "Trunk Volume",
+                        "specsContent": "12.9"
+                    },
+                    {
+                        "specsName": "EnerGuide Estimate Equivalent - City",
+                        "specsContent": "3"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "EnerGuide Estimate Equivalent - Hwy",
+                        "specsContent": "3"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "EnerGuide Estimate Equivalent - Combined",
+                        "specsContent": "3"
+                    },
+                    {
+                        "specsName": "Model Group",
+                        "specsContent": "RS e-tron GT"
+                    },
+                    {
+                        "specsName": "Vehicle Segment",
+                        "specsContent": "Luxury High"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Vehicle Type",
+                        "specsContent": "Sedan"
+                    }
+                ]
+            },
+            {
+                "id": "BMW-8-Series",
+                "brand": "BMW",
+                "productName": "BMW 8 Series",
+                "productYear": "2022",
+                "productPrice": [
+                    {
+                        "priceTitle": "MSRP",
+                        "price": "119,035"
+                    },
+                    {
+                        "priceTitle": "Finance",
+                        "price": "1,682"
+                    }
+                ],
+                "productImg": [
+                    {
+                        "classColor": "active",
+                        "color": "Sunset-Orange-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-8-Series/BMW-8-Series-Sunset-Orange.png"
+                    },
+                    {
+                        "color": "Black-Sapphire-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-8-Series/BMW-8-Series-Black-Sapphire.png"
+                    },
+                    {
+                        "color": "ZanzibarII",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-8-Series/BMW-8-Series-ZanzibarII.png"
+                    },
+                    {
+                        "color": "Alpine-White",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-8-Series/BMW-8-Series-Alpine-White.png"
+                    },
+                    {
+                        "color": "Laguna-Seca-Blue",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-8-Series/BMW-8-Series-Laguna-Seca-Blue.png"
+                    },
+                    {
+                        "color": "Brilliant-White",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-8-Series/BMW-8-Series-Brilliant-White.png"
+                    },
+                    {
+                        "color": "Signal-Green",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-8-Series/BMW-8-Series-Signal-Green.png"
+                    },
+                    {
+                        "color": "Speed-Yellow",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-8-Series/BMW-8-Series-Speed-Yellow.png"
+                    },
+                    {
+                        "color": "Barcelona-Blue-Metallic",
+                        "productImgColor": "./images/ProductsImg/NewModels/BMW-8-Series/BMW-8-Series-Barcelona-Blue.png"
+                    }
+                ],
+                "feature": [
+                    {
+                        "featurePath1": "M19.78,4.22A11,11,0,0,0,4.22,19.78,11,11,0,0,0,19.78,4.22ZM12.72,17.34H11.28V12.72H7.51v4.62H6.07V6.66H7.51v4.62h3.77V6.66h1.43v4.62h3.78V6.66h1.43v6.06H12.72Zm5-.22-.53-.86h-.29v.86H16.1V14.33h1.28a1,1,0,0,1,.54,1.76l.63,1h-.86Z",
+                        "featurePath2": "M17.33,15h-.46v.6h.48c.09,0,.19-.11.19-.3S17.43,15,17.33,15Z",
+                        "featureContent": "Automatic"
+                    },
+                    {
+                        "featurePath1": "M19.75,7l0,0-3.84-3.9L14.83,4.19,17,6.41a2.63,2.63,0,0,0,.92,5.07,2.51,2.51,0,0,0,1-.22v7.57a1,1,0,1,1-2.06,0V14.1A2.08,2.08,0,0,0,14.83,12h-1V4.65a2.08,2.08,0,0,0-2.06-2.1H5.56A2.08,2.08,0,0,0,3.5,4.65V21.44H13.8V13.57h1.55v5.25a2.58,2.58,0,1,0,5.15,0v-10A2.66,2.66,0,0,0,19.75,7Zm-8,2.91H5.56V4.65h6.18Zm6.18,0a1,1,0,1,1,1-1A1,1,0,0,1,17.92,9.9Z",
+                        "featureContent": "14 City / 10 Hwy / 12 Avg"
+                    },
+                    {
+                        "featurePath1": "M17.2,4A1.93,1.93,0,0,0,15.38,5.2h3.1a3.33,3.33,0,0,1,.54.05A1.92,1.92,0,0,0,17.2,4ZM6.8,4A1.92,1.92,0,0,0,5,5.25a3.33,3.33,0,0,1,.54-.05h3.1A1.93,1.93,0,0,0,6.8,4ZM12,4A1.93,1.93,0,0,0,10.14,5.2h3.72A2,2,0,0,0,12,4Zm3.31,11.75V13.86H14v1.86c0,.71.71.62,1.41.62A1.77,1.77,0,0,1,15.27,15.71ZM10,15.63V13.86H8.73v1.86c0,.71.71.62,1.43.62A1.78,1.78,0,0,1,10,15.63Zm2.66.08V13.86H11.31v1.78c0,.65.83.7,1.49.7A1.77,1.77,0,0,1,12.69,15.71ZM2.29,8.91V8.29a.63.63,0,0,0-.64-.62A.63.63,0,0,0,1,8.29v4.95a.63.63,0,0,0,.64.62.63.63,0,0,0,.64-.62v-.62H3.58V8.91Zm16.2-2.47h-13a2.19,2.19,0,0,0-.64.11v3.6H19.13V6.55A2.19,2.19,0,0,0,18.49,6.43Z",
+                        "featurePath2": "M17.2,13.86h-.64v1.86a.63.63,0,0,0,.64.62h1.93V11.38H4.87v8.55a1.85,1.85,0,0,0,.64.11h13a1.85,1.85,0,0,0,.64-.11V17.57H9.38a1.89,1.89,0,0,1-1.93-1.86V13.86H6.8a.62.62,0,1,1,0-1.24H17.2a.62.62,0,1,1,0,1.24Zm5.16-2.47a.63.63,0,0,0-.64.62v.62H20.42v3.71h1.29v.62a.65.65,0,0,0,1.29,0V12A.63.63,0,0,0,22.36,11.38Z",
+                        "featureContent": "523HP - 4.4L 8 Cylinder Engine"
+                    },
+                    {
+                        "featurePath1": "M8.8,12.69H6.22a5.74,5.74,0,0,0,1.22,3l1.83-1.83A3.2,3.2,0,0,1,8.8,12.69Zm1.38,2L8.36,16.55a5.74,5.74,0,0,0,3,1.22V15.2A3.2,3.2,0,0,1,10.18,14.73ZM8.36,7.45l1.83,1.83a3.2,3.2,0,0,1,1.13-.47V6.22A5.74,5.74,0,0,0,8.36,7.45Zm-.91.91a5.74,5.74,0,0,0-1.22,3H8.8a3.2,3.2,0,0,1,.47-1.13Zm5.24-2.14V8.8a3.2,3.2,0,0,1,1.13.47l1.83-1.83A5.74,5.74,0,0,0,12.69,6.22Zm2.51,6.47a3.2,3.2,0,0,1-.47,1.13l1.83,1.83a5.74,5.74,0,0,0,1.22-3Z",
+                        "featurePath2": "M12,1A11,11,0,0,0,1,12,11.12,11.12,0,0,0,12,23,11,11,0,0,0,12,1Zm0,18.13A7.25,7.25,0,0,1,4.87,12,7.17,7.17,0,0,1,12,4.87,7.1,7.1,0,0,1,19.13,12,7.17,7.17,0,0,1,12,19.13Z",
+                        "featurePath3": "M16.55,8.36l-1.83,1.83a3.2,3.2,0,0,1,.47,1.13h2.58A5.74,5.74,0,0,0,16.55,8.36Zm-2.74,6.37a3.2,3.2,0,0,1-1.13.47v2.58a5.74,5.74,0,0,0,3-1.22Zm-.41-4.14h0a2,2,0,0,0-2.82,0h0A1.93,1.93,0,0,0,10,12a2.14,2.14,0,0,0,.57,1.45,2,2,0,0,0,2.82,0h0A2,2,0,0,0,13.41,10.59Z",
+                        "featureContent": "All Wheel Drive"
+                    },
+                    {
+                        "featurePath1": "M3.44,9.57,5.28,4.1H18.72l1.83,5.47Zm15.28,6.08a1.82,1.82,0,1,1,1.83-1.82A1.83,1.83,0,0,1,18.72,15.65Zm-13.44,0a1.82,1.82,0,1,1,1.83-1.82A1.83,1.83,0,0,1,5.28,15.65ZM20.46,3.5a1.83,1.83,0,0,0-1.74-1.23H5.28A1.84,1.84,0,0,0,3.54,3.5L1,10.78v9.72a1.22,1.22,0,0,0,1.22,1.22H3.44a1.22,1.22,0,0,0,1.22-1.22V19.29H19.33v1.22a1.22,1.22,0,0,0,1.22,1.22h1.22A1.22,1.22,0,0,0,23,20.51V10.78Z",
+                        "featureContent": "4-Door Sedan"
+                    },
+                    {
+                        "featurePath1": "M14.28,5.94a4,4,0,0,1,1.86,3,3.21,3.21,0,1,0-1.86-3Zm-2.11,6.58A3.22,3.22,0,1,0,8.94,9.31,3.22,3.22,0,0,0,12.16,12.53Zm1.37.22H10.79a4.13,4.13,0,0,0-4.13,4.12v3.39l.23.07a18.86,18.86,0,0,0,5.62.9,11.56,11.56,0,0,0,4.9-.92l.22-.11h0V16.86A4.13,4.13,0,0,0,13.53,12.74Zm5.34-3.32H16.15a4,4,0,0,1-1.23,2.76,4.89,4.89,0,0,1,3.51,4.68v1A11.15,11.15,0,0,0,22.76,17l.22-.11h0V13.54A4.13,4.13,0,0,0,18.87,9.42ZM6.5,9.21a3.21,3.21,0,0,0,1.72-.5,4,4,0,0,1,1.5-2.54c0-.06,0-.12,0-.18A3.23,3.23,0,1,0,6.5,9.21Zm2.9,3A4,4,0,0,1,8.17,9.44l-.3,0H5.13A4.13,4.13,0,0,0,1,13.54v3.39l.23.07a19.43,19.43,0,0,0,4.65.87v-1A4.9,4.9,0,0,1,9.4,12.19Z",
+                        "featureContent": "4 Passengers"
+                    },
+                    {
+                        "polygonPoint": "17 22 20 19 17 19 17 22",
+                        "featurePath1": "M20,17.5V2H4V22H15.5V17.5ZM7,6H17V7.5H7ZM7,9H17v1.5H7Zm0,3H17v1.5H7Zm4.19,7.12L11,20,9.54,18.53,8.06,20l-.18-.88L7,18.94l1.22-1.22a1.5,1.5,0,1,1,2.63,0l1.22,1.22Z",
+                        "featureContent": "<span>Basic Years: 4</span><br /><span>Basic Miles/km: 80,000</span><br /><span>Drivetrain Years: 4 </span><br /><span>Drivetrain Miles/km: 80,000</span>"
+                    }
+                ],
+                "gallery": [
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-8-Series/BMW-8-Series-1.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-8-Series/BMW-8-Series-2.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-8-Series/BMW-8-Series-3.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-8-Series/BMW-8-Series-4.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-8-Series/BMW-8-Series-5.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-8-Series/BMW-8-Series-6.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-8-Series/BMW-8-Series-7.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-8-Series/BMW-8-Series-8.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/BMW-8-Series/BMW-8-Series-9.jpg"
+                    }
+                ],
+                "vehicleSpecs": [
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Vehicle Name",
+                        "specsContent": "BMW 8 Series"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Body Style",
+                        "specsContent": "Coupe, Cabriolet, Sedan"
+                    },
+                    {
+                        "specsName": "Drivetrain",
+                        "specsContent": "All Wheel Drive"
+                    },
+                    {
+                        "specsName": "EPA Classification",
+                        "specsContent": "Subcompact Cars, Midsize Cars"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Passenger Capacity",
+                        "specsContent": "4, 5"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Base Curb Weight",
+                        "specsContent": "4478, 4736, 4758"
+                    },
+                    {
+                        "specsName": "EnerGuide Estimate - City",
+                        "specsContent": "13.5 (2021), 14 (2021)"
+                    },
+                    {
+                        "specsName": "EnerGuide Estimate - Hwy",
+                        "specsContent": "9.5 (2021), 9.7 (2021)"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Type",
+                        "specsContent": "Twin Turbo Premium Unleaded V-8"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Displacement",
+                        "specsContent": "4.4 L/268"
+                    },
+                    {
+                        "specsName": "Fuel System",
+                        "specsContent": "Gasoline Direct Injection"
+                    },
+                    {
+                        "specsName": "SAE Net Horsepower @ RPM",
+                        "specsContent": "523 @ 5500"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "SAE Net Torque @ RPM",
+                        "specsContent": "553 @ 1800"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Trans Type",
+                        "specsContent": "8"
+                    },
+                    {
+                        "specsName": "Trans Description Cont.",
+                        "specsContent": "Automatic w/OD"
+                    },
+                    {
+                        "specsName": "First Gear Ratio (:1)",
+                        "specsContent": "5.50"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Second Gear Ratio (:1)",
+                        "specsContent": "3.52"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Third Gear Ratio (:1)",
+                        "specsContent": "2.20"
+                    },
+                    {
+                        "specsName": "Fourth Gear Ratio (:1)",
+                        "specsContent": "1.72"
+                    },
+                    {
+                        "specsName": "Fifth Gear Ratio (:1)",
+                        "specsContent": "1.32"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Sixth Gear Ratio (:1)",
+                        "specsContent": "1.00"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Reverse Ratio (:1)",
+                        "specsContent": "3.99"
+                    },
+                    {
+                        "specsName": "Final Drive Axle Ratio (:1)",
+                        "specsContent": "2.81"
+                    },
+                    {
+                        "specsName": "Suspension Type - Front",
+                        "specsContent": "Double Wishbone"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Suspension Type - Rear",
+                        "specsContent": "Multi-Link"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Suspension Type - Front (Cont.)",
+                        "specsContent": "Double Wishbone"
+                    },
+                    {
+                        "specsName": "Suspension Type - Rear (Cont.)",
+                        "specsContent": "Multi-Link"
+                    },
+                    {
+                        "specsName": "Front Tire Order Code",
+                        "specsContent": "258, 258, 258, 258, , 258"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Rear Tire Order Code",
+                        "specsContent": "258, 258, 258, 258, , 258"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Tire Size",
+                        "specsContent": "P245/35YR20"
+                    },
+                    {
+                        "specsName": "Rear Tire Size",
+                        "specsContent": "P275/30YR20"
+                    },
+                    {
+                        "specsName": "Front Wheel Size",
+                        "specsContent": "20 X 8"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Rear Wheel Size",
+                        "specsContent": "20 X 9"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Wheel Material",
+                        "specsContent": "Aluminum"
+                    },
+                    {
+                        "specsName": "Rear Wheel Material",
+                        "specsContent": "Aluminum"
+                    },
+                    {
+                        "specsName": "Steering Type",
+                        "specsContent": "Rack-Pinion"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Turning Diameter - Curb to Curb",
+                        "specsContent": "39, 41.3"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Brake Type",
+                        "specsContent": "4-Wheel Disc"
+                    },
+                    {
+                        "specsName": "Brake ABS System",
+                        "specsContent": "4-Wheel"
+                    },
+                    {
+                        "specsName": "Disc - Front (Yes or )",
+                        "specsContent": "Yes"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Disc - Rear (Yes or )",
+                        "specsContent": "Yes"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Fuel Tank Capacity, Approx",
+                        "specsContent": "68"
+                    },
+                    {
+                        "specsName": "Front Head Room",
+                        "specsContent": "38.9, 39.1"
+                    },
+                    {
+                        "specsName": "Front Leg Room",
+                        "specsContent": "42.1"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Shoulder Room",
+                        "specsContent": "57.2"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Second Head Room",
+                        "specsContent": "33.6, 34.7, 37"
+                    },
+                    {
+                        "specsName": "Second Leg Room",
+                        "specsContent": "29.5, 36.6"
+                    },
+                    {
+                        "specsName": "Second Shoulder Room",
+                        "specsContent": "46.9, 45.7, 54.6"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Wheelbase",
+                        "specsContent": "111.1, 119"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Length, Overall",
+                        "specsContent": "191.2, 200.3"
+                    },
+                    {
+                        "specsName": "Width, Max w/o mirrors",
+                        "specsContent": "74.9, 76.1"
+                    },
+                    {
+                        "specsName": "Height, Overall",
+                        "specsContent": "53, 55.4"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Track Width, Front",
+                        "specsContent": "64.1"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Track Width, Rear",
+                        "specsContent": "64.6"
+                    },
+                    {
+                        "specsName": "Trunk Volume",
+                        "specsContent": "14.8, 12.4, 15.5"
+                    },
+                    {
+                        "specsName": "Seventh Gear Ratio (:1)",
+                        "specsContent": "0.82"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Eighth Gear Ratio (:1)",
+                        "specsContent": "0.64"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "G/km Of CO2 Emissions",
+                        "specsContent": "272 (Est), 281 (Est)"
+                    },
+                    {
+                        "specsName": "Model Group",
+                        "specsContent": "8 Series"
+                    },
+                    {
+                        "specsName": "Vehicle Segment",
+                        "specsContent": "Luxury Sport"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Vehicle Type",
+                        "specsContent": "Convertible, Coupe, Sedan"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Displacement Units",
+                        "specsContent": "4.4, 4.4"
+                    },
+                    {
+                        "specsName": "Engine Camshaft",
+                        "specsContent": "DOHC, DOHC"
+                    },
+                    {
+                        "specsName": "Engine Block Type",
+                        "specsContent": "Aluminum"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Cylinder Count",
+                        "specsContent": "8, 8"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Valve Count",
+                        "specsContent": "4, 4"
+                    }
+                ]
+            },
+            {
+                "id": "Honda-Civic-Sedan",
+                "brand": "Honda",
+                "productName": "Honda Civic Sedan",
+                "productYear": "2022",
+                "productPrice": [
+                    {
+                        "priceTitle": "MSRP",
+                        "price": "26,165"
+                    },
+                    {
+                        "priceTitle": "Finance",
+                        "price": "358"
+                    }
+                ],
+                "productImg": [
+                    {
+                        "classColor": "active",
+                        "color": "Crystal-Black",
+                        "productImgColor": "./images/ProductsImg/NewModels/Honda-Civic-Sedan-LX/Honda-Civic-Sedan-LX-Crystal-Black.png"
+                    },
+                    {
+                        "color": "Lunar-Silver",
+                        "productImgColor": "./images/ProductsImg/NewModels/Honda-Civic-Sedan-LX/Honda-Civic-Sedan-LX-Lunar-Silver.png"
+                    },
+                    {
+                        "color": "Meteoroid-Grey",
+                        "productImgColor": "./images/ProductsImg/NewModels/Honda-Civic-Sedan-LX/Honda-Civic-Sedan-LX-Meteoroid-Grey.png"
+                    },
+                    {
+                        "color": "Platinum-White",
+                        "productImgColor": "./images/ProductsImg/NewModels/Honda-Civic-Sedan-LX/Honda-Civic-Sedan-LX-Platinum-White.png"
+                    }
+                ],
+                "feature": [
+                    {
+                        "featurePath1": "M19.78,4.22A11,11,0,0,0,4.22,19.78,11,11,0,0,0,19.78,4.22ZM12.72,17.34H11.28V12.72H7.51v4.62H6.07V6.66H7.51v4.62h3.77V6.66h1.43v4.62h3.78V6.66h1.43v6.06H12.72Zm5-.22-.53-.86h-.29v.86H16.1V14.33h1.28a1,1,0,0,1,.54,1.76l.63,1h-.86Z",
+                        "featurePath2": "M17.33,15h-.46v.6h.48c.09,0,.19-.11.19-.3S17.43,15,17.33,15Z",
+                        "featureContent": "Automatic"
+                    },
+                    {
+                        "featurePath1": "M19.75,7l0,0-3.84-3.9L14.83,4.19,17,6.41a2.63,2.63,0,0,0,.92,5.07,2.51,2.51,0,0,0,1-.22v7.57a1,1,0,1,1-2.06,0V14.1A2.08,2.08,0,0,0,14.83,12h-1V4.65a2.08,2.08,0,0,0-2.06-2.1H5.56A2.08,2.08,0,0,0,3.5,4.65V21.44H13.8V13.57h1.55v5.25a2.58,2.58,0,1,0,5.15,0v-10A2.66,2.66,0,0,0,19.75,7Zm-8,2.91H5.56V4.65h6.18Zm6.18,0a1,1,0,1,1,1-1A1,1,0,0,1,17.92,9.9Z",
+                        "featureContent": "8 City / 6 Hwy / 7 Avg"
+                    },
+                    {
+                        "featurePath1": "M17.2,4A1.93,1.93,0,0,0,15.38,5.2h3.1a3.33,3.33,0,0,1,.54.05A1.92,1.92,0,0,0,17.2,4ZM6.8,4A1.92,1.92,0,0,0,5,5.25a3.33,3.33,0,0,1,.54-.05h3.1A1.93,1.93,0,0,0,6.8,4ZM12,4A1.93,1.93,0,0,0,10.14,5.2h3.72A2,2,0,0,0,12,4Zm3.31,11.75V13.86H14v1.86c0,.71.71.62,1.41.62A1.77,1.77,0,0,1,15.27,15.71ZM10,15.63V13.86H8.73v1.86c0,.71.71.62,1.43.62A1.78,1.78,0,0,1,10,15.63Zm2.66.08V13.86H11.31v1.78c0,.65.83.7,1.49.7A1.77,1.77,0,0,1,12.69,15.71ZM2.29,8.91V8.29a.63.63,0,0,0-.64-.62A.63.63,0,0,0,1,8.29v4.95a.63.63,0,0,0,.64.62.63.63,0,0,0,.64-.62v-.62H3.58V8.91Zm16.2-2.47h-13a2.19,2.19,0,0,0-.64.11v3.6H19.13V6.55A2.19,2.19,0,0,0,18.49,6.43Z",
+                        "featurePath2": "M17.2,13.86h-.64v1.86a.63.63,0,0,0,.64.62h1.93V11.38H4.87v8.55a1.85,1.85,0,0,0,.64.11h13a1.85,1.85,0,0,0,.64-.11V17.57H9.38a1.89,1.89,0,0,1-1.93-1.86V13.86H6.8a.62.62,0,1,1,0-1.24H17.2a.62.62,0,1,1,0,1.24Zm5.16-2.47a.63.63,0,0,0-.64.62v.62H20.42v3.71h1.29v.62a.65.65,0,0,0,1.29,0V12A.63.63,0,0,0,22.36,11.38Z",
+                        "featureContent": "158HP - 2L 4 Cylinder Engine"
+                    },
+                    {
+                        "featurePath1": "M8.8,12.69H6.22a5.74,5.74,0,0,0,1.22,3l1.83-1.83A3.2,3.2,0,0,1,8.8,12.69Zm1.38,2L8.36,16.55a5.74,5.74,0,0,0,3,1.22V15.2A3.2,3.2,0,0,1,10.18,14.73ZM8.36,7.45l1.83,1.83a3.2,3.2,0,0,1,1.13-.47V6.22A5.74,5.74,0,0,0,8.36,7.45Zm-.91.91a5.74,5.74,0,0,0-1.22,3H8.8a3.2,3.2,0,0,1,.47-1.13Zm5.24-2.14V8.8a3.2,3.2,0,0,1,1.13.47l1.83-1.83A5.74,5.74,0,0,0,12.69,6.22Zm2.51,6.47a3.2,3.2,0,0,1-.47,1.13l1.83,1.83a5.74,5.74,0,0,0,1.22-3Z",
+                        "featurePath2": "M12,1A11,11,0,0,0,1,12,11.12,11.12,0,0,0,12,23,11,11,0,0,0,12,1Zm0,18.13A7.25,7.25,0,0,1,4.87,12,7.17,7.17,0,0,1,12,4.87,7.1,7.1,0,0,1,19.13,12,7.17,7.17,0,0,1,12,19.13Z",
+                        "featurePath3": "M16.55,8.36l-1.83,1.83a3.2,3.2,0,0,1,.47,1.13h2.58A5.74,5.74,0,0,0,16.55,8.36Zm-2.74,6.37a3.2,3.2,0,0,1-1.13.47v2.58a5.74,5.74,0,0,0,3-1.22Zm-.41-4.14h0a2,2,0,0,0-2.82,0h0A1.93,1.93,0,0,0,10,12a2.14,2.14,0,0,0,.57,1.45,2,2,0,0,0,2.82,0h0A2,2,0,0,0,13.41,10.59Z",
+                        "featureContent": "Front Wheel Drive"
+                    },
+                    {
+                        "featurePath1": "M3.44,9.57,5.28,4.1H18.72l1.83,5.47Zm15.28,6.08a1.82,1.82,0,1,1,1.83-1.82A1.83,1.83,0,0,1,18.72,15.65Zm-13.44,0a1.82,1.82,0,1,1,1.83-1.82A1.83,1.83,0,0,1,5.28,15.65ZM20.46,3.5a1.83,1.83,0,0,0-1.74-1.23H5.28A1.84,1.84,0,0,0,3.54,3.5L1,10.78v9.72a1.22,1.22,0,0,0,1.22,1.22H3.44a1.22,1.22,0,0,0,1.22-1.22V19.29H19.33v1.22a1.22,1.22,0,0,0,1.22,1.22h1.22A1.22,1.22,0,0,0,23,20.51V10.78Z",
+                        "featureContent": "4-Door Sedan"
+                    },
+                    {
+                        "featurePath1": "M14.28,5.94a4,4,0,0,1,1.86,3,3.21,3.21,0,1,0-1.86-3Zm-2.11,6.58A3.22,3.22,0,1,0,8.94,9.31,3.22,3.22,0,0,0,12.16,12.53Zm1.37.22H10.79a4.13,4.13,0,0,0-4.13,4.12v3.39l.23.07a18.86,18.86,0,0,0,5.62.9,11.56,11.56,0,0,0,4.9-.92l.22-.11h0V16.86A4.13,4.13,0,0,0,13.53,12.74Zm5.34-3.32H16.15a4,4,0,0,1-1.23,2.76,4.89,4.89,0,0,1,3.51,4.68v1A11.15,11.15,0,0,0,22.76,17l.22-.11h0V13.54A4.13,4.13,0,0,0,18.87,9.42ZM6.5,9.21a3.21,3.21,0,0,0,1.72-.5,4,4,0,0,1,1.5-2.54c0-.06,0-.12,0-.18A3.23,3.23,0,1,0,6.5,9.21Zm2.9,3A4,4,0,0,1,8.17,9.44l-.3,0H5.13A4.13,4.13,0,0,0,1,13.54v3.39l.23.07a19.43,19.43,0,0,0,4.65.87v-1A4.9,4.9,0,0,1,9.4,12.19Z",
+                        "featureContent": "5 Passengers"
+                    },
+                    {
+                        "polygonPoint": "17 22 20 19 17 19 17 22",
+                        "featurePath1": "M20,17.5V2H4V22H15.5V17.5ZM7,6H17V7.5H7ZM7,9H17v1.5H7Zm0,3H17v1.5H7Zm4.19,7.12L11,20,9.54,18.53,8.06,20l-.18-.88L7,18.94l1.22-1.22a1.5,1.5,0,1,1,2.63,0l1.22,1.22Z",
+                        "featureContent": "<span>Basic Years: 3</span><br /><span>Basic Miles/km: 60,000</span><br /><span>Drivetrain Years: 5 </span><br /><span>Drivetrain Miles/km: 100,000</span>"
+                    }
+                ],
+                "gallery": [
+                    {
+                        "galleryImg": "./images/GalleryImg/Honda-Civic-Sedan-LX/Honda-Civic-Sedan-LX-1.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Honda-Civic-Sedan-LX/Honda-Civic-Sedan-LX-2.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Honda-Civic-Sedan-LX/Honda-Civic-Sedan-LX-3.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Honda-Civic-Sedan-LX/Honda-Civic-Sedan-LX-4.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Honda-Civic-Sedan-LX/Honda-Civic-Sedan-LX-5.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Honda-Civic-Sedan-LX/Honda-Civic-Sedan-LX-6.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Honda-Civic-Sedan-LX/Honda-Civic-Sedan-LX-7.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Honda-Civic-Sedan-LX/Honda-Civic-Sedan-LX-8.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Honda-Civic-Sedan-LX/Honda-Civic-Sedan-LX-9.jpg"
+                    }
+                ],
+                "vehicleSpecs": [
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Vehicle Name",
+                        "specsContent": "Honda Civic Sedan"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Body Style",
+                        "specsContent": "Sedan"
+                    },
+                    {
+                        "specsName": "Drivetrain",
+                        "specsContent": "Front Wheel Drive"
+                    },
+                    {
+                        "specsName": "EPA Classification",
+                        "specsContent": "Midsize Cars"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Passenger Capacity",
+                        "specsContent": "5"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Passenger Volume",
+                        "specsContent": "99"
+                    },
+                    {
+                        "specsName": "Base Curb Weight",
+                        "specsContent": "2895"
+                    },
+                    {
+                        "specsName": "EnerGuide Estimate - City",
+                        "specsContent": "7.9 (2021)"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "EnerGuide Estimate - Hwy",
+                        "specsContent": "6.1 (2021)"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Type",
+                        "specsContent": "Regular Unleaded I-4"
+                    },
+                    {
+                        "specsName": "Displacement",
+                        "specsContent": "2.0 L/122"
+                    },
+                    {
+                        "specsName": "Fuel System",
+                        "specsContent": "Sequential MPI"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "SAE Net Horsepower @ RPM",
+                        "specsContent": "158 @ 6500"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "SAE Net Torque @ RPM",
+                        "specsContent": "138 @ 4200"
+                    },
+                    {
+                        "specsName": "Trans Type",
+                        "specsContent": "1"
+                    },
+                    {
+                        "specsName": "Trans Description Cont.",
+                        "specsContent": "CVT w/OD"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "First Gear Ratio (:1)",
+                        "specsContent": "2.53 - 0.41"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Reverse Ratio (:1)",
+                        "specsContent": "2.71"
+                    },
+                    {
+                        "specsName": "Final Drive Axle Ratio (:1)",
+                        "specsContent": "3.94"
+                    },
+                    {
+                        "specsName": "Suspension Type - Front",
+                        "specsContent": "Strut"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Suspension Type - Rear",
+                        "specsContent": "Multi-Link"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Suspension Type - Front (Cont.)",
+                        "specsContent": "Strut"
+                    },
+                    {
+                        "specsName": "Suspension Type - Rear (Cont.)",
+                        "specsContent": "Multi-Link"
+                    },
+                    {
+                        "specsName": "Front Tire Size",
+                        "specsContent": "P215/55HR16"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Rear Tire Size",
+                        "specsContent": "P215/55HR16"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Spare Tire Size",
+                        "specsContent": "Compact"
+                    },
+                    {
+                        "specsName": "Front Wheel Size",
+                        "specsContent": "17 X 7, 16 X 7"
+                    },
+                    {
+                        "specsName": "Rear Wheel Size",
+                        "specsContent": "17 X 7, 16 X 7"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Spare Wheel Size",
+                        "specsContent": "Compact"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Wheel Material",
+                        "specsContent": "Aluminum, Steel"
+                    },
+                    {
+                        "specsName": "Rear Wheel Material",
+                        "specsContent": "Aluminum, Steel"
+                    },
+                    {
+                        "specsName": "Spare Wheel Material",
+                        "specsContent": "Steel"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Steering Type",
+                        "specsContent": "Rack-Pinion"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Turning Diameter - Curb to Curb",
+                        "specsContent": "36.1"
+                    },
+                    {
+                        "specsName": "Brake Type",
+                        "specsContent": "4-Wheel Disc"
+                    },
+                    {
+                        "specsName": "Brake ABS System",
+                        "specsContent": "4-Wheel"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Disc - Front (Yes or )",
+                        "specsContent": "Yes"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Disc - Rear (Yes or )",
+                        "specsContent": "Yes"
+                    },
+                    {
+                        "specsName": "Front Brake Rotor Diam x Thickness",
+                        "specsContent": "11.1"
+                    },
+                    {
+                        "specsName": "Rear Brake Rotor Diam x Thickness",
+                        "specsContent": "10.2"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Fuel Tank Capacity, Approx",
+                        "specsContent": "46.9"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Head Room",
+                        "specsContent": "39.3"
+                    },
+                    {
+                        "specsName": "Front Leg Room",
+                        "specsContent": "42.3"
+                    },
+                    {
+                        "specsName": "Front Shoulder Room",
+                        "specsContent": "57"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Hip Room",
+                        "specsContent": "54.3"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Second Head Room",
+                        "specsContent": "37.1"
+                    },
+                    {
+                        "specsName": "Second Leg Room",
+                        "specsContent": "37.4"
+                    },
+                    {
+                        "specsName": "Second Shoulder Room",
+                        "specsContent": "56"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Second Hip Room",
+                        "specsContent": "48.9"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Wheelbase",
+                        "specsContent": "107.7"
+                    },
+                    {
+                        "specsName": "Length, Overall",
+                        "specsContent": "184"
+                    },
+                    {
+                        "specsName": "Width, Max w/o mirrors",
+                        "specsContent": "70.9"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Height, Overall",
+                        "specsContent": "55.7"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Track Width, Front",
+                        "specsContent": "60.9"
+                    },
+                    {
+                        "specsName": "Track Width, Rear",
+                        "specsContent": "62"
+                    },
+                    {
+                        "specsName": "Trunk Volume",
+                        "specsContent": "14.8"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "G/km Of CO2 Emissions",
+                        "specsContent": "167 (Est)"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Country of Origin",
+                        "specsContent": "Canada Cars"
+                    }
+                ]
+            },
+            {
+                "id": "Hyundai-Kona",
+                "brand": "Hyundai",
+                "productName": "Hyundai Kona",
+                "productYear": "2022",
+                "productPrice": [
+                    {
+                        "priceTitle": "MSRP",
+                        "price": "21,999"
+                    },
+                    {
+                        "priceTitle": "Finance",
+                        "price": "278"
+                    }
+                ],
+                "productImg": [
+                    {
+                        "classColor": "active",
+                        "color": "Galactic-Grey",
+                        "productImgColor": "./images/ProductsImg/NewModels/Hyundai-Kona/Hyundai-Kona-Galactic-Grey.png"
+                    },
+                    {
+                        "color": "Surfy-Blue",
+                        "productImgColor": "./images/ProductsImg/NewModels/Hyundai-Kona/Hyundai-Kona-Surfy-Blue.png"
+                    },
+                    {
+                        "color": "Phantom-Black",
+                        "productImgColor": "./images/ProductsImg/NewModels/Hyundai-Kona/Hyundai-Kona-Phantom-Black.png"
+                    },
+                    {
+                        "color": "Atlas-White",
+                        "productImgColor": "./images/ProductsImg/NewModels/Hyundai-Kona/Hyundai-Kona-Atlas-White.png"
+                    },
+                    {
+                        "color": "Pulse-Red",
+                        "productImgColor": "./images/ProductsImg/NewModels/Hyundai-Kona/Hyundai-Kona-Pulse-Red.png"
+                    }
+                ],
+                "feature": [
+                    {
+                        "featurePath1": "M19.78,4.22A11,11,0,0,0,4.22,19.78,11,11,0,0,0,19.78,4.22ZM12.72,17.34H11.28V12.72H7.51v4.62H6.07V6.66H7.51v4.62h3.77V6.66h1.43v4.62h3.78V6.66h1.43v6.06H12.72Zm5-.22-.53-.86h-.29v.86H16.1V14.33h1.28a1,1,0,0,1,.54,1.76l.63,1h-.86Z",
+                        "featurePath2": "M17.33,15h-.46v.6h.48c.09,0,.19-.11.19-.3S17.43,15,17.33,15Z",
+                        "featureContent": "Automatic"
+                    },
+                    {
+                        "featurePath1": "M19.75,7l0,0-3.84-3.9L14.83,4.19,17,6.41a2.63,2.63,0,0,0,.92,5.07,2.51,2.51,0,0,0,1-.22v7.57a1,1,0,1,1-2.06,0V14.1A2.08,2.08,0,0,0,14.83,12h-1V4.65a2.08,2.08,0,0,0-2.06-2.1H5.56A2.08,2.08,0,0,0,3.5,4.65V21.44H13.8V13.57h1.55v5.25a2.58,2.58,0,1,0,5.15,0v-10A2.66,2.66,0,0,0,19.75,7Zm-8,2.91H5.56V4.65h6.18Zm6.18,0a1,1,0,1,1,1-1A1,1,0,0,1,17.92,9.9Z",
+                        "featureContent": "8 City / 7 Hwy / 7.5 Avg"
+                    },
+                    {
+                        "featurePath1": "M17.2,4A1.93,1.93,0,0,0,15.38,5.2h3.1a3.33,3.33,0,0,1,.54.05A1.92,1.92,0,0,0,17.2,4ZM6.8,4A1.92,1.92,0,0,0,5,5.25a3.33,3.33,0,0,1,.54-.05h3.1A1.93,1.93,0,0,0,6.8,4ZM12,4A1.93,1.93,0,0,0,10.14,5.2h3.72A2,2,0,0,0,12,4Zm3.31,11.75V13.86H14v1.86c0,.71.71.62,1.41.62A1.77,1.77,0,0,1,15.27,15.71ZM10,15.63V13.86H8.73v1.86c0,.71.71.62,1.43.62A1.78,1.78,0,0,1,10,15.63Zm2.66.08V13.86H11.31v1.78c0,.65.83.7,1.49.7A1.77,1.77,0,0,1,12.69,15.71ZM2.29,8.91V8.29a.63.63,0,0,0-.64-.62A.63.63,0,0,0,1,8.29v4.95a.63.63,0,0,0,.64.62.63.63,0,0,0,.64-.62v-.62H3.58V8.91Zm16.2-2.47h-13a2.19,2.19,0,0,0-.64.11v3.6H19.13V6.55A2.19,2.19,0,0,0,18.49,6.43Z",
+                        "featurePath2": "M17.2,13.86h-.64v1.86a.63.63,0,0,0,.64.62h1.93V11.38H4.87v8.55a1.85,1.85,0,0,0,.64.11h13a1.85,1.85,0,0,0,.64-.11V17.57H9.38a1.89,1.89,0,0,1-1.93-1.86V13.86H6.8a.62.62,0,1,1,0-1.24H17.2a.62.62,0,1,1,0,1.24Zm5.16-2.47a.63.63,0,0,0-.64.62v.62H20.42v3.71h1.29v.62a.65.65,0,0,0,1.29,0V12A.63.63,0,0,0,22.36,11.38Z",
+                        "featureContent": "147HP - 2L 4 Cylinder Engine"
+                    },
+                    {
+                        "featurePath1": "M8.8,12.69H6.22a5.74,5.74,0,0,0,1.22,3l1.83-1.83A3.2,3.2,0,0,1,8.8,12.69Zm1.38,2L8.36,16.55a5.74,5.74,0,0,0,3,1.22V15.2A3.2,3.2,0,0,1,10.18,14.73ZM8.36,7.45l1.83,1.83a3.2,3.2,0,0,1,1.13-.47V6.22A5.74,5.74,0,0,0,8.36,7.45Zm-.91.91a5.74,5.74,0,0,0-1.22,3H8.8a3.2,3.2,0,0,1,.47-1.13Zm5.24-2.14V8.8a3.2,3.2,0,0,1,1.13.47l1.83-1.83A5.74,5.74,0,0,0,12.69,6.22Zm2.51,6.47a3.2,3.2,0,0,1-.47,1.13l1.83,1.83a5.74,5.74,0,0,0,1.22-3Z",
+                        "featurePath2": "M12,1A11,11,0,0,0,1,12,11.12,11.12,0,0,0,12,23,11,11,0,0,0,12,1Zm0,18.13A7.25,7.25,0,0,1,4.87,12,7.17,7.17,0,0,1,12,4.87,7.1,7.1,0,0,1,19.13,12,7.17,7.17,0,0,1,12,19.13Z",
+                        "featurePath3": "M16.55,8.36l-1.83,1.83a3.2,3.2,0,0,1,.47,1.13h2.58A5.74,5.74,0,0,0,16.55,8.36Zm-2.74,6.37a3.2,3.2,0,0,1-1.13.47v2.58a5.74,5.74,0,0,0,3-1.22Zm-.41-4.14h0a2,2,0,0,0-2.82,0h0A1.93,1.93,0,0,0,10,12a2.14,2.14,0,0,0,.57,1.45,2,2,0,0,0,2.82,0h0A2,2,0,0,0,13.41,10.59Z",
+                        "featureContent": "Front Wheel Drive"
+                    },
+                    {
+                        "featurePath1": "M3.44,9.57,5.28,4.1H18.72l1.83,5.47Zm15.28,6.08a1.82,1.82,0,1,1,1.83-1.82A1.83,1.83,0,0,1,18.72,15.65Zm-13.44,0a1.82,1.82,0,1,1,1.83-1.82A1.83,1.83,0,0,1,5.28,15.65ZM20.46,3.5a1.83,1.83,0,0,0-1.74-1.23H5.28A1.84,1.84,0,0,0,3.54,3.5L1,10.78v9.72a1.22,1.22,0,0,0,1.22,1.22H3.44a1.22,1.22,0,0,0,1.22-1.22V19.29H19.33v1.22a1.22,1.22,0,0,0,1.22,1.22h1.22A1.22,1.22,0,0,0,23,20.51V10.78Z",
+                        "featureContent": "4-Door SUV"
+                    },
+                    {
+                        "featurePath1": "M14.28,5.94a4,4,0,0,1,1.86,3,3.21,3.21,0,1,0-1.86-3Zm-2.11,6.58A3.22,3.22,0,1,0,8.94,9.31,3.22,3.22,0,0,0,12.16,12.53Zm1.37.22H10.79a4.13,4.13,0,0,0-4.13,4.12v3.39l.23.07a18.86,18.86,0,0,0,5.62.9,11.56,11.56,0,0,0,4.9-.92l.22-.11h0V16.86A4.13,4.13,0,0,0,13.53,12.74Zm5.34-3.32H16.15a4,4,0,0,1-1.23,2.76,4.89,4.89,0,0,1,3.51,4.68v1A11.15,11.15,0,0,0,22.76,17l.22-.11h0V13.54A4.13,4.13,0,0,0,18.87,9.42ZM6.5,9.21a3.21,3.21,0,0,0,1.72-.5,4,4,0,0,1,1.5-2.54c0-.06,0-.12,0-.18A3.23,3.23,0,1,0,6.5,9.21Zm2.9,3A4,4,0,0,1,8.17,9.44l-.3,0H5.13A4.13,4.13,0,0,0,1,13.54v3.39l.23.07a19.43,19.43,0,0,0,4.65.87v-1A4.9,4.9,0,0,1,9.4,12.19Z",
+                        "featureContent": "5 Passengers"
+                    },
+                    {
+                        "polygonPoint": "17 22 20 19 17 19 17 22",
+                        "featurePath1": "M20,17.5V2H4V22H15.5V17.5ZM7,6H17V7.5H7ZM7,9H17v1.5H7Zm0,3H17v1.5H7Zm4.19,7.12L11,20,9.54,18.53,8.06,20l-.18-.88L7,18.94l1.22-1.22a1.5,1.5,0,1,1,2.63,0l1.22,1.22Z",
+                        "featureContent": "<span>Basic Years: 5</span><br /><span>Basic Miles/km: 100,000</span><br /><span>Drivetrain Years: 5 </span><br /><span>Drivetrain Miles/km: 100,000</span>"
+                    }
+                ],
+                "gallery": [
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Kona/Hyundai-Kona-1.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Kona/Hyundai-Kona-2.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Kona/Hyundai-Kona-3.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Kona/Hyundai-Kona-4.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Kona/Hyundai-Kona-5.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Kona/Hyundai-Kona-6.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Kona/Hyundai-Kona-7.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Kona/Hyundai-Kona-8.jpg"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Kona/Hyundai-Kona-9.jpg"
+                    }
+                ],
+                "vehicleSpecs": [
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Vehicle Name",
+                        "specsContent": "Hyundai Kona"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Body Style",
+                        "specsContent": "Sport Utility"
+                    },
+                    {
+                        "specsName": "Drivetrain",
+                        "specsContent": "Front Wheel Drive"
+                    },
+                    {
+                        "specsName": "EPA Classification",
+                        "specsContent": "Small SUV 2WD"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Passenger Capacity",
+                        "specsContent": "5"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Passenger Volume",
+                        "specsContent": "94.1"
+                    },
+                    {
+                        "specsName": "Base Curb Weight",
+                        "specsContent": "3040"
+                    },
+                    {
+                        "specsName": "EnerGuide Estimate - City",
+                        "specsContent": "8 (Est)"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "EnerGuide Estimate - Hwy",
+                        "specsContent": "6.6 (Est)"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Type",
+                        "specsContent": "Regular Unleaded I-4"
+                    },
+                    {
+                        "specsName": "Displacement",
+                        "specsContent": "2.0 L/122"
+                    },
+                    {
+                        "specsName": "Fuel System",
+                        "specsContent": "Sequential MPI"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "SAE Net Horsepower @ RPM",
+                        "specsContent": "147 @ 6200"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "SAE Net Torque @ RPM",
+                        "specsContent": "132 @ 4500"
+                    },
+                    {
+                        "specsName": "Trans Order Code",
+                        "specsContent": "205"
+                    },
+                    {
+                        "specsName": "Trans Type",
+                        "specsContent": "1"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Trans Description Cont.",
+                        "specsContent": "CVT w/OD"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "First Gear Ratio (:1)",
+                        "specsContent": "2.68 - 0.39"
+                    },
+                    {
+                        "specsName": "Reverse Ratio (:1)",
+                        "specsContent": "4.22"
+                    },
+                    {
+                        "specsName": "Final Drive Axle Ratio (:1)",
+                        "specsContent": "5.71"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Maximum Alternator Capacity (amps)",
+                        "specsContent": "150"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Suspension Type - Front",
+                        "specsContent": "Strut"
+                    },
+                    {
+                        "specsName": "Suspension Type - Rear",
+                        "specsContent": "Torsion Beam"
+                    },
+                    {
+                        "specsName": "Suspension Type - Front (Cont.)",
+                        "specsContent": "Strut"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Suspension Type - Rear (Cont.)",
+                        "specsContent": "Torsion Beam"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Tire Size",
+                        "specsContent": "P205/60HR16"
+                    },
+                    {
+                        "specsName": "Rear Tire Size",
+                        "specsContent": "P205/60HR16"
+                    },
+                    {
+                        "specsName": "Spare Tire Size",
+                        "specsContent": "Compact"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Wheel Size",
+                        "specsContent": "16 X 6.5"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Rear Wheel Size",
+                        "specsContent": "16 X 6.5"
+                    },
+                    {
+                        "specsName": "Spare Wheel Size",
+                        "specsContent": "Compact"
+                    },
+                    {
+                        "specsName": "Front Wheel Material",
+                        "specsContent": "Aluminum"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Rear Wheel Material",
+                        "specsContent": "Aluminum"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Spare Wheel Material",
+                        "specsContent": "Steel"
+                    },
+                    {
+                        "specsName": "Steering Type",
+                        "specsContent": "Rack-Pinion"
+                    },
+                    {
+                        "specsName": "Turning Diameter - Curb to Curb",
+                        "specsContent": "34.8"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Brake Type",
+                        "specsContent": "4-Wheel Disc"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Brake ABS System",
+                        "specsContent": "4-Wheel"
+                    },
+                    {
+                        "specsName": "Disc - Front (Yes or )",
+                        "specsContent": "Yes"
+                    },
+                    {
+                        "specsName": "Disc - Rear (Yes or )",
+                        "specsContent": "Yes"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Brake Rotor Diam x Thickness",
+                        "specsContent": "11"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Rear Brake Rotor Diam x Thickness",
+                        "specsContent": "10.3"
+                    },
+                    {
+                        "specsName": "Fuel Tank Capacity, Approx",
+                        "specsContent": "50"
+                    },
+                    {
+                        "specsName": "Front Head Room",
+                        "specsContent": "39.6"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Leg Room",
+                        "specsContent": "41.5"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Shoulder Room",
+                        "specsContent": "55.5"
+                    },
+                    {
+                        "specsName": "Front Hip Room",
+                        "specsContent": "53.3"
+                    },
+                    {
+                        "specsName": "Second Head Room",
+                        "specsContent": "37.8"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Second Leg Room",
+                        "specsContent": "35.2"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Second Shoulder Room",
+                        "specsContent": "52.2"
+                    },
+                    {
+                        "specsName": "Second Hip Room",
+                        "specsContent": "54.5"
+                    },
+                    {
+                        "specsName": "Wheelbase",
+                        "specsContent": "102.4"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Length, Overall",
+                        "specsContent": "165.6"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Width, Max w/o mirrors",
+                        "specsContent": "70.9"
+                    },
+                    {
+                        "specsName": "Height, Overall",
+                        "specsContent": "61.6"
+                    },
+                    {
+                        "specsName": "Track Width, Front",
+                        "specsContent": "62"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Track Width, Rear",
+                        "specsContent": "62.4"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Min Ground Clearance",
+                        "specsContent": "6.7"
+                    },
+                    {
+                        "specsName": "Cargo Volume to Seat 1",
+                        "specsContent": "45.8"
+                    },
+                    {
+                        "specsName": "Cargo Volume to Seat 2",
+                        "specsContent": "19.2"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Cargo Volume to Seat 3",
+                        "specsContent": "19.2"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Model Group",
+                        "specsContent": "Kona"
+                    },
+                    {
+                        "specsName": "Vehicle Segment",
+                        "specsContent": "Subcompact Sport Utility"
+                    },
+                    {
+                        "specsName": "Vehicle Type",
+                        "specsContent": "Sport Utility"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Displacement Units",
+                        "specsContent": "2.0, 2.0"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Camshaft",
+                        "specsContent": "DOHC, DOHC"
+                    },
+                    {
+                        "specsName": "Engine Block Type",
+                        "specsContent": "Aluminum"
+                    },
+                    {
+                        "specsName": "Engine Cylinder Count",
+                        "specsContent": "4, 4"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Valve Count",
+                        "specsContent": "4, 4"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Country of Origin",
+                        "specsContent": "South Korea Hyundai - Passenger Cars (Mpv & Rv) Buses & Trucks (Including Vans)"
+                    }
+                ]
+            },
+            {
+                "id": "Hyundai-Tucson",
+                "brand": "Hyundai",
+                "productName": "Hyundai Tucson",
+                "productYear": "2022",
+                "productPrice": [
+                    {
+                        "priceTitle": "MSRP",
+                        "price": "29,524"
+                    },
+                    {
+                        "priceTitle": "Finance",
+                        "price": "374"
+                    }
+                ],
+                "productImg": [
+                    {   "classColor": "active",
+                        "color": "Shimmering-Silver",
+                        "productImgColor": "./images/ProductsImg/NewModels/Hyundai-Tucson/Hyundai-Tucson-Shimmering-Silver.png"
+                    },
+                    {
+                        "color": "Ash-Black",
+                        "productImgColor": "./images/ProductsImg/NewModels/Hyundai-Tucson/Hyundai-Tucson-Ash-Black.png"
+                    },
+                    {
+                        "color": "Titan-Grey",
+                        "productImgColor": "./images/ProductsImg/NewModels/Hyundai-Tucson/Hyundai-Tucson-Titan-Grey.png"
+                    },
+                    {
+                        
+                        "color": "Crystal-White",
+                        "productImgColor": "./images/ProductsImg/NewModels/Hyundai-Tucson/Hyundai-Tucson-Crystal-White.png"
+                    }
+                ],
+                "feature": [
+                    {
+                        "featurePath1": "M19.78,4.22A11,11,0,0,0,4.22,19.78,11,11,0,0,0,19.78,4.22ZM12.72,17.34H11.28V12.72H7.51v4.62H6.07V6.66H7.51v4.62h3.77V6.66h1.43v4.62h3.78V6.66h1.43v6.06H12.72Zm5-.22-.53-.86h-.29v.86H16.1V14.33h1.28a1,1,0,0,1,.54,1.76l.63,1h-.86Z",
+                        "featurePath2": "M17.33,15h-.46v.6h.48c.09,0,.19-.11.19-.3S17.43,15,17.33,15Z",
+                        "featureContent": "Automatic"
+                    },
+                    {
+                        "featurePath1": "M19.75,7l0,0-3.84-3.9L14.83,4.19,17,6.41a2.63,2.63,0,0,0,.92,5.07,2.51,2.51,0,0,0,1-.22v7.57a1,1,0,1,1-2.06,0V14.1A2.08,2.08,0,0,0,14.83,12h-1V4.65a2.08,2.08,0,0,0-2.06-2.1H5.56A2.08,2.08,0,0,0,3.5,4.65V21.44H13.8V13.57h1.55v5.25a2.58,2.58,0,1,0,5.15,0v-10A2.66,2.66,0,0,0,19.75,7Zm-8,2.91H5.56V4.65h6.18Zm6.18,0a1,1,0,1,1,1-1A1,1,0,0,1,17.92,9.9Z",
+                        "featureContent": "9 City / 7 Hwy / 8 Avg"
+                    },
+                    {
+                        "featurePath1": "M17.2,4A1.93,1.93,0,0,0,15.38,5.2h3.1a3.33,3.33,0,0,1,.54.05A1.92,1.92,0,0,0,17.2,4ZM6.8,4A1.92,1.92,0,0,0,5,5.25a3.33,3.33,0,0,1,.54-.05h3.1A1.93,1.93,0,0,0,6.8,4ZM12,4A1.93,1.93,0,0,0,10.14,5.2h3.72A2,2,0,0,0,12,4Zm3.31,11.75V13.86H14v1.86c0,.71.71.62,1.41.62A1.77,1.77,0,0,1,15.27,15.71ZM10,15.63V13.86H8.73v1.86c0,.71.71.62,1.43.62A1.78,1.78,0,0,1,10,15.63Zm2.66.08V13.86H11.31v1.78c0,.65.83.7,1.49.7A1.77,1.77,0,0,1,12.69,15.71ZM2.29,8.91V8.29a.63.63,0,0,0-.64-.62A.63.63,0,0,0,1,8.29v4.95a.63.63,0,0,0,.64.62.63.63,0,0,0,.64-.62v-.62H3.58V8.91Zm16.2-2.47h-13a2.19,2.19,0,0,0-.64.11v3.6H19.13V6.55A2.19,2.19,0,0,0,18.49,6.43Z",
+                        "featurePath2": "M17.2,13.86h-.64v1.86a.63.63,0,0,0,.64.62h1.93V11.38H4.87v8.55a1.85,1.85,0,0,0,.64.11h13a1.85,1.85,0,0,0,.64-.11V17.57H9.38a1.89,1.89,0,0,1-1.93-1.86V13.86H6.8a.62.62,0,1,1,0-1.24H17.2a.62.62,0,1,1,0,1.24Zm5.16-2.47a.63.63,0,0,0-.64.62v.62H20.42v3.71h1.29v.62a.65.65,0,0,0,1.29,0V12A.63.63,0,0,0,22.36,11.38Z",
+                        "featureContent": "187HP - 2.5L 4 Cylinder Engine"
+                    },
+                    {
+                        "featurePath1": "M8.8,12.69H6.22a5.74,5.74,0,0,0,1.22,3l1.83-1.83A3.2,3.2,0,0,1,8.8,12.69Zm1.38,2L8.36,16.55a5.74,5.74,0,0,0,3,1.22V15.2A3.2,3.2,0,0,1,10.18,14.73ZM8.36,7.45l1.83,1.83a3.2,3.2,0,0,1,1.13-.47V6.22A5.74,5.74,0,0,0,8.36,7.45Zm-.91.91a5.74,5.74,0,0,0-1.22,3H8.8a3.2,3.2,0,0,1,.47-1.13Zm5.24-2.14V8.8a3.2,3.2,0,0,1,1.13.47l1.83-1.83A5.74,5.74,0,0,0,12.69,6.22Zm2.51,6.47a3.2,3.2,0,0,1-.47,1.13l1.83,1.83a5.74,5.74,0,0,0,1.22-3Z",
+                        "featurePath2": "M12,1A11,11,0,0,0,1,12,11.12,11.12,0,0,0,12,23,11,11,0,0,0,12,1Zm0,18.13A7.25,7.25,0,0,1,4.87,12,7.17,7.17,0,0,1,12,4.87,7.1,7.1,0,0,1,19.13,12,7.17,7.17,0,0,1,12,19.13Z",
+                        "featurePath3": "M16.55,8.36l-1.83,1.83a3.2,3.2,0,0,1,.47,1.13h2.58A5.74,5.74,0,0,0,16.55,8.36Zm-2.74,6.37a3.2,3.2,0,0,1-1.13.47v2.58a5.74,5.74,0,0,0,3-1.22Zm-.41-4.14h0a2,2,0,0,0-2.82,0h0A1.93,1.93,0,0,0,10,12a2.14,2.14,0,0,0,.57,1.45,2,2,0,0,0,2.82,0h0A2,2,0,0,0,13.41,10.59Z",
+                        "featureContent": "Front Wheel Drive"
+                    },
+                    {
+                        "featurePath1": "M3.44,9.57,5.28,4.1H18.72l1.83,5.47Zm15.28,6.08a1.82,1.82,0,1,1,1.83-1.82A1.83,1.83,0,0,1,18.72,15.65Zm-13.44,0a1.82,1.82,0,1,1,1.83-1.82A1.83,1.83,0,0,1,5.28,15.65ZM20.46,3.5a1.83,1.83,0,0,0-1.74-1.23H5.28A1.84,1.84,0,0,0,3.54,3.5L1,10.78v9.72a1.22,1.22,0,0,0,1.22,1.22H3.44a1.22,1.22,0,0,0,1.22-1.22V19.29H19.33v1.22a1.22,1.22,0,0,0,1.22,1.22h1.22A1.22,1.22,0,0,0,23,20.51V10.78Z",
+                        "featureContent": "4-Door SUV"
+                    },
+                    {
+                        "featurePath1": "M14.28,5.94a4,4,0,0,1,1.86,3,3.21,3.21,0,1,0-1.86-3Zm-2.11,6.58A3.22,3.22,0,1,0,8.94,9.31,3.22,3.22,0,0,0,12.16,12.53Zm1.37.22H10.79a4.13,4.13,0,0,0-4.13,4.12v3.39l.23.07a18.86,18.86,0,0,0,5.62.9,11.56,11.56,0,0,0,4.9-.92l.22-.11h0V16.86A4.13,4.13,0,0,0,13.53,12.74Zm5.34-3.32H16.15a4,4,0,0,1-1.23,2.76,4.89,4.89,0,0,1,3.51,4.68v1A11.15,11.15,0,0,0,22.76,17l.22-.11h0V13.54A4.13,4.13,0,0,0,18.87,9.42ZM6.5,9.21a3.21,3.21,0,0,0,1.72-.5,4,4,0,0,1,1.5-2.54c0-.06,0-.12,0-.18A3.23,3.23,0,1,0,6.5,9.21Zm2.9,3A4,4,0,0,1,8.17,9.44l-.3,0H5.13A4.13,4.13,0,0,0,1,13.54v3.39l.23.07a19.43,19.43,0,0,0,4.65.87v-1A4.9,4.9,0,0,1,9.4,12.19Z",
+                        "featureContent": "5 Passengers"
+                    },
+                    {
+                        "polygonPoint": "17 22 20 19 17 19 17 22",
+                        "featurePath1": "M20,17.5V2H4V22H15.5V17.5ZM7,6H17V7.5H7ZM7,9H17v1.5H7Zm0,3H17v1.5H7Zm4.19,7.12L11,20,9.54,18.53,8.06,20l-.18-.88L7,18.94l1.22-1.22a1.5,1.5,0,1,1,2.63,0l1.22,1.22Z",
+                        "featureContent": "<span>Basic Years: 5</span><br /><span>Basic Miles/km: 100,000</span><br /><span>Drivetrain Years: 5 </span><br /><span>Drivetrain Miles/km: 100,000</span>"
+                    }
+                ],
+                "gallery": [
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Tucson/Hyundai-Tucson-1.png"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Tucson/Hyundai-Tucson-2.png"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Tucson/Hyundai-Tucson-3.png"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Tucson/Hyundai-Tucson-4.png"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Tucson/Hyundai-Tucson-5.png"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Tucson/Hyundai-Tucson-6.png"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Tucson/Hyundai-Tucson-7.png"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Tucson/Hyundai-Tucson-8.png"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Hyundai-Tucson/Hyundai-Tucson-9.png"
+                    }
+                ],
+                "vehicleSpecs": [
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Vehicle Name",
+                        "specsContent": "Hyundai Tucson"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Body Style",
+                        "specsContent": "Sport Utility"
+                    },
+                    {
+                        "specsName": "Drivetrain",
+                        "specsContent": "Front Wheel Drive"
+                    },
+                    {
+                        "specsName": "EPA Classification",
+                        "specsContent": "Small SUV 2WD"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Passenger Capacity",
+                        "specsContent": "5"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Passenger Volume",
+                        "specsContent": "108.2"
+                    },
+                    {
+                        "specsName": "Base Curb Weight",
+                        "specsContent": "3340"
+                    },
+                    {
+                        "specsName": "EnerGuide Estimate - City",
+                        "specsContent": "9.1 (Est)"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "EnerGuide Estimate - Hwy",
+                        "specsContent": "7.1 (Est)"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Dead Weight Hitch - Max Trailer Wt.",
+                        "specsContent": "2000"
+                    },
+                    {
+                        "specsName": "Dead Weight Hitch - Max Tongue Wt.",
+                        "specsContent": "200"
+                    },
+                    {
+                        "specsName": "Wt Distributing Hitch - Max Trailer Wt.",
+                        "specsContent": "2000"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Wt Distributing Hitch - Max Tongue Wt.",
+                        "specsContent": "200"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Maximum Trailering Capacity",
+                        "specsContent": "2000"
+                    },
+                    {
+                        "specsName": "Engine Type",
+                        "specsContent": "Regular Unleaded I-4"
+                    },
+                    {
+                        "specsName": "Displacement",
+                        "specsContent": "2.5 L/152"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Fuel System",
+                        "specsContent": "Port/Direct Injection"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "SAE Net Horsepower @ RPM",
+                        "specsContent": "187 @ 6100"
+                    },
+                    {
+                        "specsName": "SAE Net Torque @ RPM",
+                        "specsContent": "178 @ 4000"
+                    },
+                    {
+                        "specsName": "Trans Type",
+                        "specsContent": "8"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Trans Description Cont.",
+                        "specsContent": "Automatic w/OD"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "First Gear Ratio (:1)",
+                        "specsContent": "4.72"
+                    },
+                    {
+                        "specsName": "Second Gear Ratio (:1)",
+                        "specsContent": "2.91"
+                    },
+                    {
+                        "specsName": "Third Gear Ratio (:1)",
+                        "specsContent": "1.86"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Fourth Gear Ratio (:1)",
+                        "specsContent": "1.42"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Fifth Gear Ratio (:1)",
+                        "specsContent": "1.22"
+                    },
+                    {
+                        "specsName": "Sixth Gear Ratio (:1)",
+                        "specsContent": "1.00"
+                    },
+                    {
+                        "specsName": "Reverse Ratio (:1)",
+                        "specsContent": "3.24"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Final Drive Axle Ratio (:1)",
+                        "specsContent": "3.65"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Maximum Alternator Capacity (amps)",
+                        "specsContent": "150"
+                    },
+                    {
+                        "specsName": "Suspension Type - Front",
+                        "specsContent": "Strut"
+                    },
+                    {
+                        "specsName": "Suspension Type - Rear",
+                        "specsContent": "Multi-Link"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Suspension Type - Front (Cont.)",
+                        "specsContent": "Strut"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Suspension Type - Rear (Cont.)",
+                        "specsContent": "Multi-Link"
+                    },
+                    {
+                        "specsName": "Front Tire Size",
+                        "specsContent": "P235/65HR17"
+                    },
+                    {
+                        "specsName": "Rear Tire Size",
+                        "specsContent": "P235/65HR17"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Spare Tire Size",
+                        "specsContent": "Compact"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Wheel Size",
+                        "specsContent": "17 X 7"
+                    },
+                    {
+                        "specsName": "Rear Wheel Size",
+                        "specsContent": "17 X 7"
+                    },
+                    {
+                        "specsName": "Spare Wheel Size",
+                        "specsContent": "Compact"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Wheel Material",
+                        "specsContent": "Aluminum"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Rear Wheel Material",
+                        "specsContent": "Aluminum"
+                    },
+                    {
+                        "specsName": "Spare Wheel Material",
+                        "specsContent": "Steel"
+                    },
+                    {
+                        "specsName": "Steering Type",
+                        "specsContent": "Rack-Pinion"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Turning Diameter - Curb to Curb",
+                        "specsContent": "38.7"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Brake Type",
+                        "specsContent": "4-Wheel Disc"
+                    },
+                    {
+                        "specsName": "Brake ABS System",
+                        "specsContent": "4-Wheel"
+                    },
+                    {
+                        "specsName": "Disc - Front (Yes or )",
+                        "specsContent": "Yes"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Disc - Rear (Yes or )",
+                        "specsContent": "Yes"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Brake Rotor Diam x Thickness",
+                        "specsContent": "12.8"
+                    },
+                    {
+                        "specsName": "Rear Brake Rotor Diam x Thickness",
+                        "specsContent": "12"
+                    },
+                    {
+                        "specsName": "Fuel Tank Capacity, Approx",
+                        "specsContent": "54"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Head Room",
+                        "specsContent": "40.1"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Leg Room",
+                        "specsContent": "41.4"
+                    },
+                    {
+                        "specsName": "Front Shoulder Room",
+                        "specsContent": "57.6"
+                    },
+                    {
+                        "specsName": "Front Hip Room",
+                        "specsContent": "54.5"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Second Head Room",
+                        "specsContent": "39.4"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Second Leg Room",
+                        "specsContent": "41.3"
+                    },
+                    {
+                        "specsName": "Second Shoulder Room",
+                        "specsContent": "56"
+                    },
+                    {
+                        "specsName": "Second Hip Room",
+                        "specsContent": "53.9"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Wheelbase",
+                        "specsContent": "108.5"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Length, Overall",
+                        "specsContent": "182.3"
+                    },
+                    {
+                        "specsName": "Width, Max w/o mirrors",
+                        "specsContent": "73.4"
+                    },
+                    {
+                        "specsName": "Height, Overall",
+                        "specsContent": "65.6"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Track Width, Front",
+                        "specsContent": "63.8"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Track Width, Rear",
+                        "specsContent": "64.1"
+                    },
+                    {
+                        "specsName": "Min Ground Clearance",
+                        "specsContent": "7.1"
+                    },
+                    {
+                        "specsName": "Cargo Volume to Seat 1",
+                        "specsContent": "74.8"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Cargo Volume to Seat 2",
+                        "specsContent": "38.7"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Cargo Volume to Seat 3",
+                        "specsContent": "38.7"
+                    },
+                    {
+                        "specsName": "Seventh Gear Ratio (:1)",
+                        "specsContent": "0.79"
+                    },
+                    {
+                        "specsName": "Eighth Gear Ratio (:1)",
+                        "specsContent": "0.64"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Model Group",
+                        "specsContent": "Tucson"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Vehicle Segment",
+                        "specsContent": "Compact Sport Utility"
+                    },
+                    {
+                        "specsName": "Vehicle Type",
+                        "specsContent": "Sport Utility"
+                    },
+                    {
+                        "specsName": "Engine Displacement Units",
+                        "specsContent": "2.5, 2.5"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Camshaft",
+                        "specsContent": "DOHC, DOHC"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Block Type",
+                        "specsContent": "Aluminum"
+                    },
+                    {
+                        "specsName": "Engine Cylinder Count",
+                        "specsContent": "4, 4"
+                    },
+                    {
+                        "specsName": "Engine Valve Count",
+                        "specsContent": "4, 4"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Country of Origin",
+                        "specsContent": "South Korea Hyundai - Passenger Cars (Mpv & Rv) Buses & Trucks (Including Vans)"
+                    }
+                ]
+            },
+            {
+                "id": "Toyota-Corolla",
+                "brand": "Toyota",
+                "productName": "Toyota Corolla",
+                "productYear": "2022",
+                "productPrice": [
+                    {
+                        "priceTitle": "MSRP",
+                        "price": "21,095"
+                    },
+                    {
+                        "priceTitle": "Finance",
+                        "price": "286"
+                    }
+                ],
+                "productImg": [
+                    {
+                        "classColor": "active",
+                        "color": "Black-Sand",
+                        "productImgColor": "./images/ProductsImg/NewModels/Toyota-Corolla/Toyota-Corolla-Black-Sand.png"
+                    },
+                    {
+                        "color": "Celestite",
+                        "productImgColor": "./images/ProductsImg/NewModels/Toyota-Corolla/Toyota-Corolla-Celestite.png"
+                    },
+                    {
+                        "color": "Classic-Silver",
+                        "productImgColor": "./images/ProductsImg/NewModels/Toyota-Corolla/Toyota-Corolla-Classic-Silver.png"
+                    },
+                    {
+                        "color": "Super-White",
+                        "productImgColor": "./images/ProductsImg/NewModels/Toyota-Corolla/Toyota-Corolla-Super-White.png"
+                    }
+                ],
+                "feature": [
+                    {
+                        "featurePath1": "M19.78,4.22A11,11,0,0,0,4.22,19.78,11,11,0,0,0,19.78,4.22ZM12.72,17.34H11.28V12.72H7.51v4.62H6.07V6.66H7.51v4.62h3.77V6.66h1.43v4.62h3.78V6.66h1.43v6.06H12.72Zm5-.22-.53-.86h-.29v.86H16.1V14.33h1.28a1,1,0,0,1,.54,1.76l.63,1h-.86Z",
+                        "featurePath2": "M17.33,15h-.46v.6h.48c.09,0,.19-.11.19-.3S17.43,15,17.33,15Z",
+                        "featureContent": "Manual"
+                    },
+                    {
+                        "featurePath1": "M19.75,7l0,0-3.84-3.9L14.83,4.19,17,6.41a2.63,2.63,0,0,0,.92,5.07,2.51,2.51,0,0,0,1-.22v7.57a1,1,0,1,1-2.06,0V14.1A2.08,2.08,0,0,0,14.83,12h-1V4.65a2.08,2.08,0,0,0-2.06-2.1H5.56A2.08,2.08,0,0,0,3.5,4.65V21.44H13.8V13.57h1.55v5.25a2.58,2.58,0,1,0,5.15,0v-10A2.66,2.66,0,0,0,19.75,7Zm-8,2.91H5.56V4.65h6.18Zm6.18,0a1,1,0,1,1,1-1A1,1,0,0,1,17.92,9.9Z",
+                        "featureContent": "8 City / 6 Hwy / 7 Avg"
+                    },
+                    {
+                        "featurePath1": "M17.2,4A1.93,1.93,0,0,0,15.38,5.2h3.1a3.33,3.33,0,0,1,.54.05A1.92,1.92,0,0,0,17.2,4ZM6.8,4A1.92,1.92,0,0,0,5,5.25a3.33,3.33,0,0,1,.54-.05h3.1A1.93,1.93,0,0,0,6.8,4ZM12,4A1.93,1.93,0,0,0,10.14,5.2h3.72A2,2,0,0,0,12,4Zm3.31,11.75V13.86H14v1.86c0,.71.71.62,1.41.62A1.77,1.77,0,0,1,15.27,15.71ZM10,15.63V13.86H8.73v1.86c0,.71.71.62,1.43.62A1.78,1.78,0,0,1,10,15.63Zm2.66.08V13.86H11.31v1.78c0,.65.83.7,1.49.7A1.77,1.77,0,0,1,12.69,15.71ZM2.29,8.91V8.29a.63.63,0,0,0-.64-.62A.63.63,0,0,0,1,8.29v4.95a.63.63,0,0,0,.64.62.63.63,0,0,0,.64-.62v-.62H3.58V8.91Zm16.2-2.47h-13a2.19,2.19,0,0,0-.64.11v3.6H19.13V6.55A2.19,2.19,0,0,0,18.49,6.43Z",
+                        "featurePath2": "M17.2,13.86h-.64v1.86a.63.63,0,0,0,.64.62h1.93V11.38H4.87v8.55a1.85,1.85,0,0,0,.64.11h13a1.85,1.85,0,0,0,.64-.11V17.57H9.38a1.89,1.89,0,0,1-1.93-1.86V13.86H6.8a.62.62,0,1,1,0-1.24H17.2a.62.62,0,1,1,0,1.24Zm5.16-2.47a.63.63,0,0,0-.64.62v.62H20.42v3.71h1.29v.62a.65.65,0,0,0,1.29,0V12A.63.63,0,0,0,22.36,11.38Z",
+                        "featureContent": "139HP - 1.8L 4 Cylinder Engine"
+                    },
+                    {
+                        "featurePath1": "M8.8,12.69H6.22a5.74,5.74,0,0,0,1.22,3l1.83-1.83A3.2,3.2,0,0,1,8.8,12.69Zm1.38,2L8.36,16.55a5.74,5.74,0,0,0,3,1.22V15.2A3.2,3.2,0,0,1,10.18,14.73ZM8.36,7.45l1.83,1.83a3.2,3.2,0,0,1,1.13-.47V6.22A5.74,5.74,0,0,0,8.36,7.45Zm-.91.91a5.74,5.74,0,0,0-1.22,3H8.8a3.2,3.2,0,0,1,.47-1.13Zm5.24-2.14V8.8a3.2,3.2,0,0,1,1.13.47l1.83-1.83A5.74,5.74,0,0,0,12.69,6.22Zm2.51,6.47a3.2,3.2,0,0,1-.47,1.13l1.83,1.83a5.74,5.74,0,0,0,1.22-3Z",
+                        "featurePath2": "M12,1A11,11,0,0,0,1,12,11.12,11.12,0,0,0,12,23,11,11,0,0,0,12,1Zm0,18.13A7.25,7.25,0,0,1,4.87,12,7.17,7.17,0,0,1,12,4.87,7.1,7.1,0,0,1,19.13,12,7.17,7.17,0,0,1,12,19.13Z",
+                        "featurePath3": "M16.55,8.36l-1.83,1.83a3.2,3.2,0,0,1,.47,1.13h2.58A5.74,5.74,0,0,0,16.55,8.36Zm-2.74,6.37a3.2,3.2,0,0,1-1.13.47v2.58a5.74,5.74,0,0,0,3-1.22Zm-.41-4.14h0a2,2,0,0,0-2.82,0h0A1.93,1.93,0,0,0,10,12a2.14,2.14,0,0,0,.57,1.45,2,2,0,0,0,2.82,0h0A2,2,0,0,0,13.41,10.59Z",
+                        "featureContent": "Front Wheel Drive"
+                    },
+                    {
+                        "featurePath1": "M3.44,9.57,5.28,4.1H18.72l1.83,5.47Zm15.28,6.08a1.82,1.82,0,1,1,1.83-1.82A1.83,1.83,0,0,1,18.72,15.65Zm-13.44,0a1.82,1.82,0,1,1,1.83-1.82A1.83,1.83,0,0,1,5.28,15.65ZM20.46,3.5a1.83,1.83,0,0,0-1.74-1.23H5.28A1.84,1.84,0,0,0,3.54,3.5L1,10.78v9.72a1.22,1.22,0,0,0,1.22,1.22H3.44a1.22,1.22,0,0,0,1.22-1.22V19.29H19.33v1.22a1.22,1.22,0,0,0,1.22,1.22h1.22A1.22,1.22,0,0,0,23,20.51V10.78Z",
+                        "featureContent": "4-Door Sedan"
+                    },
+                    {
+                        "featurePath1": "M14.28,5.94a4,4,0,0,1,1.86,3,3.21,3.21,0,1,0-1.86-3Zm-2.11,6.58A3.22,3.22,0,1,0,8.94,9.31,3.22,3.22,0,0,0,12.16,12.53Zm1.37.22H10.79a4.13,4.13,0,0,0-4.13,4.12v3.39l.23.07a18.86,18.86,0,0,0,5.62.9,11.56,11.56,0,0,0,4.9-.92l.22-.11h0V16.86A4.13,4.13,0,0,0,13.53,12.74Zm5.34-3.32H16.15a4,4,0,0,1-1.23,2.76,4.89,4.89,0,0,1,3.51,4.68v1A11.15,11.15,0,0,0,22.76,17l.22-.11h0V13.54A4.13,4.13,0,0,0,18.87,9.42ZM6.5,9.21a3.21,3.21,0,0,0,1.72-.5,4,4,0,0,1,1.5-2.54c0-.06,0-.12,0-.18A3.23,3.23,0,1,0,6.5,9.21Zm2.9,3A4,4,0,0,1,8.17,9.44l-.3,0H5.13A4.13,4.13,0,0,0,1,13.54v3.39l.23.07a19.43,19.43,0,0,0,4.65.87v-1A4.9,4.9,0,0,1,9.4,12.19Z",
+                        "featureContent": "5 Passengers"
+                    },
+                    {
+                        "polygonPoint": "17 22 20 19 17 19 17 22",
+                        "featurePath1": "M20,17.5V2H4V22H15.5V17.5ZM7,6H17V7.5H7ZM7,9H17v1.5H7Zm0,3H17v1.5H7Zm4.19,7.12L11,20,9.54,18.53,8.06,20l-.18-.88L7,18.94l1.22-1.22a1.5,1.5,0,1,1,2.63,0l1.22,1.22Z",
+                        "featureContent": "<span>Basic Years: 3</span><br /><span>Basic Miles/km: 60,000</span><br /><span>Drivetrain Years: 5 </span><br /><span>Drivetrain Miles/km: 100,000</span>"
+                    }
+                ],
+                "gallery": [
+                    {
+                        "galleryImg": "./images/GalleryImg/Toyota-Corolla/Toyota-Corolla-1.png"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Toyota-Corolla/Toyota-Corolla-2.png"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Toyota-Corolla/Toyota-Corolla-3.png"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Toyota-Corolla/Toyota-Corolla-4.png"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Toyota-Corolla/Toyota-Corolla-5.png"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Toyota-Corolla/Toyota-Corolla-6.png"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Toyota-Corolla/Toyota-Corolla-7.png"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Toyota-Corolla/Toyota-Corolla-8.png"
+                    },
+                    {
+                        "galleryImg": "./images/GalleryImg/Toyota-Corolla/Toyota-Corolla-9.png"
+                    }
+                ],
+                "vehicleSpecs": [
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Vehicle Name",
+                        "specsContent": "Toyota Corolla"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Body Style",
+                        "specsContent": "Sedan"
+                    },
+                    {
+                        "specsName": "Drivetrain",
+                        "specsContent": "Front Wheel Drive"
+                    },
+                    {
+                        "specsName": "EPA Classification",
+                        "specsContent": "Compact Cars"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Passenger Capacity",
+                        "specsContent": "5"
+                    },
+                    {   "addClass": "zebra-table-item_odd",
+                        "specsName": "Base Curb Weight",
+                        "specsContent": "2833"
+                    },
+                    {
+                        "specsName": "EnerGuide Estimate - City",
+                        "specsContent": "8 (2021)"
+                    },
+                    {
+                        
+                        "specsName": "EnerGuide Estimate - Hwy",
+                        "specsContent": "6 (2021)"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Type",
+                        "specsContent": "Regular Unleaded I-4"
+                    },
+                    {   "addClass": "zebra-table-item_odd",
+                        "specsName": "Displacement",
+                        "specsContent": "1.8 L/110"
+                    },
+                    {
+                        "specsName": "Fuel System",
+                        "specsContent": "Sequential MPI"
+                    },
+                    {
+                        
+                        "specsName": "SAE Net Horsepower @ RPM",
+                        "specsContent": "139 @ 6100"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "SAE Net Torque @ RPM",
+                        "specsContent": "126 @ 3900"
+                    },
+                    {   "addClass": "zebra-table-item_odd",
+                        "specsName": "Trans Type",
+                        "specsContent": "6"
+                    },
+                    {
+                        
+                        "specsName": "Trans Description Cont.",
+                        "specsContent": "Manual w/OD"
+                    },
+                    {
+                        
+                        "specsName": "First Gear Ratio (:1)",
+                        "specsContent": "3.54"
+                    },
+                    {   "addClass": "zebra-table-item_odd",
+                        "specsName": "Second Gear Ratio (:1)",
+                        "specsContent": "1.91"
+                    },
+                    {   "addClass": "zebra-table-item_odd",
+                        "specsName": "Third Gear Ratio (:1)",
+                        "specsContent": "1.31"
+                    },
+                    {
+                        
+                        "specsName": "Fourth Gear Ratio (:1)",
+                        "specsContent": "0.97"
+                    },
+                    {
+                        
+                        "specsName": "Fifth Gear Ratio (:1)",
+                        "specsContent": "0.71"
+                    },
+                    {   "addClass": "zebra-table-item_odd",
+                        "specsName": "Sixth Gear Ratio (:1)",
+                        "specsContent": "0.62"
+                    },
+                    {   "addClass": "zebra-table-item_odd",
+                        "specsName": "Reverse Ratio (:1)",
+                        "specsContent": "3.33"
+                    },
+                    {
+                        
+                        "specsName": "Final Drive Axle Ratio (:1)",
+                        "specsContent": "4.21"
+                    },
+                    {
+                        "specsName": "Suspension Type - Front",
+                        "specsContent": "Strut"
+                    },
+                    {   "addClass": "zebra-table-item_odd",
+                        "specsName": "Suspension Type - Rear",
+                        "specsContent": "Multi-Link"
+                    },
+                    {   
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Suspension Type - Front (Cont.)",
+                        "specsContent": "Strut"
+                    },
+                    {
+                        "specsName": "Suspension Type - Rear (Cont.)",
+                        "specsContent": "Multi-Link"
+                    },
+                    {
+                        "specsName": "Front Tire Size",
+                        "specsContent": "P195/65SR15"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Rear Tire Size",
+                        "specsContent": "P195/65SR15"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Spare Tire Size",
+                        "specsContent": "Compact"
+                    },
+                    {
+                        "specsName": "Front Wheel Size",
+                        "specsContent": "15 X 6.5"
+                    },
+                    {
+                        "specsName": "Rear Wheel Size",
+                        "specsContent": "15 X 6.5"
+                    },
+                    {   "addClass": "zebra-table-item_odd",
+                        "specsName": "Spare Wheel Size",
+                        "specsContent": "Compact"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Wheel Material",
+                        "specsContent": "Steel"
+                    },
+                    {
+                        "specsName": "Rear Wheel Material",
+                        "specsContent": "Steel"
+                    },
+                    {
+                        "specsName": "Spare Wheel Material",
+                        "specsContent": "Steel"
+                    },
+                    {   "addClass": "zebra-table-item_odd",
+                        "specsName": "Steering Type",
+                        "specsContent": "Rack-Pinion"
+                    },
+                    {   "addClass": "zebra-table-item_odd",
+                        "specsName": "Turning Diameter - Curb to Curb",
+                        "specsContent": "34.8"
+                    },
+                    {
+                        "specsName": "Brake Type",
+                        "specsContent": "4-Wheel Disc"
+                    },
+                    {
+                        "specsName": "Brake ABS System",
+                        "specsContent": "4-Wheel"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Disc - Front (Yes or )",
+                        "specsContent": "Yes"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Disc - Rear (Yes or )",
+                        "specsContent": "Yes"
+                    },
+                    {
+                        "specsName": "Front Brake Rotor Diam x Thickness",
+                        "specsContent": "10.8"
+                    },
+                    {
+                        "specsName": "Rear Brake Rotor Diam x Thickness",
+                        "specsContent": "10.2"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Fuel Tank Capacity, Approx",
+                        "specsContent": "50"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Front Head Room",
+                        "specsContent": "38.3"
+                    },
+                    {
+                        "specsName": "Front Leg Room",
+                        "specsContent": "42.3"
+                    },
+                    {
+                        "specsName": "Front Shoulder Room",
+                        "specsContent": "54"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Second Head Room",
+                        "specsContent": "37.1"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Second Leg Room",
+                        "specsContent": "34.8"
+                    },
+                    {
+                        "specsName": "Second Shoulder Room",
+                        "specsContent": "51.7"
+                    },
+                    {
+                        "specsName": "Wheelbase",
+                        "specsContent": "106.3"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Length, Overall",
+                        "specsContent": "182.3"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Width, Max w/o mirrors",
+                        "specsContent": "70.1"
+                    },
+                    {
+                        "specsName": "Height, Overall",
+                        "specsContent": "56.5"
+                    },
+                    {
+                        "specsName": "Track Width, Front",
+                        "specsContent": "60.3"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Track Width, Rear",
+                        "specsContent": "61"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Trunk Volume",
+                        "specsContent": "13.1"
+                    },
+                    {
+                        "specsName": "Min Ground Clearance",
+                        "specsContent": "5.3"
+                    },
+                    {
+                        "specsName": "G/km Of CO2 Emissions",
+                        "specsContent": "165 (Est)"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Model Group",
+                        "specsContent": "Corolla"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Vehicle Segment",
+                        "specsContent": "Compact"
+                    },
+                    {
+                        "specsName": "Vehicle Type",
+                        "specsContent": "Sedan"
+                    },
+                    {
+                        "specsName": "Engine Displacement Units",
+                        "specsContent": "1.8, 1.8"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Camshaft",
+                        "specsContent": "DOHC, DOHC"
+                    },
+                    {
+                        "addClass": "zebra-table-item_odd",
+                        "specsName": "Engine Block Type",
+                        "specsContent": "Aluminum"
+                    },
+                    {
+                        "specsName": "Engine Cylinder Count",
+                        "specsContent": "4, 4"
+                    },
+                    {
+                        "specsName": "Engine Valve Count",
+                        "specsContent": "4, 4"
+                    }
+                ]
+            }
+        ]
+    }
+}

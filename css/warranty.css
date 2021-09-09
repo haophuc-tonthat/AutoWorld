@@ -98,12 +98,13 @@ body {
 }
 
 .history .content .left ul li img {
-  height: 2rem;
+  height: 50px;
   padding-right: 1em;
+  width: 76px;
 }
 
 .history .content .left ul li span {
-  margin-left: auto;
+  margin: auto;
 }
 
 .history .content .left ul li.active {
@@ -210,6 +211,6 @@ body {
 }
 
 footer {
-  height: 54vh !important;
+  height: 40vh !important;
   margin-top: -1rem;
 }

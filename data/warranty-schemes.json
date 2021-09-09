@@ -1,27 +1,19 @@
 [
   {
-    "brand": "Lamborghini",
-    "policy": "Lamborghini’s limited warranty lumps both bumper-to-bumper coverage and powertrain coverage into one that lasts for three years with no mileage caps. It offers a long, 12-year anti-perforation coverage to keep it looking in tip-top shape.",
-    "imageTop": "./images/services/lamborghini_workshop.jpg",
-    "imageBottomLeft": "./images/services/lambor-repair.jpeg",
-    "imageBottomRight": "./images/services/lambor-repair2.jpg",
-    "logo": "./images/services/logo/lambor.webp"
-  },
-  {
-    "brand": "McLaren",
-    "policy": "The McLaren factory warranty comes standard with any new McLaren vehicle. This comprehensive 3-year limited mileage warranty was designed as an essential bedrock for Jupiter drivers caring for their McLaren. This warranty is a bumper-to-bumper warranty, meaning it covers nearly all parts and components.",
+    "brand": "Porsche",
+    "policy": "The Porsche factory warranty comes standard with any new Porsche vehicle. This comprehensive 3-year limited mileage warranty was designed as an essential bedrock for Jupiter drivers caring for their Porsche. This warranty is a bumper-to-bumper warranty, meaning it covers nearly all parts and components.",
     "imageTop": "./images/services/mclaren-maintain.jpg",
     "imageBottomLeft": "./images/services/mclaren-repair.jpg",
     "imageBottomRight": "./images/services/mclaren-repair2.jpeg",
-    "logo": "./images/services/logo/mclaren.png"
+    "logo": "./images/ShowroomLogo/logo-porsche.png"
   },
   {
-    "brand": "BMW",
-    "policy": "What Is Covered by the New BMW Limited Warranty? When you purchase a new vehicle from BMW, you are protected against defects in materials or workmanship that originated at the factory. This warranty period starts on the sale date of the new vehicle, and lasts for 4 years or 50,000 miles, whichever occurs first.",
+    "brand": "Mazda",
+    "policy": "What Is Covered by the New Mazda Limited Warranty? When you purchase a new vehicle from Mazda, you are protected against defects in materials or workmanship that originated at the factory. This warranty period starts on the sale date of the new vehicle, and lasts for 4 years or 50,000 miles, whichever occurs first.",
     "imageTop": "./images/services/bwm maintain.jpg",
     "imageBottomLeft": "./images/services/bmw-repair2.webp",
     "imageBottomRight": "./images/services/bmw-repair.jpeg",
-    "logo": "./images/services/logo/bmw.png"
+    "logo": "./images/ShowroomLogo/logo-mazda-color_0.png"
   },
   {
     "brand": "Mercedes",
@@ -29,7 +21,7 @@
     "imageTop": "./images/services/mer-maintain.jpg",
     "imageBottomLeft": "./images/services/mer-repair.gif",
     "imageBottomRight": "./images/services/mer-repair2.jpg",
-    "logo": "./images/services/logo/mer.svg"
+    "logo": "./images/ShowroomLogo/logo-mercedes-color.png"
   },
   {
     "brand": "Toyota",
@@ -37,15 +29,15 @@
     "imageTop": "./images/services/toyota-service.jpg",
     "imageBottomLeft": "./images/services/toyota-repair2.jpg",
     "imageBottomRight": "./images/services/toyota-repair.jpg",
-    "logo": "./images/services/logo/toyota.png"
+    "logo": "./images/ShowroomLogo/logo-toyota-color_0.png"
   },
   {
-    "brand": "Kia",
-    "policy": "If a warranty-related disablement happens more than 150 miles from your home, and the repairs require more than 24 hours to complete, Kia will provide reasonable reimbursement for meals, lodging, or rental car expenses.",
+    "brand": "Hyundai",
+    "policy": "If a warranty-related disablement happens more than 150 miles from your home, and the repairs require more than 24 hours to complete, Hyundai will provide reasonable reimbursement for meals, lodging, or rental car expenses.",
     "imageTop": "./images/services/kia-service.jpg",
     "imageBottomLeft": "./images/services/kia-repair.jpg",
     "imageBottomRight": "./images/services/kia-repair2.jpg",
-    "logo": "./images/services/logo/kia.png"
+    "logo": "./images/ShowroomLogo/logo-hyundai.png"
   },
   {
     "brand": "Honda",
@@ -53,7 +45,7 @@
     "imageTop": "./images/services/honda-service.jpg",
     "imageBottomLeft": "./images/services/honda-repair.jpg",
     "imageBottomRight": "./images/services/honda-repair2.jpg",
-    "logo": "./images/services/logo/honda.svg"
+    "logo": "./images/ShowroomLogo/logo-honda.png"
   },
   {
     "brand": "Audi",
@@ -61,6 +53,6 @@
     "imageTop": "./images/services/audi-maintain.jpeg",
     "imageBottomLeft": "./images/services/audi-repair.jpg",
     "imageBottomRight": "./images/services/audi-repair2.jpg",
-    "logo": "./images/services/logo/audi.jpg"
+    "logo": "./images/ShowroomLogo/logo-audi.png"
   }
 ]

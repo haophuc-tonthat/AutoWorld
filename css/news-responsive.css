@@ -1,0 +1,16 @@
+@media (min-width: 1025px) {
+  .news-list {
+    margin-top: 0;
+  }
+
+  .first-news {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .title-box.boxed {
+    width: auto;
+  }
+}

@@ -18,7 +18,7 @@ fetch(mySlide)
       <div class="slide-description">
         <p>${item.description}</p></div>
         <div class="slide-btn">
-          <a class="hero-btn">${item.button}</a>
+          <a href="products-detail.html?id=${item.id}" class="hero-btn">${item.button}</a>
         </div>
         </div>
         <div class="slide-img">

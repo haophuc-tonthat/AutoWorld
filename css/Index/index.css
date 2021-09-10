@@ -385,10 +385,10 @@ section {
   background-repeat: no-repeat;
 }
 .service-content1 {
-  background-image: url(/images/Service\ 1.jpg);
+  background-image: url(../../images/Service\ 1.jpg);
 }
 .service-content2 {
-  background-image: url(/images/Civic-vs-Corolla.jpg);
+  background-image: url(../../images/Civic-vs-Corolla.jpg);
 }
 .service1-title {
   height: auto;

@@ -1,8 +1,23 @@
 NEWS_TO_SHOW_BUTTON = 4;
 
 $(async function () {
+  const myHeaders = new Headers();
+  myHeaders.append("Content-Type", "application/json");
+  myHeaders.append("Access-Control-Allow-Origin", "*");
+  myHeaders.append("Access-Control-Allow-Methods", "*");
+  myHeaders.append("Access-Control-Allow-Headers", "*");
+
   async function getNews() {
-    const response = await fetch("./data/news.json");
+    const response = await fetch(
+      "https://quirky-elion-9c75ab.netlify.app/news.json",
+      {
+        method: "GET",
+        mode: "cors",
+        headers: myHeaders,
+      }
+    );
+
+    console.log(response);
 
     return response.json();
   }

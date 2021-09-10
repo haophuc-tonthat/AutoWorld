@@ -1,0 +1,6 @@
+@media handheld, only screen and (min-width: 1025px) {
+  .column.reset.medium-push-one {
+    margin-left: 8.3%;
+    width: 83.35%;
+  }
+}

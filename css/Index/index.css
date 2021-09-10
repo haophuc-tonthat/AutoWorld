@@ -471,6 +471,7 @@ section {
   /* border: solid; */
   height: auto;
   width: 100%;
+  object-fit: cover;
 }
 .news-img a img {
   height: 100%;

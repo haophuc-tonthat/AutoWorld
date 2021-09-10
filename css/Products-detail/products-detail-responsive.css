@@ -59,6 +59,9 @@
     .slide-title > h3{
         font-size: 1.8rem;
     }
+    .slide-img{
+        padding: 70px 0;
+    }
     #gallery-carousel{
         margin: 0;
         padding: 0;

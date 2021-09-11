@@ -32,13 +32,13 @@ p {
   min-height: 100vh;
 }
 
-.css-rqzxcm {
+.header-title {
   position: relative;
   padding-top: 13rem;
   margin-bottom: 6rem;
 }
 
-.css-rqzxcm:before {
+.header-title:before {
   content: "";
   display: block;
   position: absolute;
@@ -49,7 +49,7 @@ p {
   background-color: var(--second-color);
 }
 
-.css-rqzxcm h2 {
+.header-title h2 {
   font-size: 3.4rem;
   font-weight: 500;
   font-stretch: normal;
@@ -61,11 +61,11 @@ p {
   text-transform: uppercase;
 }
 
-.css-rqzxcm .title h1 {
+.header-title .title h1 {
   padding-bottom: 5rem;
 }
 
-.css-rqzxcm h1 {
+.header-title h1 {
   font-size: 7.6rem;
   font-weight: bold;
   font-stretch: normal;
@@ -78,12 +78,12 @@ p {
   text-transform: uppercase;
 }
 
-.css-rqzxcm .main-image {
+.header-title .main-image {
   position: relative;
   min-height: 42rem;
 }
 
-.css-rqzxcm .main-image .image {
+.header-title .main-image .image {
   -webkit-background-position: center center;
   background-position: center center;
   -webkit-background-size: cover;
@@ -93,23 +93,23 @@ p {
   position: relative;
 }
 
-.css-8684k8 {
+.first {
   position: relative;
 }
 
-.css-rqzxcm .dates-tags {
+.header-title .dates-tags {
   margin-top: 6rem;
 }
 
-.css-rqzxcm .dates-tags .date {
+.header-title .dates-tags .date {
   margin-top: 0;
 }
 
-.css-rqzxcm .date {
+.header-title .date {
   text-align: left;
 }
 
-.css-rqzxcm .date span {
+.header-title .date span {
   text-transform: uppercase;
   font-size: 1.8rem;
   font-weight: 300;
@@ -121,21 +121,21 @@ p {
   color: #fff;
 }
 
-.css-1ttlte6 .tags {
+.news-tag .tags {
   margin-top: 1.6rem;
   margin-bottom: 1.6rem;
   text-align: left;
 }
 
-.css-rsf4gt {
+.one {
   margin-top: 4.5rem;
 }
 
-.css-wyd50q {
+.first-para {
   text-align: left;
 }
 
-.css-wyd50q h2 {
+.first-para h2 {
   font-size: 3.2rem;
   font-weight: bold;
   font-stretch: normal;
@@ -145,7 +145,7 @@ p {
   color: #202020;
 }
 
-.css-wyd50q p {
+.first-para p {
   font-size: 1.7rem;
   font-weight: 300;
   font-stretch: normal;
@@ -157,66 +157,67 @@ p {
   margin: 0;
 }
 
-.css-112tfev.texts-wrapper .links {
+.wrapper.texts-wrapper .links {
   margin-top: 2.8rem;
 }
 
-.css-wyd50q.normal .images.row {
+.first-para.normal .images.row {
   margin-right: -10px;
   margin-left: -10px;
 }
 
-.css-wyd50q div.image {
+.first-para div.image {
   -webkit-background-position: center center;
   background-position: center center;
   -webkit-background-size: cover;
   background-size: cover;
   background-color: #f8f8f7;
   width: 100%;
-  height: 100%;
-  min-height: 50rem;
+  height: 65%;
+  min-height: 25rem;
+  margin-top: 62px;
 }
 
-.css-wyd50q div.texts {
+.first-para div.texts {
   padding: 3rem 0;
 }
 
-.css-112tfev.texts-wrapper .links {
+.wrapper.texts-wrapper .links {
   margin-top: 2.8rem;
 }
 
-.css-wyd50q.images-r div.image {
+.first-para.images-r div.image {
   width: calc(100% - 10px);
 }
 
-.css-wyd50q.images-r div.image {
+.first-para.images-r div.image {
   margin-left: 10px;
 }
 
-.css-c8epz8 {
+.related-news {
   position: relative;
   text-align: left;
   margin-bottom: 6rem;
 }
 
-.css-c8epz8 h2 {
+.related-news h2 {
   margin-bottom: 4rem;
   text-transform: uppercase;
 }
 
-.css-c8epz8 .row {
+.related-news .row {
   margin-left: -10px;
   margin-right: -10px;
 }
 
-.css-c8epz8 .news-thumb.col {
+.related-news .news-thumb.col {
   max-width: 50%;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 5.2rem;
 }
 
-.css-c8epz8 .news-thumb .image {
+.related-news .news-thumb .image {
   display: block;
   -webkit-background-position: center center;
   background-position: center center;
@@ -227,22 +228,22 @@ p {
   height: 12rem;
 }
 
-.css-c8epz8 .news-thumb {
+.related-news .news-thumb {
   text-align: left;
 }
 
-.css-c8epz8 .news-thumb > a.read-more {
+.related-news .news-thumb > a.read-more {
   text-transform: uppercase;
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
-.css-c8epz8 .news-thumb .boxed {
+.related-news .news-thumb .boxed {
   margin-right: auto;
 }
 
-.css-1akagq8.boxed {
+.news-boxed.boxed {
   padding: 1.5rem;
   text-align: center;
 
@@ -261,12 +262,12 @@ p {
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
-.css-c8epz8 .news-thumb a:not(.boxed) {
+.related-news .news-thumb a:not(.boxed) {
   color: var(--text-color);
   width: 100%;
 }
 
-.css-1akagq8.boxed:hover {
+.news-boxed.boxed:hover {
   color: var(--main-color);
   background-color: var(--text-white);
 }

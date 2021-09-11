@@ -2,7 +2,7 @@
   {
     "logo": "./images/banks/1822-logo.jpg",
     "name": "1822direkt",
-    "url": "http://localhost:8080/bank-details.html?name=1822direkt",
+    "url": "/bank-details.html?name=1822direkt",
     "country": "Germany",
     "image": "./images/banks/1822direkt.jpg",
     "introduction": "Car loan of 1822direkt bank makes it easy for you to purchase a brand new car. Let us help you confidently drive the car of your dreams that others idolize.<br>OPTION 1: 6.4% PA fixed in 01 first year <br>OPTION 2: 7.5% PA Whole loan tenor interest rate",
@@ -11,247 +11,247 @@
   },
   {
     "name": "Aargauische Kantonalbank",
-    "url": "http://localhost:8080/bank-details.html?name=aargauische-kantonalbank",
+    "url": "/bank-details.html?name=aargauische-kantonalbank",
     "country": "Switzerland"
   },
   {
     "name": "Abu Dhabi Commercial Bank",
-    "url": "http://localhost:8080/bank-details.html?name=abu-dhabi-commercial",
+    "url": "/bank-details.html?name=abu-dhabi-commercial",
     "country": "United Arab Emirates"
   },
   {
     "name": "Abu Dhabi Islamic Bank",
-    "url": "http://localhost:8080/bank-details.html?name=abu-dhabi-islamic-bank",
+    "url": "/bank-details.html?name=abu-dhabi-islamic-bank",
     "country": "United Arab Emirates"
   },
   {
     "name": "Aeon Bank",
-    "url": "http://localhost:8080/bank-details.html?name=aeon-bank",
+    "url": "/bank-details.html?name=aeon-bank",
     "country": "Japan"
   },
   {
     "name": "Affinity Credit Union",
-    "url": "http://localhost:8080/bank-details.html?name=affinity-credit-union",
+    "url": "/bank-details.html?name=affinity-credit-union",
     "country": "Canada"
   },
   {
     "name": "Agricultural Bank of China",
-    "url": "http://localhost:8080/bank-details.html?name=agricultural-bank-of-china",
+    "url": "/bank-details.html?name=agricultural-bank-of-china",
     "country": "China"
   },
   {
     "name": "Aichi Bank",
-    "url": "http://localhost:8080/bank-details.html?name=aichi-bank",
+    "url": "/bank-details.html?name=aichi-bank",
     "country": "Japan"
   },
   {
     "name": "AK Bars Bank",
-    "url": "http://localhost:8080/bank-details.html?name=ak-bars-bank",
+    "url": "/bank-details.html?name=ak-bars-bank",
     "country": "Russia"
   },
   {
     "name": "Akita Bank",
-    "url": "http://localhost:8080/bank-details.html?name=akita-bank",
+    "url": "/bank-details.html?name=akita-bank",
     "country": "Japan"
   },
   {
     "name": "Al Rajhi Bank",
-    "url": "http://localhost:8080/bank-details.html?name=al-rajhi-bank",
+    "url": "/bank-details.html?name=al-rajhi-bank",
     "country": "Saudi Arabia"
   },
   {
     "name": "Alfa-Bank",
-    "url": "http://localhost:8080/bank-details.html?name=alfa-bank",
+    "url": "/bank-details.html?name=alfa-bank",
     "country": "Russia"
   },
   {
     "name": "Alinma Bank",
-    "url": "http://localhost:8080/bank-details.html?name=alinma-bank",
+    "url": "/bank-details.html?name=alinma-bank",
     "country": "Saudi Arabia"
   },
   {
     "name": "Alior Bank",
-    "url": "http://localhost:8080/bank-details.html?name=alior-bank",
+    "url": "/bank-details.html?name=alior-bank",
     "country": "Poland"
   },
   {
     "name": "Allianz Bank Financial Advisors",
-    "url": "http://localhost:8080/bank-details.html?name=allianz-bank-financial-advisors",
+    "url": "/bank-details.html?name=allianz-bank-financial-advisors",
     "country": "Italy"
   },
   {
     "name": "Allianz Banque",
-    "url": "http://localhost:8080/bank-details.html?name=allianz-banque",
+    "url": "/bank-details.html?name=allianz-banque",
     "country": "France"
   },
   {
     "name": "Alternative Bank Schweiz",
-    "url": "http://localhost:8080/bank-details.html?name=alternative-bank-schweiz",
+    "url": "/bank-details.html?name=alternative-bank-schweiz",
     "country": "Switzerland"
   },
   {
     "name": "American Express National Bank",
-    "url": "http://localhost:8080/bank-details.html?name=american-express-national-bank",
+    "url": "/bank-details.html?name=american-express-national-bank",
     "country": "United States"
   },
   {
     "name": "AMP",
-    "url": "http://localhost:8080/bank-details.html?name=amp",
+    "url": "/bank-details.html?name=amp",
     "country": "Australia"
   },
   {
     "name": "ANZ",
-    "url": "http://localhost:8080/bank-details.html?name=anz",
+    "url": "/bank-details.html?name=anz",
     "country": "Australia"
   },
   {
     "name": "ANZ Bank New Zealand",
-    "url": "http://localhost:8080/bank-details.html?name=anz-bank-new-zealand",
+    "url": "/bank-details.html?name=anz-bank-new-zealand",
     "country": "Australia"
   },
   {
     "name": "Aomori Bank",
-    "url": "http://localhost:8080/bank-details.html?name=aomori-bank",
+    "url": "/bank-details.html?name=aomori-bank",
     "country": "Japan"
   },
   {
     "name": "Aozora Bank",
-    "url": "http://localhost:8080/bank-details.html?name=aozora-bank",
+    "url": "/bank-details.html?name=aozora-bank",
     "country": "Japan"
   },
   {
     "name": "Arab National Bank",
-    "url": "http://localhost:8080/bank-details.html?name=arab-national-bank",
+    "url": "/bank-details.html?name=arab-national-bank",
     "country": "Saudi Arabia"
   },
   {
     "name": "Argenta",
-    "url": "http://localhost:8080/bank-details.html?name=argenta",
+    "url": "/bank-details.html?name=argenta",
     "country": "Belgium"
   },
   {
     "name": "Arvest Bank",
-    "url": "http://localhost:8080/bank-details.html?name=arvest-bank",
+    "url": "/bank-details.html?name=arvest-bank",
     "country": "United States"
   },
   {
     "name": "ASB Bank",
-    "url": "http://localhost:8080/bank-details.html?name=asb-bank",
+    "url": "/bank-details.html?name=asb-bank",
     "country": "New Zealand"
   },
   {
     "name": "ASN Bank",
-    "url": "http://localhost:8080/bank-details.html?name=asn-bank",
+    "url": "/bank-details.html?name=asn-bank",
     "country": "Netherlands"
   },
   {
     "name": "ATB Financial",
-    "url": "http://localhost:8080/bank-details.html?name=atb-financial",
+    "url": "/bank-details.html?name=atb-financial",
     "country": "Canada"
   },
   {
     "name": "au Jibun Bank",
-    "url": "http://localhost:8080/bank-details.html?name=au-jibun-bank",
+    "url": "/bank-details.html?name=au-jibun-bank",
     "country": "Japan"
   },
   {
     "name": "Avangard Bank",
-    "url": "http://localhost:8080/bank-details.html?name=avangard-bank",
+    "url": "/bank-details.html?name=avangard-bank",
     "country": "Russia"
   },
   {
     "name": "Axis Bank",
-    "url": "http://localhost:8080/bank-details.html?name=axis-bank",
+    "url": "/bank-details.html?name=axis-bank",
     "country": "India"
   },
   {
     "name": "Baloise Bank SoBa",
-    "url": "http://localhost:8080/bank-details.html?name=baloise-bank-soba",
+    "url": "/bank-details.html?name=baloise-bank-soba",
     "country": "Switzerland"
   },
   {
     "name": "Banca di Asti",
-    "url": "http://localhost:8080/bank-details.html?name=banca-di-asti",
+    "url": "/bank-details.html?name=banca-di-asti",
     "country": "Italy"
   },
   {
     "name": "Banca Generali Private",
-    "url": "http://localhost:8080/bank-details.html?name=banca-generali-private",
+    "url": "/bank-details.html?name=banca-generali-private",
     "country": "Italy"
   },
   {
     "name": "Banca Mediolanum",
-    "url": "http://localhost:8080/bank-details.html?name=banca-mediolanum",
+    "url": "/bank-details.html?name=banca-mediolanum",
     "country": "Italy"
   },
   {
     "name": "Banca Popolare dell'Alto Adige",
-    "url": "http://localhost:8080/bank-details.html?name=banca-popolare-dellalto-adige",
+    "url": "/bank-details.html?name=banca-popolare-dellalto-adige",
     "country": "Italy"
   },
   {
     "name": "Banca Popolare di Sondrio",
-    "url": "http://localhost:8080/bank-details.html?name=banca-popolare-di-sondrio",
+    "url": "/bank-details.html?name=banca-popolare-di-sondrio",
     "country": "Italy"
   },
   {
     "name": "Banca Sella",
-    "url": "http://localhost:8080/bank-details.html?name=banca-sella",
+    "url": "/bank-details.html?name=banca-sella",
     "country": "Italy"
   },
   {
     "name": "BancFirst",
-    "url": "http://localhost:8080/bank-details.html?name=bancfirst",
+    "url": "/bank-details.html?name=bancfirst",
     "country": "United States"
   },
   {
     "name": "Banco Azteca",
-    "url": "http://localhost:8080/bank-details.html?name=banco-azteca",
+    "url": "/bank-details.html?name=banco-azteca",
     "country": "Mexico"
   },
   {
     "name": "Banco BMG",
-    "url": "http://localhost:8080/bank-details.html?name=banco-bmg",
+    "url": "/bank-details.html?name=banco-bmg",
     "country": "Brazil"
   },
   {
     "name": "Banco BPM",
-    "url": "http://localhost:8080/bank-details.html?name=banco-bpm",
+    "url": "/bank-details.html?name=banco-bpm",
     "country": "Italy"
   },
   {
     "name": "Banco Desio",
-    "url": "http://localhost:8080/bank-details.html?name=banco-desio",
+    "url": "/bank-details.html?name=banco-desio",
     "country": "Italy"
   },
   {
     "name": "Banco di Sardegna",
-    "url": "http://localhost:8080/bank-details.html?name=banco-di-sardegna",
+    "url": "/bank-details.html?name=banco-di-sardegna",
     "country": "Italy"
   },
   {
     "name": "Banco Inter",
-    "url": "http://localhost:8080/bank-details.html?name=banco-inter",
+    "url": "/bank-details.html?name=banco-inter",
     "country": "Brazil"
   },
   {
     "name": "Banco Original",
-    "url": "http://localhost:8080/bank-details.html?name=banco-original",
+    "url": "/bank-details.html?name=banco-original",
     "country": "Brazil"
   },
   {
     "name": "Bancoposta",
-    "url": "http://localhost:8080/bank-details.html?name=bancoposta",
+    "url": "/bank-details.html?name=bancoposta",
     "country": "Italy"
   },
   {
     "name": "BanCoppel",
-    "url": "http://localhost:8080/bank-details.html?name=bancoppel",
+    "url": "/bank-details.html?name=bancoppel",
     "country": "Mexico"
   },
   {
     "name": "BancorpSouth",
-    "url": "http://localhost:8080/bank-details.html?name=bancorpsouth",
+    "url": "/bank-details.html?name=bancorpsouth",
     "country": "United States"
   }
 ]

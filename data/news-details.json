@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "paragraphOne": "An electric car that feels like a proper Porsche is entirely possible. The Taycan has already proved it, and that’s just the tip of the iceberg. Macan is next for the silent treatment, Panamera and Cayenne won’t be far behind, now Porsche and Bugatti are in bed with Rimac a pure-electric successor to the 918 Spyder is inevitable, and as the thinly-veiled Mission R concept proves, the next-gen Cayman and Boxster going full-electric from 2024 isn’t just a rumour anymore… it’s happening.",
+    "paragraphTwo": "As the Taycan demonstrates, build something completely new, brand it accordingly, and customers can enjoy the experience for what it is – a fresh start, a new definition of what a fun, surprisingly practical sports car should look and feel like. It’ll find acceptance far quicker. And I know what you’re thinking – the 911 survived and thrived post the transition from air- to water-cooled, and turbocharged engines in the non-turbo cars, but can we all agree that removing the engine altogether is an infinitely bigger leap?",
+    "paragraphThree": "Whereas design boss Michael Mauer, who we spoke to this week in Munich, sees it differently: “I belong to this group of people that don’t look at it in such a dramatic way. My company car is a 911 Turbo, but if I drive a Taycan Turbo for a few days then go back to it, I think there’s a problem with the engine. I love the 911, but it’s just the sound I miss. We grew up with combustion engine cars, but it’s not the same for all the teenagers today.”",
+    "imageContent": "./images/news/porsche-news-details.jpg"
+  },
+  {
+    "id": 2,
+    "paragraphOne": "Images of an upcoming facelift for the 2022 Mazda CX-5 have leaked out of China, ahead of further details rumoured to arrive in December 2021.\nPosted to Autospy, the update is concentrated on the CX-5’s front end, where thinner dual-beam LED headlights flank a revised grille (similar in shape to Mazda’s latest CX-30 small SUV) with thicker chrome surrounds, and sit above a reshaped lower air intake.\nA new alloy wheel design features on one car, while at the rear the tail-lights have been reshaped.",
+    "paragraphTwo": "A recent report from Japan’s Creative311 cited dealer sources suggesting an updated CX-5 is due to go on sale in Japan in December 2021, gaining a larger front grille, reshaped headlights (with upgraded adaptive high-beam technology), and a choice of two new variants: an off-road-themed model with all-season tyres, and a sportier variant with a black grille (similar to the current GT SP grade).\nNo interior changes are reported – bar a revised seat design for improved comfort – given the CX-5 gained Mazda’s latest 10.25-inch central touchscreen earlier this year, as a Model Year 2021 update.\nThe Japanese website claims the 2.5-litre turbocharged petrol engine will be axed in Japan, and all-wheel drive will be added to the entry-level 2.0-litre petrol engine – though it remains to be seen whether these changes will carry over to other regions, including the performance-hungry US and Australian markets.",
+    "paragraphThree": "Substantial exterior and technology revisions to Mazda models late in their life cycle are not uncommon, with the Mazda 2 city car and Mazda 6 mid-size car gaining major updates six and five years into their life cycles respectively.\nUsing Creative311’s timeline as a guide, expect to hear more about the 2022 Mazda CX-5 update within the coming months, ahead of a Japanese launch in December.\nShould the update be locked in for Australia, it’s likely first local deliveries will commence in the first half of 2022.",
+    "imageContent": "./images/news/mazda-news-details.jpeg"
+  },
+  {
+    "id": 3,
+    "paragraphOne": "Mercedes' EQ line of electric vehicles continues its rapid expansion with the new EQB small SUV, which the company pulled the wraps off of at the Shanghai Auto Show. While the EQB revealed in Shanghai is built in China for the Chinese market, a global variant of the electric SUV will also be produced at Benz's plant in Kecskemét, Hungary.",
+    "paragraphTwo": "Although we applaud Mercedes for making the EQB look noticeably different from the GLB-Class upon which it's based, we are not entirely sure this compact electric SUV looks any better than its gas-powered counterpart. Blame a contrast between the front-end design, which looks like it was crafted in a wind tunnel, with the otherwise boxy proportions.",
+    "paragraphThree": "The U.S.-market EQB will offer two powertrain guises when it goes on sale in 2022: an entry-level 225-hp EQB300 and a more powerful 288-hp EQB350. Both come standard with all-wheel-drive courtesy of the electric motor located at each axle, as well as a 67-kWh battery pack that provides an estimated 260 miles of range on Europe's WLTP testing cycle. Expect that figure to drop some once the more conservative EPA puts the EQB through its official testing. Mercedes is mum on performance figures for the more powerful EQB350 but notes the EQB300 will accelerate to 62 mph in 8.0 seconds.\nLook for the German automaker to reveal more details about the 2022 EQB, including pricing, closer to its arrival early next year.",
+    "imageContent": "./images/news/mer-news-details.jpg"
+  },
+  {
+    "id": 4,
+    "paragraphOne": "Buyers are in love with the new Toyota Land Cruiser, and the model is so popular that the automaker might take four years to fulfill the current demand for some trim levels, according to Cars Guide. The chip shortage is only making the situation worse.\nToyota amassed 20,000 orders for the Land Cruiser since starting to accept them on August 2. Around 90 percent of buyers in Japan are selecting ZX and GR Sport trims, and these are the grades taking the longest to deliver, according to Cars Guide.",
+    "paragraphTwo": "Making matters worse, Toyota is not building the Land Cruiser for part of August and most of September because of the lack of parts. This is affecting the model's availability worldwide, not just in Japan. For example, Australia is only getting demonstrator vehicles for dealers, and units for sale to customers aren't going there until later.",
+    "paragraphThree": "The new Lexus LX will allegedly be available in a 750h grade that will use a hybrid-assisted twin-turbo 3.5-liter V6 making 480 horsepower (358 kilowatts) and 642 pound-feet (871 Newton-meters) of torque. The base model will reportedly be the LX 600 using a non-hybrid version of the  twin-turbo 3.5-liter V6 with 409 hp (305 kW) and 479 lb-ft (650 Nm).",
+    "imageContent": "./images/news/toyota-news-details.jpg"
+  },
+  {
+    "id": 5,
+    "paragraphOne": "The Hyundai Motor Group plans to develop hydrogen fuel cell versions of all its commercial vehicle models by the year 2028, with the firm also looking to introduce a “next generation fuel-cell system” in 2023.\nIn an announcement Tuesday, the South Korean automotive giant said its goal was to “achieve a fuel cell vehicle price point comparable to a battery electric vehicle by 2030.” This ambition applies to both passenger cars and commercial vehicles.",
+    "paragraphTwo": "The U.S. government, for example, has cited a number of challenges. These range from the durability and reliability of fuel cells to vehicle cost. “The current infrastructure for producing and getting hydrogen to consumers cannot yet support the widespread adoption of FCVs,” it adds.",
+    "paragraphThree": "The company, which is owned by Tata Motors, said fuel cell electric vehicles were “complimentary to battery electric vehicles … on the journey to net zero vehicle emissions.”",
+    "imageContent": "./images/news/hyundai-news-details.png"
+  },
+  {
+    "id": 6,
+    "paragraphOne": "Honda's debut of the 11th generation Civic sedan, as expected, was met with considerable backlash from the enthusiast community. Not unlike the generation prior, and several before that, the online critics had a field day ripping it to shreds. Many current 10th-generation owners feel that it's a tamed version of the previous model and lacks the aggressive lines of the 2016-2021 models. Could some attention from the aftermarket change minds? A few brands are diving headfirst into the 2022 Civic, one of which is 27WON Performance, a group that knows a thing or two about modern Hondas.",
+    "paragraphTwo": "It's been a few months now since the all-new 2022 Honda Civic has hit the streets and although the Civic line carries a huge aftermarket presence and ever-growing fan base, the aftermarket for this latest model has been off to a rather slow start. There aren't many brands or companies acquiring a car to quickly jump on R&D in order to see what the car can do. But 27WON is, and we wanted to see what they were cooking up.",
+    "paragraphThree": "Whether or not the new Civic lives up to its older brother is still to be determined and it is a bit early, given that the Si and Type R variants haven't been released yet, but 27WON is wasting no time in development.",
+    "imageContent": "./images/news/honda-news-details.jpg"
+  },
+  {
+    "id": 7,
+    "paragraphOne": "Audi Q4 e-tron was one of several new models recently tested by the Euro NCAP. Without surprise, it received an overall rating of five stars.\nHowever, the thing that caught our attention is how it stands against other MEB-based models of similar size - the Volkswagen ID.4 and Skoda Enyaq iV, evaluated in April. They are also five-star EVs.",
+    "paragraphTwo": "In the Vulnerable Road Users and Safety Assist categories, the Audi Q4 e-tron is worse than the Volkswagen ID.4 and Skoda Enyaq iV. The 5-10% difference in the Vulnerable Road Users category is something that Audi might want to double-check.",
+    "paragraphThree": "Adult Occupant - 93 percent (VW ID.4: 93%; Skoda Enyaq iV: 94%)\nChild Occupant - 89 percent (VW ID.4: 89%; Skoda Enyaq iV: 89%)\nVulnerable Road Users - 66 percent (VW ID.4: 76%; Skoda Enyaq iV: 71%)\nSafety Assist - 80 percent (VW ID.4: 85%; Skoda Enyaq iV: 82%)",
+    "imageContent": "./images/news/audi-news-details.jpg"
+  }
+]

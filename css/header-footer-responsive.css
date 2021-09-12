@@ -22,7 +22,7 @@
     display: block;
     flex-direction: column;
   }
-  
+
   .main-menu {
     background-color: #3a3a3a;
 
@@ -40,8 +40,8 @@
   .main-menu.active {
     visibility: visible;
     transform: translateX(0);
-    transition: visibility 0s linear 0s,transform .2s ease-out 0s,-webkit-transform .2s ease-out 0s;
-
+    transition: visibility 0s linear 0s, transform 0.2s ease-out 0s,
+      -webkit-transform 0.2s ease-out 0s;
   }
 
   .main-menu2 {
@@ -55,34 +55,34 @@
     /* margin-left: 0px; */
     margin-top: 10px;
   }
-  .search{
+  .search {
     width: 50%;
     margin-top: 50px;
   }
-  
-  .search-form{
+
+  .search-form {
     height: 30px;
   }
-  .search-btn{
+  .search-btn {
     height: 30px;
     width: 30px;
   }
-  .search-btn a{
-   font-size: 15px;
-   color: #bbbbbb;
+  .search-btn a {
+    font-size: 15px;
+    color: #bbbbbb;
   }
   .footer-list-menu h3 {
     font-size: 15px;
     margin: 0;
   }
-  .col-2{
+  .col-2 {
     width: 28%;
   }
   .list-menu-item {
     height: 12px;
     padding: 15px 0;
   }
-  
+
   .list-menu-item a span {
     font-size: 12px;
   }
@@ -92,7 +92,7 @@
   .footer-main .row {
     padding-left: 50px;
   }
-  .footer-logo{
+  .footer-logo {
     top: 65%;
   }
   .footer-logo img {
@@ -109,7 +109,7 @@
   }
 }
 @media (max-width: 910px) and (min-width: 601px) {
-  header{
+  header {
     height: 90px;
   }
   .toggle-button {
@@ -119,12 +119,12 @@
     height: 80px;
     width: 80px;
   }
-  
+
   .main-menu-wrapper {
     display: block;
     flex-direction: column;
-   
   }
+
   .main-menu.active {
     display: block;
   }
@@ -136,12 +136,11 @@
     padding-top: 20px;
     display: none;
     flex-direction: column;
-    
+
     left: 0px;
     top: 0;
     position: fixed;
     margin-top: 90px;
-    
   }
 
   .main-menu2 {
@@ -155,21 +154,21 @@
     /* margin-left: 0px; */
     margin-top: 20px;
   }
-  .search{
+  .search {
     width: 50%;
     margin-top: 90px;
   }
-  
-  .search-form{
+
+  .search-form {
     height: 40px;
   }
-  .search-btn{
+  .search-btn {
     height: 40px;
     width: 40px;
   }
-  .search-btn a{
-   font-size: 15px;
-   color: #bbbbbb;
+  .search-btn a {
+    font-size: 15px;
+    color: #bbbbbb;
   }
   .footer-list-menu h3 {
     font-size: 18px;
@@ -196,34 +195,33 @@
   }
 }
 @media (min-width: 911px) and (max-width: 1280px) {
-  header{
+  header {
     height: 100px;
   }
-  .logo{
+  .logo {
     height: 90px;
     width: 90px;
   }
   .main-menu li a {
     font-size: 15px;
   }
-  .search{
+  .search {
     width: 50%;
     margin-top: 100px;
   }
-  
-  .search-form{
+
+  .search-form {
     height: 45px;
   }
-  .search-btn{
+  .search-btn {
     height: 45px;
     width: 45px;
   }
-  .search-btn a{
-   font-size: 17px;
-   color: #bbbbbb;
+  .search-btn a {
+    font-size: 17px;
+    color: #bbbbbb;
   }
   footer {
     height: 55vh;
-    
   }
 }

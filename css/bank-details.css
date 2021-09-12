@@ -112,6 +112,17 @@ section.bank-data .key-value span:last-of-type {
   font-family: "Crimson Text";
 }
 
-footer {
-  height: 50vh !important;
+@media only screen and (max-width: 1024px) and (min-width: 670px),
+  only screen and (max-width: 669px) {
+  .basics h1 {
+    font-size: 6.6rem;
+  }
+
+  section.bank-data .key-value span:first-of-type {
+    font-size: 1.4rem;
+  }
+
+  section.bank-data .key-value span:last-of-type {
+    font-size: 1rem;
+  }
 }

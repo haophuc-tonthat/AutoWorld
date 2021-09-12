@@ -129,9 +129,8 @@ body {
   padding: 6rem 0;
 }
 
-h5,
-h2,
-h3 {
+.banks-list h2,
+.banks-list h3 {
   font-size: 4rem;
   font-weight: lighter;
   text-transform: uppercase;
@@ -307,7 +306,7 @@ section.banks-list ul li a .four {
 }
 
 .form input {
-  margin-top: 12rem;
+  /* margin-top: 12rem; */
   margin-left: 33rem;
   transition: margin-top 0.3s ease-out;
   font-size: 2.6rem;
@@ -347,8 +346,4 @@ button:focus {
 
 input:focus {
   outline: none !important;
-}
-
-footer {
-  height: 40vh !important;
 }

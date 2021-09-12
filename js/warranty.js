@@ -5,6 +5,10 @@ $(async function () {
     return response.json();
   }
 
+  $(".brand-menu").click(function () {
+    $(".main-brand-menu").toggle();
+  });
+
   const schemes = await getSchemes();
 
   var schemesStr = "<ul>";
@@ -19,9 +23,28 @@ $(async function () {
   schemesStr += "</ul>";
 
   $("#brand-list").html(schemesStr);
+  $(".main-brand-menu").html(schemesStr);
 
   // load first main
   loadMain(schemes[0]);
+
+  $(".main-brand-menu ul li").each(function () {
+    $(this).click(function () {
+      const activeLi = $(".main-brand-menu ul li.active");
+
+      const scheme = schemes[$(this).attr("value")];
+
+      if (activeLi) {
+        activeLi.removeClass("active");
+      }
+
+      $(this).addClass("active");
+
+      loadMain(scheme);
+
+      $(".main-brand-menu").hide();
+    });
+  });
 
   $(".history .content .left ul li").each(function () {
     $(this).click(function () {

@@ -1,5 +1,8 @@
-nav {
-  display: block;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
 }
 
 a {
@@ -12,6 +15,8 @@ p {
 }
 ul {
   list-style: none;
+  /* margin: 0 !important; */
+  margin-bottom: 0 !important;
 }
 img {
   max-width: 100%;
@@ -21,11 +26,13 @@ header {
   height: 120px;
   position: fixed;
   top: 0;
-  bottom: 0;
+  left: 0;
   width: 100%;
+  padding: 0 2rem;
   background-color: transparent;
   display: flex !important;
-  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
   align-items: center;
   z-index: 99;
   transition: height 0.3s ease 0s background-color 0.3s ease 0s;
@@ -55,22 +62,6 @@ header.shrink .logo {
   display: flex;
   pointer-events: visible;
 }
-
-.main-menu1 {
-  margin: 16px 0px;
-  padding-left: 13px;
-}
-
-.main-menu2 {
-  margin: 0;
-  padding-left: 25px;
-}
-
-.user-menu ul {
-  margin: 0;
-  padding-left: 70px;
-}
-
 .main-menu > li > a {
   text-transform: uppercase;
   font-size: 20px;
@@ -79,8 +70,8 @@ header.shrink .logo {
 .main-menu > li > a.active {
   color: var(--text-white);
 }
-.main-menu > li ~ li {
-  margin-left: 83px;
+.main-menu > li {
+  margin: 0 42px;
 }
 .main-menu > li > a:hover {
   color: var(--text-white);
@@ -94,4 +85,56 @@ header.shrink .logo {
 }
 .toggle-button {
   display: none;
+}
+.search {
+  height: 50px;
+  width: 30%;
+  position: fixed;
+  right: 0;
+  z-index: 100;
+  /* border: #bbbbbb solid; */
+  margin-top: 80px;
+  visibility: hidden;
+  transform: translateX(100%);
+  /* background-color: transparent; */
+}
+.search.show-search {
+  visibility: visible;
+  transform: translateX(0);
+  transition: visibility 0s linear 0s, transform 0.2s ease-out 0s,
+    -webkit-transform 0.2s ease-out 0s;
+}
+.search form {
+  display: flex;
+  justify-content: flex-end;
+}
+.search-form {
+  border: 1px solid var(--text-color);
+  height: 45px;
+  width: 80%;
+  padding: 0 20px;
+  border-radius: 5px 0 0 5px;
+  font-family: "Bebas Neue", cursive;
+  background-color: var(--second-color);
+}
+.search-btn {
+  height: 45px;
+  width: 45px;
+  border: 1px solid var(--text-color);
+  border-radius: 0 5px 5px 0;
+  background-color: var(--second-color);
+}
+.search-btn a {
+  font-size: 20px;
+  color: #bbbbbb;
+}
+.search-btn:hover,
+.search-btn a:hover {
+  color: var(--text-white);
+}
+
+@media (max-width: 600px) and (min-width: 280px) {
+  .main-menu li {
+    height: 19px;
+  }
 }

@@ -7,17 +7,20 @@
     <title>Brands | AutoWorld</title>
     <link rel="stylesheet" href="./boxicons-2.0.7/css/boxicons.min.css" />
     <link rel="stylesheet" href="./css/grid.css" />
-    <link rel="stylesheet" href="./css/brands.css" />
+    <link rel="stylesheet" href="./css/Brands/brands.css" />
     <link rel="stylesheet" href="./css/header-footer-responsive.css" />
     <link rel="stylesheet" href="./css/animations.css" />
-    <link rel="stylesheet" href="./css/brands-responsive.css">
-    <link rel="icon" href="./images/AUTOWORLD2.png" sizes="16x16">
+    <link rel="stylesheet" href="./css/Brands/brands-responsive.css" />
+    <link rel="stylesheet" href="./css/search.css" />
+    <link rel="icon" href="./images/AUTOWORLD2.png" sizes="16x16" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script async src="./js/search.js"></script>
+    <script src="./js/live-chat.js"></script>
   </head>
-  <body >
+  <body>
     <header>
       <div class="user-menu">
-        <ul >
+        <ul>
           <li>
             <a href="#" class="toggle-button"><i class="bx bx-menu"></i></a>
           </li>
@@ -25,7 +28,7 @@
       </div>
       <div class="main-menu-wrapper">
         <ul class="main-menu main-menu1">
-          <li><a href="./index.html" >home</a></li>
+          <li><a href="./index.html">home</a></li>
           <li><a href="#" class="active">brands</a></li>
           <li><a href="#">about me</a></li>
         </ul>
@@ -39,7 +42,6 @@
         <ul class="main-menu main-menu2">
           <li><a href="#">services</a></li>
           <li><a href="#">News</a></li>
-  
         </ul>
       </div>
       <div class="user-menu">
@@ -51,14 +53,15 @@
       </div>
     </header>
     <div class="search">
-      <form>
-        <input type="search" class="search-form" placeholder="Search..." />
+      <div class="search-input">
+        <input type="text" class="search-form" placeholder="Search..." />
         <button class="search-btn">
-          <a href="#" ><i class="bx bx-search"></i></a>
+          <a href="#"><i class="bx bx-search"></i></a>
         </button>
-      </form>
+        <div class="keyword"></div>
+      </div>
     </div>
-    <div class="hero" >
+    <div class="hero">
       <div class="hero-inner">
         <div class="hero-top">
           <nav>
@@ -96,7 +99,7 @@
       </div>
     </div>
     <section>
-      <div class="torque-block" id="top">
+      <div class="torque-block">
         <div class="block">
           <div class="block-item">
             <a href="#showroom-honda" class="showroom-logo">
@@ -107,7 +110,7 @@
             </a>
           </div>
           <div class="block-item">
-            <a href="" class="showroom-logo">
+            <a href="#showroom-hyundai" class="showroom-logo">
               <img
                 src="./images/ShowroomLogo/logo-hyundai.png"
                 alt="Hyundai-logo"
@@ -115,7 +118,7 @@
             </a>
           </div>
           <div class="block-item">
-            <a href="" class="showroom-logo">
+            <a href="#showroom-toyota" class="showroom-logo">
               <img
                 src="./images/ShowroomLogo/logo-toyota-color_0.png"
                 alt="Toyota-logo"
@@ -123,12 +126,12 @@
             </a>
           </div>
           <div class="block-item">
-            <a href="" class="showroom-logo">
+            <a href="#showroom-audi" class="showroom-logo">
               <img src="./images/ShowroomLogo/logo-audi.png" alt="Audi-logo" />
             </a>
           </div>
           <div class="block-item">
-            <a href="" class="showroom-logo">
+            <a href="#showroom-mazda" class="showroom-logo">
               <img
                 src="./images/ShowroomLogo/logo-mazda-color_0.png"
                 alt="Mazda-logo"
@@ -136,7 +139,7 @@
             </a>
           </div>
           <div class="block-item">
-            <a href="" class="showroom-logo">
+            <a href="#showroom-porsche" class="showroom-logo">
               <img
                 src="./images/ShowroomLogo/logo-porsche.png"
                 alt="Porsche-logo"
@@ -144,7 +147,7 @@
             </a>
           </div>
           <div class="block-item">
-            <a href="" class="showroom-logo">
+            <a href="#showroom-mercedes" class="showroom-logo">
               <img
                 src="./images/ShowroomLogo/logo-mercedes-color.png"
                 alt="Mercedes-logo"
@@ -163,98 +166,7 @@
               <img src="./images//AUTOWORLD.png" alt="" />
             </div>
           </div>
-          <div class="showroom-listing_items">
-            <div class="showroom-listing_item">
-              <a href="./products-detail.html">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-          </div>
+          <div class="showroom-listing_items" id="new-models"></div>
         </div>
       </div>
 
@@ -268,101 +180,10 @@
               <img src="./images/ShowroomLogo/logo-honda.png" alt="" />
             </div>
           </div>
-          <div class="showroom-listing_items">
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-          </div>
+          <div class="showroom-listing_items" id="honda"></div>
         </div>
       </div>
-      <div class="showroom-listing">
+      <div class="showroom-listing" id="showroom-hyundai">
         <div class="showroom-listing_group">
           <div class="heading-sepatated">
             <div class="heading-sepatated_item">
@@ -372,101 +193,10 @@
               <img src="./images/ShowroomLogo/logo-hyundai.png" alt="" />
             </div>
           </div>
-          <div class="showroom-listing_items">
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-          </div>
+          <div class="showroom-listing_items" id="hyundai"></div>
         </div>
       </div>
-      <div class="showroom-listing">
+      <div class="showroom-listing" id="showroom-toyota">
         <div class="showroom-listing_group">
           <div class="heading-sepatated">
             <div class="heading-sepatated_item">
@@ -476,101 +206,10 @@
               <img src="./images/ShowroomLogo/logo-toyota-color_0.png" alt="" />
             </div>
           </div>
-          <div class="showroom-listing_items">
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-          </div>
+          <div class="showroom-listing_items" id="toyota"></div>
         </div>
       </div>
-      <div class="showroom-listing">
+      <div class="showroom-listing" id="showroom-audi">
         <div class="showroom-listing_group">
           <div class="heading-sepatated">
             <div class="heading-sepatated_item">
@@ -580,101 +219,10 @@
               <img src="./images/ShowroomLogo/logo-audi.png" alt="" />
             </div>
           </div>
-          <div class="showroom-listing_items">
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-          </div>
+          <div class="showroom-listing_items" id="audi"></div>
         </div>
       </div>
-      <div class="showroom-listing">
+      <div class="showroom-listing" id="showroom-mazda">
         <div class="showroom-listing_group">
           <div class="heading-sepatated">
             <div class="heading-sepatated_item">
@@ -684,101 +232,10 @@
               <img src="./images/ShowroomLogo/logo-mazda-color_0.png" alt="" />
             </div>
           </div>
-          <div class="showroom-listing_items">
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-          </div>
+          <div class="showroom-listing_items" id="mazda"></div>
         </div>
       </div>
-      <div class="showroom-listing">
+      <div class="showroom-listing" id="showroom-porsche">
         <div class="showroom-listing_group">
           <div class="heading-sepatated">
             <div class="heading-sepatated_item">
@@ -788,101 +245,10 @@
               <img src="./images/ShowroomLogo/logo-porsche.png" alt="" />
             </div>
           </div>
-          <div class="showroom-listing_items">
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-          </div>
+          <div class="showroom-listing_items" id="porsche"></div>
         </div>
       </div>
-      <div class="showroom-listing">
+      <div class="showroom-listing" id="showroom-mercedes">
         <div class="showroom-listing_group">
           <div class="heading-sepatated">
             <div class="heading-sepatated_item">
@@ -892,101 +258,9 @@
               <img src="./images/ShowroomLogo/logo-mercedes-color.png" alt="" />
             </div>
           </div>
-          <div class="showroom-listing_items">
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-            <div class="showroom-listing_item">
-              <a href="">
-                <div class="showroom-product_img">
-                  <img src="./images/ProductsImg/2022-Honda-Civic.png" alt="" />
-                </div>
-                <div class="showroom-product_year">2021</div>
-                <div class="showroom-product_name">Honda Civic</div>
-                <div class="showroom-product_msrp">MSRP From: $48.000</div>
-              </a>
-            </div>
-          </div>
+          <div class="showroom-listing_items" id="mercedes"></div>
         </div>
       </div>
-      
     </section>
     <footer>
       <div>
@@ -1045,12 +319,10 @@
         <div class="footer-bottom">
           <div class="footer-social">
             <div class="row">
-              <div class="social-item">
-                <i class="bx bxl-facebook-square"></i>
-              </div>
-              <div class="social-item"><i class="bx bxl-instagram"></i></div>
-              <div class="social-item"><i class="bx bxl-twitter"></i></div>
-              <div class="social-item"><i class="bx bxl-youtube"></i></div>
+              <a href=""><div class="social-item"><i class='bx bxl-facebook-square'></i></div></a>
+            <a href=""><div class="social-item"><i class='bx bxl-instagram'></i></div></a>
+            <a href=""><div class="social-item"><i class='bx bxl-twitter'></i></div></a>
+            <a href=""><div class="social-item"><i class='bx bxl-youtube'></i></div></a>
             </div>
           </div>
         </div>
@@ -1062,11 +334,10 @@
         </div>
       </div>
     </footer>
-    <div class="scroll-to-top">
-      <a href="#top">
-        <i class='bx bxs-to-top'></i>
-      </a>
-    </div>
+    <a href="#"
+      ><div class="scroll-to-top">
+        <i class="bx bxs-to-top"></i></div
+    ></a>
     <script src="./js/brands.js"></script>
     <script src="./js/header.js"></script>
   </body>

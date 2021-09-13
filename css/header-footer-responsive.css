@@ -45,7 +45,7 @@
   }
 
   .main-menu2 {
-    margin-top: 152px;
+    margin-top: 137px;
     height: 70px;
   }
   .main-menu li a {
@@ -56,16 +56,16 @@
     margin-top: 10px;
   }
   .search {
-    width: 50%;
+    width: 100%;
     margin-top: 50px;
   }
 
   .search-form {
-    height: 30px;
+    height: 35px;
   }
   .search-btn {
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
   }
   .search-btn a {
     font-size: 15px;

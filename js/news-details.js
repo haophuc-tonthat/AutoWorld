@@ -21,12 +21,10 @@ $(async function () {
         newsDetails
       )}${paragraphTwoTemplate(newsDetails)}${paragraphThreeTemplate(
         newsDetails
-      )}${checkMobile() ? "" : relatedNewsTemplate(relatedNews)}`
+      )}${relatedNewsTemplate(relatedNews)}`
     );
 
-    if (checkMobile()) {
-      $(".swiper-wrapper").html(relatedNewsMobileTemplate(relatedNews));
-    }
+    $(".swiper-wrapper").html(relatedNewsMobileTemplate(relatedNews));
   }
 });
 
@@ -240,7 +238,7 @@ function paragraphThreeTemplate(news) {
 function relatedNewsTemplate(news) {
   let relatedNewsStr = `<section data-element="newsList" id="news-thumbs" class="related">
                             <div>
-                              <div class="related-news">
+                              <div class="related-news desktop">
                                 <div class="row no-gutters">
                                   <div
                                     class="

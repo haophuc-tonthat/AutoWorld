@@ -80,7 +80,7 @@ p {
 
 .header-title .main-image {
   position: relative;
-  min-height: 42rem;
+  min-height: 50rem;
 }
 
 .header-title .main-image .image {
@@ -270,4 +270,12 @@ p {
 .news-boxed.boxed:hover {
   color: var(--main-color);
   background-color: var(--text-white);
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: contents;
 }

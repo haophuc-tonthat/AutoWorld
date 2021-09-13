@@ -21,10 +21,26 @@ $(async function () {
         newsDetails
       )}${paragraphTwoTemplate(newsDetails)}${paragraphThreeTemplate(
         newsDetails
-      )}${relatedNewsTemplate(relatedNews)}`
+      )}${checkMobile() ? "" : relatedNewsTemplate(relatedNews)}`
     );
+
+    if (checkMobile()) {
+      $(".swiper-wrapper").html(relatedNewsMobileTemplate(relatedNews));
+    }
   }
 });
+
+function checkMobile() {
+  if (
+    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+      navigator.userAgent
+    )
+  ) {
+    return true;
+  }
+
+  return false;
+}
 
 async function findNewsById(id) {
   const news = await getNews();
@@ -223,7 +239,7 @@ function paragraphThreeTemplate(news) {
 
 function relatedNewsTemplate(news) {
   let relatedNewsStr = `<section data-element="newsList" id="news-thumbs" class="related">
-                            <div">
+                            <div>
                               <div class="related-news">
                                 <div class="row no-gutters">
                                   <div
@@ -308,6 +324,20 @@ function relatedNewsTemplate(news) {
             </div>
           </div>
         </section>`;
+
+  return relatedNewsStr;
+}
+
+function relatedNewsMobileTemplate(news) {
+  let relatedNewsStr = "";
+
+  $.each(news, function (index, article) {
+    relatedNewsStr += ` <div class="swiper-slide">
+    <div class="content">
+    <img src="${article.image}" alt="" />
+    <h2>${article.title}</h2>
+  </div></div>`;
+  });
 
   return relatedNewsStr;
 }

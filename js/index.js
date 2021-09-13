@@ -1,5 +1,5 @@
 
-const mySlide = new Request("data/index-hero.json");
+const mySlide = new Request("https://www.mockachino.com/ed6b66c1-1483-4e/users");
 
 fetch(mySlide)
 .then((response) =>{

@@ -1,5 +1,5 @@
 
-const mySlide = new Request("https://www.mockachino.com/c65ddad7-5570-41/users");
+const mySlide = new Request("data/index-hero.json");
 
 fetch(mySlide)
 .then((response) =>{
@@ -121,6 +121,64 @@ fetch(myJson)
     }).join("");
     document
       .querySelector("#new-models-items")
+      .insertAdjacentHTML("afterbegin", html);
+    let scroll =
+      window.requestAnimationFrame ||
+      function (callback) {
+        window.setTimeout(callback, 1000 / 60);
+      };
+
+    let el_to_show = document.querySelectorAll(".show-on-scroll");
+
+    isElInViewPort = (el) => {
+      let rect = el.getBoundingClientRect();
+
+      let distance = 200;
+
+      return (
+        rect.top <=
+        (window.innerHeight - distance ||
+          document.documentElement.clientHeight - distance)
+      );
+    };
+
+    loop = () => {
+      el_to_show.forEach((el) => {
+        if (isElInViewPort(el)) el.classList.add("show");
+      });
+
+      scroll(loop);
+    };
+
+    loop();
+  });
+
+//
+fetch(myJson)
+  .then((response) => {
+    return response.json();
+  })
+  .then((index) => {
+    // console.log(index.products);
+    const html = index.products.Models.map((item) => {
+      if (item.productYear != "2022") {
+        // console.log(item);
+        return `
+            <div class="product-card to-top show-on-scroll">
+              <a href="products-detail.html?id=${item.id}">
+                <img src="${item.productImg[3].productImgColor}" />
+                <div class="product-card-content">
+                  <h3 class="product-card-title">${item.productYear} ${item.productName}</h3>
+                  <p class="product-card-info">$ ${item.productPrice[0].price} Starting MSRP</p>
+                  <button class="btn">Explore</button>
+                </div>
+              </a>
+            </div>
+           `;
+      }
+    }).join("");
+    document
+      .querySelector("#popular-cars-item")
       .insertAdjacentHTML("afterbegin", html);
     let scroll =
       window.requestAnimationFrame ||

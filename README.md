@@ -6,4 +6,4 @@ This is project sem1 softech aptech about vehicles company website built with on
 
 - Install server on your local machine
 - Start server 
-- Go to localhost:8080
+- Go to http://localhost:8080 on browser

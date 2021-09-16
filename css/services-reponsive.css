@@ -19,7 +19,7 @@
   }
 
   .stripe.left .images .sub {
-    left: calc(71.20591880995872rem - 1px);
+    left: calc(71.20591880995872rem + 50px);
   }
 }
 

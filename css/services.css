@@ -243,7 +243,7 @@ body {
 }
 
 .block1 .images .titles > div h6.left {
-  top: -3.5rem;
+  top: 4.5rem;
   right: 7rem;
 }
 
@@ -375,7 +375,7 @@ body {
   width: 0px;
   height: 1.5px;
   top: 25px;
-  left: 17px;
+  left: 8px;
   position: absolute;
   background: white;
   -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
@@ -383,14 +383,14 @@ body {
 }
 
 #transition-block:hover .border-top {
-  width: 90%;
+  width: 95%;
 }
 
 #transition-block .border-bottom {
   width: 0px;
   height: 1.5px;
   top: 292px;
-  left: 17px;
+  left: 8px;
   position: absolute;
   background: white;
   -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
@@ -398,7 +398,7 @@ body {
 }
 
 #transition-block:hover .border-bottom {
-  width: 90%;
+  width: 95%;
 }
 
 #transition-block .border-left {
@@ -450,7 +450,7 @@ body {
   position: absolute;
   font-size: 41px;
   color: white;
-  top: 33%;
+  top: 42%;
   left: 0;
   opacity: 0;
   -webkit-transition: opacity 1s;

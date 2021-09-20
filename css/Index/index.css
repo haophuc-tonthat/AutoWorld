@@ -451,7 +451,13 @@ section {
   padding: 0 7rem;
 }
 .section_popular-cars {
-  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: stretch;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
 }
 #news {
   font-family: "Crimson Text", serif;

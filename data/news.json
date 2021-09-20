@@ -5,7 +5,7 @@
     "tag": "OPINION",
     "shortContent": "… but almost certainly will. Oh well, here goes nothing",
     "image": "./images/news/porsche-new.jpg",
-    "link": "/news-details.html?id=0"
+    "link": "./news-details.html?id=0"
   },
   {
     "title": "2022 Mazda CX-5 facelift leaked in China",
@@ -13,7 +13,7 @@
     "tag": "new models",
     "shortContent": " An update for Mazda's popular mid-size SUV has leaked in China, ahead of a rumoured Japanese launch later this year.",
     "image": "./images/news/mazda-new.jpeg",
-    "link": "/news-details.html?id=1"
+    "link": "./news-details.html?id=1"
   },
   {
     "title": "2022 Mercedes-Benz EQB First Look: Electric Box",
@@ -21,7 +21,7 @@
     "tag": "",
     "shortContent": "Mercedes gives its compact GLB-Class an electric heart.",
     "image": "./images/news/mer-new.jpg",
-    "link": "/news-details.html?id=2"
+    "link": "./news-details.html?id=2"
   },
   {
     "title": "2022 Toyota Land Cruiser Waiting Time Extends To Four Years: Report",
@@ -29,7 +29,7 @@
     "tag": "limited series",
     "shortContent": " Buyers want them, and Toyota doesn't have the parts to build the SUV.",
     "image": "./images/news/toyota-new.webp",
-    "link": "/news-details.html?id=3"
+    "link": "./news-details.html?id=3"
   },
   {
     "title": "Hyundai wants hydrogen fuel cell versions of all its commercial vehicle models by 2028",
@@ -37,7 +37,7 @@
     "tag": "SUSTAINABLE ENERGY",
     "shortContent": "Hydrogen has a diverse range of applications and can be deployed in sectors such as industry and transport.",
     "image": "./images/news/hyundai-new.jpeg",
-    "link": "/news-details.html?id=4"
+    "link": "./news-details.html?id=4"
   },
   {
     "title": "27WON Performance Tackles the New 2022 Honda Civic",
@@ -45,7 +45,7 @@
     "tag": "trend",
     "shortContent": "27WON digs into the new Civic sedan. Here's what they see from an aftermarket perspective.",
     "image": "./images/news/honda-new.jpg",
-    "link": "/news-details.html?id=5"
+    "link": "./news-details.html?id=5"
   },
   {
     "title": "Audi Q4 e-tron Gets A Top Five Star Rating From Euro NCAPW",
@@ -53,6 +53,6 @@
     "tag": "",
     "shortContent": "...but it falls behind Volkswagen ID.4 and Skoda Enyaq iV.",
     "image": "./images/news/audi-new.jpg",
-    "link": "/news-details.html?id=6"
+    "link": "./news-details.html?id=6"
   }
 ]

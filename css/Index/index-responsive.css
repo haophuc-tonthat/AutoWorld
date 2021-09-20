@@ -100,12 +100,6 @@
     top: 50%;
     transform: translateY(-50%);
   }
-  /* .service {
-    height: auto;
-  }
-  .service .row .service-content {
-    height: 100px;
-  } */
   .service {
     padding: 0;
     max-height: 100px;

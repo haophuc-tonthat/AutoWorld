@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+p {
+  display: inline-block;
+  width: 100%;
+}
+ul {
+  list-style: none;
+  /* margin: 0 !important; */
+  margin-bottom: 0 !important;
+}
+img {
+  max-width: 100%;
+}
+
+header {
+  height: 120px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 2rem;
+  background-color: transparent;
+  display: flex !important;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+  transition: height 0.3s ease 0s background-color 0.3s ease 0s;
+}
+header.shrink {
+  height: 80px;
+  background-color: var(--second-color);
+}
+header.shrink .logo {
+  height: 80px;
+  width: 80px;
+}
+.logo {
+  height: 110px;
+  width: 110px;
+}
+.main-menu-wrapper {
+  /* position: absolute; */
+  inset: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+.main-menu {
+  width: 400px;
+  display: flex;
+  pointer-events: visible;
+}
+.main-menu > li > a {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: var(--text-color);
+}
+.main-menu > li > a.active {
+  color: var(--text-white);
+}
+.main-menu > li {
+  margin: 0 42px;
+}
+.main-menu > li > a:hover {
+  color: var(--text-white);
+}
+
+.user-menu > li {
+  font-size: 18px;
+}
+.user-menu > ul li a i {
+  color: var(--text-white);
+}
+.toggle-button {
+  display: none;
+}
+.search {
+  height: 50px;
+  width: 30%;
+  position: fixed;
+  right: 0;
+  z-index: 100;
+  /* border: #bbbbbb solid; */
+  margin-top: 80px;
+  visibility: hidden;
+  transform: translateX(100%);
+  /* background-color: transparent; */
+}
+.search.show-search {
+  visibility: visible;
+  transform: translateX(0);
+  transition: visibility 0s linear 0s, transform 0.2s ease-out 0s,
+    -webkit-transform 0.2s ease-out 0s;
+}
+.search form {
+  display: flex;
+  justify-content: flex-end;
+}
+.search-form {
+  border: 1px solid var(--text-color);
+  height: 45px;
+  width: 80%;
+  padding: 0 20px;
+  border-radius: 5px 0 0 5px;
+  font-family: "Bebas Neue", cursive;
+  background-color: var(--second-color);
+}
+.search-btn {
+  height: 45px;
+  width: 45px;
+  border: 1px solid var(--text-color);
+  border-radius: 0 5px 5px 0;
+  background-color: var(--second-color);
+}
+.search-btn a {
+  font-size: 20px;
+  color: #bbbbbb;
+}
+.search-btn:hover,
+.search-btn a:hover {
+  color: var(--text-white);
+}
+
+@media (max-width: 600px) and (min-width: 280px) {
+  .main-menu li {
+    height: 19px;
+  }
+}

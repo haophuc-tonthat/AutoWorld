@@ -1,0 +1,48 @@
+@media only screen and (min-width: 1025px) {
+  .column.reset.medium-push-one {
+    margin-left: 8.3%;
+    width: 83.35%;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 670px),
+  only screen and (max-width: 669px) {
+  .block0 .col {
+    left: 5%;
+    width: 90%;
+  }
+
+  .block0 > div .boxcontent {
+    padding: 8rem 0 0 0;
+    margin: 0 !important;
+    display: block;
+    text-align: center;
+  }
+
+  .subtitle {
+    left: 0 !important;
+  }
+
+  .block0 .images {
+    display: none;
+  }
+
+  .block2 .tabcontent .content > div .title h4 {
+    font-size: 2rem;
+  }
+
+  .block2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .block2 > div .content .text {
+    width: 100% !important;
+    margin-bottom: 2rem;
+  }
+
+  .block2 > div .content .download {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+}

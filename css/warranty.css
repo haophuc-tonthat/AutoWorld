@@ -1,0 +1,223 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(../font/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: "Crimson Text";
+  src: url(../font/CrimsonPro-VariableFont_wght.ttf);
+}
+
+:root {
+  --text-color: #bbbbbb;
+  --text-white: #ffffff;
+  --main-color: #1d1d1d;
+  --second-color: #3a3a3a;
+}
+
+body {
+  background-color: var(--main-color) !important;
+  color: var(--text-color) !important;
+  font-family: "Bebas Neue", cursive !important;
+  overflow-x: hidden !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+.relative {
+  position: relative;
+}
+
+#content {
+  transition: all 200ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -webkit-transition: all 200ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-transition: all 200ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -ms-transition: all 200ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -o-transition: all 200ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+#state {
+  position: relative;
+  min-height: calc(100vh - 39rem);
+  overflow: hidden;
+  max-width: 2560px;
+}
+
+#state h1 {
+  position: absolute;
+  height: 100%;
+  top: 9rem;
+  left: 47rem;
+}
+
+.main-brand-menu {
+  display: none;
+}
+
+.history {
+  padding-top: 12rem;
+  position: relative;
+}
+
+.history .content {
+  height: calc(100vh - 18rem);
+  min-height: 70rem;
+  position: relative;
+  color: white;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  padding: 5rem;
+  display: flex;
+}
+
+.history .content .left {
+  position: relative;
+  width: 22.65%;
+}
+
+.history .content .column {
+  z-index: 2;
+}
+
+.row-content {
+  max-width: 2560px;
+  padding: 0 3rem;
+  margin: 0 auto;
+}
+
+.history .content .left ul {
+  display: inline-block;
+}
+
+.history .content .left ul {
+  list-style: none;
+}
+
+.history .content .left ul li {
+  display: flex;
+  color: #fff;
+  cursor: default;
+  padding: 9px 9px 9px 9px;
+  font-size: 1.2rem;
+  transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.history .content .left ul li img {
+  height: 50px;
+  padding-right: 1em;
+  width: 76px;
+}
+
+.history .content .left ul li span {
+  margin: auto;
+}
+
+.history .content .left ul li.active {
+  background: var(--main-color);
+}
+
+.history .content .main {
+  position: relative;
+  height: 90%;
+}
+
+.history .content .main .top {
+  height: calc(100% - 26rem - 2rem);
+  display: flex;
+  width: 70rem;
+}
+
+.history .content .main .top .pic {
+  width: 55%;
+  height: 100%;
+  margin-right: 5%;
+  display: inline-block;
+  padding-bottom: 2rem;
+  position: relative;
+}
+
+.history .content .main .top > div {
+  vertical-align: top;
+}
+
+.history .content .main .top .text {
+  position: relative;
+  width: 40%;
+  display: inline-block;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.history .content .main .top .text .wrappertext {
+  position: absolute;
+  padding-right: 2rem;
+}
+
+.history .content .main .bottom {
+  height: 22rem;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.history .content .main .bottom .smallpic {
+  vertical-align: top;
+  width: 27.5%;
+  height: 15rem;
+  display: inline-block;
+}
+
+.history .content .main .bottom .smallpic.left {
+  margin-left: 16%;
+}
+
+.history .content .main img {
+  width: 100%;
+  border: 4px solid white;
+  height: 100%;
+}
+
+.history .content .main .bottom .sub {
+  vertical-align: top;
+  padding: 0;
+  width: 27.5%;
+  display: inline-block;
+  list-style: none;
+}
+
+.history .content .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  z-index: 0;
+}
+
+.history .content .main .bottom .sub li a {
+  color: #ddb321;
+  text-transform: uppercase;
+  display: block;
+  font-size: 1.6rem;
+  text-decoration: none;
+  border-bottom: 1px solid #ddb321;
+  padding: 0.8rem 0 0.8rem 1.6rem;
+  transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.history .sub a {
+  border-bottom: 1px solid #fff !important;
+  color: #fff !important;
+}
+
+.history .content .main .bottom .sub li a:hover {
+  color: var(--main-color) !important;
+  background-color: #fff;
+}
+
+footer {
+  height: 40vh !important;
+  margin-top: -1rem;
+}

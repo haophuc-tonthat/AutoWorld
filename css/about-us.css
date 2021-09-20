@@ -1,0 +1,203 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(../font/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: "Crimson Text";
+  src: url(../font/CrimsonPro-VariableFont_wght.ttf);
+}
+
+:root {
+  --text-color: #bbbbbb;
+  --text-white: #ffffff;
+  --main-color: #1d1d1d;
+  --second-color: #3a3a3a;
+}
+
+body {
+  background-color: var(--main-color) !important;
+  color: var(--text-color) !important;
+  font-family: "Bebas Neue", cursive !important;
+  overflow-x: hidden !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+p {
+  font-family: "Crimson Text";
+  font-size: 1.3rem;
+}
+
+.relative {
+  position: relative;
+}
+
+#state {
+  position: relative;
+  min-height: calc(100vh - 39rem);
+  overflow: hidden;
+  max-width: 1920px;
+  max-width: 2560px;
+}
+
+.row-content.fullwidth {
+  padding: 0;
+}
+
+.block0 {
+  height: 63rem;
+  position: relative;
+  height: auto;
+  margin-bottom: 0;
+  overflow: visible;
+  z-index: 3;
+}
+
+.block0 .images {
+  position: absolute;
+  width: 80%;
+  height: 90%;
+  top: 22.5%;
+  left: 49%;
+}
+
+.skewtop {
+  height: 73rem;
+  width: 61rem;
+  bottom: 0;
+}
+
+.block0 .col {
+  width: 50%;
+  left: 8.3%;
+  position: relative;
+}
+
+.block0 .col .boxcontent {
+  position: relative;
+  height: 100%;
+  margin: 18rem 0 12rem 0;
+}
+
+h1 span {
+  font-weight: lighter;
+}
+
+h1 {
+  color: var(--text-color);
+  font-size: 4rem !important;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 5rem !important;
+}
+
+.boxcontent h3 {
+  font-size: 3rem;
+}
+
+h1 span.subtitle {
+  display: block;
+  font-style: italic;
+  font-size: 3.5rem;
+  color: white;
+  background-color: black;
+  display: inline-block;
+  padding: 1rem;
+  position: relative;
+  text-shadow: none;
+  white-space: pre;
+  left: 0;
+  transition: all 200ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-transition: all 200ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -ms-transition: all 200ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -o-transition: all 200ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.row:after,
+.row-content:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.block1 {
+  text-align: center;
+}
+
+.stripe {
+  position: relative;
+}
+
+.block1 h4 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.block1 p {
+  margin-bottom: 2rem;
+}
+
+.mapouter {
+  margin: auto;
+  position: relative;
+  text-align: right;
+  width: 1675px;
+  height: 781px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 1675px;
+  height: 781px;
+}
+.gmap_iframe {
+  width: 1675px !important;
+  height: 781px !important;
+}
+
+.block2 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.block2 .tabcontent {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.block2 .tabcontent .content {
+  width: 100%;
+}
+
+.block2 .tabcontent .content .text {
+  width: 60%;
+  float: left;
+}
+
+.block2 .tabcontent .content .download {
+  width: 40%;
+  float: left;
+  height: 100%;
+  clear: none;
+  padding-left: 6rem;
+}
+
+.block2 .tabcontent .content > div .title h4 {
+  position: relative;
+  font-size: 3rem;
+  font-family: Roboto;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  display: table-cell;
+  vertical-align: top;
+}
+
+ul {
+  padding: 0;
+}

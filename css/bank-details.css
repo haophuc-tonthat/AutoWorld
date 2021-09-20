@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(../font/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: "Crimson Text";
+  src: url(../font/CrimsonPro-VariableFont_wght.ttf);
+}
+
+:root {
+  --text-color: #bbbbbb;
+  --text-white: #ffffff;
+  --main-color: #1d1d1d;
+  --second-color: #3a3a3a;
+}
+
+body {
+  background-color: var(--main-color) !important;
+  color: var(--text-color) !important;
+  font-family: "Bebas Neue", cursive !important;
+  overflow-x: hidden !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+#page {
+  position: relative;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.basics {
+  position: relative;
+  padding-top: 15rem;
+  margin-bottom: 6rem;
+}
+
+.basics h2 {
+  font-size: 3.4rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: 0.136rem;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.basics h1 {
+  font-size: 7.6rem;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.97;
+  letter-spacing: -0.228rem;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.basics .title h1 {
+  padding-bottom: 5rem;
+}
+
+.basics .main-image {
+  position: relative;
+  min-height: 50rem;
+}
+
+.basics .main-image .image,
+.basics .main-image .logo {
+  background-position: 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.bank-data {
+  margin-bottom: 12rem;
+}
+
+section.bank-data .key-value {
+  display: flex;
+  align-items: center;
+  padding: 3.2rem 0 1.8rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+section.bank-data .key-value span:first-of-type {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-right: 5rem;
+}
+
+section.bank-data .key-value span:last-of-type {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: justify;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.72px;
+  font-family: "Crimson Text";
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 670px),
+  only screen and (max-width: 669px) {
+  .basics h1 {
+    font-size: 6.6rem;
+  }
+
+  section.bank-data .key-value span:first-of-type {
+    font-size: 1.4rem;
+  }
+
+  section.bank-data .key-value span:last-of-type {
+    font-size: 1rem;
+  }
+}

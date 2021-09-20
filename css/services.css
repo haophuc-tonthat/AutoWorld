@@ -1,0 +1,462 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(../font/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: "Crimson Text";
+  src: url(../font/CrimsonPro-VariableFont_wght.ttf);
+}
+
+:root {
+  --text-color: #bbbbbb;
+  --text-white: #ffffff;
+  --main-color: #1d1d1d;
+  --second-color: #3a3a3a;
+}
+
+body {
+  background-color: var(--main-color) !important;
+  color: var(--text-color) !important;
+  font-family: "Bebas Neue", cursive !important;
+  overflow-x: hidden !important;
+  margin: 0 !important;
+  width: 100% !important;
+}
+
+/* banner */
+
+#content {
+  position: relative;
+}
+
+#state {
+  position: relative;
+  min-height: calc(100vh - 39rem);
+  overflow: hidden;
+  max-width: 1920px;
+  max-width: 2560px;
+}
+
+.carousel-top {
+  min-height: 0;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.carousel-top svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.carousel-top .fade {
+  opacity: 0.3;
+}
+
+.carousel-top .boxcontent {
+  padding-top: 10rem;
+  left: calc(8.3% + 3rem);
+  position: absolute;
+  top: 6rem;
+  width: calc(91.7% - 3rem);
+}
+
+.carousel-top .h2,
+.carousel-top h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.carousel-top .boxcontent div.h2 span {
+  font-size: 3.2rem;
+  display: block;
+  letter-spacing: 6.3px;
+  color: #fff !important;
+}
+
+.subtitle {
+  left: 0;
+  font-style: normal;
+  background-color: transparent;
+  color: #fff;
+  padding: 0;
+  font-size: 5rem;
+  font-weight: bolder;
+  line-height: 1;
+  max-width: 70%;
+  white-space: normal;
+}
+
+/* content */
+.stripe {
+  position: relative;
+}
+
+.row-content {
+  max-width: 2560px;
+  padding: 0 3rem;
+  margin: 0 auto;
+}
+
+.stripe.first .boxcontent {
+  padding-top: 7rem;
+}
+
+.stripe .boxcontent h2 {
+  font-weight: lighter;
+  margin-bottom: 0px;
+  font-size: 40px;
+}
+
+.stripe .boxcontent p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 300;
+  font-family: "Crimson Text", serif;
+}
+
+.stripe.left .images {
+  position: relative;
+}
+
+.stripe.left .images .left-skew {
+  position: absolute;
+  left: -21.3338893rem;
+  z-index: -2;
+}
+
+.stripe.left .images .right-skew {
+  position: absolute;
+  top: -47rem;
+  z-index: -1;
+}
+
+.stripe.left .images .sub {
+  width: 26.5rem;
+  top: 20rem;
+}
+
+.stripe .images .sub {
+  list-style: none;
+  position: absolute;
+  z-index: 11;
+}
+
+.stripe.left .images .sub li h5 a {
+  display: block;
+}
+
+.stripe .images .sub li h5 a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding: 1rem 1.4rem;
+  position: relative;
+}
+
+.stripe .images .sub li h5 a .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0;
+  transition: all 400ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.stripe .images .sub li h5 a:hover .bg {
+  opacity: 1;
+}
+
+.stripe .images .sub li h5 a:hover {
+  color: var(--main-color);
+}
+
+.stripe .images .sub li h5 a span,
+.stripe .images .sub li h5 a strong {
+  position: relative;
+}
+
+.stripe .images .sub li h5 strong {
+  font-size: 2.5rem;
+}
+
+.stripe .boxcontent {
+  margin-bottom: 10rem;
+  position: relative;
+}
+
+.block1 h5 {
+  font-size: 3rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-bottom: 2.7rem;
+}
+
+.block1 p {
+  margin-bottom: 3rem;
+}
+
+.block1 .images {
+  position: relative;
+  height: 34rem;
+}
+
+.block1 .images .skew-left {
+  width: 120rem;
+  height: 48rem;
+  right: calc(34% - 20.13839114825472rem);
+  position: absolute;
+}
+
+.block1 .images .skew-right {
+  width: 96rem;
+  height: 48rem;
+  top: -6.3rem;
+  left: calc(55% - 14.516423619366945rem);
+  position: absolute;
+}
+
+.block1 .images .titles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 41.3rem;
+  display: table;
+}
+
+.block1 .images .titles > div {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.block1 .images .titles > div h6.left {
+  top: 4.5rem;
+  right: 7rem;
+}
+
+.block1 .images .titles > div h6.right {
+  top: 13.5rem;
+  right: 34rem;
+}
+
+.block1 .images .titles > div h6 {
+  font-weight: 300;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #fff;
+  display: inline-block;
+  text-align: left;
+  position: absolute;
+}
+
+.block1 .images .titles > div h6 strong {
+  font-weight: 900;
+}
+
+.block1 .images .titles > div h6 .sub,
+.block1 .images .titles > div h6 .sub:after {
+  content: ">";
+  font-size: 3.2rem;
+  vertical-align: middle;
+  position: absolute;
+  font-style: normal;
+  top: 17%;
+  padding-left: 1rem;
+  transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -webkit-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -ms-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -o-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.block1 .images .titles > div h6 .yellow {
+  display: inline-block;
+  right: 2.2rem;
+  background-color: #ddb321;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: lighter;
+  padding: 0.7rem;
+  position: relative;
+  transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -webkit-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -ms-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -o-transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.block1 .images .titles > div h6 .sub {
+  overflow: hidden;
+}
+
+.block1 .images .titles > div h6:hover .sub {
+  margin-left: -2.3rem;
+  padding-right: 3rem;
+}
+
+.wrapper_full {
+  width: 1920px;
+  background-color: var(--main-color);
+}
+
+#img-wrapper {
+  margin-top: 9rem;
+  height: 31rem;
+}
+
+#img-wrapper .block-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 500ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -webkit-transition: all 500ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-transition: all 500ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -ms-transition: all 500ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -o-transition: all 500ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transform-origin: 50% 50%;
+  transform: scale(1, 1);
+}
+/* Transform */
+#transform {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  opacity: 0;
+}
+
+#transform:hover {
+  opacity: 1;
+}
+
+#transition-block {
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+#box:hover > img {
+  transform: scale(1.1, 1.1);
+}
+
+#box {
+  overflow: hidden;
+  position: relative;
+  margin: 0 2rem 0 2rem;
+}
+
+#transition-block:hover {
+  border: #e6ae48 solid 5px;
+}
+
+#transition-block .border-top {
+  width: 0px;
+  height: 1.5px;
+  top: 25px;
+  left: 8px;
+  position: absolute;
+  background: white;
+  -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s;
+}
+
+#transition-block:hover .border-top {
+  width: 95%;
+}
+
+#transition-block .border-bottom {
+  width: 0px;
+  height: 1.5px;
+  top: 292px;
+  left: 8px;
+  position: absolute;
+  background: white;
+  -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s;
+}
+
+#transition-block:hover .border-bottom {
+  width: 95%;
+}
+
+#transition-block .border-left {
+  width: 1.5px;
+  height: 0px;
+  top: 15px;
+  left: 17px;
+  position: absolute;
+  background: white;
+  -webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */
+  transition: height 1s;
+}
+
+#transition-block:hover .border-left {
+  height: 90%;
+}
+
+#transition-block .border-right {
+  width: 1.5px;
+  height: 0px;
+  top: 15px;
+  left: 283px;
+  position: absolute;
+  background: white;
+  -webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */
+  transition: height 1s;
+}
+
+#transition-block:hover .border-right {
+  height: 90%;
+}
+#transition-block p {
+  position: absolute;
+  font-size: 15px;
+  color: white;
+  top: 52px;
+  left: 231px;
+  opacity: 0;
+  -webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+  transition: opacity 0.5s;
+}
+#transition-block:hover p {
+  opacity: 1;
+}
+
+#transition-block h1 {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  font-size: 41px;
+  color: white;
+  top: 42%;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 0.5s;
+}
+#transition-block:hover h1 {
+  opacity: 1;
+}
+/* transtrorm */

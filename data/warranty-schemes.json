@@ -1,0 +1,58 @@
+[
+  {
+    "brand": "Porsche",
+    "policy": "The Porsche factory warranty comes standard with any new Porsche vehicle. This comprehensive 3-year limited mileage warranty was designed as an essential bedrock for Jupiter drivers caring for their Porsche. This warranty is a bumper-to-bumper warranty, meaning it covers nearly all parts and components.",
+    "imageTop": "./images/services/mclaren-maintain.jpg",
+    "imageBottomLeft": "./images/services/mclaren-repair.jpg",
+    "imageBottomRight": "./images/services/mclaren-repair2.jpeg",
+    "logo": "./images/ShowroomLogo/logo-porsche.png"
+  },
+  {
+    "brand": "Mazda",
+    "policy": "What Is Covered by the New Mazda Limited Warranty? When you purchase a new vehicle from Mazda, you are protected against defects in materials or workmanship that originated at the factory. This warranty period starts on the sale date of the new vehicle, and lasts for 4 years or 50,000 miles, whichever occurs first.",
+    "imageTop": "./images/services/mazda-maintain.jpg",
+    "imageBottomLeft": "./images/services/mazda-service.jpg",
+    "imageBottomRight": "./images/services/mazda-service1.jpg",
+    "logo": "./images/ShowroomLogo/logo-mazda-color_0.png"
+  },
+  {
+    "brand": "Mercedes",
+    "policy": "All new Mercedes-Benz vehicles are covered by our New Vehicle Limited Warranty. It covers defects in material or workmanship for 48-months or 50,000 miles, whichever comes first.",
+    "imageTop": "./images/services/mer-maintain.jpg",
+    "imageBottomLeft": "./images/services/mer-repair.gif",
+    "imageBottomRight": "./images/services/mer-repair2.jpg",
+    "logo": "./images/ShowroomLogo/logo-mercedes-color.png"
+  },
+  {
+    "brand": "Toyota",
+    "policy": "Toyota Genuine Parts are built to the highest standards of quality, durability and performance. Most have 12-month coverage, and there aren't many, if any, companies that offer a longer guarantee.",
+    "imageTop": "./images/services/toyota-service.jpg",
+    "imageBottomLeft": "./images/services/toyota-repair2.jpg",
+    "imageBottomRight": "./images/services/toyota-repair.jpg",
+    "logo": "./images/ShowroomLogo/logo-toyota-color_0.png"
+  },
+  {
+    "brand": "Hyundai",
+    "policy": "If a warranty-related disablement happens more than 150 miles from your home, and the repairs require more than 24 hours to complete, Hyundai will provide reasonable reimbursement for meals, lodging, or rental car expenses.",
+    "imageTop": "./images/services/hyundai-maintain.jpg",
+    "imageBottomLeft": "./images/services/hyundai-service.jpg",
+    "imageBottomRight": "./images/services/hyundai-service1.jpg",
+    "logo": "./images/ShowroomLogo/logo-hyundai.png"
+  },
+  {
+    "brand": "Honda",
+    "policy": "All new Honda vehicles are covered by a 3-Year/36,000-Mile Limited Warranty, plus a 5-Year/60,000-Mile Powertrain Limited Warranty. 5-Year/60,000-Mile Powertrain Limited Warranty: All new Honda vehicles are covered by a 3-Year/36,000-Mile Limited Warranty, plus a 5-Year/60,000-Mile Powertrain Limited Warranty.",
+    "imageTop": "./images/services/honda-service.jpg",
+    "imageBottomLeft": "./images/services/honda-repair.jpg",
+    "imageBottomRight": "./images/services/honda-repair2.jpg",
+    "logo": "./images/ShowroomLogo/logo-honda.png"
+  },
+  {
+    "brand": "Audi",
+    "policy": "Our New Vehicle Limited Warranty is simple — four years or 50,000 miles, whichever occurs first. You're also covered with four years of Audi 24-Hour Roadside Assistance, all at no additional charge.",
+    "imageTop": "./images/services/audi-maintain.jpeg",
+    "imageBottomLeft": "./images/services/audi-repair.jpg",
+    "imageBottomRight": "./images/services/audi-repair2.jpg",
+    "logo": "./images/ShowroomLogo/logo-audi.png"
+  }
+]

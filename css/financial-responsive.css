@@ -1,0 +1,63 @@
+@media only screen and (min-width: 670px) {
+  .column.reset.small-push-one {
+    margin-left: 8.3%;
+  }
+
+  .column.small-five.reset {
+    width: 41.65%;
+  }
+
+  .column {
+    clear: none;
+    float: left;
+    min-height: 1px;
+  }
+}
+
+@media (min-width: 1025px) {
+  section.banks-list ul li a .three-m,
+  section.banks-list ul li div .three-m {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 670px),
+  only screen and (max-width: 669px) {
+  .carousel-top .boxcontent {
+    left: calc(8.3% + 0rem);
+  }
+
+  .block0 .column .boxcontent {
+    padding: 0 2rem;
+  }
+
+  .block0 .images {
+    display: none;
+  }
+
+  #banks-list {
+    margin-top: 14rem;
+    padding: 0 2rem;
+  }
+
+  section.banks-list h2 {
+    font-size: 4.6rem;
+  }
+
+  .form .form-element {
+    padding-top: 0rem;
+  }
+
+  .form input {
+    margin: 0;
+  }
+
+  section.banks-list ul li a .one {
+    line-height: 3.36;
+  }
+
+  section.banks-list ul li a .two,
+  section.banks-list ul li a .three {
+    display: none;
+  }
+}

@@ -1,0 +1,51 @@
+footer {
+  position: relative;
+  height: 50vh;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 52px;
+  background-color: #2e2525;
+}
+.footer-main .row {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 170px;
+}
+.footer-items {
+  display: flex;
+  flex-direction: column;
+}
+.list-menu-item {
+  font-family: "Crimson Text", serif;
+  padding: 5px 0;
+}
+.list-menu-item a {
+  color: var(--text-color);
+}
+.footer-logo {
+  position: absolute;
+  right: 10%;
+  top: 25%;
+}
+.footer-bottom {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+.social-item {
+  font-size: 32px;
+  position: relative;
+  left: 8%;
+}
+.footer-legal {
+  font-family: "Crimson Text", serif;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.footer-legal span a {
+  color: red;
+}
+.footer-legal span a:hover {
+  color: rgb(211, 57, 57);
+}

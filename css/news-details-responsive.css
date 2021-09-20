@@ -1,0 +1,119 @@
+@media only screen and (max-width: 1024px) and (min-width: 670px),
+  only screen and (max-width: 669px) {
+  .header-title h1 {
+    font-size: 3rem;
+    letter-spacing: 0;
+    margin-top: 0;
+  }
+
+  .header-title h2 {
+    font-size: 2.4rem;
+  }
+
+  .header-title {
+    padding-top: 7rem;
+  }
+
+  .header-title {
+    padding: 10rem 20px 0px;
+    margin: 0;
+  }
+
+  .header-title .main-image {
+    min-height: 24rem;
+  }
+
+  .one {
+    margin-top: -3.5rem;
+  }
+
+  section:not([data-element="newsBasics"]):not(.calendar):not(.slider) {
+    padding: 0px 20px;
+    margin-top: 2rem;
+  }
+
+  .news-tag .tags {
+    margin: 0;
+    text-align: left;
+  }
+
+  .first-para div.texts {
+    padding: 0;
+  }
+
+  .related-news .news-thumb > a.read-more {
+    display: none;
+  }
+
+  #related-news h2 {
+    font-size: 1.2rem;
+  }
+
+  .related-news .news-thumb.col {
+    padding-bottom: 0;
+  }
+
+  .related-news h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+
+  .related-news .mobile {
+    width: 100%;
+    display: contents;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: var(--main-color);
+
+    /* Center slide text vertically */
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .related-news .mobile .swiper-slide .content h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: 0.036rem;
+    text-transform: none;
+    margin-bottom: 0;
+    margin-top: 1rem;
+    text-align: left;
+  }
+
+  .related-news .mobile .swiper-slide .content .image {
+    width: 80%;
+  }
+
+  .wrapper.texts-wrapper .links {
+    display: none !important;
+  }
+}

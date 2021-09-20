@@ -27,6 +27,26 @@ let suggestion = [
     {
       "id":"Toyota-Corolla",
       "productName":"Toyota Corolla"
+    },
+    {
+      "id":"Mazda-Mazda6",
+      "productName":"Mazda Mazda6"
+    },
+    {
+      "id":"Mazda CX-5",
+      "productName":"Mazda CX-5"
+    },
+    {
+      "id":"Porsche-Macan",
+      "productName":"Porsche Macan"
+    },
+    {
+      "id":"Porsche-Panamera",
+      "productName":"Porsche Panamera"
+    },
+    {
+      "id":"Porsche-Cayenne",
+      "productName":"Porsche Cayenne"
     }
 
   ];

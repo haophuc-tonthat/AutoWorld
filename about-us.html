@@ -8,17 +8,22 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="./boxicons-2.0.7/css/boxicons.min.css" />
     <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/header-footer-responsive.css" />
+    <link rel="stylesheet" href="./css/search.css" />
     <link rel="stylesheet" href="./css/about-us.css" />
     <link rel="stylesheet" href="./css/about-us-responsive.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="icon" href="./images/AUTOWORLD2.png" sizes="16x16">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <script async src="./js/search.js"></script>
+    <script src="./js/live-chat.js"></script>
   </head>
+
   <body>
     <header>
       <div class="user-menu">
@@ -30,7 +35,7 @@
       </div>
       <div class="main-menu-wrapper">
         <ul class="main-menu main-menu1">
-          <li><a href="./index.html" >home</a></li>
+          <li><a href="./index.html">home</a></li>
           <li><a href="./brands.html">brands</a></li>
           <li><a href="./about-us.html" class="active">about me</a></li>
         </ul>
@@ -54,7 +59,15 @@
         </ul>
       </div>
     </header>
-
+    <div class="search">
+      <div class="search-input">
+        <input type="text" class="search-form" placeholder="Search..." />
+        <button class="search-btn">
+          <a href="#"><i class="bx bx-search"></i></a>
+        </button>
+        <div class="keyword"></div>
+      </div>
+    </div>
     <div id="content" class="relative">
       <section id="state">
         <div>
@@ -283,50 +296,55 @@
 
     <footer>
       <div>
-        <div class="footer-main container">
+        <div class="footer-main">
           <div class="row">
-            <div class="col-4 footer-list-menu">
-              <h3>brands</h3>
+            <div class="col-2 footer-list-menu">
+              <h3>New Cars</h3>
               <div class="list-menu-items">
                 <div class="list-menu-item">
-                  <a href=""><span>New Models</span></a>
+                  <a href="./brands.html"><span>New Car Showroom</span></a>
                 </div>
                 <div class="list-menu-item">
-                  <a href=""><span>Honda Models</span></a>
+                  <a href=""><span>New Car Inventory</span></a>
                 </div>
                 <div class="list-menu-item">
-                  <a href=""><span>Toyota Models</span></a>
+                  <a href=""><span>Demo Cars For Sale</span></a>
                 </div>
                 <div class="list-menu-item">
-                  <a href=""><span>Suzuki Models</span></a>
+                  <a href="./Corolla-vs-Civic.html"
+                    ><span>2021 Corolla vs. 2021 Honda Civic</span></a
+                  >
                 </div>
               </div>
             </div>
-            <div class="col-4 footer-list-menu">
+            <div class="col-2 footer-list-menu">
               <h3>services</h3>
               <div class="list-menu-items">
                 <div class="list-menu-item">
-                  <a href=""><span>Warranty</span></a>
+                  <a href="./warranty.html"><span>Warranty</span></a>
                 </div>
                 <div class="list-menu-item">
                   <a href=""><span>Insurance</span></a>
                 </div>
                 <div class="list-menu-item">
-                  <a href=""><span>Finance</span></a>
+                  <a href="./financial.html"><span>Finance</span></a>
                 </div>
               </div>
             </div>
-            <div class="col-4 footer-list-menu">
+            <div class="col-2 footer-list-menu">
               <h3>About us</h3>
               <div class="list-menu-items">
                 <div class="list-menu-item">
                   <a href=""><span>Why AutoWorld?</span></a>
                 </div>
                 <div class="list-menu-item">
+                  <a href=""><span>Our Story</span></a>
+                </div>
+                <div class="list-menu-item">
                   <a href=""><span>Terms of Use</span></a>
                 </div>
                 <div class="list-menu-item">
-                  <a href=""><span>Our Story</span></a>
+                  <a href=""><span>Club AutoWorld</span></a>
                 </div>
               </div>
             </div>
@@ -338,20 +356,26 @@
         <div class="footer-bottom">
           <div class="footer-social">
             <div class="row">
-              <div class="social-item">
-                <i class="bx bxl-facebook-square"></i>
-              </div>
-              <div class="social-item">
-                <i class="bx bxl-instagram"></i>
-              </div>
-              <div class="social-item"><i class="bx bxl-twitter"></i></div>
-              <div class="social-item"><i class="bx bxl-youtube"></i></div>
+              <a href="">
+                <div class="social-item">
+                  <i class="bx bxl-facebook-square"></i>
+                </div>
+              </a>
+              <a href="">
+                <div class="social-item"><i class="bx bxl-instagram"></i></div>
+              </a>
+              <a href="">
+                <div class="social-item"><i class="bx bxl-twitter"></i></div>
+              </a>
+              <a href="">
+                <div class="social-item"><i class="bx bxl-youtube"></i></div>
+              </a>
             </div>
           </div>
         </div>
         <div class="footer-legal">
           <span
-            >© 2021 <a href="">OpenRoad Auto Group</a>. All rights reserved.
+            >© 2021 <a href="">AutoWorld Auto Group</a>. All rights reserved.
             <a href="">Privacy Policy</a>.</span
           >
         </div>

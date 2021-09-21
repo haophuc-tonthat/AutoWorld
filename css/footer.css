@@ -1,6 +1,6 @@
-footer {
+/* footer {
   position: relative;
-  height: 50vh;
+  height: 60vh;
   width: 100%;
   padding-top: 30px;
   padding-bottom: 52px;
@@ -48,4 +48,69 @@ footer {
 }
 .footer-legal span a:hover {
   color: rgb(211, 57, 57);
+} */
+footer {
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 52px;
+  background-color: #2e2525;
 }
+.footer-main .row {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 170px;
+}
+.footer-items {
+  display: flex;
+  flex-direction: column;
+}
+.footer-list-menu {
+  margin-left: 10px;
+}
+.footer-list-menu h3{
+  color: var(--text-white);
+  font-size: 23px;
+  line-height: 35px;
+  letter-spacing: 1.5px;
+}
+.list-menu-item {
+  font-family: "Crimson Text", serif;
+  padding: 10px 0;
+}
+.list-menu-item a {
+  color: var(--text-color);
+}
+.list-menu-item a:hover{
+  color: var(--text-white);
+}
+.footer-logo {
+  position: absolute;
+  right: 10%;
+  top: 25%;
+}
+.footer-bottom {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+.social-item {
+  font-size: 32px;
+  position: relative;
+  left: 8%;
+  color: var(--text-white);
+}
+.footer-legal {
+  font-family: "Crimson Text", serif;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+.footer-legal span a {
+  color: red;
+}
+.footer-legal span a:hover {
+  color: rgb(211, 57, 57);
+}
+

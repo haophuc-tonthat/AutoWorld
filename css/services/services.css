@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Bebas Neue";
-  src: url(../font/BebasNeue-Regular.ttf);
+  src: url(../../font/BebasNeue-Regular.ttf);
 }
 @font-face {
   font-family: "Crimson Text";
-  src: url(../font/CrimsonPro-VariableFont_wght.ttf);
+  src: url(../../font/CrimsonPro-VariableFont_wght.ttf);
 }
 
 :root {
@@ -115,7 +115,7 @@ body {
   margin-top: 0;
   margin-bottom: 1rem;
   margin: 0;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 2.4rem;
   font-weight: 300;
   font-family: "Crimson Text", serif;

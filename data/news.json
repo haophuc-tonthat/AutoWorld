@@ -12,7 +12,7 @@
     "date": "8 september 2021",
     "tag": "new models",
     "shortContent": " An update for Mazda's popular mid-size SUV has leaked in China, ahead of a rumoured Japanese launch later this year.",
-    "image": "./images/news/mazda-new.jpeg",
+    "image": "./images/news/mazda-new.png",
     "link": "./news-details.html?id=1"
   },
   {
@@ -28,7 +28,7 @@
     "date": "6 september 2021",
     "tag": "limited series",
     "shortContent": " Buyers want them, and Toyota doesn't have the parts to build the SUV.",
-    "image": "./images/news/toyota-new.webp",
+    "image": "./images/news/toyota-new.jpg",
     "link": "./news-details.html?id=3"
   },
   {

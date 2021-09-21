@@ -90,10 +90,10 @@
     height: 50vh;
   }
   .footer-main .row {
-    padding-left: 50px;
+    padding-left: 50px !important;
   }
   .footer-logo {
-    top: 65%;
+    top: 65% !important;
   }
   .footer-logo img {
     height: 100px;

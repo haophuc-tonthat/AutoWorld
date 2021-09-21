@@ -79,13 +79,6 @@ body {
   width: calc(91.7% - 3rem);
 }
 
-.carousel-top .h2,
-.carousel-top h1 {
-  color: white;
-  font-size: 6rem;
-  text-transform: uppercase;
-}
-
 .carousel-top .boxcontent p {
   color: white;
   font-size: 1.8rem;

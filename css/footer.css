@@ -29,6 +29,7 @@ footer {
 .list-menu-item {
   font-family: "Crimson Text", serif;
   padding: 10px 0;
+  max-width: 150px;
 }
 .list-menu-item a {
   color: var(--text-color);

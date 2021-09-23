@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Bebas Neue";
-  src: url(../font/BebasNeue-Regular.ttf);
+  src: url(../../font/BebasNeue-Regular.ttf);
 }
 @font-face {
   font-family: "Crimson Text";
-  src: url(../font/CrimsonPro-VariableFont_wght.ttf);
+  src: url(../../font/CrimsonPro-VariableFont_wght.ttf);
 }
 
 :root {
@@ -77,13 +77,6 @@ body {
   top: 7rem;
   top: 6rem;
   width: calc(91.7% - 3rem);
-}
-
-.carousel-top .h2,
-.carousel-top h1 {
-  color: white;
-  font-size: 6rem;
-  text-transform: uppercase;
 }
 
 .carousel-top .boxcontent p {

@@ -181,7 +181,7 @@
 
   .block1 .images .titles > div h6.left {
     right: 0;
-    top: 2.5rem;
+    top: -1.5rem;
     font-size: 1.2rem;
   }
 
@@ -191,7 +191,7 @@
 
   .block1 .images .titles > div h6.right {
     left: 5rem;
-    top: 5rem;
+    top: 2rem;
     font-size: 1.2rem;
   }
 

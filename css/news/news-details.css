@@ -26,6 +26,9 @@ body {
 p {
   font-family: "Crimson Text";
 }
+ul{
+  margin-top: 15px;
+}
 
 #page {
   position: relative;

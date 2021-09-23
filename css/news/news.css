@@ -29,6 +29,9 @@ p {
   line-height: 2.8rem;
   margin-bottom: 0;
 }
+ul{
+  margin-top: 15px;
+}
 
 #page {
   position: relative;

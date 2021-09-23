@@ -6,18 +6,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AutoWorld</title>
+  <!-- BoxIcon -->
   <link rel="stylesheet" href="./boxicons-2.0.7/css/boxicons.min.css" />
+
+  <!-- Animation -->
   <link rel="stylesheet" href="./css/animations.css" />
+
+  <!-- Grid -->
   <link rel="stylesheet" href="./css/grid.css" />
+
+  <!-- Page CSS -->
   <link rel="stylesheet" href="./css/Index/index.css" />
   <link rel="stylesheet" href="./css/Index/index-responsive.css" />
+  <link rel="icon" href="./images/AUTOWORLD2.png" sizes="16x16">
+  
+  <!-- Header & Footer -->
   <link rel="stylesheet" href="./css/header.css">
-  <link rel="stylesheet" href="./css/header-footer-responsive.css">
   <link rel="stylesheet" href="./css/search.css">
   <link rel="stylesheet" href="./css/footer.css">
-  <link rel="icon" href="./images/AUTOWORLD2.png" sizes="16x16">
+  <link rel="stylesheet" href="./css/header-footer-responsive.css">
+
+  <!-- Jquery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Search JS -->
   <script async src="./js/search.js"></script>
+
+  <!-- Live Chat JS -->
   <script src="./js/live-chat.js"></script>
   
 </head>
@@ -72,10 +87,13 @@
   </div>
 <!-- Header -->
 
+<!-- Hero Slide -->
   <div class="hero">
     <div class="slide-container" id="hero-slide">
       <div id="hero"></div>
       <div class="hero-txt">AutoWorld</div>
+
+      <!-- Slide Control -->
       <ul class="slide-control">
         <li class="slide-prev"><i class="bx bx-chevron-left"></i></li>
         <li class="slide-control-item active"><i class="bx bx-minus"></i></li>
@@ -83,9 +101,14 @@
         <li class="slide-control-item"><i class="bx bx-minus"></i></li>
         <li class="slide-next"><i class="bx bx-chevron-right"></i></li>
       </ul>
+
     </div>
   </div>
+
+  <!-- Section -->
   <section>
+
+    <!-- New Models -->
     <div id="new-models">
       <div class="section-title">
         <h3 class="main-title">2022 New Models</h3>
@@ -103,6 +126,8 @@
 
       </div>
     </div>
+
+    <!-- Service -->
     <div class="service">
       <div class="row">
         <div class="service-content service-content1">
@@ -114,6 +139,8 @@
         </div>
       </div>
     </div>
+
+    <!-- Popular Cars -->
     <div id="popular-cars">
       <div class="section-title">
         <h3 class="main-title">Popular Cars</h3>
@@ -128,6 +155,8 @@
       </div>
       </div>
     </div>
+
+    <!-- 2021 Corolla vs. 2021 Honda Civic -->
     <div class="service ">
       <div class="row">
         <div class="service-content service-content2">
@@ -139,93 +168,96 @@
         </div>
       </div>
     </div>
+
+    <!-- News -->
     <div id="news">
       <div class="section-title">
         <h3 class="main-title">Latest News</h3>
         <h3 class="second-title">Car News</h3>
         <div class="btn-wrapper">
           <div class="to-left show-on-scroll">
-            <a href="#" class="btn">view all</a>
+            <a href="./news.html" class="btn">view all</a>
           </div>
         </div>
       </div>
       <div class="row">
+
+        <!-- News 1 -->
         <div class="col-4 news news1 show-on-scroll">
           <div class="news-img">
-            <a href=""><img src="./images/NewsImg/2022 Honda Civic Prototype2 smaller.jpg" alt=""></a>
+            <a href="./news-details.html?id=0"><img src="./images/news/porsche-new.jpg" alt=""></a>
           </div>
           <div class="news-content">
             <div class="news-content-title">
               <h2>
-                <a href="">Canada's Favourite Car: The 2022 Honda Civic</a>
+                <a href="./news-details.html?id=0">Opinion: why Porsche should never make an electric 911</a>
               </h2>
             </div>
             <div class="news-content-byline">
-              <span class="news-content-date">April 12th 2021</span>
-              <span class="news-content-author">Lia Ortiz</span>
-            </div>
-            <div class="news-content-body">
-
-              <p>The new 2022 Honda Civic is coming soon! The 11th-generation model
-                is equipped with both classic and brand-new features. Pre-order yours today at AutoWorld.
-              </p>
-            </div>
-            <div class="news-content-readmore">
-              <a href="">Read More ›</a>
-            </div>
-
-          </div>
-        </div>
-        <div class="col-4 news news2 show-on-scroll">
-          <div class="news-img">
-            <a href=""><img src="./images/NewsImg/Covid-Safety-Tips.jpg" alt=""></a>
-          </div>
-          <div class="news-content">
-            <div class="news-content-title">
-              <h2>
-                <a href="">AutoWorld Presents: Car COVID Safety Tips</a>
-              </h2>
-            </div>
-            <div class="news-content-byline">
-              <span class="news-content-date">February 24th 2021</span>
+              <span class="news-content-date">September 9th 2021</span>
               <span class="news-content-author">AutoWorld Auto Group</span>
             </div>
             <div class="news-content-body">
               <strong>February 24, 2021 (Richmond, B.C.) </strong>
-              <p>AutoWorld Auto Group is continuing to do its part to keep dealership staff and...
+              <p>An electric car that feels like a proper Porsche is entirely possible. The Taycan has already proved it, ...
               </p>
             </div>
             <div class="news-content-readmore">
-              <a href="">Read More ›</a>
+              <a href="./news-details.html?id=0">Read More ›</a>
             </div>
 
           </div>
         </div>
-        <div class="col-4 news news3 show-on-scroll">
+
+        <!-- News 2 -->
+        <div class="col-4 news news2 show-on-scroll">
           <div class="news-img">
-            <a href=""><img src="./images/NewsImg/FBBC_Logo_PMS.jpg" alt=""></a>
+            <a href="./news-details.html?id=2"><img src="./images/news/mer-new.jpg" alt=""></a>
           </div>
           <div class="news-content">
             <div class="news-content-title">
               <h2>
-                <a href="">Toyota Canada Donates $120,000 to Food Banks in BC and Yukon Communities</a>
+                <a href="./news-details.html?id=2">2022 Mercedes-Benz EQB First Look: Electric Box</a>
               </h2>
             </div>
             <div class="news-content-byline">
-              <span class="news-content-date">April 27th 2020</span>
+              <span class="news-content-date">September 7th 2021</span>
               <span class="news-content-author">AutoWorld Auto Group</span>
             </div>
             <div class="news-content-body">
 
-              <p>AutoWorld Auto Group's 4 Toyota dealers in BC (Toyota Richmond, Toyota Port Moody, Toyota Abbotsford,
-                and Toyota Peace Arch)
-                are all proud to join Toyota Canada and 36 Toyota dealers, in BC and Yukon, in a $120,000 donation to
-                Food Banks BC.
-                Our local food banks need our support.
+              <p>Mercedes' EQ line of electric vehicles continues its rapid expansion with the new EQB small SUV, which the company pulled the wraps off...
               </p>
             </div>
             <div class="news-content-readmore">
-              <a href="">Read More ›</a>
+              <a href="./news-details.html?id=2">Read More ›</a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- News 3 -->
+        <div class="col-4 news news3 show-on-scroll">
+          <div class="news-img">
+            <a href="./news-details.html?id=4"><img src="./images/news/hyundai-new.jpeg" alt=""></a>
+          </div>
+          <div class="news-content">
+            <div class="news-content-title">
+              <h2>
+                <a href="./news-details.html?id=4">Hyundai wants hydrogen fuel cell versions of all its commercial vehicle models by 2028</a>
+              </h2>
+            </div>
+            <div class="news-content-byline">
+              <span class="news-content-date">September 5th 2021</span>
+              <span class="news-content-author">AutoWorld Auto Group</span>
+            </div>
+            <div class="news-content-body">
+
+              <p>The Hyundai Motor Group plans to develop hydrogen fuel cell versions of all its commercial vehicle models by the year 2028, ...
+              </p>
+            </div>
+            <div class="news-content-readmore">
+              <a href="./news-details.html?id=4">Read More ›</a>
             </div>
           </div>
         </div>
@@ -237,6 +269,8 @@
 <!-- Footer -->
   <footer>
     <div>
+
+      <!-- Footer Main -->
       <div class="footer-main">
         <div class="row">
           <div class="col-2 footer-list-menu">
@@ -267,10 +301,16 @@
           </div>
         </div>
       </div>
+
+      <!-- Footer Logo -->
       <div class="footer-logo">
         <img src="./images/free Delivery.png" alt="">
       </div>
+
+      <!-- Footer Bottom -->
       <div class="footer-bottom">
+
+        <!-- Social Media -->
         <div class="footer-social">
           <div class="row">
             <a href=""><div class="social-item"><i class='bx bxl-facebook-square'></i></div></a>
@@ -280,6 +320,8 @@
           </div>
         </div>
       </div>
+
+      <!-- Footer Legal -->
       <div class="footer-legal">
         <span>© 2021 <a href="">AutoWorld Auto Group</a>. All rights reserved. <a href="">Privacy Policy</a>.</span>
       </div>
@@ -287,7 +329,10 @@
   </footer>
 <!-- Footer -->
 
+  <!-- Page JS -->
   <script src="./js/index.js"></script>
+
+  <!-- Header JS -->
   <script src="./js/header.js"></script>
 
 </body>

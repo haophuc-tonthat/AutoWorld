@@ -45,7 +45,7 @@
   }
 
   .main-menu2 {
-    margin-top: 137px;
+    margin-top: 160px;
     height: 70px;
   }
   .main-menu li a {
@@ -53,10 +53,10 @@
   }
   .main-menu > li ~ li {
     /* margin-left: 0px; */
-    margin-top: 10px;
+    margin-top: 13px;
   }
   .search {
-    width: 100%;
+    width: 80%;
     margin-top: 50px;
   }
 
@@ -71,8 +71,12 @@
     font-size: 15px;
     color: #bbbbbb;
   }
+  
+  footer {
+    height: 70vh;
+  }
   .footer-list-menu h3 {
-    font-size: 15px;
+    font-size: 13px;
     margin: 0;
   }
   .col-2 {
@@ -80,17 +84,14 @@
   }
   .list-menu-item {
     height: 12px;
-    padding: 15px 0;
+    padding: 23px 0;
   }
 
   .list-menu-item a span {
     font-size: 12px;
   }
-  footer {
-    height: 50vh;
-  }
   .footer-main .row {
-    padding-left: 50px;
+    padding-left: 20px;
   }
   .footer-logo {
     top: 65%;
@@ -103,6 +104,9 @@
     font-size: 16px;
     margin: 2px;
     margin-left: 5px;
+  }
+  .footer-legal{
+    bottom: 0;
   }
   .footer-legal span {
     font-size: 12px;
@@ -132,11 +136,10 @@
     background-color: #3a3a3a;
 
     width: 250px;
-    height: 130px;
-    padding-top: 20px;
+    height: 150px;
+    padding: 10px 0;
     display: none;
     flex-direction: column;
-
     left: 0px;
     top: 0;
     position: fixed;
@@ -144,7 +147,7 @@
   }
 
   .main-menu2 {
-    margin-top: 210px;
+    margin-top: 220px;
     height: 90px;
   }
   .main-menu li a {

@@ -1,12 +1,13 @@
 [
     {   "class": "active",
+        "link": "about-us.html",
         "title": "Welcome to AutoWorld",
         "description": "Everyone says AutoWorld is the best company in the world, but the customer doesn't care about the world. They care if we are the best in town, or not. That's what I want to be.",
         "button": "About AutoWorld",
         "imgSrc": "./images/SliderImg/Showroom.png"
     },
     {   
-        "id":"Honda-Civic-Sedan",
+        "link": "products-detail.html?id=Honda-Civic-Sedan",
         "title": "Next-Generation Style",
         "description": "From its sleek new styling to its airy cabin, the redesigned Civic Sedan is a joy to behold and even better to drive. A lower, wider frame and expanded glass areas create a powerful look from the outside while enhancing the view from the inside.",
         "button": "EXPLORE STYLING",

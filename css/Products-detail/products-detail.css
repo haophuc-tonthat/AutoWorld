@@ -208,7 +208,7 @@ img {
   text-transform: uppercase;
 }
 .slide-control {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -257,6 +257,7 @@ img {
   height: auto;
   width: 70%;
   margin: 0 auto;
+  margin-top: 100px;
   background-color: var(--main-color);
   /* border: #ffffff solid 1px; */
   display: flex;

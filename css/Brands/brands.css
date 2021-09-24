@@ -121,6 +121,10 @@ img {
   vertical-align: text-bottom;
   opacity: 0.5;
 }
+.breadcrumb-divider svg{
+  height: 12px;
+  width: 12px;
+}
 .hero-content h1 {
   font-size: 60px;
   line-height: 60px;

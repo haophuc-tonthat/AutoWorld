@@ -91,22 +91,13 @@ img {
   display: flex;
   justify-content: flex-end;
 }
-.search-form {
-  border: 1px solid var(--text-color);
-  height: 45px;
-  width: 80%;
-  padding: 0 20px;
-  border-radius: 5px 0 0 5px;
-  font-family: "Bebas Neue", cursive;
-  background-color: var(--second-color);
-}
-.search-btn {
+/* .search-btn {
   height: 45px;
   width: 45px;
   border: 1px solid var(--text-color);
   border-radius: 0 5px 5px 0;
   background-color: var(--second-color);
-}
+} */
 .search-btn a {
   font-size: 20px;
   color: #bbbbbb;

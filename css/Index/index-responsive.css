@@ -38,7 +38,7 @@
     bottom: 0;
   }
   .slide-control > li {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
   .slide-control > li ~ li {
     margin-left: 10px;

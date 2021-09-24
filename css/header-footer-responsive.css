@@ -82,7 +82,7 @@
   .list-menu-item a span {
     font-size: 12px;
   }
-  .footer-main .row {
+  .footer-main .row-x {
     padding-left: 20px;
   }
   .footer-logo {
@@ -166,7 +166,7 @@
   footer {
     height: 50vh;
   }
-  .footer-main .row {
+  .footer-main .row-x {
     padding-left: 50px;
   }
   .footer-logo{

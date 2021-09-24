@@ -74,70 +74,6 @@ ul {
 img {
   max-width: 100%;
 }
-header {
-  height: 120px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 0 2rem;
-  background-color: transparent;
-  display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: space-between;
-  align-items: center;
-  z-index: 99;
-  transition: height 0.3s ease 0s background-color 0.3s ease 0s;
-}
-header.shrink {
-  height: 80px;
-  background-color: var(--second-color);
-}
-header.shrink .logo {
-  height: 80px;
-  width: 80px;
-}
-.logo {
-  height: 110px;
-  width: 110px;
-}
-.main-menu-wrapper {
-  /* position: absolute; */
-  inset: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  pointer-events: none;
-}
-.main-menu {
-  width: 400px;
-  display: flex;
-  pointer-events: visible;
-}
-.main-menu > li > a {
-  text-transform: uppercase;
-  font-size: 20px;
-  color: var(--text-color);
-}
-.main-menu > li > a.active {
-  color: var(--text-white);
-}
-.main-menu > li {
-  margin: 0 42px;
-}
-.main-menu > li > a:hover {
-  color: var(--text-white);
-}
-
-.user-menu > li {
-  font-size: 18px;
-}
-.user-menu > ul li a i {
-  color: var(--text-white);
-}
-.toggle-button {
-  display: none;
-}
 .hero {
   font-family: "Crimson Text";
   color: var(--main-color);
@@ -215,58 +151,6 @@ section {
 .section-final h3{
     font-size: 30px;
     color: var(--text-white);
-}
-footer {
-  position: relative;
-  height: 50vh;
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 52px;
-  background-color: #2e2525;
-}
-.footer-main .row {
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding-left: 170px;
-}
-.footer-items {
-  display: flex;
-  flex-direction: column;
-}
-.list-menu-item {
-  font-family: "Crimson Text", serif;
-  padding: 5px 0;
-}
-.list-menu-item a {
-  color: var(--text-color);
-}
-.footer-logo {
-  position: absolute;
-  right: 10%;
-  top: 25%;
-}
-.footer-bottom {
-  position: absolute;
-  bottom: 10%;
-  left: 5%;
-}
-.social-item {
-  font-size: 32px;
-  position: relative;
-  left: 8%;
-  color: var(--text-white);
-}
-.footer-legal {
-  font-family: "Crimson Text", serif;
-  position: absolute;
-  bottom: 5%;
-  left: 5%;
-}
-.footer-legal span a {
-  color: red;
-}
-.footer-legal span a:hover {
-  color: rgb(211, 57, 57);
 }
 .book-to-test{
   position: fixed;

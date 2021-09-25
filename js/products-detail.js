@@ -10,6 +10,8 @@ function getUrlVars() {
 }
 var id = getUrlVars().id
 
+
+
 var angle = 0;
 function galleryspin(sign) {
   spinner = document.querySelector("#spinner");
@@ -280,6 +282,83 @@ fetch(myJson)
       
     })
 });
+fetch(myJson)
+.then((response) => {
+  return response.json();
+})
+.then((index) => {
+  // console.log(index.products);
+  const html = index.products.Models
+    .map((item) => {
+      if(item.id == id){
+        var availableAt = item.AvailableAt.map((availableAt =>{
+          // console.log(specsItem)
+          return `
+          <div class="available-item">
+              <a href="">
+                <div class="available-img">
+                  <img src="${availableAt.img}" alt="" sizes="32x32" />
+                </div>
+                <div class="available-name">
+                  <div class="showroom-name">${availableAt.name}</div>
+                  <div class="showroom-location">${availableAt.address}</div>
+                </div>
+              </a>
+            </div>
+            `
+        }))
+        .join("");
+        
+  document
+    .querySelector("#available-items")
+    .insertAdjacentHTML("afterbegin", availableAt);
+      }
+      
+    })
+});
+
+fetch(myJson)
+  .then((response) => {
+    return response.json();
+  })
+  .then((index) => {
+    // console.log(index.products);
+    const html = index.products.Models.map((item) => {
+      
+      function getType(a){
+        var typeA;
+        if(item.id == id){      
+          typeA = item.vehicleType.toString()
+          
+        }
+        return typeA;
+      }
+      console.log(getType())
+      // var type = getType().type
+      // console.log(type)
+        
+
+      // console.log(getType())
+        if (item.id != id) {
+          return `
+          <div class="swiper-slide"><div class="product-card">
+          <a href="products-detail.html?id=${item.id}">
+            <img src="${item.productImg[3].productImgColor}" />
+            <div class="product-card-content">
+              <h3 class="product-card-title">${item.productYear} ${item.productName}</h3>
+              <p class="product-card-info">$ ${item.productPrice[0].price} Starting MSRP</p>
+              <button class="btn">Explore</button>
+            </div>
+          </a>
+        </div></div>
+             `;
+        }
+      }
+    ).join("");
+    document
+      .querySelector("#different-cars")
+      .insertAdjacentHTML("afterbegin", html);
+    });
 //Show Vehicle Specs
 const showMore = document.getElementsByClassName("show-more")[0];
 const zebraTable = document.getElementsByClassName("zebra-table")[0];

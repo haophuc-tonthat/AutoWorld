@@ -6,6 +6,7 @@
                 "brand": "BMW",
                 "productName": "BMW X2",
                 "productYear": "2022",
+                "vehicleType":"SUV",
                 "productPrice": [
                     {
                         "priceTitle": "MSRP",
@@ -440,6 +441,20 @@
                         "specsName": "Country of Origin",
                         "specsContent": "Germany X3 Sports Utility Vehicles"
                     }
+                ],
+                "AvailableAt": [
+                    {
+                        "img": "./images/Location/BWM-Store.jpg",
+                        "name":"The BWM Store",
+                        "address":"Vancouver"
+
+                    },
+                    {
+                        "img": "./images/Location/BWM-Langley.jpg",
+                        "name":"BWM Langley",
+                        "address":"Langley"
+
+                    }
                 ]
             },
             {
@@ -447,6 +462,7 @@
                 "brand": "Audi",
                 "productName": "Audi RS e-tron GT",
                 "productYear": "2022",
+                "vehicleType":"Sedan",
                 "productPrice": [
                     {
                         "priceTitle": "MSRP",
@@ -764,6 +780,14 @@
                         "specsName": "Vehicle Type",
                         "specsContent": "Sedan"
                     }
+                ],
+                "AvailableAt": [
+                    {
+                        "img": "./images/Location/Audi-Boundary.jpg",
+                        "name":"Audi Boundary",
+                        "address":"Burnaby"
+
+                    }
                 ]
             },
             {
@@ -771,6 +795,7 @@
                 "brand": "BMW",
                 "productName": "BMW 8 Series",
                 "productYear": "2022",
+                "vehicleType":"Sedan",
                 "productPrice": [
                     {
                         "priceTitle": "MSRP",
@@ -1183,6 +1208,20 @@
                         "specsName": "Engine Valve Count",
                         "specsContent": "4, 4"
                     }
+                ],
+                "AvailableAt": [
+                    {
+                        "img": "./images/Location/BWM-Store.jpg",
+                        "name":"The BWM Store",
+                        "address":"Vancouver"
+
+                    },
+                    {
+                        "img": "./images/Location/BWM-Langley.jpg",
+                        "name":"BWM Langley",
+                        "address":"Langley"
+
+                    }
                 ]
             },
             {
@@ -1190,6 +1229,7 @@
                 "brand": "Honda",
                 "productName": "Honda Civic Sedan",
                 "productYear": "2022",
+                "vehicleType":"Sedan",
                 "productPrice": [
                     {
                         "priceTitle": "MSRP",
@@ -1546,13 +1586,41 @@
                         "specsName": "Country of Origin",
                         "specsContent": "Canada Cars"
                     }
+                ],
+                "AvailableAt": [
+                    {
+                        "img": "./images/Location/Honda-Richmond.jpg",
+                        "name":"Honda Richmond",
+                        "address":"Richmond"
+
+                    },
+                    {
+                        "img": "./images/Location/Honda-Surrey.jpg",
+                        "name":"Honda Surrey",
+                        "address":"Surrey"
+
+                    },
+                    {
+                        "img": "./images/Location/Honda-Burnaby.jpg",
+                        "name":"Honda Burnaby",
+                        "address":"Burnaby"
+
+                    },
+                    {
+                        "img": "./images/Location/Honda-Brampton.jpg",
+                        "name":"Honda Brampton",
+                        "address":"Brampton"
+
+                    }
                 ]
+                
             },
             {
                 "id": "Hyundai-Kona",
                 "brand": "Hyundai",
                 "productName": "Hyundai Kona",
                 "productYear": "2022",
+                "vehicleType":"SUV",
                 "productPrice": [
                     {
                         "priceTitle": "MSRP",
@@ -1967,13 +2035,29 @@
                         "specsName": "Country of Origin",
                         "specsContent": "South Korea Hyundai - Passenger Cars (Mpv & Rv) Buses & Trucks (Including Vans)"
                     }
+                ],
+                "AvailableAt": [
+                    {
+                        "img": "./images/Location/Hyundai-Boundary.jpg",
+                        "name":"Hyundai Boundary",
+                        "address":"Vancouver"
+
+                    },
+                    {
+                        "img": "./images/Location/Hyundai-Richmond.jpg",
+                        "name":"Hyundai Richmond",
+                        "address":"Richmond"
+
+                    }
                 ]
+                
             },
             {
                 "id": "Hyundai-Tucson",
                 "brand": "Hyundai",
                 "productName": "Hyundai Tucson",
                 "productYear": "2022",
+                "vehicleType":"SUV",
                 "productPrice": [
                     {
                         "priceTitle": "MSRP",
@@ -2433,6 +2517,20 @@
                         "specsName": "Country of Origin",
                         "specsContent": "South Korea Hyundai - Passenger Cars (Mpv & Rv) Buses & Trucks (Including Vans)"
                     }
+                ],
+                "AvailableAt": [
+                    {
+                        "img": "./images/Location/Hyundai-Boundary.jpg",
+                        "name":"Hyundai Boundary",
+                        "address":"Vancouver"
+
+                    },
+                    {
+                        "img": "./images/Location/Hyundai-Richmond.jpg",
+                        "name":"Hyundai Richmond",
+                        "address":"Richmond"
+
+                    }
                 ]
             },
             {
@@ -2440,6 +2538,7 @@
                 "brand": "Toyota",
                 "productName": "Toyota Corolla",
                 "productYear": "2022",
+                "vehicleType":"Sedan",
                 "productPrice": [
                     {
                         "priceTitle": "MSRP",
@@ -2840,6 +2939,38 @@
                         "specsName": "Engine Valve Count",
                         "specsContent": "4, 4"
                     }
+                ],
+                "AvailableAt": [
+                    {
+                        "img": "./images/Location/Toyota-Port-Moody.jpg",
+                        "name":"Toyota Port Moody",
+                        "address":"Port Moody"
+
+                    },
+                    {
+                        "img": "./images/Location/Toyota-Richmond.jpg",
+                        "name":"Toyota Richmond",
+                        "address":"Richmond"
+
+                    },
+                    {
+                        "img": "./images/Location/Toyota-Peach-Arch.jpg",
+                        "name":"Toyota Peach Arch",
+                        "address":"Surrey"
+
+                    },
+                    {
+                        "img": "./images/Location/Toyota-Brampton.jpg",
+                        "name":"Brampton East Toyota",
+                        "address":"Brampton"
+
+                    },
+                    {
+                        "img": "./images/Location/Toyota-Abbotsford.jpg",
+                        "name":"Toyota Abbotsford",
+                        "address":"Abbotsford"
+
+                    }
                 ]
             },
             {
@@ -2847,6 +2978,7 @@
                 "brand": "Mazda",
                 "productName": "Mazda Mazda6",
                 "productYear": "2021",
+                "vehicleType":"Sedan",
                 "productPrice": [
                     {
                         "priceTitle": "MSRP",
@@ -3233,6 +3365,14 @@
                         "specsName": "G/km Of CO2 Emissions",
                         "specsContent": "188 (Est)"
                     }
+                ],
+                "AvailableAt": [
+                    {
+                        "img": "./images/Location/Mazda-Port-Moody.jpg",
+                        "name":"Mazda Port Moody",
+                        "address":"Port Moody"
+
+                    }
                 ]
             },
             {
@@ -3240,6 +3380,7 @@
                 "brand": "Mazda",
                 "productName": "Mazda CX-5",
                 "productYear": "2021",
+                "vehicleType":"SUV",
                 "productPrice": [
                     {
                         "priceTitle": "MSRP",
@@ -3680,6 +3821,14 @@
                         "specsName": "G/km Of CO2 Emissions",
                         "specsContent": "201 (Est), 206 (Est), 208 (Est), 230 (Est), 217 (Est)"
                     }
+                ],
+                "AvailableAt": [
+                    {
+                        "img": "./images/Location/Mazda-Port-Moody.jpg",
+                        "name":"Mazda Port Moody",
+                        "address":"Port Moody"
+
+                    }
                 ]
             },
             {
@@ -3687,6 +3836,7 @@
                 "brand": "Porsche",
                 "productName": "Porsche Macan",
                 "productYear": "2021",
+                "vehicleType":"SUV",
                 "productPrice": [
                     {
                         "priceTitle": "MSRP",
@@ -4117,6 +4267,20 @@
                         "specsName": "Engine Valve Count",
                         "specsContent": "4, 4"
                     }
+                ],
+                "AvailableAt": [
+                    {
+                        "img": "./images/Location/Porsche-Langley.jpg",
+                        "name":"Porsche Centre Langley",
+                        "address":"Langley"
+
+                    },
+                    {
+                        "img": "./images/Location/Porsche-Richmond.jpg",
+                        "name":"Porsche Centre Richmond",
+                        "address":"Richmond"
+
+                    }
                 ]
             },
             {
@@ -4124,6 +4288,7 @@
                 "brand": "Porsche",
                 "productName": "Porsche Panamera",
                 "productYear": "2021",
+                "vehicleType":"Sedan",
                 "productPrice": [
                     {
                         "priceTitle": "MSRP",
@@ -4558,6 +4723,20 @@
                         "specsName": "Engine Valve Count",
                         "specsContent": "4, 4"
                     }
+                ],
+                "AvailableAt": [
+                    {
+                        "img": "./images/Location/Porsche-Langley.jpg",
+                        "name":"Porsche Centre Langley",
+                        "address":"Langley"
+
+                    },
+                    {
+                        "img": "./images/Location/Porsche-Richmond.jpg",
+                        "name":"Porsche Centre Richmond",
+                        "address":"Richmond"
+
+                    }
                 ]
             },
             {
@@ -4565,6 +4744,7 @@
                 "brand": "Porsche",
                 "productName": "Porsche Cayenne",
                 "productYear": "2021",
+                "vehicleType":"Hatchback",
                 "productPrice": [
                     {
                         "priceTitle": "MSRP",
@@ -4994,6 +5174,20 @@
                     {
                         "specsName": "Country of Origin",
                         "specsContent": "Germany Pkw"
+                    }
+                ],
+                "AvailableAt": [
+                    {
+                        "img": "./images/Location/Porsche-Langley.jpg",
+                        "name":"Porsche Centre Langley",
+                        "address":"Langley"
+
+                    },
+                    {
+                        "img": "./images/Location/Porsche-Richmond.jpg",
+                        "name":"Porsche Centre Richmond",
+                        "address":"Richmond"
+
                     }
                 ]
             }

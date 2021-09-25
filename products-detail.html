@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Details</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./boxicons-2.0.7/css/boxicons.min.css" />
     <link rel="stylesheet" href="./css/grid.css" />    
     <link rel="stylesheet" href="./css/animations.css" />
@@ -19,10 +23,12 @@
     <link rel="stylesheet" href="./css/Products-detail/product-color.css">
    
     <link rel="icon" href="./images/AUTOWORLD2.png" sizes="16x16" />
+    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script async src="./js/products-detail.js" ></script>
     <script async src="./js/search.js"></script>
     <script src="./js/live-chat.js"></script>
+
   </head>
 
   <body>
@@ -87,7 +93,6 @@
         </div>
       </div>
     </div>
-
     <div class="showroom-pricing" id="product-price">
       <div class="showroom-financial">
         <div class="financial-title">
@@ -137,42 +142,20 @@
       <div class="available-at">
         <div class="available-block">
           <h2>Available At</h2>
-          <div class="available-items">
-            <div class="available-item">
-              <a href="">
-                <div class="available-img">
-                  <img src="./images/AUTOWORLD.png" alt="" sizes="32x32" />
-                </div>
-                <div class="available-name">
-                  <div class="showroom-name">AutoWorld Hanoi</div>
-                  <div class="showroom-location">Vietnam</div>
-                </div>
-              </a>
-            </div>
-            <div class="available-item">
-              <a href="">
-                <div class="available-img">
-                  <img src="./images/AUTOWORLD.png" alt="" sizes="32x32" />
-                </div>
-                <div class="available-name">
-                  <div class="showroom-name">AutoWorld Danang</div>
-                  <div class="showroom-location">Vietnam</div>
-                </div>
-              </a>
-            </div>
-            <div class="available-item">
-              <a href="">
-                <div class="available-img">
-                  <img src="./images/AUTOWORLD.png" alt="" sizes="32x32" />
-                </div>
-                <div class="available-name">
-                  <div class="showroom-name">AutoWorld Saigon</div>
-                  <div class="showroom-location">Vietnam</div>
-                </div>
-              </a>
-            </div>
+          <div class="available-items" id="available-items">
           </div>
         </div>
+      </div>
+      <div class="diff-cars">
+        <div class="diff-cars-block">
+          <h2>The Different Cars</h2>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper" id="different-cars"></div>
+            <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+          </div>
+        </div> 
       </div>
       <div class="important-info">
         <div class="important-block">
@@ -321,5 +304,7 @@
       </div>
     </div>
     <script src="./js/book-to-test.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/swipper.js"></script>
   </body>
 </html>

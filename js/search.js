@@ -33,7 +33,7 @@ let suggestion = [
       "productName":"Mazda Mazda6"
     },
     {
-      "id":"Mazda CX-5",
+      "id":"Mazda-CX-5",
       "productName":"Mazda CX-5"
     },
     {

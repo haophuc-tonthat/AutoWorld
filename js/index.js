@@ -149,7 +149,6 @@ fetch(myJson)
 
       scroll(loop);
     };
-
     loop();
   });
 

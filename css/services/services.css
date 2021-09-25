@@ -389,7 +389,7 @@ body {
 #transition-block .border-bottom {
   width: 0px;
   height: 1.5px;
-  top: 292px;
+  top: 234px;
   left: 8px;
   position: absolute;
   background: white;
@@ -420,7 +420,7 @@ body {
   width: 1.5px;
   height: 0px;
   top: 15px;
-  left: 283px;
+  left: 225px;
   position: absolute;
   background: white;
   -webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */

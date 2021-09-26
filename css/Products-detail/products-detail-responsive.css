@@ -43,6 +43,9 @@
         left: 0;
         width: 100%;
     }
+    .diff-cars-block{
+        width: 90%;
+    }
 }
 @media (max-width: 600px) and (min-width: 280px){
     body{
@@ -103,12 +106,16 @@
     .slideButton{
         padding: 0.4rem 0.8rem;
     }
+    .available-items{
+        justify-content: flex-start;
+    }
     .available-item{
         margin: 10px 0;
     }
     .available-img img{
         width: 50px;
     }
+    
     .showroom-name{
         font-size: 15px;
     }
@@ -116,6 +123,41 @@
         left: 0;
         width: 100%;
     }
+    .diff-cars-block{
+        width: 100%;
+    }
+    .product-card {
+        margin: 5px;
+        height: 200px;
+        width: 150px;
+      }
+      .product-card h3 {
+        font-size: 0.7rem;
+      }
+      .product-card-img {
+        margin-bottom: 0;
+      }
+      .product-card-img a img {
+        width: auto;
+        height: auto;
+      }
+      .product-card-info {
+        font-family: "Crimson Text", serif;
+        font-size: 0.5rem;
+        color: var(--text-white);
+        font-weight: 300;
+      }
+      /* .product-card-content .btn{
+          font-size: 0.7rem ;
+          position: absolute;
+          
+      } */
+      /* .btn {
+        margin-top: 5px;
+        padding: 0.4rem 0.7rem;
+        font-size: 0.4rem;
+        font-weight: 500;
+      } */
 }
 @media (min-width: 911px) and (max-width: 1280px){
     #gallery-carousel{

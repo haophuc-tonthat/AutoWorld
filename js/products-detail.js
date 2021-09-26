@@ -1,16 +1,17 @@
 function getUrlVars() {
-  var vars = [], hash;
-  var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+  var vars = [],
+    hash;
+  var hashes = window.location.href
+    .slice(window.location.href.indexOf("?") + 1)
+    .split("&");
   for (var i = 0; i < hashes.length; i++) {
-      hash = hashes[i].split('=');
-      vars.push(hash[0]);
-      vars[hash[0]] = hash[1];
+    hash = hashes[i].split("=");
+    vars.push(hash[0]);
+    vars[hash[0]] = hash[1];
   }
   return vars;
 }
-var id = getUrlVars().id
-
-
+var id = getUrlVars().id;
 
 var angle = 0;
 function galleryspin(sign) {
@@ -23,8 +24,6 @@ function galleryspin(sign) {
   spinner.setAttribute("style", "transform: rotateY(" + angle + "deg);");
 }
 
-
-
 const myJson = new Request("data/products.json");
 // Fetch for Slide
 fetch(myJson)
@@ -33,10 +32,10 @@ fetch(myJson)
   })
   .then((productDetail) => {
     // console.log(productDetail.products.Models);
-    const html = productDetail.products.Models
-      .map((item) => { 
-        if (item.id == id){
-          var imageColor = item.productImg.map((productsImg)=>{
+    const html = productDetail.products.Models.map((item) => {
+      if (item.id == id) {
+        var imageColor = item.productImg
+          .map((productsImg) => {
             // console.log(productsImg);
             // console.log(productsImg.productImgColor)
             return `
@@ -49,46 +48,53 @@ fetch(myJson)
              <div class="slide-img">
              <img src="${productsImg.productImgColor}" />
              </div>
-           </div>`
+           </div>`;
           })
           .join("");
-      document.querySelector("#hero").insertAdjacentHTML("afterbegin", imageColor);
-      let hero_slide = document.querySelector("#hero-slide");
+        document
+          .querySelector("#hero")
+          .insertAdjacentHTML("afterbegin", imageColor);
+        let hero_slide = document.querySelector("#hero-slide");
 
-    let hero_slide_items = hero_slide.querySelectorAll(".slide");
+        let hero_slide_items = hero_slide.querySelectorAll(".slide");
 
-    let hero_slide_index = 0;
+        let hero_slide_index = 0;
 
-    let hero_slide_play = true;
+        let hero_slide_play = true;
 
-    let hero_slide_control_items = hero_slide.querySelectorAll(
-      ".slide-control-item"
-    );
+        let hero_slide_control_items = hero_slide.querySelectorAll(
+          ".slide-control-item"
+        );
 
-    showSlide = (index) => {
-      hero_slide.querySelector(".slide.active").classList.remove("active");
-      hero_slide
-        .querySelector(".slide-control-item.active")
-        .classList.remove("active");
-      hero_slide_control_items[index].classList.add("active");
-      hero_slide_items[index].classList.add("active");
-    };
+        showSlide = (index) => {
+          hero_slide.querySelector(".slide.active").classList.remove("active");
+          hero_slide
+            .querySelector(".slide-control-item.active")
+            .classList.remove("active");
+          hero_slide_control_items[index].classList.add("active");
+          hero_slide_items[index].classList.add("active");
+        };
 
-    // add event to slide select
-    hero_slide_control_items.forEach((item, index) => {
-      item.addEventListener("click", () => showSlide(index));
+        // add event to slide select
+        hero_slide_control_items.forEach((item, index) => {
+          item.addEventListener("click", () => showSlide(index));
+        });
+
+        // pause slide when mouse come in slider
+        hero_slide.addEventListener(
+          "mouseover",
+          () => (hero_slide_play = false)
+        );
+
+        // resume slide when mouse leave out slider
+        hero_slide.addEventListener(
+          "mouseleave",
+          () => (hero_slide_play = true)
+        );
+
+        setTimeout(() => hero_slide_items[0].classList.add("active"), 200);
+      }
     });
-
-    // pause slide when mouse come in slider
-    hero_slide.addEventListener("mouseover", () => (hero_slide_play = false));
-
-    // resume slide when mouse leave out slider
-    hero_slide.addEventListener("mouseleave", () => (hero_slide_play = true));
-
-    setTimeout(() => hero_slide_items[0].classList.add("active"), 200);
-        }
-           
-      })
   });
 
 //Fetch for Color
@@ -98,53 +104,61 @@ fetch(myJson)
   })
   .then((productDetail) => {
     // console.log(productDetail.products.Models);
-    const html = productDetail.products.Models
-      .map((item) => { 
-        if (item.id == id){
-          var color = item.productImg.map((productsColor)=>{
+    const html = productDetail.products.Models.map((item) => {
+      if (item.id == id) {
+        var color = item.productImg
+          .map((productsColor) => {
             // console.log(productsColor);
             // console.log(productsColor.color)
             return `
             <li class="slide-control-item ${productsColor.classColor}">
             <button class="slideButton ${productsColor.color}"></button>
           </li>
-          `
+          `;
           })
           .join("");
-      document.querySelector("#slide-control").insertAdjacentHTML("afterbegin", color);
-      let hero_slide = document.querySelector("#hero-slide");
+        document
+          .querySelector("#slide-control")
+          .insertAdjacentHTML("afterbegin", color);
+        let hero_slide = document.querySelector("#hero-slide");
 
-    let hero_slide_items = hero_slide.querySelectorAll(".slide");
+        let hero_slide_items = hero_slide.querySelectorAll(".slide");
 
-    let hero_slide_index = 0;
+        let hero_slide_index = 0;
 
-    let hero_slide_play = true;
+        let hero_slide_play = true;
 
-    let hero_slide_control_items = hero_slide.querySelectorAll(
-      ".slide-control-item"
-    );
+        let hero_slide_control_items = hero_slide.querySelectorAll(
+          ".slide-control-item"
+        );
 
-    showSlide = (index) => {
-      hero_slide.querySelector(".slide.active").classList.remove("active");
-      hero_slide
-        .querySelector(".slide-control-item.active")
-        .classList.remove("active");
-      hero_slide_control_items[index].classList.add("active");
-      hero_slide_items[index].classList.add("active");
-    };
-    hero_slide_control_items.forEach((item, index) => {
-      item.addEventListener("click", () => showSlide(index));
+        showSlide = (index) => {
+          hero_slide.querySelector(".slide.active").classList.remove("active");
+          hero_slide
+            .querySelector(".slide-control-item.active")
+            .classList.remove("active");
+          hero_slide_control_items[index].classList.add("active");
+          hero_slide_items[index].classList.add("active");
+        };
+        hero_slide_control_items.forEach((item, index) => {
+          item.addEventListener("click", () => showSlide(index));
+        });
+
+        // pause slide when mouse come in slider
+        hero_slide.addEventListener(
+          "mouseover",
+          () => (hero_slide_play = false)
+        );
+
+        // resume slide when mouse leave out slider
+        hero_slide.addEventListener(
+          "mouseleave",
+          () => (hero_slide_play = true)
+        );
+
+        setTimeout(() => hero_slide_items[0].classList.add("active"), 200);
+      }
     });
-
-    // pause slide when mouse come in slider
-    hero_slide.addEventListener("mouseover", () => (hero_slide_play = false));
-
-    // resume slide when mouse leave out slider
-    hero_slide.addEventListener("mouseleave", () => (hero_slide_play = true));
-
-    setTimeout(() => hero_slide_items[0].classList.add("active"), 200);
-    }
-    })
   });
 
 //Fetch for Price
@@ -154,10 +168,10 @@ fetch(myJson)
   })
   .then((index) => {
     // console.log(index.products);
-    const html = index.products.Models
-      .map((item) => {
-        if(item.id == id){
-          var productsPrice = item.productPrice.map((price =>{
+    const html = index.products.Models.map((item) => {
+      if (item.id == id) {
+        var productsPrice = item.productPrice
+          .map((price) => {
             // console.log(price)
             // console.log(price.priceTitle)
             // console.log(price.price)
@@ -172,27 +186,26 @@ fetch(myJson)
              </div>
            </div>
            `;
-          }))
+          })
           .join("");
-    document
-      .querySelector("#product-price")
-      .insertAdjacentHTML("afterbegin", productsPrice);
-        }
-        
-      })
+        document
+          .querySelector("#product-price")
+          .insertAdjacentHTML("afterbegin", productsPrice);
+      }
+    });
   });
 
 // Fetch for Feature
-  fetch(myJson)
+fetch(myJson)
   .then((response) => {
     return response.json();
   })
   .then((index) => {
     // console.log(index.products);
-    const html = index.products.Models
-      .map((item) => {
-        if(item.id == id){
-          var features = item.feature.map((feature =>{
+    const html = index.products.Models.map((item) => {
+      if (item.id == id) {
+        var features = item.feature
+          .map((feature) => {
             // console.log(feature)
             return `
         <div class="feature-items">
@@ -218,54 +231,52 @@ fetch(myJson)
         </div>
       </div>
           `;
-          }))
+          })
           .join("");
-    document
-      .querySelector("#showroom-feature")
-      .insertAdjacentHTML("afterbegin", features);
-        }
-        
-      })
+        document
+          .querySelector("#showroom-feature")
+          .insertAdjacentHTML("afterbegin", features);
+      }
+    });
   });
 
 // Fetch for Gallery
 fetch(myJson)
-.then((response) => {
-  return response.json();
-})
-.then((index) => {
-  // console.log(index.products);
-  const html = index.products.Models
-    .map((item) => {
-      if(item.id == id){
-        var gallery = item.gallery.map((galleryImg =>{
-          // console.log(galleryImg)
-          return `
+  .then((response) => {
+    return response.json();
+  })
+  .then((index) => {
+    // console.log(index.products);
+    const html = index.products.Models.map((item) => {
+      if (item.id == id) {
+        var gallery = item.gallery
+          .map((galleryImg) => {
+            // console.log(galleryImg)
+            return `
           <img src="${galleryImg.galleryImg}" alt />
         `;
-        }))
-        .join("");
-  document
-    .querySelector("#spinner")
-    .insertAdjacentHTML("afterbegin", gallery);
+          })
+          .join("");
+        document
+          .querySelector("#spinner")
+          .insertAdjacentHTML("afterbegin", gallery);
       }
-      
-    })
-});
+    });
+  });
 
 // Fetch for Vehicle Specs
 fetch(myJson)
-.then((response) => {
-  return response.json();
-})
-.then((index) => {
-  // console.log(index.products);
-  const html = index.products.Models
-    .map((item) => {
-      if(item.id == id){
-        var vehicleSpecs = item.vehicleSpecs.map((specsItem =>{
-          // console.log(specsItem)
-          return `
+  .then((response) => {
+    return response.json();
+  })
+  .then((index) => {
+    // console.log(index.products);
+    const html = index.products.Models.map((item) => {
+      if (item.id == id) {
+        var vehicleSpecs = item.vehicleSpecs
+          .map((specsItem) => {
+            // console.log(specsItem)
+            return `
           <div class="zebra-table-item ${specsItem.addClass}">
             <div class="zebra-table-item-inner">
               <span><strong>${specsItem.specsName}</strong></span>
@@ -273,25 +284,23 @@ fetch(myJson)
             </div>
           </div>
           `;
-        }))
-        .join("");
-  document
-    .querySelector("#vehicle-specs")
-    .insertAdjacentHTML("afterbegin", vehicleSpecs);
+          })
+          .join("");
+        document
+          .querySelector("#vehicle-specs")
+          .insertAdjacentHTML("afterbegin", vehicleSpecs);
       }
-      
-    })
-});
+    });
+  });
 fetch(myJson)
-.then((response) => {
-  return response.json();
-})
-.then((index) => {
-  // console.log(index.products);
-  const html = index.products.Models
-    .map((item) => {
-      if(item.id == id){
-        var availableAt = item.AvailableAt.map((availableAt =>{
+  .then((response) => {
+    return response.json();
+  })
+  .then((index) => {
+    // console.log(index.products);
+    const html = index.products.Models.map((item) => {
+      if (item.id == id) {
+        var availableAt = item.AvailableAt.map((availableAt) => {
           // console.log(specsItem)
           return `
           <div class="available-item">
@@ -305,17 +314,15 @@ fetch(myJson)
                 </div>
               </a>
             </div>
-            `
-        }))
-        .join("");
-        
-  document
-    .querySelector("#available-items")
-    .insertAdjacentHTML("afterbegin", availableAt);
+            `;
+        }).join("");
+
+        document
+          .querySelector("#available-items")
+          .insertAdjacentHTML("afterbegin", availableAt);
       }
-      
-    })
-});
+    });
+  });
 
 fetch(myJson)
   .then((response) => {
@@ -324,52 +331,53 @@ fetch(myJson)
   .then((index) => {
     // console.log(index.products);
     const html = index.products.Models.map((item) => {
-      
-      function getType(a){
+      function getType(a) {
         var typeA;
-        if(item.id == id){      
-          typeA = item.vehicleType.toString()
-          
+        if (item.id == id) {
+          typeA = item.vehicleType.toString();
         }
         return typeA;
       }
-      console.log(getType())
+      console.log(getType());
       // var type = getType().type
       // console.log(type)
-        
 
       // console.log(getType())
-        if (item.id != id) {
-          return `
+      if (item.id != id) {
+        return `
           <div class="swiper-slide"><div class="product-card">
-          <a href="products-detail.html?id=${item.id}">
             <img src="${item.productImg[3].productImgColor}" />
             <div class="product-card-content">
               <h3 class="product-card-title">${item.productYear} ${item.productName}</h3>
-              <p class="product-card-info">$ ${item.productPrice[0].price} Starting MSRP</p>
-              <button class="btn">Explore</button>
-            </div>
+              <p class="product-card-info">$ ${item.productPrice[0].price}</p>
+              <a href="products-detail.html?id=${item.id}"><button class="btn">Explore</button></div>
           </a>
         </div></div>
              `;
-        }
       }
-    ).join("");
+    }).join("");
     document
       .querySelector("#different-cars")
       .insertAdjacentHTML("afterbegin", html);
-    });
-//Show Vehicle Specs
-const showMore = document.getElementsByClassName("show-more")[0];
-const zebraTable = document.getElementsByClassName("zebra-table")[0];
-showMore.addEventListener("click", () => {
-  zebraTable.classList.toggle("zebra-show");
-  showMore.classList.toggle("show-more-hidden");
-});
+  });
 
-//Gallery-Carousel
-const galleryBlock = document.getElementsByClassName("gallery-block")[0];
-const galleryButton = document.getElementsByClassName("gallery-btn")[0];
-galleryButton.addEventListener("click", () => {
-  galleryBlock.classList.toggle("show-gallery");
-});
+  fetch(myJson)
+  .then((response) => {
+    return response.json();
+  })
+  .then((index) => {
+    const html = index.products.Models.map((item) => {
+      if (item.id == id) {
+        var dealership = item.AvailableAt.map((dealership) => {
+          return `
+          <option value="">${dealership.name}</option>
+            `;
+        }).join("");
+
+        document
+          .querySelector("#form-input-select")
+          .insertAdjacentHTML("afterbegin", dealership);
+      }
+    });
+  });
+

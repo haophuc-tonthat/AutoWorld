@@ -194,6 +194,7 @@ img {
   height: auto;
 }
 .color-title {
+  color: var(--text-white);
   width: 100%;
   text-align: center;
   text-transform: uppercase;
@@ -422,6 +423,9 @@ img {
   margin: 0 auto;
   /* border: wheat solid; */
 }
+.block h2{
+  color: var(--text-white);
+}
 .zebra-table {
   /* border: #bbbbbb solid; */
   height: auto;
@@ -470,6 +474,9 @@ img {
   margin: 50px auto;
   /* border: #bbbbbb solid; */
 }
+.available-block h2{
+  color: var(--text-white);
+}
 .available-items {
   display: flex;
   flex-wrap: wrap;
@@ -489,8 +496,9 @@ img {
   color: var(--text-white);
 }
 .available-img{
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
+  border: var(--text-white) 5px solid;
   border-radius: 50%;
   overflow: hidden  ;
 }
@@ -530,6 +538,9 @@ img {
   width: 80%;
   padding: 20px 50px;
   margin: 50px auto;
+}
+.diff-cars-block h2{
+  color: var(--text-white);
 }
 .swiper {
   width: 100%;

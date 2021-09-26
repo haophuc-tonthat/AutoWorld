@@ -160,7 +160,7 @@ fetch(myJson)
   .then((index) => {
     // console.log(index.products);
     const html = index.products.Models.map((item) => {
-      if (item.productYear != "2022") {
+      if (item.vehicleTag == "Popular Cars") {
         // console.log(item);
         return `
             <div class="product-card to-top show-on-scroll">

@@ -41,7 +41,7 @@ fetch(myProduct)
                 <div class="showroom-listing_item">
                 <a href="products-detail.html?id=${item.id}">
                   <div class="showroom-product_img">
-                    <img src="${item.productImg[3].productImgColor}" alt="" />
+                    <img src="${item.productImg[2].productImgColor}" alt="" />
                   </div>
                   <div class="showroom-product_year">${item.productYear}</div>
                   <div class="showroom-product_name">${item.productName}</div>

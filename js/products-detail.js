@@ -41,12 +41,12 @@ fetch(myJson)
             return `
           <div class="slide">
              <div class="slide-txt">
-               <div class="slide-title">
+               <div class="slide-title"  >
                  <h3>${item.productName}</h3>
                </div>
              </div>
              <div class="slide-img">
-             <img src="${productsImg.productImgColor}" />
+             <img id="imgSrc" data-type="${item.vehicleType}"src="${productsImg.productImgColor}" />
              </div>
            </div>`;
           })
@@ -311,44 +311,6 @@ fetch(myJson)
       }
     });
   });
-
-fetch(myJson)
-  .then((response) => {
-    return response.json();
-  })
-  .then((index) => {
-    // console.log(index.products);
-    const html = index.products.Models.map((item) => {
-      function getType(a) {
-        var typeA;
-        if (item.id == id) {
-          typeA = item.vehicleType.toString();
-        }
-        return typeA;
-      }
-      console.log(getType());
-      // var type = getType().type
-      // console.log(type)
-
-      // console.log(getType())
-      if (item.id != id) {
-        return `
-          <div class="swiper-slide"><div class="product-card">
-            <img src="${item.productImg[3].productImgColor}" />
-            <div class="product-card-content">
-              <h3 class="product-card-title">${item.productYear} ${item.productName}</h3>
-              <p class="product-card-info">$ ${item.productPrice[0].price}</p>
-              <a href="products-detail.html?id=${item.id}"><button class="btn">Explore</button></div>
-          </a>
-        </div></div>
-             `;
-      }
-    }).join("");
-    document
-      .querySelector("#different-cars")
-      .insertAdjacentHTML("afterbegin", html);
-  });
-
   fetch(myJson)
   .then((response) => {
     return response.json();
@@ -369,3 +331,34 @@ fetch(myJson)
     });
   });
 
+  window.onload =function getType(){
+    var a = document.getElementById("imgSrc").getAttribute('data-type')
+    console.log(a)
+    fetch(myJson)
+  .then((response) => {
+    return response.json();
+  })
+  .then((index) => {
+    // console.log(index.products);
+    const sedan = index.products.Models.map((item) => {
+      if (item.id != id && item.vehicleType == a) {
+        return `
+          <div class="swiper-slide" ><div class="product-card" >
+            <img src="${item.productImg[3].productImgColor}" />
+            <div class="product-card-content >
+              <h3 class="product-card-title" >${item.productYear} ${item.productName}</h3>
+              <p class="product-card-info">$ ${item.productPrice[0].price}</p>
+              <a href="products-detail.html?id=${item.id} data-type = "${item.vehicleType}"><button class="btn">Explore</button></div>
+          </a>
+        </div></div>
+             `;
+      }
+    }
+    ).join("");
+    document
+      .querySelector("#different-cars")
+      .insertAdjacentHTML("afterbegin", sedan);
+  });
+}
+
+  

@@ -211,19 +211,7 @@ fetch(myJson)
         <div class="feature-items">
         <div class="feature-item">
           <div class="feature-icon">
-            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-              fill="currentColor" stroke="none">
-              <polygon points="${feature.polygonPoint}"></polygon>
-              <path
-                d="${feature.featurePath1}">
-              </path>
-              <path
-                d="${feature.featurePath2}">
-              </path>
-              <path
-                d="${feature.featurePath3}">
-              </path>
-            </svg>
+          <img src="${feature.linkIcon}" alt="">
           </div>
           <div class="feature-inner">
             ${feature.featureContent}

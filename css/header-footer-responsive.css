@@ -56,7 +56,7 @@
     margin-top: 13px;
   }
   .search {
-    width: 80%;
+    width: 100%;
     margin-top: 50px;
   }
 
@@ -86,11 +86,11 @@
     padding-left: 20px;
   }
   .footer-logo {
-    top: 65% !important;
+    top: 60% !important;
   }
   .footer-logo img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
   }
   .social-item {
     font-size: 16px;
@@ -98,7 +98,7 @@
     margin-left: 5px;
   }
   .footer-legal {
-    bottom: 0;
+    bottom: 5%;
   }
   .footer-legal span {
     font-size: 12px;
@@ -150,7 +150,7 @@
     margin-top: 20px;
   }
   .search {
-    width: 50%;
+    width: 100%;
     margin-top: 90px;
   }
 

@@ -42,10 +42,7 @@ $(async function () {
 
 function firstNewsHtml(article) {
   let htmlStr = `<div class="main-news news-thumb row no-gutters first-news">
-                  <div class="col-12 col-md-10 col-xl-8 offset-md-1 offset-xl-2">
-                    <h3 class="news-section-title--secondary">News</h3>
-                    <h2 class="news-section-title--primary">Autoworld</h2>
-                  </div>
+
                   <div
                     class="
                       col-12 col-md-10 col-xl-8

@@ -17,6 +17,31 @@
 
 @media only screen and (max-width: 1024px) and (min-width: 670px),
   only screen and (max-width: 669px) {
+  .hero {
+    height: 17vh;
+    padding: 24px 0;
+    margin-top: 90px;
+  }
+  .hero-top,
+  .hero-content {
+    margin: 0 20px;
+  }
+  .hero-content h1 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .breadcrumbs {
+    font-size: 0.9rem;
+  }
+  .breadcrumb-divider svg {
+    height: 10px;
+    width: 10px;
+  }
+
+  .first-news:before {
+    top: -1px;
+  }
+
   #page {
     overflow: hidden;
   }

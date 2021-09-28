@@ -20,8 +20,9 @@ $(async function () {
       }</span>
     </div>`;
 
+  $("head title").html(bank.name);
   $("#details").html(details);
-  $("#bank-name").html(bank.name);
+  $(".bank-name").html(bank.name);
   $("#img").html(
     `  <div class="image img-loaded" style="background-image: url('${
       bank.image || ""

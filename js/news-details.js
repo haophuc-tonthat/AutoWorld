@@ -16,6 +16,8 @@ $(async function () {
 
     const relatedNews = getRandom(news, 3);
 
+    $("head title").html(`${newsDetails.title}`);
+
     $("#page").html(
       `${newsBasicsTemplate(newsDetails)}${paragraphOneTemplate(
         newsDetails
@@ -63,12 +65,64 @@ async function getNewsDetails() {
 }
 
 function newsBasicsTemplate(news) {
-  return `<section data-element="newsBasics" id="news-basics" class="css-gwl9wl">
-            <div class="row no-gutters header-title">
-              <div class="col-12 col-md-10 offset-md-1 title">
-                <h2>News</h2>
-                <h1>${news.title}&nbsp;</h1>
+  return `
+            <div class="hero">
+            <div class="hero-inner">
+              <div class="hero-top">
+                <nav>
+                  <div class="breadcrumbs">
+                    <div class="breadcrumb-item">
+                      <a href="./index.html" class="breadcrumb-link">HOME</a>
+                    </div>
+                    <div class="breadcrumb-item">
+                      <div class="breadcrumb-divider">
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          version="1.1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                        >
+                          <line x1="2" y1="12" x2="22" y2="12"></line>
+                          <polyline points="16,6 22,12 16,18"></polyline>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="breadcrumb-item">
+                      <a href="./news.html" class="breadcrumb-link">News</a>
+                    </div>
+                    <div class="breadcrumb-item">
+                    <div class="breadcrumb-divider">
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <polyline points="16,6 22,12 16,18"></polyline>
+                      </svg>
+                    </div>
+                  </div>
+                    <div class="breadcrumb-item">
+                    <a href="#" class="breadcrumb-link select">${news.title}</a>
+                  </div>
+                  </div>
+                </nav>
               </div>
+              <div class="hero-content">
+                <h1>News </br>${news.title}&nbsp;</h1>
+              </div>
+            </div>
+          </div>
+          <section data-element="newsBasics" id="news-basics" class="css-gwl9wl">
+            <div class="row no-gutters header-title">
+
               <div class="col-12 col-md-10 offset-md-1 main-image">
                 <div class="image first">
                   <div

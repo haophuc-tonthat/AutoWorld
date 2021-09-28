@@ -28,6 +28,70 @@ p {
   font-size: 1.3rem;
 }
 
+.hero {
+  height: 29vh;
+  color: var(--text-color);
+  background-color: #423f3e;
+  /* border: #bbbbbb solid; */
+  margin-top: 120px;
+  padding: 48px 0;
+  line-height: 22px;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.hero-inner {
+  position: relative;
+}
+.hero-top,
+.hero-content {
+  padding: 0 16px;
+  margin: 0 120px;
+}
+
+.breadcrumbs {
+  display: flex;
+  text-transform: uppercase;
+  color: var(--text-white);
+  font-size: 1.1em;
+  font-weight: 700;
+}
+.breadcrumb-item {
+  flex: 0 1 auto;
+}
+.breadcrumb-link {
+  color: var(--text-color);
+  line-height: 18px;
+}
+.breadcrumb-link:hover {
+  color: var(--text-white);
+}
+.breadcrumb-link.select {
+  color: var(--text-white);
+}
+.breadcrumb-divider {
+  text-align: center;
+  padding: 0 8px;
+  width: 32px;
+  display: inline-block;
+  vertical-align: text-bottom;
+  opacity: 0.5;
+}
+.breadcrumb-divider svg {
+  height: 12px;
+  width: 12px;
+}
+.hero-content h1 {
+  font-size: 60px;
+  line-height: 60px;
+  color: var(--text-white);
+  margin: 40.2px 0px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  display: none;
+}
+
 .relative {
   position: relative;
 }
@@ -58,12 +122,12 @@ p {
   width: 80%;
   height: 90%;
   top: 22.5%;
-  left: 49%;
+  left: 62%;
 }
 
 .skewtop {
-  height: 73rem;
-  width: 61rem;
+  height: 53rem;
+  width: 45rem;
   bottom: 0;
 }
 
@@ -76,7 +140,7 @@ p {
 .block0 .col .boxcontent {
   position: relative;
   height: 100%;
-  margin: 18rem 0 12rem 0;
+  margin: 3rem 0 12rem 0;
 }
 
 h1 span {

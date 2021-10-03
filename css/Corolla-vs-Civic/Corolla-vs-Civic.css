@@ -155,7 +155,8 @@ section {
   height: auto;
   width: 730px;
   top: 15%;
-  left: 400px;
+  left: 27%;
+  bottom: 0;
   background-color: var(--second-color);
   z-index: 101;
   display: none;

@@ -325,8 +325,28 @@ fetch(myJson)
         }).join("");
 
         document
-          .querySelector("#form-input-select")
-          .insertAdjacentHTML("afterbegin", dealership);
+          .querySelector("#dealership_book")
+          .insertAdjacentHTML("beforeend", dealership);
+      }
+    });
+  });
+// Fetch for Dealership in Form Contact Us
+fetch(myJson)
+  .then((response) => {
+    return response.json();
+  })
+  .then((index) => {
+    const html = index.products.Models.map((item) => {
+      if (item.id == id) {
+        var dealership = item.AvailableAt.map((dealership) => {
+          return `
+          <option value="">${dealership.name}</option>
+            `;
+        }).join("");
+
+        document
+          .querySelector("#dealership_contact")
+          .insertAdjacentHTML("beforeend", dealership);
       }
     });
   });

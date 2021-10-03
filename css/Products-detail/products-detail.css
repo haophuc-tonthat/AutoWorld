@@ -668,13 +668,20 @@ img {
   padding: 16px;
   font-family: "Crimson Text", serif;
 }
+input:out-of-range {
+  border: 2px solid red;
+}
+
+input:in-range {
+  border: 2px solid black;
+}
 select{
   width: 100%;
 }
 option{
   padding: 10px;
 }
-#form-input-select{
+.form-input-select{
   padding-right: 32px;
 }
 .edit-contact-info{

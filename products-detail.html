@@ -297,33 +297,33 @@
     </div>
     <div class="dialog-content">
       <div class="submission-form">
-        <form class="form-block" action="">
+        <form novalidate class="form-block">
           <div class="edit-dealership">
-            <label for="">Dealership</label>
-            <select name="a" id="form-input-select" class="form-input" required>
-              <option value="">- Select -</option>
+            <label>Dealership</label>
+            <select id="dealership_book" class="form-input form-input-select" required>
+              <option> - Select - </option>
             </select>
           </div>
           <div class="edit-contact-info">
-            <input class=" form-input" type="text" placeholder="Name*" required>
-            <input class=" form-input" type="email" placeholder="Email*" required>
-            <input class=" form-input" type="number" placeholder="Phone*" required>
+            <input id="book-name" class=" form-input" type="text" placeholder="Name*" required>
+            <input id="book-mail" class=" form-input" type="email" placeholder="Email*" required minlength="9">
+            <input id="book-phone" class=" form-input" type="text" placeholder="Phone*" pattern="(\+84|0)\d{9,10}"  required minlength="8" maxlength="11">
           </div>
           <div class="edit-message">
-            <select name="" id="form-input-select" class="form-input" required>
-              <option value="">Preferred Contact Method</option>
-              <option value="">Email</option>
-              <option value="">Phone</option>
-              <option value="">Text</option>
+            <select id="contact_book" class="form-input form-input-select" required>
+              <option>Preferred Contact Method</option>
+              <option>Email</option>
+              <option>Phone</option>
+              <option>Text</option>
             </select>
           </div>
           <div class="form-item-message">
-            <label for="">Message*</label>
-            <input class=" form-input form-input-message" type="text"
+            <label>Message*</label>
+            <input id="book_message" class=" form-input form-input-message" type="text"
               placeholder="Re: Test Drive for a 2022 RS e-tron GT" required>
           </div>
           <div class="edit-are-you-in-club">
-            <label for="">Message*</label>
+            <label>Message*</label>
             <div class="form-input-radio">
               <div class="radio-item">
                 <input id="radio-yes" type="radio" name="check-box" value="yes" checked>
@@ -336,19 +336,19 @@
             </div>
           </div>
           <div class="edit-covid form-input">
-            <label for="">COVID-19 Update</label>
+            <label>COVID-19 Update</label>
             <div class="edit-covid-content">
               <strong>Service &amp; Parts</strong><br>
               Our Service and Parts departments are open with refreshed hours, and offer touch-free, contactless service
               appointments.<br>
               <br>
-              <a href="" target="_blank">For more information on how we're changing our business to adapt to your needs,
+              <a href="#" target="_blank">For more information on how we're changing our business to adapt to your needs,
                 learn more here</a>
             </div>
           </div>
           <div class="form-captcha"></div>
           <div class="edit-actions">
-            <button class="btn">Submit</button>
+            <button class="btn" onclick="backBrands()">Submit</button>
           </div>
         </form>
       </div>
@@ -363,32 +363,32 @@
     </div>
     <div class="dialog-content">
       <div class="submission-form">
-        <form class="form-block" action="">
+        <form novalidate class="form-block" action="">
           <div class="edit-dealership">
             <label for="">Dealership</label>
-            <select name="a" id="form-input-select" class="form-input" required>
-              <option value="">- Select -</option>
+            <select id="dealership_contact" class="form-input form-input-select" required>
+              <option>- Select -</option>
             </select>
           </div>
           <div class="edit-contact-info">
-            <input class=" form-input" type="text" placeholder="Name*" required>
-            <input class=" form-input" type="email" placeholder="Email*" required>
-            <input class=" form-input" type="number" placeholder="Phone*" required>
+            <input id="contact-name" class=" form-input" type="text" placeholder="Name*" required>
+            <input id="contact-mail" class=" form-input" type="email" placeholder="Email*" required minlength="9">
+            <input id="contact-phone" class=" form-input" type="text" placeholder="Phone*" pattern="(\+84|0)\d{9,10}"  required minlength="8" maxlength="11">
           </div>
           <div class="edit-message">
-            <select name="" id="form-input-select" class="form-input" required>
-              <option value="">Preferred Contact Method</option>
-              <option value="">Email</option>
-              <option value="">Phone</option>
-              <option value="">Text</option>
+            <select id="contact_contact-method" class="form-input form-input-select" required>
+              <option>Preferred Contact Method</option>
+              <option>Email</option>
+              <option>Phone</option>
+              <option>Text</option>
             </select>
           </div>
           <div class="form-item-message">
-            <label for="">Message*</label>
-            <input class=" form-input form-input-message" type="text" placeholder="Re: 2022 RS e-tron GT" required>
+            <label>Message*</label>
+            <input id="contact-message" class="form-input form-input-message" type="text" placeholder="Re: 2022 RS e-tron GT" required>
           </div>
           <div class="edit-are-you-in-club">
-            <label for="">Message*</label>
+            <label>Message*</label>
             <div class="form-input-radio">
               <div class="radio-item">
                 <input id="radio-yes" type="radio" name="check-box" value="yes" checked>
@@ -401,13 +401,13 @@
             </div>
           </div>
           <div class="edit-covid form-input">
-            <label for="">COVID-19 Update</label>
+            <label>COVID-19 Update</label>
             <div class="edit-covid-content">
               <strong>Service &amp; Parts</strong><br>
               Our Service and Parts departments are open with refreshed hours, and offer touch-free, contactless service
               appointments.<br>
               <br>
-              <a href="" target="_blank">For more information on how we're changing our business to adapt to your needs,
+              <a target="_blank">For more information on how we're changing our business to adapt to your needs,
                 learn more here</a>
             </div>
           </div>
@@ -425,6 +425,9 @@
 
   <!-- Show Form JS -->
   <script src="./js/show-form.js"></script>
+
+  <!-- Form Validate -->
+  <script src="./js/form-validate.js"></script>
 
   <!-- Swiper JS -->
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

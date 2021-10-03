@@ -290,58 +290,71 @@
     <!-- Footer -->
 
     <!-- Book to test form -->
-    <div class="book-to-test">
+    <div class="form book-to-test">
       <div class="dialog-titlebar">
-        <span>Schedule appointment</span>
+        <span>book to test</span>
         <a class="close-btn"><i class="bx bx-x-circle"></i></a>
       </div>
       <div class="dialog-content">
         <div class="submission-form">
-          <form class="form-block" action="">
+          <form novalidate class="form-block">
+            <div class="edit-dealership">
+              <label>Dealership</label>
+              <select
+                id="dealership_book"
+                class="form-input form-input-select"
+                required
+              >
+                <option>- Select -</option>
+                <option value="">Toyota Port Moody</option>
+                <option value="">Toyota Richmond</option>
+                <option value="">Brampton East Toyota</option>
+                <option value="">Toyota Abbotsford</option>
+              </select>
+            </div>
             <div class="edit-contact-info">
               <input
+                id="book-name"
                 class="form-input"
                 type="text"
                 placeholder="Name*"
                 required
               />
               <input
+                id="book-mail"
                 class="form-input"
                 type="email"
                 placeholder="Email*"
                 required
+                minlength="9"
               />
               <input
+                id="book-phone"
                 class="form-input"
-                type="number"
+                type="text"
                 placeholder="Phone*"
+                pattern="(\+84|0)\d{9,10}"
                 required
+                minlength="8"
+                maxlength="11"
               />
             </div>
             <div class="edit-message">
-              <label for="">Model Special Offer Interested In</label>
               <select
-                name=""
-                id="form-input-select"
-                class="form-input"
+                id="contact_book"
+                class="form-input form-input-select"
                 required
               >
-                <option value="">Preferred Contact Method</option>
-                <option value="">Email</option>
-                <option value="">Phone</option>
-                <option value="">Text</option>
+                <option>Preferred Contact Method</option>
+                <option>Email</option>
+                <option>Phone</option>
+                <option>Text</option>
               </select>
-              <input
-                type="text"
-                class="form-input"
-                style="width: 100%"
-                placeholder="Offer Interested In"
-                required
-              />
             </div>
             <div class="form-item-message">
-              <label for="">Message*</label>
+              <label>Message*</label>
               <input
+                id="book_message"
                 class="form-input form-input-message"
                 type="text"
                 placeholder="Re: Test Drive for a 2022 RS e-tron GT"
@@ -349,7 +362,7 @@
               />
             </div>
             <div class="edit-are-you-in-club">
-              <label for="">Message*</label>
+              <label>Message*</label>
               <div class="form-input-radio">
                 <div class="radio-item">
                   <input
@@ -373,13 +386,13 @@
               </div>
             </div>
             <div class="edit-covid form-input">
-              <label for="">COVID-19 Update</label>
+              <label>COVID-19 Update</label>
               <div class="edit-covid-content">
                 <strong>Service &amp; Parts</strong><br />
                 Our Service and Parts departments are open with refreshed hours,
                 and offer touch-free, contactless service appointments.<br />
                 <br />
-                <a href="" target="_blank"
+                <a href="#" target="_blank"
                   >For more information on how we're changing our business to
                   adapt to your needs, learn more here</a
                 >
@@ -387,7 +400,7 @@
             </div>
             <div class="form-captcha"></div>
             <div class="edit-actions">
-              <button class="btn">Submit</button>
+              <button class="btn" onclick="backBrands()">Submit</button>
             </div>
           </form>
         </div>
@@ -396,6 +409,9 @@
 
     <!-- Header JS -->
     <script src="./js/header.js"></script>
+
+    <!-- Form Validate -->
+    <script src="./js/form-validate.js"></script>
 
     <!-- Get Offer JS -->
     <script src="./js/get-offer.js"></script>

@@ -1,24 +1,9 @@
 /* Animation */
-/* .to-right {
-  transform: translateX(-200px);
-}
 
-.to-left {
-  transform: translateX(200px);
-} */
-
-/* .to-right,
-.to-left, */
 .to-top {
   opacity: 0;
   transition: all 1.5s ease 0s;
 }
-
-/* .to-right.show,
-.to-left.show {
-  opacity: 1;
-  transform: translateX(0);
-} */
 
 .to-top {
   transform: translateY(100px);

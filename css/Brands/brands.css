@@ -74,7 +74,7 @@ img {
   max-width: 100%;
 }
 .hero {
-  height: 27vh;
+  height: 28vh;
   color: var(--text-color);
   background-color: #423f3e;
   /* border: #bbbbbb solid; */
@@ -121,7 +121,7 @@ img {
   vertical-align: text-bottom;
   opacity: 0.5;
 }
-.breadcrumb-divider svg{
+.breadcrumb-divider svg {
   height: 12px;
   width: 12px;
 }
@@ -163,7 +163,7 @@ section {
   height: 50px;
   width: auto;
 }
-.showroom-listing{
+.showroom-listing {
   margin-top: 64px;
 }
 .showroom-listing_group {
@@ -174,7 +174,7 @@ section {
   font-family: "Crimson Text";
   color: var(--text-color);
   margin-bottom: 50px;
-  padding: 0 50px;
+  padding: 0 100px;
 }
 .heading-sepatated {
   /* height: 20px; */
@@ -226,7 +226,7 @@ section {
 .showroom-product_msrp {
   color: var(--text-color);
 }
-.scroll-to-top{ 
+.scroll-to-top {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -236,11 +236,11 @@ section {
   position: fixed;
   bottom: 108px;
   right: 36px;
-  border-radius: .3125rem;
+  border-radius: 0.3125rem;
   font-size: 20px;
   box-shadow: 0 0 8px 4px rgb(0 0 0 / 16%);
   z-index: 100;
 }
-.scroll-to-top i{
+.scroll-to-top i {
   color: var(--text-white);
 }

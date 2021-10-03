@@ -54,5 +54,13 @@
     "imageBottomLeft": "./images/services/audi-repair.jpg",
     "imageBottomRight": "./images/services/audi-repair2.jpg",
     "logo": "./images/ShowroomLogo/logo-audi.png"
+  },
+  {
+    "brand": "BWM",
+    "policy": "If you buy a new vehicle, you can add BMW extended warranty coverage right away or at any time before your original warranty’s expiration. So, for example, if you drive more than 12,000 miles a year, you’d need to buy the extra coverage before your car is 4 years old.",
+    "imageTop": "./images/services/BMW-Service-Main.jpg",
+    "imageBottomLeft": "./images/services/BMW-Service.jpg",
+    "imageBottomRight": "./images/services/BMW-Service-2.jpg",
+    "logo": "./images/ShowroomLogo/logo-bmw.png"
   }
 ]

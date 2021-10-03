@@ -337,7 +337,7 @@ img {
   transition: 1s;
 }
 #spinner img {
-  width: 45%;
+  width: 42%;
   position: absolute;
   left: 30%;
   transform-origin: 50% 100% -500px;
@@ -491,6 +491,7 @@ img {
   display: flex;
   flex-direction: row;
   margin-right: 70px;
+  margin-top: 50px;
 }
 .available-item a:hover {
   color: var(--text-white);
@@ -620,12 +621,13 @@ img {
 .important-block span a:hover {
   color: var(--text-white);
 }
-.book-to-test{
+.form{
   position: fixed;
   height: auto;
   width: 730px;
   top: 15%;
-  left: 400px;
+  left: 27%;
+  bottom: 0;
   background-color:  var(--second-color);
   z-index: 101;
   display: none;

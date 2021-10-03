@@ -19,96 +19,94 @@
   .hero-content p {
     font-size: 1rem;
   }
-  .section-title{
-      font-size: 20px;
+  .section-title {
+    font-size: 20px;
   }
-  .section-content{
+  .section-content {
     width: 90%;
-}
-.section-item{
+  }
+  .section-item {
     width: 100%;
     margin: 10px 0;
-}
-.section-item-text{
+  }
+  .section-item-text {
     width: 100%;
-}
-.section-item-text h3{
+  }
+  .section-item-text h3 {
     font-size: 25px;
-}
-.offer-main{
+  }
+  .offer-main {
     width: 40%;
     margin-right: 20px;
-
-}
-.offer-main span{ 
+  }
+  .offer-main span {
     font-size: 1rem;
-}
-.section-final h3{
+  }
+  .section-final h3 {
     font-size: 20px;
-}
-.book-to-test{
+  }
+  .book-to-test {
     left: 0;
     width: 100%;
-}
+  }
 }
 @media (max-width: 910px) and (min-width: 601px) {
-    .hero {
-      padding-top: 100px;
-      margin-bottom: 130px;
-    }
-    .hero-content {
-      width: 40%;
-      height: 70%;
-      padding: 30px;
-      top: 140px;
-      right: 30px;
-      opacity: 0.8;
-    }
-    .hero-content h2 {
-      font-size: 1.6rem;
-    }
-    .hero-content p {
-      font-size: 1.1rem;
-    }
-    .section-title{
-        font-size: 23px;
-    }
-    .section-content{
-      width: 90%;
+  .hero {
+    padding-top: 100px;
+    margin-bottom: 130px;
   }
-  .section-item{
-      width: 100%;
-      margin: 10px 0;
+  .hero-content {
+    width: 40%;
+    height: 70%;
+    padding: 30px;
+    top: 140px;
+    right: 30px;
+    opacity: 0.8;
   }
-  .section-item-text{
-      width: 100%;
+  .hero-content h2 {
+    font-size: 1.6rem;
   }
-  .section-item-text h3{
-      font-size: 27px;
+  .hero-content p {
+    font-size: 1.1rem;
   }
-  .offer-main{
-      width: 40%;
-      margin-right: 20px;
-  
+  .section-title {
+    font-size: 23px;
   }
-  .offer-main span{ 
-      font-size: 1.1rem;
+  .section-content {
+    width: 90%;
   }
-  .section-final h3{
-      font-size: 22px;
+  .section-item {
+    width: 100%;
+    margin: 10px 0;
   }
-  .book-to-test{
+  .section-item-text {
+    width: 100%;
+  }
+  .section-item-text h3 {
+    font-size: 27px;
+  }
+  .offer-main {
+    width: 40%;
+    margin-right: 20px;
+  }
+  .offer-main span {
+    font-size: 1.1rem;
+  }
+  .section-final h3 {
+    font-size: 22px;
+  }
+  .book-to-test {
     left: 0;
     width: 100%;
+  }
 }
+@media (min-width: 911px) and (max-width: 1280px) {
+  .hero-content {
+    width: 32%;
+    height: 60%;
+    padding: 30px;
+    top: 140px;
+    right: 30px;
+    opacity: 0.8;
   }
-  @media (min-width: 911px) and (max-width: 1280px){
-    .hero-content {
-        width: 32%;
-        height: 60%;
-        padding: 30px;
-        top: 140px;
-        right: 30px;
-        opacity: 0.8;
-      }
-  }
+}

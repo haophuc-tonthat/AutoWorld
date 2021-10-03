@@ -1,15 +1,15 @@
-
 const mySlide = new Request("data/index-hero.json");
 
+// Fetch for Slide Index
 fetch(mySlide)
-.then((response) =>{
-  return response.json();
-})
-.then((slide) =>{
-  // console.log(slide)
-  const html = slide
-  .map((item) =>{
-    return `
+  .then((response) => {
+    return response.json();
+  })
+  .then((slide) => {
+    // console.log(slide)
+    const html = slide
+      .map((item) => {
+        return `
     <div class="slide ${item.class}">
     <div class="slide-txt">
       <div class="slide-title">
@@ -25,90 +25,91 @@ fetch(mySlide)
           <img src="${item.imgSrc}">
       </div>
     </div>
-    `
-  })
-  .join("");
-  document.querySelector("#hero").insertAdjacentHTML("afterbegin",html);
-  let hero_slide = document.querySelector("#hero-slide");
+    `;
+      })
+      .join("");
+    document.querySelector("#hero").insertAdjacentHTML("afterbegin", html);
 
-  let hero_slide_items = hero_slide.querySelectorAll(".slide");
+    // Slide JS
+    let hero_slide = document.querySelector("#hero-slide");
 
-  let hero_slide_index = 0;
+    let hero_slide_items = hero_slide.querySelectorAll(".slide");
 
-  let hero_slide_play = true;
+    let hero_slide_index = 0;
 
-  let hero_slide_control_items = hero_slide.querySelectorAll(
-    ".slide-control-item"
-  );
+    let hero_slide_play = true;
 
-  let slide_next = hero_slide.querySelector(".slide-next");
+    let hero_slide_control_items = hero_slide.querySelectorAll(
+      ".slide-control-item"
+    );
 
-  let slide_prev = hero_slide.querySelector(".slide-prev");
+    let slide_next = hero_slide.querySelector(".slide-next");
 
-  showSlide = (index) => {
-    hero_slide.querySelector(".slide.active").classList.remove("active");
-    hero_slide
-      .querySelector(".slide-control-item.active")
-      .classList.remove("active");
-    hero_slide_control_items[index].classList.add("active");
-    hero_slide_items[index].classList.add("active");
-  };
+    let slide_prev = hero_slide.querySelector(".slide-prev");
 
-  nextSlide = () => {
-    hero_slide_index =
-      hero_slide_index + 1 === hero_slide_items.length
-        ? 0
-        : hero_slide_index + 1;
-    showSlide(hero_slide_index);
-  };
+    showSlide = (index) => {
+      hero_slide.querySelector(".slide.active").classList.remove("active");
+      hero_slide
+        .querySelector(".slide-control-item.active")
+        .classList.remove("active");
+      hero_slide_control_items[index].classList.add("active");
+      hero_slide_items[index].classList.add("active");
+    };
 
-  prevSlide = () => {
-    hero_slide_index =
-      hero_slide_index - 1 < 0
-        ? hero_slide_items.length - 1
-        : hero_slide_index - 1;
-    showSlide(hero_slide_index);
-  };
+    nextSlide = () => {
+      hero_slide_index =
+        hero_slide_index + 1 === hero_slide_items.length
+          ? 0
+          : hero_slide_index + 1;
+      showSlide(hero_slide_index);
+    };
 
-  slide_next.addEventListener("click", () => nextSlide());
+    prevSlide = () => {
+      hero_slide_index =
+        hero_slide_index - 1 < 0
+          ? hero_slide_items.length - 1
+          : hero_slide_index - 1;
+      showSlide(hero_slide_index);
+    };
 
-  slide_prev.addEventListener("click", () => prevSlide());
+    slide_next.addEventListener("click", () => nextSlide());
 
-  // add event to slide select
-  hero_slide_control_items.forEach((item, index) => {
-    item.addEventListener("click", () => showSlide(index));
+    slide_prev.addEventListener("click", () => prevSlide());
+
+    // Add event to slide select
+    hero_slide_control_items.forEach((item, index) => {
+      item.addEventListener("click", () => showSlide(index));
+    });
+
+    // pause slide when mouse come in slider
+    hero_slide.addEventListener("mouseover", () => (hero_slide_play = false));
+
+    // Resume slide when mouse leave out slider
+    hero_slide.addEventListener("mouseleave", () => (hero_slide_play = true));
+
+    setTimeout(() => hero_slide_items[0].classList.add("active"), 200);
+
+    // Auto slide
+    setInterval(() => {
+      if (!hero_slide_play) return;
+      nextSlide();
+    }, 3200);
   });
 
-  // pause slide when mouse come in slider
-  hero_slide.addEventListener("mouseover", () => (hero_slide_play = false));
-
-  // resume slide when mouse leave out slider
-  hero_slide.addEventListener("mouseleave", () => (hero_slide_play = true));
-
-  setTimeout(() => hero_slide_items[0].classList.add("active"), 200);
-
-  // auto slide
-  setInterval(() => {
-    if (!hero_slide_play) return;
-    nextSlide();
-  }, 4500);
-
-})
-
 const myJson = new Request("data/products.json");
+
+// Fetch for New Models
 fetch(myJson)
   .then((response) => {
     return response.json();
   })
   .then((index) => {
-    // console.log(index.products);
     const html = index.products.Models.map((item) => {
       if (item.productYear == "2022") {
-        // console.log(item);
         return `
             <div class="product-card to-top show-on-scroll">
               <a href="products-detail.html?id=${item.id}">
-                <img src="${item.productImg[3].productImgColor}" />
+                <img src="${item.productImg[2].productImgColor}" />
                 <div class="product-card-content">
                   <h3 class="product-card-title">${item.productYear} ${item.productName}</h3>
                   <p class="product-card-info">$ ${item.productPrice[0].price} Starting MSRP</p>
@@ -122,6 +123,8 @@ fetch(myJson)
     document
       .querySelector("#new-models-items")
       .insertAdjacentHTML("afterbegin", html);
+
+    // Animation JS
     let scroll =
       window.requestAnimationFrame ||
       function (callback) {
@@ -152,20 +155,18 @@ fetch(myJson)
     loop();
   });
 
-//
+//Fetch for Popular Cars
 fetch(myJson)
   .then((response) => {
     return response.json();
   })
   .then((index) => {
-    // console.log(index.products);
     const html = index.products.Models.map((item) => {
       if (item.vehicleTag == "Popular Cars") {
-        // console.log(item);
         return `
             <div class="product-card to-top show-on-scroll">
               <a href="products-detail.html?id=${item.id}">
-                <img src="${item.productImg[3].productImgColor}" />
+                <img src="${item.productImg[2].productImgColor}" />
                 <div class="product-card-content">
                   <h3 class="product-card-title">${item.productYear} ${item.productName}</h3>
                   <p class="product-card-info">$ ${item.productPrice[0].price} Starting MSRP</p>
@@ -179,6 +180,8 @@ fetch(myJson)
     document
       .querySelector("#popular-cars-item")
       .insertAdjacentHTML("afterbegin", html);
+
+    // Animation JS
     let scroll =
       window.requestAnimationFrame ||
       function (callback) {

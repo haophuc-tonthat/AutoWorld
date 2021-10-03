@@ -1,3 +1,4 @@
+// Get ID
 function getUrlVars() {
   var vars = [],
     hash;
@@ -13,6 +14,7 @@ function getUrlVars() {
 }
 var id = getUrlVars().id;
 
+// Gallery JS
 var angle = 0;
 function galleryspin(sign) {
   spinner = document.querySelector("#spinner");
@@ -25,6 +27,24 @@ function galleryspin(sign) {
 }
 
 const myJson = new Request("data/products.json");
+
+//Fetch for Title
+fetch(myJson)
+  .then((response) => {
+    return response.json();
+  })
+  .then((index) => {
+    // console.log(index.products);
+    const html = index.products.Models.map((item) => {
+      if (item.id == id) {
+        return `
+            ${item.productYear} ${item.productName} | AutoWorld
+           `;
+      }
+    }).join("");
+    document.querySelector("#title").insertAdjacentHTML("afterbegin", html);
+  });
+
 // Fetch for Slide
 fetch(myJson)
   .then((response) => {
@@ -54,13 +74,13 @@ fetch(myJson)
         document
           .querySelector("#hero")
           .insertAdjacentHTML("afterbegin", imageColor);
+
+        // Slide JS
         let hero_slide = document.querySelector("#hero-slide");
 
         let hero_slide_items = hero_slide.querySelectorAll(".slide");
 
         let hero_slide_index = 0;
-
-        let hero_slide_play = true;
 
         let hero_slide_control_items = hero_slide.querySelectorAll(
           ".slide-control-item"
@@ -79,18 +99,6 @@ fetch(myJson)
         hero_slide_control_items.forEach((item, index) => {
           item.addEventListener("click", () => showSlide(index));
         });
-
-        // pause slide when mouse come in slider
-        hero_slide.addEventListener(
-          "mouseover",
-          () => (hero_slide_play = false)
-        );
-
-        // resume slide when mouse leave out slider
-        hero_slide.addEventListener(
-          "mouseleave",
-          () => (hero_slide_play = true)
-        );
 
         setTimeout(() => hero_slide_items[0].classList.add("active"), 200);
       }
@@ -120,13 +128,13 @@ fetch(myJson)
         document
           .querySelector("#slide-control")
           .insertAdjacentHTML("afterbegin", color);
+
+        // ColorPicker JS
         let hero_slide = document.querySelector("#hero-slide");
 
         let hero_slide_items = hero_slide.querySelectorAll(".slide");
 
         let hero_slide_index = 0;
-
-        let hero_slide_play = true;
 
         let hero_slide_control_items = hero_slide.querySelectorAll(
           ".slide-control-item"
@@ -143,18 +151,6 @@ fetch(myJson)
         hero_slide_control_items.forEach((item, index) => {
           item.addEventListener("click", () => showSlide(index));
         });
-
-        // pause slide when mouse come in slider
-        hero_slide.addEventListener(
-          "mouseover",
-          () => (hero_slide_play = false)
-        );
-
-        // resume slide when mouse leave out slider
-        hero_slide.addEventListener(
-          "mouseleave",
-          () => (hero_slide_play = true)
-        );
 
         setTimeout(() => hero_slide_items[0].classList.add("active"), 200);
       }
@@ -280,6 +276,8 @@ fetch(myJson)
       }
     });
   });
+
+// Fetch for Availbable At
 fetch(myJson)
   .then((response) => {
     return response.json();
@@ -311,7 +309,9 @@ fetch(myJson)
       }
     });
   });
-  fetch(myJson)
+
+// Fetch for Dealership in Form Book to test
+fetch(myJson)
   .then((response) => {
     return response.json();
   })
@@ -331,34 +331,35 @@ fetch(myJson)
     });
   });
 
-  window.onload =function getType(){
-    var a = document.getElementById("imgSrc").getAttribute('data-type')
-    console.log(a)
-    fetch(myJson)
-  .then((response) => {
-    return response.json();
-  })
-  .then((index) => {
-    // console.log(index.products);
-    const sedan = index.products.Models.map((item) => {
-      if (item.id != id && item.vehicleType == a) {
-        return `
-          <div class="swiper-slide" ><div class="product-card" >
-            <img src="${item.productImg[3].productImgColor}" />
-            <div class="product-card-content >
-              <h3 class="product-card-title" >${item.productYear} ${item.productName}</h3>
-              <p class="product-card-info">$ ${item.productPrice[0].price}</p>
-              <a href="products-detail.html?id=${item.id} data-type = "${item.vehicleType}"><button class="btn">Explore</button></div>
-          </a>
-        </div></div>
-             `;
-      }
-    }
-    ).join("");
-    document
-      .querySelector("#different-cars")
-      .insertAdjacentHTML("afterbegin", sedan);
-  });
-}
+// Get Vehicle Type
+window.onload = function getType() {
+  var a = document.getElementById("imgSrc").getAttribute("data-type");
+  console.log(a);
 
-  
+  // Fetch for Different Cars
+  fetch(myJson)
+    .then((response) => {
+      return response.json();
+    })
+    .then((index) => {
+      // console.log(index.products);
+      const sedan = index.products.Models.map((item) => {
+        if (item.id != id && item.vehicleType == a) {
+          return `
+          <div class="swiper-slide" >
+          <div class="product-card">
+            <img src="${item.productImg[2].productImgColor}">
+            <div class="product-card-content">
+            <a href="products-detail.html?id=${item.id}"><h3 class="product-card-title">${item.productYear} ${item.productName}</h3></a>
+              <p class="product-card-info">$ ${item.productPrice[0].price} Starting MSRP</p>
+            <a href="products-detail.html?id=${item.id}"><button class="btn">Explore</button></a>
+            </div>
+        </div>
+          </div>`;
+        }
+      }).join("");
+      document
+        .querySelector("#different-cars")
+        .insertAdjacentHTML("afterbegin", sedan);
+    });
+};

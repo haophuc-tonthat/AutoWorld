@@ -1,293 +1,406 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2021 Corolla vs. 2021 Honda Civic</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>2021 Corolla vs. 2021 Honda Civic</title>
-  <link rel="stylesheet" href="./boxicons-2.0.7/css/boxicons.min.css" />
-  <link rel="stylesheet" href="./css/grid.css" />
-  <link rel="stylesheet" href="./css/animations.css" />
-  <link rel="stylesheet" href="./css/header.css">
-  <link rel="stylesheet" href="./css/footer.css">
-  <link rel="stylesheet" href="./css/search.css" />
-  <link rel="stylesheet" href="./css/header-footer-responsive.css" />
-  <link rel="stylesheet" href="./css/Corolla-vs-Civic/Corolla-vs-Civic.css" />
-  <link rel="stylesheet" href="./css/Corolla-vs-Civic/Corolla-vs-Civic-Responsive.css" />
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script async src="./js/search.js"></script>
-  <script src="./js/live-chat.js"></script>
-</head>
+    <!-- BoxIcon Library -->
+    <link rel="stylesheet" href="./boxicons-2.0.7/css/boxicons.min.css" />
 
-<body>
-  <header>
-    <div class="user-menu">
-      <ul>
-        <li>
-          <a href="#" class="toggle-button"><i class="bx bx-menu"></i></a>
-        </li>
-      </ul>
-    </div>
-    <div class="main-menu-wrapper">
-      <ul class="main-menu main-menu1">
-        <li><a href="./index.html">home</a></li>
-        <li><a href="./brands.html">brands</a></li>
-        <li><a href="./about-us.html">about me</a></li>
-      </ul>
-    </div>
-    <div>
-      <a href="index.html" class="logo">
-        <img src="./images/AUTOWORLD.png" alt="" />
-      </a>
-    </div>
-    <div class="main-menu-wrapper">
-      <ul class="main-menu main-menu2">
-        <li><a href="./services.html">services</a></li>
-        <li><a href="./news.html">News</a></li>
-      </ul>
-    </div>
-    <div class="user-menu">
-      <ul>
-        <li>
-          <a href="#" class="search-button"><i class="bx bx-search"></i></a>
-        </li>
-      </ul>
-    </div>
-  </header>
-  <div class="search">
-    <div class="search-input">
-      <input type="text" class="search-form" placeholder="Search..." />
-      <div class="keyword"></div>
-    </div>
-  </div>
-  <section>
-    <div class="hero">
-      <img src="./images/Civic-vs-Corolla2.jpg" alt="" />
-      <div class="hero-content">
-        <h2><strong>2021 Corolla SE CVT vs 2021 Civic Sport</strong></h2>
-        <p>
-          The ultimate showdown between Canada's most popular compact cars.
-        </p>
+    <!-- Grid CSS -->
+    <link rel="stylesheet" href="./css/grid.css" />
+
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="./css/animations.css" />
+
+    <!-- Header & Footer CSS -->
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/search.css" />
+    <link rel="stylesheet" href="./css/header-footer-responsive.css" />
+
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="./css/Corolla-vs-Civic/Corolla-vs-Civic.css" />
+    <link
+      rel="stylesheet"
+      href="./css/Corolla-vs-Civic/Corolla-vs-Civic-Responsive.css"
+    />
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Search JS -->
+    <script async src="./js/search.js"></script>
+
+    <!-- Live Chat JS -->
+    <script src="./js/live-chat.js"></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="user-menu">
+        <ul>
+          <li>
+            <a href="#" class="toggle-button"><i class="bx bx-menu"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-menu-wrapper">
+        <ul class="main-menu main-menu1">
+          <li><a href="./index.html">home</a></li>
+          <li><a href="./brands.html">brands</a></li>
+          <li><a href="./about-us.html">about me</a></li>
+        </ul>
+      </div>
+      <div>
+        <a href="index.html" class="logo">
+          <img src="./images/AUTOWORLD.png" alt="" />
+        </a>
+      </div>
+      <div class="main-menu-wrapper">
+        <ul class="main-menu main-menu2">
+          <li><a href="./services.html">services</a></li>
+          <li><a href="./news.html">News</a></li>
+        </ul>
+      </div>
+      <div class="user-menu">
+        <ul>
+          <li>
+            <a href="#" class="search-button"><i class="bx bx-search"></i></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Search -->
+    <div class="search">
+      <div class="search-input">
+        <input type="text" class="search-form" placeholder="Search..." />
+        <div class="keyword"></div>
       </div>
     </div>
-    <div class="section-title to-top show-on-scroll">
-      <h2>The Corolla Difference</h2>
-    </div>
-    <div class="section-content to-top show-on-scroll">
-      <div class="section-item">
-        <img src="./images/CompareImg/Compare-1.jpg" alt="" />
-      </div>
-      <div class="section-item-text to-top show-on-scroll ">
-        <span>TOYOTA'S COMMITMENT TO SAFETY</span>
-        <h3>Toyota Safety Sense 2.0</h3>
-        <p>
-          TSS 2.0 builds on TSS P and consists of six active safety and driver
-          assistance systems.
-        </p>
-        <div class="section-offer to-top show-on-scroll">
-          <div class="offer-main">
-            <p>Drive safely with</p>
-            <span>Lane Departure Alerts</span>
-          </div>
-          <div class="offer-main to-top show-on-scroll">
-            <p>Adaptive lighting</p>
-            <span>Automatic High Beams</span>
-          </div>
+
+    <!-- Section -->
+    <section>
+      <!-- Hero -->
+      <div class="hero">
+        <img src="./images/Civic-vs-Corolla2.jpg" alt="" />
+        <div class="hero-content">
+          <h2><strong>2021 Corolla SE CVT vs 2021 Civic Sport</strong></h2>
+          <p>
+            The ultimate showdown between Canada's most popular compact cars.
+          </p>
         </div>
-        <button class="btn get-offer to-top show-on-scroll">GET OFFER</button>
       </div>
-      <div class="section-item-text to-top show-on-scroll">
-        <span>PERFORMANCE-FOCUSED S LINE</span>
-        <h3>Distinctly Sporty SE</h3>
-        <p>
-          “Triple J” shaped clearance lamps, 18” aluminum alloy wheels and a
-          wider honeycomb grille.
-        </p>
-        <div class="section-offer to-top show-on-scroll">
-          <div class="offer-main to-top show-on-scroll">
-            <p>Hi Grades Bi-Beam</p>
-            <span>LED Headlamps</span>
-          </div>
-          <div class="offer-main to-top show-on-scroll">
-            <p>Available</p>
-            <span>Moonroof</span>
-          </div>
-          <div class="offer-main to-top show-on-scroll">
-            <p>Exciting New</p>
-            <span>Exterior Colours</span>
-          </div>
+
+      <!-- Title -->
+      <div class="section-title to-top show-on-scroll">
+        <h2>The Corolla Difference</h2>
+      </div>
+
+      <!-- Content -->
+      <div class="section-content to-top show-on-scroll">
+        <div class="section-item">
+          <img src="./images/CompareImg/Compare-1.jpg" alt="" />
         </div>
-
-        <button class="btn get-offer to-top show-on-scroll">GET OFFER</button>
-      </div>
-      <div class="section-item to-top show-on-scroll">
-        <img src="./images/CompareImg/Compare-2.jpg" alt="" />
-      </div>
-      <div class="section-item to-top show-on-scroll">
-        <img src="./images/CompareImg/Compare-3.jpg" alt="" />
-      </div>
-      <div class="section-item-text to-top show-on-scroll">
-        <span>NEW TECHNOLOGY</span>
-        <h3>Toyota Connected Service</h3>
-        <p>
-          From standard features like Scout® GPS Link, to available features
-          like Safety Connect and Destination Assist.
-        </p>
-        <div class="section-offer to-top show-on-scroll">
-          <div class="offer-main to-top show-on-scroll">
-            <p>In the case of an emergency</p>
-            <span>SAFETY CONNECT</span>
-          </div>
-          <div class="offer-main to-top show-on-scroll">
-            <p>Most models feature an</p>
-            <span>8" DISPLAY SCREEN</span>
-          </div>
-          <div class="offer-main to-top show-on-scroll">
-            <p>Available</p>
-            <span>Wireless Charger</span>
-          </div>
-        </div>
-
-        <button class="btn get-offer to-top show-on-scroll">GET OFFER</button>
-      </div>
-    </div>
-    <div class="section-final to-top show-on-scroll">
-      <h3>Toyota Corolla vs Honda Civic: Which Car Is Right for Me?</h3>
-      <p>
-        There are plenty of adventures waiting for you on the roads near
-        Hyannis, Barnstable, and Yarmouth, MA, and having a car that meets
-        your needs makes those journeys better. We recommend the Toyota
-        Corolla for area drivers because of its hybrid efficiency and extra
-        driver-assistive technologies.
-      </p>
-    </div>
-  </section>
-  <!-- Footer -->
-  <footer>
-    <div>
-
-      <!-- Footer Main -->
-      <div class="footer-main">
-        <div class="row-x">
-          <div class="col-x-2 footer-list-menu">
-            <h3>New Cars</h3>
-            <div class="list-menu-items">
-              <div class="list-menu-item"><a href="./brands.html"><span>New Car Showroom</span></a></div>
-              <div class="list-menu-item"><a href=""><span>New Car Inventory</span></a></div>
-              <div class="list-menu-item"><a href=""><span>Demo Cars For Sale</span></a></div>
-              <div class="list-menu-item"><a href="./Corolla-vs-Civic.html"><span>2021 Corolla vs. 2021  Honda Civic</span></a></div>
+        <div class="section-item-text to-top show-on-scroll">
+          <span>TOYOTA'S COMMITMENT TO SAFETY</span>
+          <h3>Toyota Safety Sense 2.0</h3>
+          <p>
+            TSS 2.0 builds on TSS P and consists of six active safety and driver
+            assistance systems.
+          </p>
+          <div class="section-offer to-top show-on-scroll">
+            <div class="offer-main">
+              <p>Drive safely with</p>
+              <span>Lane Departure Alerts</span>
+            </div>
+            <div class="offer-main to-top show-on-scroll">
+              <p>Adaptive lighting</p>
+              <span>Automatic High Beams</span>
             </div>
           </div>
-          <div class="col-x-2  footer-list-menu">
-            <h3>services</h3>
-            <div class="list-menu-items">
-              <div class="list-menu-item"><a href="./warranty.html"><span>Warranty</span></a></div>
-              <div class="list-menu-item"><a href=""><span>Insurance</span></a></div>
-              <div class="list-menu-item"><a href="./financial.html"><span>Finance</span></a></div>
+          <button class="btn get-offer to-top show-on-scroll">GET OFFER</button>
+        </div>
+        <div class="section-item-text to-top show-on-scroll">
+          <span>PERFORMANCE-FOCUSED S LINE</span>
+          <h3>Distinctly Sporty SE</h3>
+          <p>
+            “Triple J” shaped clearance lamps, 18” aluminum alloy wheels and a
+            wider honeycomb grille.
+          </p>
+          <div class="section-offer to-top show-on-scroll">
+            <div class="offer-main to-top show-on-scroll">
+              <p>Hi Grades Bi-Beam</p>
+              <span>LED Headlamps</span>
+            </div>
+            <div class="offer-main to-top show-on-scroll">
+              <p>Available</p>
+              <span>Moonroof</span>
+            </div>
+            <div class="offer-main to-top show-on-scroll">
+              <p>Exciting New</p>
+              <span>Exterior Colours</span>
             </div>
           </div>
-          <div class="col-x-2 footer-list-menu">
-            <h3>About us</h3>
-            <div class="list-menu-items">
-              <div class="list-menu-item"><a href=""><span>Why AutoWorld?</span></a></div>
-              <div class="list-menu-item"><a href=""><span>Our Story</span></a></div>
-              <div class="list-menu-item"><a href=""><span>Terms of Use</span></a></div>
-              <div class="list-menu-item"><a href=""><span>Club AutoWorld</span></a></div>
+
+          <button class="btn get-offer to-top show-on-scroll">GET OFFER</button>
+        </div>
+        <div class="section-item to-top show-on-scroll">
+          <img src="./images/CompareImg/Compare-2.jpg" alt="" />
+        </div>
+        <div class="section-item to-top show-on-scroll">
+          <img src="./images/CompareImg/Compare-3.jpg" alt="" />
+        </div>
+        <div class="section-item-text to-top show-on-scroll">
+          <span>NEW TECHNOLOGY</span>
+          <h3>Toyota Connected Service</h3>
+          <p>
+            From standard features like Scout® GPS Link, to available features
+            like Safety Connect and Destination Assist.
+          </p>
+          <div class="section-offer to-top show-on-scroll">
+            <div class="offer-main to-top show-on-scroll">
+              <p>In the case of an emergency</p>
+              <span>SAFETY CONNECT</span>
+            </div>
+            <div class="offer-main to-top show-on-scroll">
+              <p>Most models feature an</p>
+              <span>8" DISPLAY SCREEN</span>
+            </div>
+            <div class="offer-main to-top show-on-scroll">
+              <p>Available</p>
+              <span>Wireless Charger</span>
             </div>
           </div>
+
+          <button class="btn get-offer to-top show-on-scroll">GET OFFER</button>
         </div>
       </div>
-
-      <!-- Footer Logo -->
-      <div class="footer-logo">
-        <img src="./images/free Delivery.png" alt="">
+      <div class="section-final to-top show-on-scroll">
+        <h3>Toyota Corolla vs Honda Civic: Which Car Is Right for Me?</h3>
+        <p>
+          There are plenty of adventures waiting for you on the roads near
+          Hyannis, Barnstable, and Yarmouth, MA, and having a car that meets
+          your needs makes those journeys better. We recommend the Toyota
+          Corolla for area drivers because of its hybrid efficiency and extra
+          driver-assistive technologies.
+        </p>
       </div>
+    </section>
 
-      <!-- Footer Bottom -->
-      <div class="footer-bottom">
-
-        <!-- Social Media -->
-        <div class="footer-social">
-          <div class="row">
-            <a href=""><div class="social-item"><i class='bx bxl-facebook-square'></i></div></a>
-            <a href=""><div class="social-item"><i class='bx bxl-instagram'></i></div></a>
-            <a href=""><div class="social-item"><i class='bx bxl-twitter'></i></div></a>
-            <a href=""><div class="social-item"><i class='bx bxl-youtube'></i></div></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Footer Legal -->
-      <div class="footer-legal">
-        <span>© 2021 <a href="">AutoWorld Auto Group</a>. All rights reserved. <a href="">Privacy Policy</a>.</span>
-      </div>
-    </div>
-  </footer>
-<!-- Footer -->
-  <div class="book-to-test">
-    <div class="dialog-titlebar">
-      <span>Schedule appointment</span>
-      <a class="close-btn"><i class="bx bx-x-circle"></i></a>
-    </div>
-    <div class="dialog-content">
-      <div class="submission-form">
-        <form class="form-block" action="">
-          <div class="edit-contact-info">
-            <input class="form-input" type="text" placeholder="Name*" required />
-            <input class="form-input" type="email" placeholder="Email*" required />
-            <input class="form-input" type="number" placeholder="Phone*" required />
-          </div>
-          <div class="edit-message">
-            <label for="">Model Special Offer Interested In</label>
-            <select name="" id="form-input-select" class="form-input" required>
-              <option value="">Preferred Contact Method</option>
-              <option value="">Email</option>
-              <option value="">Phone</option>
-              <option value="">Text</option>
-            </select>
-            <input type="text" class="form-input" style="width: 100%" placeholder="Offer Interested In" required />
-          </div>
-          <div class="form-item-message">
-            <label for="">Message*</label>
-            <input class="form-input form-input-message" type="text"
-              placeholder="Re: Test Drive for a 2022 RS e-tron GT" required />
-          </div>
-          <div class="edit-are-you-in-club">
-            <label for="">Message*</label>
-            <div class="form-input-radio">
-              <div class="radio-item">
-                <input id="radio-yes" type="radio" name="check-box" value="yes" checked />
-                <label for="radio-yes">Yes</label>
+    <!-- Footer -->
+    <footer>
+      <div>
+        <!-- Footer Main -->
+        <div class="footer-main">
+          <div class="row-x">
+            <div class="col-x-2 footer-list-menu">
+              <h3>New Cars</h3>
+              <div class="list-menu-items">
+                <div class="list-menu-item">
+                  <a href="./brands.html"><span>New Car Showroom</span></a>
+                </div>
+                <div class="list-menu-item">
+                  <a href=""><span>New Car Inventory</span></a>
+                </div>
+                <div class="list-menu-item">
+                  <a href=""><span>Demo Cars For Sale</span></a>
+                </div>
+                <div class="list-menu-item">
+                  <a href="./Corolla-vs-Civic.html"
+                    ><span>2021 Corolla vs. 2021 Honda Civic</span></a
+                  >
+                </div>
               </div>
-              <div class="radio-item">
-                <input id="radio-no" type="radio" name="check-box" value="no" />
-                <label for="radio-no">No</label>
+            </div>
+            <div class="col-x-2 footer-list-menu">
+              <h3>services</h3>
+              <div class="list-menu-items">
+                <div class="list-menu-item">
+                  <a href="./warranty.html"><span>Warranty</span></a>
+                </div>
+                <div class="list-menu-item">
+                  <a href=""><span>Insurance</span></a>
+                </div>
+                <div class="list-menu-item">
+                  <a href="./financial.html"><span>Finance</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-x-2 footer-list-menu">
+              <h3>About us</h3>
+              <div class="list-menu-items">
+                <div class="list-menu-item">
+                  <a href=""><span>Why AutoWorld?</span></a>
+                </div>
+                <div class="list-menu-item">
+                  <a href=""><span>Our Story</span></a>
+                </div>
+                <div class="list-menu-item">
+                  <a href=""><span>Terms of Use</span></a>
+                </div>
+                <div class="list-menu-item">
+                  <a href=""><span>Club AutoWorld</span></a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="edit-covid form-input">
-            <label for="">COVID-19 Update</label>
-            <div class="edit-covid-content">
-              <strong>Service &amp; Parts</strong><br />
-              Our Service and Parts departments are open with refreshed hours,
-              and offer touch-free, contactless service appointments.<br />
-              <br />
-              <a href="" target="_blank">For more information on how we're changing our business to
-                adapt to your needs, learn more here</a>
+        </div>
+
+        <!-- Footer Logo -->
+        <div class="footer-logo">
+          <img src="./images/free Delivery.png" alt="" />
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <!-- Social Media -->
+          <div class="footer-social">
+            <div class="row">
+              <a href=""
+                ><div class="social-item">
+                  <i class="bx bxl-facebook-square"></i></div
+              ></a>
+              <a href=""
+                ><div class="social-item"><i class="bx bxl-instagram"></i></div
+              ></a>
+              <a href=""
+                ><div class="social-item"><i class="bx bxl-twitter"></i></div
+              ></a>
+              <a href=""
+                ><div class="social-item"><i class="bx bxl-youtube"></i></div
+              ></a>
             </div>
           </div>
-          <div class="form-captcha"></div>
-          <div class="edit-actions">
-            <button class="btn">Submit</button>
-          </div>
-        </form>
+        </div>
+
+        <!-- Footer Legal -->
+        <div class="footer-legal">
+          <span
+            >© 2021 <a href="">AutoWorld Auto Group</a>. All rights reserved.
+            <a href="">Privacy Policy</a>.</span
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- Book to test form -->
+    <div class="book-to-test">
+      <div class="dialog-titlebar">
+        <span>Schedule appointment</span>
+        <a class="close-btn"><i class="bx bx-x-circle"></i></a>
+      </div>
+      <div class="dialog-content">
+        <div class="submission-form">
+          <form class="form-block" action="">
+            <div class="edit-contact-info">
+              <input
+                class="form-input"
+                type="text"
+                placeholder="Name*"
+                required
+              />
+              <input
+                class="form-input"
+                type="email"
+                placeholder="Email*"
+                required
+              />
+              <input
+                class="form-input"
+                type="number"
+                placeholder="Phone*"
+                required
+              />
+            </div>
+            <div class="edit-message">
+              <label for="">Model Special Offer Interested In</label>
+              <select
+                name=""
+                id="form-input-select"
+                class="form-input"
+                required
+              >
+                <option value="">Preferred Contact Method</option>
+                <option value="">Email</option>
+                <option value="">Phone</option>
+                <option value="">Text</option>
+              </select>
+              <input
+                type="text"
+                class="form-input"
+                style="width: 100%"
+                placeholder="Offer Interested In"
+                required
+              />
+            </div>
+            <div class="form-item-message">
+              <label for="">Message*</label>
+              <input
+                class="form-input form-input-message"
+                type="text"
+                placeholder="Re: Test Drive for a 2022 RS e-tron GT"
+                required
+              />
+            </div>
+            <div class="edit-are-you-in-club">
+              <label for="">Message*</label>
+              <div class="form-input-radio">
+                <div class="radio-item">
+                  <input
+                    id="radio-yes"
+                    type="radio"
+                    name="check-box"
+                    value="yes"
+                    checked
+                  />
+                  <label for="radio-yes">Yes</label>
+                </div>
+                <div class="radio-item">
+                  <input
+                    id="radio-no"
+                    type="radio"
+                    name="check-box"
+                    value="no"
+                  />
+                  <label for="radio-no">No</label>
+                </div>
+              </div>
+            </div>
+            <div class="edit-covid form-input">
+              <label for="">COVID-19 Update</label>
+              <div class="edit-covid-content">
+                <strong>Service &amp; Parts</strong><br />
+                Our Service and Parts departments are open with refreshed hours,
+                and offer touch-free, contactless service appointments.<br />
+                <br />
+                <a href="" target="_blank"
+                  >For more information on how we're changing our business to
+                  adapt to your needs, learn more here</a
+                >
+              </div>
+            </div>
+            <div class="form-captcha"></div>
+            <div class="edit-actions">
+              <button class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
-  <script src="./js/header.js"></script>
-  <script src="./js/get-offer.js"></script>
-  <script src="./js/animation.js"></script>
-</body>
 
+    <!-- Header JS -->
+    <script src="./js/header.js"></script>
+
+    <!-- Get Offer JS -->
+    <script src="./js/get-offer.js"></script>
+
+    <!-- Animation JS -->
+    <script src="./js/animation.js"></script>
+  </body>
 </html>

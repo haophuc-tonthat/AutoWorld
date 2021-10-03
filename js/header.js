@@ -14,7 +14,7 @@ searchButton.addEventListener("click", () => {
   search.classList.toggle("show-search");
 });
 
-// change header style when scroll
+// Change header style when scroll
 let header = document.querySelector("header");
 window.addEventListener("scroll", () => {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -25,7 +25,6 @@ window.addEventListener("scroll", () => {
 });
 
 // Element show on scroll
-
 let scroll =
   window.requestAnimationFrame ||
   function (callback) {

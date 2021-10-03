@@ -55,7 +55,7 @@ body {
   margin: 0;
   width: 100%;
 }
-img{
+img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -90,86 +90,84 @@ img {
   top: 160px;
   right: 60px;
 }
-.hero-content h2{
-    font-size: 2rem;
+.hero-content h2 {
+  font-size: 2rem;
 }
-.hero-content p{
-    font-size: 1.3rem;
+.hero-content p {
+  font-size: 1.3rem;
 }
 section {
-    font-family: "Crimson Text";
+  font-family: "Crimson Text";
   height: auto;
 }
-.section-title{
-    
-    text-align: center;
-    font-size: 32px;
+.section-title {
+  text-align: center;
+  font-size: 32px;
 }
-.section-content{
-    
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: 0 auto
+.section-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
 }
-.section-item{
-    width: 50%;
-    height: auto;
+.section-item {
+  width: 50%;
+  height: auto;
 }
-.section-item-text{
-    width: 50%;
-    height: auto;
-    padding: 50px;
+.section-item-text {
+  width: 50%;
+  height: auto;
+  padding: 50px;
 }
-.section-item-text h3{
-    font-size: 32px;
-   color: var(--text-white);
+.section-item-text h3 {
+  font-size: 32px;
+  color: var(--text-white);
 }
-.section-offer{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10%;
+.section-offer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
 }
-.offer-main{
-    width: 40%;
-    margin-right: 10px;
-    margin-top: 20px;
+.offer-main {
+  width: 40%;
+  margin-right: 10px;
+  margin-top: 20px;
 }
-.offer-main p{
-    height: 25%;
-    color: var(--text-white);
+.offer-main p {
+  height: 25%;
+  color: var(--text-white);
 }
-.offer-main span{ 
-    height: 75%; 
-    font-size: 1.4rem;
-    text-transform: uppercase;
+.offer-main span {
+  height: 75%;
+  font-size: 1.4rem;
+  text-transform: uppercase;
 }
-.section-final{
-    width: 85%;
-    margin: 40px auto;  
+.section-final {
+  width: 85%;
+  margin: 40px auto;
 }
-.section-final h3{
-    font-size: 30px;
-    color: var(--text-white);
+.section-final h3 {
+  font-size: 30px;
+  color: var(--text-white);
 }
-.book-to-test{
+.form {
   position: fixed;
   height: auto;
   width: 730px;
   top: 15%;
   left: 400px;
-  background-color:  var(--second-color);
+  background-color: var(--second-color);
   z-index: 101;
   display: none;
 }
-.close-btn{
+.close-btn {
   font-size: 25px;
 }
-.book-to-test_show{
+.book-to-test_show {
   display: block;
 }
-.dialog-titlebar{
-  padding: 16px ;
+.dialog-titlebar {
+  padding: 16px;
   display: flex;
   /* border: wheat 1px solid; */
   align-items: center;
@@ -177,85 +175,84 @@ section {
   font-size: 20px;
   background-color: #2e2525;
 }
-.dialog-content{
+.dialog-content {
   height: auto;
   width: auto;
-  min-height: 94px; 
+  min-height: 94px;
   max-height: 542px;
-  overflow:auto;
+  overflow: auto;
 }
 
-.form-block{
+.form-block {
   padding: 16px 32px;
-  
 }
-.edit-dealership{
+.edit-dealership {
   margin: 30px 0;
   display: flex;
   flex-direction: column;
 }
-.form-input{
+.form-input {
   padding: 16px;
   font-family: "Crimson Text", serif;
   margin: 10px 0;
 }
-select{
+select {
   width: 100%;
 }
-option{
+option {
   padding: 10px;
 }
-#form-input-select{
+#form-input-select {
   padding-right: 32px;
 }
-.edit-contact-info{
+.edit-contact-info {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.edit-message{
- margin: 30px 0;
+.edit-message {
+  margin: 30px 0;
 }
-.form-item-message{
+.form-item-message {
   display: flex;
   flex-direction: column;
 }
-.form-input-message{
+.form-input-message {
   padding-bottom: 50px;
 }
-.edit-are-you-in-club{
+.edit-are-you-in-club {
   display: flex;
   flex-direction: column;
   margin: 30px 0;
 }
-.form-input-radio{
+.form-input-radio {
   display: flex;
   flex-direction: row;
 }
-.form-input-radio .radio-item{
+.form-input-radio .radio-item {
   margin-right: 50px;
 }
-.edit-covid{
+.edit-covid {
   background-color: var(--text-color);
   color: var(--second-color);
 }
-.edit-covid-content{
+.edit-covid-content {
   font-family: "Crimson Text", serif;
   margin-top: 10px;
 }
-.edit-covid-content a{
+.edit-covid-content a {
   color: rgb(211, 57, 57);
 }
-.edit-covid-content a:hover{
+.edit-covid-content a:hover {
   color: var(--text-white);
 }
-.edit-actions{
+.edit-actions {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 30px 0;
 }
-.edit-actions .btn{
+.edit-actions .btn {
   border: var(--text-color) 1px solid;
   width: 80%;
   background-color: var(--text-color);

@@ -337,7 +337,7 @@ img {
   transition: 1s;
 }
 #spinner img {
-  width: 42%;
+  width: 45%;
   position: absolute;
   left: 30%;
   transform-origin: 50% 100% -500px;

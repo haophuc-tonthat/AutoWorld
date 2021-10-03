@@ -334,7 +334,6 @@ fetch(myJson)
 // Get Vehicle Type
 window.onload = function getType() {
   var a = document.getElementById("imgSrc").getAttribute("data-type");
-  console.log(a);
 
   // Fetch for Different Cars
   fetch(myJson)
@@ -342,7 +341,6 @@ window.onload = function getType() {
       return response.json();
     })
     .then((index) => {
-      // console.log(index.products);
       const sedan = index.products.Models.map((item) => {
         if (item.id != id && item.vehicleType == a) {
           return `
